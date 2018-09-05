@@ -1,0 +1,9 @@
+
+/* NSBluetoothPeripheralUsageDescription = "App want to use bluetooth"; */
+/* NSCalendarsUsageDescription = "App want to use calenders"; */
+NSCameraUsageDescription = "打开相机权限可以拍照并查看商品在您房间的样子";
+/* NSLocationAlwaysUsageDescription = "App want to use location"; */
+NSLocationWhenInUseUsageDescription = "打开权限可以让Homestyler获取您的位置";
+/* NSMicrophoneUsageDescription = "App want to use microphone"; */
+/* NSPhotoLibraryAddUsageDescription = "App want to use photo library"; */
+NSPhotoLibraryUsageDescription = "打开相册权限可以选取照片并查看商品在您房间的样子";

@@ -1,0 +1,75 @@
+{
+  "name": "ESMall",
+  "version": "0.0.5",
+  "summary": "Have no summary ESMall.",
+  "description": "A Main Foundation Component for Other Kit",
+  "homepage": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-iOS-ESMall.git",
+  "license": "MIT",
+  "authors": {
+    "jiangyunfeng": "554994782@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-iOS-ESMall.git",
+    "branch": "feature/decoration-company2"
+  },
+  "source_files": "ESMall/*.{h,swift,c,m}",
+  "public_header_files": "ESMall/**/*.h",
+  "prefix_header_contents": "#import <ESFoundation/DefaultSetting.h>\n#import <ESFoundation/UIFont+Stec.h>\n#import <ESFoundation/UIColor+Stec.h>\n#import <ESBasic/ESDevice.h>\n#import <ESNetworking/JRNetEnvConfig.h>\n#import <MGJRouter.h>\n#import \"ESMallAssets.h\"",
+  "resource_bundles": {
+    "ESMall": [
+      "ESMall/**/**/*.{storyboard,xib,xcassets,json,imageset,png,plist}"
+    ]
+  },
+  "dependencies": {
+    "ESNetworking": [
+
+    ],
+    "ESFoundation": [
+
+    ],
+    "ESBasic": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Model",
+      "source_files": "ESMall/Model/**/*.{h,swift,c,m,plist}"
+    },
+    {
+      "name": "LiWuMarket",
+      "source_files": "ESMall/LiWuMarket/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "Material",
+      "source_files": "ESMall/Material/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "Case",
+      "source_files": "ESMall/Case/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "OrderCenter",
+      "source_files": "ESMall/OrderCenter/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "ProductDetail",
+      "source_files": "ESMall/ProductDetail/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "ShippingAddress",
+      "source_files": "ESMall/ShippingAddress/**/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "ShoppingCart",
+      "source_files": "ESMall/ShoppingCart/**/*.{h,swift,c,m}"
+    },
+    {
+      "name": "Tools",
+      "source_files": "ESMall/Tools/**/*.{h,swift,c,m}"
+    }
+  ]
+}

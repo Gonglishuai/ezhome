@@ -1,0 +1,1742 @@
+/* 1 hr */
+"1_hour" = "1 час";
+
+/* 1 min */
+"1_minute" = "1 мин";
+
+/* No comment provided by engineer. */
+"3d_design_stream" = "ПОТОК 3D-ПРОЕКТОВ";
+
+/* No comment provided by engineer. */
+"AR Check Begining" = "Просканируйте пол вокруг, чтобы запустить режим AR";
+
+/* (No Comment) */
+"Activity_title" = "Поток новостей";
+
+/* No comment provided by engineer. */
+"Add_Products_ForAR" = "Добавить продукты";
+
+/* No comment provided by engineer. */
+"Apply_btn" = "Применить";
+
+/* (No Comment) */
+"Basement" = "цокольный этаж";
+
+/* (No Comment) */
+"Bathroom" = "ванная комната";
+
+/* (No Comment) */
+"Bedroom" = "Спальня";
+
+/* Cancel */
+"Cancel_edit_profile_button_title" = "Отмена";
+
+/* Change Password */
+"Change_Password_btn_title" = "Сменить пароль";
+
+/* Change Profile Image */
+"Change_Profile_Image_btn_title" = "Изменить изображение в профиле";
+
+/* (No Comment) */
+"Commercial/Public Exterior" = "Коммерческий / Общественный экстерьер";
+
+/* (No Comment) */
+"Commercial/Public Interior" = "Коммерческий / общественный интерьер";
+
+/* No comment provided by engineer. */
+"Contact_Us" = "\n\n\n\n------------------------------------\n%@ Версия:V%@%@\nYстройство:%@\nВерсия:iOS%@\nCеть:%@\nИдентификатор пользователя:%@.\n\n\n%@\n";
+
+/* (No Comment) */
+"Den" = "логово";
+
+/* (No Comment) */
+"Dining Room" = "Столовая";
+
+/* (No Comment) */
+"Dismiss" = "Закрыть";
+
+/* Done */
+"Done_edit_profile_button_title" = "Готово";
+
+/* Edit Info */
+"edit_info" = "Изменить информацию";
+
+/* No comment provided by engineer. */
+"Empty_Rooms" = "пустая комната";
+
+/* (No Comment) */
+"Entrance & Hallway" = "Вход и прихожая";
+
+/* Error */
+"Error" = "Ошибка";
+
+/* Female */
+"Female_segment_option" = "Женский";
+
+/* First Name */
+"First_Name_text_placeholder" = "Имя";
+
+/* (No Comment) */
+"Floor-Plan" = "Поэтажный план";
+
+/* No comment provided by engineer. */
+"Follow us" = "Подписывайтесь на нас";
+
+/* No comment provided by engineer. */
+"Guide_to_Record" = "Нажмите и удерживайте для записи видео";
+
+/* (No Comment) */
+"Home Cinema" = "Домашний кинотеатр";
+
+/* (No Comment) */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "Если вам понравилось использовать %@, не могли бы вы дать ему оценку? Это займет не более минуты. Спасибо за помощь!";
+
+/* Invalide website link format */
+"Invalide_website_link_format" = "К сожалению, ссылка недействительна. Укажите ссылку повторно.";
+
+/* (No Comment) */
+"Kids Room" = "Детская комната";
+
+/* (No Comment) */
+"Kitchen" = "Кухня";
+
+/* Last Name */
+"Last_Name_text_placeholder" = "Фамилия";
+
+/* (No Comment) */
+"Library" = "Библиотека";
+
+/* (No Comment) */
+"Living Room" = "Гостиная";
+
+/* No comment provided by engineer. */
+"MESSAGE_COMMENT" = "Пользователь %@ прокомментировал проект \"%@\"";
+
+/* (No Comment) */
+"MESSAGE_COMMENT_UPDATE" = "Пользователь %@ обновил комментарий к проекту \"%@\"";
+
+/* No comment provided by engineer. */
+"MESSAGE_FEATURED" = "Ваш проект '%@' опубликован в потоке проектов.";
+
+/* No comment provided by engineer. */
+"MESSAGE_FOLLOW" = "Пользователь %@ подписался на ваши обновления!";
+
+/* (No Comment) */
+"MESSAGE_GENERAL_NOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"MESSAGE_LIKED_ASSET" = "Ваш проект '%@' отметил сердечком пользователь %@";
+
+/* (No Comment) */
+"MESSAGE_PRIVATE" = "Пользователь %@ отправил вам личное сообщение";
+
+/* No comment provided by engineer. */
+"MESSAGE_PUBLISHED_ASSET" = "Пользователь %@ опубликовал новый проект '%@'";
+
+/* Male */
+"Male_segment_option" = "Мужской";
+
+/* No comment provided by engineer. */
+"Nevermind" = "Отмена";
+
+/* No comment provided by engineer. */
+"No designs yet" = "Пока нет чертежей";
+
+"No empty rooms yet" = "Нет свободных комнат";
+
+/* (No Comment) */
+"No, Thanks" = "Нет, спасибо";
+
+/* No link provided */
+"No_link_provided" = "Укажите ссылку на свой веб-сайт";
+
+/* (No Comment) */
+"Office" = "офис";
+
+/* (No Comment) */
+"Oops" = "Ой!";
+
+/* (No Comment) */
+"Other Room" = "Другая комната";
+
+/* (No Comment) */
+"Outdoors" = "На открытом воздухе";
+
+/* (No Comment) */
+"Porch & Balcony" = "Порч и балкон";
+
+/* (No Comment) */
+"PrivateNoComment" = "Невозможно добавить комментарии для частного дизайна";
+
+/* (No Comment) */
+"Product Showcase" = "Витрина товаров";
+
+/* (No Comment) */
+"Rate %@" = "Оценить %@";
+
+/* No comment provided by engineer. */
+"Ready to design" = "Готовый дизайн";
+
+/* (No Comment) */
+"Remind me later" = "Напомнить позже";
+
+/* (No Comment) */
+"Residential Exterior" = "Жилой дом";
+
+/* No comment provided by engineer. */
+"Sample_Rooms" = "СООБЩЕСТВО";
+
+/* Share */
+"Share" = "Поделиться";
+
+/* (No Comment) */
+"Sketch" = "эскиз";
+
+/* (No Comment) */
+"Studio" = "студия";
+
+/* (No Comment) */
+"The application cannot send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device." = "В настоящее время приложению не удается отправить твит, так как Twitter недоступен или у вас нет учетной записи Twitter, связанной с данным устройством.";
+
+/* Update */
+"Update Now" = "Обновить";
+
+/* No comment provided by engineer. */
+"User agreement" = "Лицензионным соглашением конечного пользователя";
+
+/* Validate */
+"Validate_web_link_button" = "Просмотр";
+
+/* No comment provided by engineer. */
+"about_me" = "Обо мне";
+
+/* No comment provided by engineer. */
+"activity_comment_button_title" = "Комментарий";
+
+/* (No Comment) */
+"activity_design_add_a_commented" = "Комментарий";
+
+/* (No Comment) */
+"activity_design_commented_title_format" = "Пользователь %@ прокомментировал %@";
+
+/* (No Comment) */
+"activity_design_commented_title_format_iphone" = "Пользователь %@\nпрокомментировал %@";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format" = "Пользователь %@ прокомментировал ваш проект";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format_iphone" = "Пользователь %@\nпрокомментировал ваш проект";
+
+/* (No Comment) */
+"activity_design_featured_title_format" = "Проект %@ добавлен в поток проектов";
+
+/* (No Comment) */
+"activity_design_featured_title_format_private" = "Ваш проект %@ добавлен в поток проектов";
+
+/* (No Comment) */
+"activity_design_featured_title_private_format" = "Ваш проект %@ добавлен в поток проектов";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format" = "Пользователь %@ и другие пользователи (%@) добавили проект %@ в избранное";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format_iphone" = "Пользователь%@\n и другие пользователи (%@) добавили проект %@ в избранное";
+
+/* (No Comment) */
+"activity_design_liked_title_format" = "Пользователь %@ добавил %@ в избранное";
+
+/* (No Comment) */
+"activity_design_liked_title_format_iphone" = "Пользователь %@\nдобавил проект %@ в избранное";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format" = "Пользователь %@ добавил ваш проект %@ в избранное";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format_iphone" = "Пользователь %@\nдобавил ваш проект %@ в избранное";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format" = "Пользователь %@ опубликовал новую фотографию %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format_private" = "Вы опубликовали новую фотографию";
+
+/* (No Comment) */
+"activity_design_published_title_format" = "Пользователь %@ добавил новый проект %@";
+
+/* (No Comment) */
+"activity_design_published_title_format_private" = "Вы добавили новый проект";
+
+/* No comment provided by engineer. */
+"activity_follow_button" = "Подписаться на обновления";
+
+/* (No Comment) */
+"activity_new_article_author_format" = "От %@";
+
+/* (No Comment) */
+"activity_new_article_title_format" = "Ознакомьтесь с новой статьей %@";
+
+/* No comment provided by engineer. */
+"activity_no_data_message_data" = "Данные не найдены";
+
+/* (No Comment) */
+"activity_no_data_message_designs" = "Проекты не найдены";
+
+/* (No Comment) */
+"activity_private_follower_title_format" = "Пользователь %@ подписался на ваши обновления!";
+
+/* (No Comment) */
+"activity_private_follower_title_format_iphone" = "Пользователь %@\nподписался на ваши обновления.";
+
+/* (No Comment) */
+"activity_public_follower_title_format" = "Пользователь %@ подписался на обновления пользователя %@";
+
+/* (No Comment) */
+"activity_public_follower_title_format_iphone" = "Пользователь %@\nподписался на обновления пользователя %@";
+
+/* (No Comment) */
+"activity_public_follower_title_self_action_format" = "Вы подписаны на обновления пользователя %@";
+
+/* 1 hour ago */
+"activity_stream_1_hour_ago" = "час назад";
+
+/* 1 minute ago */
+"activity_stream_1_min_ago" = "минуту назад";
+
+/* %d hours ago */
+"activity_stream_ts_hours_ago" = "%d ч. назад";
+
+/* Just now */
+"activity_stream_ts_just_now" = "Только что";
+
+/* %d mins ago */
+"activity_stream_ts_mins_ago" = "%d мин. назад";
+
+/* Some time ago */
+"activity_stream_ts_some_time_ago" = "Некоторое время назад";
+
+/* Yesterday */
+"activity_stream_ts_yesterday" = "Вчера";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_key" = "избранные статьи";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_message" = "Читайте статьи и отмечайте избранные статьи сердечком";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_key" = "избранные профессионалы";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_message" = "Просматривайте профили профессионалов и добавляйте лучших в ваши избранные профессионалы";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message" = "Найдите новых друзей в Homestyler и следите за их обновлениями";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message_wl" = "С помощью %@ найдите новых друзей и следите за ними";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling" = "Удачной работы в Homestyler!";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling_wl" = "Удачных проектов!";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message" = "Добавляйте в избранное и комментируйте проекты других пользователей Homestyler";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message_wl" = "Добавляйте в избранное и комментируйте проекты пользователей %@";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_article_key" = "справочная статья";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_key" = "Справка";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_message" = "При возникновении сложностей вам всегда поможет служба \"Справка\" или соответствующая справочная статья";
+
+/* No comment provided by engineer. */
+"activity_welcome_subtitle" = "Создайте свой поток новостей! Вот как это делается:";
+
+/* No comment provided by engineer. */
+"activity_welcome_title" = "Добро пожаловать в Homestyler!";
+
+/* No comment provided by engineer. */
+"activity_welcome_title_wl" = "Добро пожаловать в конструктор комнат!";
+
+/* No comment provided by engineer. */
+"add_brand" = "Добавьте бренд";
+
+/* No comment provided by engineer. */
+"add_portfolio" = "Добавьте портфолио";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied" = "Чтобы добавить друзей, откройте приложение параметров, последовательно выберите элементы \"Конфиденциальность\", \"Контакты\" и предоставьте доступ приложению %@.";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied_title" = "Grant Contact Access?";
+
+/* OK */
+"alert_action_ok" = "ОК";
+
+/* (No Comment) */
+"alert_message_no_button" = "Нет";
+
+/* Cancel */
+"alert_msg_button_cancel" = "Отмена";
+
+/* Retry */
+"alert_msg_button_retry" = "Повторите попытку";
+
+/* Yes */
+"alert_msg_button_yes" = "Да";
+
+/* Close */
+"alert_view_close_btn" = "Закрыть";
+
+/* No, Thanks */
+"alert_view_dont_remind" = "Нет, спасибо";
+
+/* All */
+"all_filter" = "Все";
+
+/* (No Comment) */
+"alternate_2d_3d" = "Переключайтесь между 2D- и 3D-перспективой";
+
+/* In order to improve this app, we recieve non-personal, aggregated product usage data. You can turn this off in app settings. */
+"analytics_msg" = "Чтобы улучшить это приложение, мы получаем не связанные с конкретной личностью сводные данные об использовании продукта. Эту функцию можно отключить в настройках приложения.";
+
+/* (No Comment) */
+"analytics_title" = "Аналитика";
+
+/* (No Comment) */
+"app_build_copy" = "сборка";
+
+/* (No Comment) */
+"app_name" = "Homestyler";
+
+/* (No Comment) */
+"app_start_loading_copy" = "Подождите...";
+
+/* No comment provided by engineer. */
+"ask_contact_access_allow" = "Разрешить";
+
+/* No comment provided by engineer. */
+"ask_contact_access_body" = "Для поиска друзей контактная информация будет отправлена на серверы Homestyler посредством безопасного подключения.";
+
+/* No comment provided by engineer. */
+"ask_contact_access_title" = "Выполнить поиск пользователей Homestyler в списке контактов?";
+
+/* Are you sure you want to delete your design? */
+"ask_delete_design" = "Действительно удалить проект?";
+
+/* No comment provided by engineer. */
+"ask_quit_design" = "Вы хотите выйти из режима AR?";
+
+/* No comment provided by engineer. */
+"ask_save_user_details" = "Сохранить изменения?";
+
+/* Please Redesign and Save this design in order to make any changes */
+"ask_to_redesign_auto_Save_from_mydesigns" = "Чтобы внести изменения, используйте кнопки \"Изменить проект\" и \"Сохранить\"";
+
+/* author_title */
+"author_title" = "От %@";
+
+/* No comment provided by engineer. */
+"auto_saved_design_title" = "Автосохранение";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement" = "При входе вы соглашаетесь с Лицензионным соглашением конечного пользователя Easyhome Homestyler";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement_and_terms_of_service" = "ВАЖНОЕ ЗАМЕЧАНИЕ. Пользователи, зарегистрировавшиеся до мая 2017 года, не смогут получить доступ к вашим исходным учетным записям и проектам после этой передачи от Autodesk к Easyhome, мы рекомендуем вам зарегистрировать новую учетную запись, чтобы ознакомиться с нашими новыми функциями   %@";
+
+/* No comment provided by engineer. */
+"available_variations" = "Доступные варианты:";
+
+/* No comment provided by engineer. */
+"brightness_button" = "Яркость";
+
+/* No comment provided by engineer. */
+"by_prefix" = "Автор:";
+
+/* Private design can't be commented */
+"cannot_comment_private_design" = "Частный дизайн не может быть прокомментирован";
+
+/* No comment provided by engineer. */
+"catalog" = "КАТАЛОГ";
+
+/* (No Comment) */
+"catalog_open_categories_title" = "Выберите категорию";
+
+/* choose an effect popup title
+   Choose an effect popup title */
+"choose_an_effect_title" = "Выберите эффект";
+
+/* (No Comment) */
+"choose_area_replicate" = "Выберите область для копирования";
+
+/* Choose Variation (%d): */
+"choose_variation" = "Доступные варианты (%d):";
+
+/* No comment provided by engineer. */
+"clean_tool_2d" = "2D";
+
+/* No comment provided by engineer. */
+"clean_tool_3d" = "3D";
+
+/* No comment provided by engineer. */
+"clean_tool_advanced" = "Дополнительно";
+
+/* No comment provided by engineer. */
+"clean_tool_apply" = "Применить";
+
+/* No comment provided by engineer. */
+"clean_tool_autoapply" = "Автоматическое применение";
+
+/* No comment provided by engineer. */
+"clean_tool_blend" = "Смешивание";
+
+/* No comment provided by engineer. */
+"clean_tool_blend_mode" = "Режим";
+
+/* No comment provided by engineer. */
+"clean_tool_copy" = "Копировать";
+
+/* (No Comment) */
+"clean_tool_mode" = "Режим";
+
+/* (No Comment) */
+"clean_tool_quickmode" = "Быстрый режим";
+
+/* (No Comment) */
+"clean_tool_redo" = "Повторить";
+
+/* No comment provided by engineer. */
+"clean_tool_reset" = "Сбросить";
+
+/* No comment provided by engineer. */
+"clean_tool_size" = "Размер";
+
+/* No comment provided by engineer. */
+"clean_tool_stepper" = "Шаговый переключатель";
+
+/* No comment provided by engineer. */
+"clean_tool_texture" = "Текстура";
+
+/* (No Comment) */
+"clean_tool_undo" = "Отменить";
+
+/* No comment provided by engineer. */
+"clear_cache_success" = "Кэш успешно очищен";
+
+/* (No Comment) */
+"clear_room" = "Очистить пространство";
+
+/* (No Comment) */
+"clear_room_tool_title" = "Очистить пространство";
+
+/* (No Comment) */
+"close_comments_button" = "Закрыть комментарии";
+
+/* No comments yet */
+"commentString" = "Пока без коментариев";
+
+/* No comment provided by engineer. */
+"commentTip" = "Добавить комментарий";
+
+/* No comment provided by engineer. */
+"concealer_button" = "Корректор";
+
+/* Sorry, Your design is unable to load at this time. Please choose another design. */
+"corrupted_load_design" = "К сожалению, в данный момент проект загрузить невозможно. Выберите другой проект.";
+
+/* No comment provided by engineer. */
+"create_new_design" = "СОЗДАТЬ НОВЫЙ ПРОЕКТ";
+
+/* No comment provided by engineer. */
+"default_sort" = "По умолчанию";
+
+/* default_text_for_save_design */
+"default_text_for_save_design" = "Для включения проекта в поток проектов, необходимо сообщить некоторые подробности.\n\nДелитесь своими мыслями, рассказывайте об используемых материалах, магазинах, которые вы посещаете, людях, которые вас восхищают, своем настроении и обо всем, что вас волнует! ";
+
+/* Sorry, we couldn't delete your design . Please try again. */
+"delete_design_error" = "Не удалось удалить проект. Повторите попытку.";
+
+/* (No Comment) */
+"design_layers" = "Layers";
+
+/* Private design */
+"design_private" = "Личный";
+
+/* No comment provided by engineer. */
+"design_public" = "Общедоступный";
+
+/* No comment provided by engineer. */
+"design_published" = "Рекомендуемые";
+
+/* No comment provided by engineer. */
+"design_stream_Close" = "Закрыть";
+
+/* No comment provided by engineer. */
+"design_stream_filter" = "Фильтр";
+
+/* (No Comment) */
+"design_title_for_others" = "Проекты";
+
+/* No comment provided by engineer. */
+"dynamic_menu_homestyler_magazine" = "Журнал Homestyler";
+
+/* No comment provided by engineer. */
+"dynamic_menu_photo_gallery" = "Коллекция фотографий";
+
+/* No comment provided by engineer. */
+"dynamic_menu_prof_index" = "Индекс профессионализма";
+
+/* (No Comment) */
+"dynamic_menu_wl_magazine" = "Журнал";
+
+/* Edit */
+"edit_button" = "Правка";
+
+/* Edit Profile */
+"edit_profile" = "Изменить профиль";
+
+/* Editor's Choice */
+"editor_choice_sort" = "Выбор редактора";
+
+/* Sorry no email account defined on this device */
+"email_missing_default_msg" = "К сожалению, на этом устройстве не определена учетная запись электронной почты";
+
+/* Sorry this professional doesn't have email configured */
+"email_missing_prof_page" = "Не указан адрес электронной почты профессионала";
+
+/* (No Comment) */
+"erh_register_email_exists_msg" = "Такой адрес электронной почты уже используется!";
+
+/* No comment provided by engineer. */
+"erh_unknown_error_msg" = "К сожалению, произошла ошибка. Повторите попытку.";
+
+/* Please enter you first/last name */
+"err_msg_enter_new_full_name" = "Введите имя/фамилию";
+
+/* Please enter new password */
+"err_msg_enter_new_pass" = "Введите новый пароль";
+
+/* (No Comment) */
+"err_msg_facebook_share_failed" = "Ошибка предоставления общего доступа";
+
+/* No comment provided by engineer. */
+"err_msg_failed_image_upload" = "Ошибка предоставления общего доступа";
+
+/* No comment provided by engineer. */
+"err_msg_failed_retrive_wish_list" = "Чтобы создать список пожеланий, коснитесь сердечка рядом с вашими любимыми продуктами.";
+
+/* No comment provided by engineer. */
+"err_msg_login_before_email_status" = "Для изменения настроек необходимо войти в систему.";
+
+/* (No Comment) */
+"err_msg_login_before_name_reset" = "Чтобы изменить имя профиля, необходимо выполнить вход.";
+
+/* You must login before changing your current password */
+"err_msg_login_before_pass_reset" = "Для изменения текущего пароля необходимо войти в систему";
+
+/* Password change failed */
+"err_msg_pass_change_failed" = "Ошибка изменения пароля";
+
+/* New password and confirm password don't match */
+"err_msg_pass_confirm_mismatch" = "Новый пароль и его подтверждение не совпадают";
+
+/* Your current password is incorrect */
+"err_msg_pass_incorrect" = "Текущий пароль указан неправильно";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading" = "Профиль недоступен. Повторите попытку позже.";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading_other" = "Профиль недоступен. Повторите попытку позже.";
+
+/* (No Comment) */
+"err_msg_update_full_name" = "Не удалось обновить полное имя";
+
+/* Failed to update user info */
+"err_msg_update_user_info" = "Не удалось обновить сведения о пользователе";
+
+/* Failed to upload profile image */
+"err_msg_upload_profile_image" = "Не удалось обновить изображение профиля";
+
+/* No comment provided by engineer. */
+"error_missing_result" = "К сожалению, ничего не найдено.\nПопробуйте указать другой запрос.";
+
+/* No comment provided by engineer. */
+"error_missing_result_ipad" = "К сожалению, ничего не найдено. Попробуйте указать другой запрос.";
+
+/* (No Comment) */
+"exception_message" = "Произошла ошибка. Повторите попытку позже.";
+
+/* No comment provided by engineer. */
+"facebook_friends_empty_copy" = "Поиск по друзьям на Facebook не дал результатов";
+
+/* (No Comment) */
+"facebook_login_failed_msg" = "Для доступа к списку друзей на Facebook необходимо войти в учетную запись Facebook";
+
+/* Sign in failed, please check your Facebook account details and try again. */
+"facebook_login_general_error" = "Ошибка входа. Проверьте учетные данные Facebook и повторите попытку.";
+
+/* We lost you! Check your network connection. */
+"failed_action_no_network_found" = "Нет связи! Проверьте подключение к сети.";
+
+/* You seem to be offline. Please check your internet connection and retry. */
+"failed_action_no_network_found_start" = "По всей видимости, включен автономный режим. Проверьте подключение к Интернету и повторите попытку.";
+
+/* Sorry, this product is currently unavailable. */
+"failed_load_catalog_item" = "К сожалению, этот продукт в данный момент недоступен.";
+
+/* Please select another product. */
+"failed_load_catalog_item_p2" = "Выберите другой продукт.";
+
+/* We couldn't load the design */
+"failed_load_models" = "К сожалению, не удалось загрузить этот проект.";
+
+/* (No Comment) */
+"failed_load_models_p2" = "Повторите попытку позже.";
+
+/* Sorry! The internet connection is a bit slow at the moment. Thank you for your patience. */
+"failed_slow_connection" = "Приносим свои извинения за медленное подключение к Интернету. Благодарим за терпение.";
+
+/* (No Comment) */
+"fb_find_friend_invite" = "Присоединяйтесь к Autodesk Homestyler. Здесь можно найти множество новых идей и создать собственные проекты жилых помещений!";
+
+/* No comment provided by engineer. */
+"feedback_email_body" = "Указанная ниже информация используется исключительно нашей службой технической поддержки в целях оперативного и эффективного поиска решений для устранения проблем, с которыми вы сталкиваетесь. Заранее благодарим за сотрудничество!";
+
+/* Share with Homestyler Team */
+"feedback_email_subject" = "Сообщите, что следует улучшить!";
+
+/* (No Comment) */
+"finalized_scene" = "Окончательная сцена";
+
+/* No comment provided by engineer. */
+"find_by_name_or_email" = "Поиск по имени или адресу электронной почты";
+
+/* No comment provided by engineer. */
+"find_contact_friends" = "Поиск друзей по контактам";
+
+/* No comment provided by engineer. */
+"find_facebook_friends" = "Поиск друзей на Facebook";
+
+/* No comment provided by engineer. */
+"find_friends" = "Поиск друзей";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_copy" = "Этот пользователь еще не зарегистрирован на %@. Введите адрес электронной почты пользователя, чтобы отправить приглашение на %@.";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_filter_copy" = "К сожалению, по вашему запросу ничего не найдено.";
+
+/* (No Comment) */
+"find_friends_result_title_follow" = "Следить";
+
+/* No comment provided by engineer. */
+"find_friends_result_title_following" = "Слежение";
+
+/* (No Comment) */
+"find_friends_result_title_invite" = "Пригласить";
+
+/* (No Comment) */
+"find_friends_result_title_invited" = "Приглашение отправлено";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_addrbook" = "Друзья из списка контактов";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_facebook" = "Друзья на Facebook";
+
+/* (No Comment) */
+"floor_button" = "Пол";
+
+/* follow
+   Follow */
+"follow" = "Следить";
+
+/* Enter the email you used to sign up. */
+"forgot_password_error" = "Введите адрес электронной почты, который использовался для регистрации.";
+
+/* A new password has been sent to your email. */
+"forgot_password_ok" = "Новый пароль отправлен на ваш адрес электронной почты.";
+
+/* No comment provided by engineer. */
+"friend_action_btn_follow" = "Следить";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invite" = "Пригласить";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invited" = "Приглашение отправлено";
+
+/* No comment provided by engineer. */
+"friend_action_btn_unfollow" = "Слежение";
+
+/* No comment provided by engineer. */
+"friend_cell_no_account_yet" = "no %@ account yet";
+
+/* No comment provided by engineer. */
+"get_location_hide_title" = "Скрыть";
+
+/* No comment provided by engineer. */
+"get_location_title" = "Использовать мое местонахождение";
+
+/* No comment provided by engineer. */
+"gps_failed_to_retrieve_location" = "Не удалось найти расположение";
+
+/* (No Comment) */
+"help_3danalysis_label1" = "Уточните свои результаты, выровняв стены относительно углов комнаты.";
+
+/* (No Comment) */
+"help_camera_label1" = "Для достижения наилучших результатов попробуйте сделать фотографию так, чтобы на ней был виден пол и две стены.";
+
+/* (No Comment) */
+"help_note_label1" = "Примечание. Размеры, фигуры, цвета и другие характеристики изображений, отображаемых в Easyhome® Homestyler®, могут отличаться от реальных объектов и пространств.";
+
+/* (No Comment) */
+"help_note_label2" = "Повернуть";
+
+/* (No Comment) */
+"help_note_label3" = "Масштаб";
+
+/* (No Comment) */
+"help_note_label4" = "Поднять двумя пальцами";
+
+/* (No Comment) */
+"help_paint_line_label1" = "Выполните щипковый жест и проведите линию к необходимой области.";
+
+/* (No Comment) */
+"help_reomve_tip_label1" = "Переполнение красками? Исправьте здесь.";
+
+/* (No Comment) */
+"help_scale_label1" = "Масштабирование всех продуктов будет выполнено в соответствии с этим измерением. Для получения точных результатов линейка должна отражать реальные размеры. ";
+
+/* (No Comment) */
+"help_take_pic_label1" = "Сделать снимок и отправить себе по электронной почте";
+
+/* (No Comment) */
+"help_take_pic_label2" = "Сохранить в фотографиях с камеры";
+
+/* (No Comment) */
+"help_take_pic_label3" = "Создать новый проект с помощью снимка";
+
+/* No comment provided by engineer. */
+"i_am_title" = "Я...";
+
+/* Please enter a valid email, like stylerlover@yourmail.com */
+"illigal_email" = "Введите действительный адрес электронной почты, например stylerlover@yourmail.com";
+
+/* Almost there! Your password should be at least 1 character long. */
+"illigal_password" = "Почти готово! Пароль должен состоять по меньшей мере из 1 символов.";
+
+/* Please choose Room Type. */
+"illigal_room_type" = "Выберите тип комнаты.";
+
+/* (No Comment) */
+"illigal_save_desc" = "Поделитесь рассказом о собственном процессе проектирования.";
+
+/* Give your design a title. */
+"illigal_save_title" = "Озаглавьте проект.";
+
+/* (No Comment) */
+"illigal_signin_password" = "Необходимо ввести пароль";
+
+/* No comment provided by engineer. */
+"input_limit_reached" = "К сожалению, вы превысили лимит символов для этого сообщения.";
+
+/* No comment provided by engineer. */
+"invite_email_friend_no_email" = "Адрес электронный почты этого контакта не является допустимым";
+
+/* No comment provided by engineer. */
+"invite_fb_friend_success" = "Приглашения в Homestyler отправлены вашим друзьям на Facebook";
+
+/* check out this design... */
+"invite_friend_email_body" = "Здравствуйте!<br/> Приглашаю Вас присоединиться к Autodesk %@. Здесь можно найти множество идей для новых проектов и самостоятельно спроектировать собственные жилые помещения!<br/> См. приложения для мобильных устройств на странице <a href=\"{{url}}\">{{title_url}}</a> ";
+
+/* No comment provided by engineer. */
+"invite_friend_email_subject" = "Присоединяйтесь к Autodesk %@!";
+
+/* (No Comment) */
+"iphone_share_action_email" = "Эл. почта";
+
+/* (No Comment) */
+"iphone_share_action_facebook" = "Facebook";
+
+/* (No Comment) */
+"iphone_share_action_save_image" = "Сохранить изображение";
+
+/* Just now */
+"just_now" = "Только сейчас";
+
+/* No comment provided by engineer. */
+"lang_action_take_affect" = "Выбранный язык будет активирован при следующем открытии приложения.";
+
+/* Likes */
+"likes" = "Нравится";
+
+/* (No Comment) */
+"likes_count_ipad" = "Всего %d понравилось";
+
+/* (No Comment) */
+"likes_count_iphone" = "%d понравилось";
+
+/* Loading */
+"loading_popup_title_iPad" = "Загрузка...";
+
+/* Loading */
+"loading_popup_title_iPhone" = "ЗАГРУЗКА";
+
+/* No comment provided by engineer. */
+"loading_tips_loading_title" = "Загрузка";
+
+/* (No Comment) */
+"loading_tips_title" = "СОВЕТЫ В ПРОЦЕССЕ ОЖИДАНИЯ";
+
+/* (No Comment) */
+"local_notification_monthly_copy" = "Давно не виделись! Узнайте, что интересного произошло за время вашего отсутствия.";
+
+/* (No Comment) */
+"local_notification_once_copy" = "Добро пожаловать в Homestyler! Узнайте о последних представленных продуктах, новых проектах и современных идеях.";
+
+/* (No Comment) */
+"location_field_placeholder" = "Укажите свое местонахождение";
+
+/* Area of Service */
+"location_filter_button_name" = "Область обслуживания";
+
+/* (No Comment) */
+"login_error" = "К сожалению, такие учетные данные отсутствуют. Проверьте адрес электронной почты и пароль.";
+
+/* This email is already part of the Homestyler community. Check your password and try again. */
+"login_error_after_signup" = "Введен неверный пароль. Повторите попытку.";
+
+/* (No Comment) */
+"login_success_after_signup" = "Такой адрес электронной почты уже используется в сообществе Homestyler. Вход успешно выполнен.";
+
+/* (No Comment) */
+"low_memory_user_notification" = "К сожалению, количество продуктов в этом проекте слишком велико для вашего устройства. Мы постараемся решить эту проблему, а пока можно изменить проект без этих продуктов.";
+
+/* (No Comment) */
+"measure_unit_cm" = "см";
+
+/* (No Comment) */
+"measure_unit_ft" = "фут";
+
+/* (No Comment) */
+"measure_unit_in" = "дюйм";
+
+/* (No Comment) */
+"measure_unit_m" = "м";
+
+/* Missing SKU for Product */
+"missing_sku_product" = "Отсутствует номер SKU продукта";
+
+/* (No Comment) */
+"move_adjust_area" = "Перенесите и отрегулируйте область, которую необходимо очистить";
+
+/* No comment provided by engineer. */
+"multi_share_all_success" = "Поздравляем! Ваш проект опубликован.";
+
+/* (No Comment) */
+"multi_share_cancel_btn" = "Отмена";
+
+/* (No Comment) */
+"multi_share_charlimit_msg" = "Ошибка: слишком длинное сообщение. Для публикации его необходимо сократить до 140 символов.";
+
+/* (No Comment) */
+"multi_share_configure_email_msg" = "Перейдите в раздел параметров устройства и настройте учетную запись электронной почты";
+
+/* (No Comment) */
+"multi_share_email_subject" = "Ознакомьтесь с этим от %@";
+
+/* (No Comment) */
+"multi_share_fail_email_msg" = "К сожалению, не удалось отправить по электронной почте";
+
+/* (No Comment) */
+"multi_share_fail_msg_first_part" = "К сожалению, не удалось отправить в";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_fb" = "Facebook";
+
+/* (No Comment) */
+"multi_share_fail_msg_part_2_none" = "Нет";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_twitter" = "Twitter";
+
+/* (No Comment) */
+"multi_share_nophoto_msg" = "К сожалению, изображение отсутствет... Повторите попытку.";
+
+/* No comment provided by engineer. */
+"multi_share_part_no_success" = "К сожалению, опубликовать проект в %@ не удалось.\n Повторите попытку.";
+
+/* No comment provided by engineer. */
+"multi_share_part_success" = "К сожалению, выполнить публикацию удалось только в \n%@";
+
+/* No comment provided by engineer. */
+"multi_share_part_success_part2" = "Повторите попытку публикации в %@";
+
+/* (No Comment) */
+"multi_share_share_btn" = "Поделиться";
+
+/* (No Comment) */
+"multi_share_share_title" = "Поделиться проектом";
+
+/* (No Comment) */
+"multi_share_twitter_login_msg" = "Перейдите в раздел параметров устройства и войдите в учетную запись Twitter";
+
+/* Could not load the selected design */
+"my_design_could_not_load" = "Не удалось загрузить выбранный проект";
+
+/* No comment provided by engineer. */
+"my_homestyler_menu_wl" = "Мой профиль";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy_other" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy" = "Нет избранных статей? Просто нажмите значок с сердечком для любой из статей, чтобы добавить ее в этот список.";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy_other" = "Этот дизайнер не добавил в избранное ни одной статьи из журнала Homestyler. Вернитесь на эту страницу позже.";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy" = "Нет проектов? Раскройте свой творческий потенциал и создайте новый проект или измените имеющееся изображение из коллекции.";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy_other" = "Этот дизайнер не опубликовал ни одного проекта. Вернитесь на эту страницу позже.";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy" = "No worries, start interacting with other users and your followers are sure to come...";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy_other" = "За обновлениями этого дизайнера еще никто не следит. Вы можете стать его первым читателем!";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy" = "Чего же вы ждете? Просматривайте профили других пользователей %@ и используйте функцию слежения, чтобы быть на связи. ";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy_other" = "Этот дизайнер не следит за обновлениями профилей других пользователей %@. Вернитесь на эту страницу позже. ";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy" = "Создайте собственный индекс избранных профессионалов. Чтобы добавить профессионала в список, просто нажмите кнопку \"Следить\" в его профиле.";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy_other" = "Этот дизайнер не следит за обновлениями профилей профессионалов, включенных в индекс профессионализм Homestyler. Вернитесь на эту страницу позже.";
+
+/* (No Comment) */
+"new_design_share_pinteret_title" = "Новый проект";
+
+/* New */
+"new_sort" = "Новизна";
+
+/* No comment provided by engineer. */
+"no_camera_allowed_error" = "Приложение Homestyler еще не получило разрешение на использование камеры. Проверьте параметры устройства и измените разрешения камеры.";
+
+/* (No Comment) */
+"no_camera_exists_error" = "К сожалению, у вас нет камеры. Выберите фотографию из коллекции или измените изображения из потока проектов.";
+
+/* No comment provided by engineer. */
+"no_contacts_in_address_copy" = "Список контактов не найден. Для поиска друзей измените настройки поиска. ";
+
+/* (No Comment) */
+"no_filter_gstream_data" = "К сожалению, в настоящий момент результаты для этого поиска отсутствуют. В других категориях также есть много интересного.";
+
+/* No comment provided by engineer. */
+"no_following" = "Вы еще никого не заметили";
+
+/* No comment provided by engineer. */
+"no_gps_location_enabled" = "Чтобы использовать свое местонахождение, активируйте приложение Homestyler в меню \"Настройки\" > \"Приватность\" > \"Службы геолокации\"";
+
+/* No more */
+"no_more" = "Больше нет проектов =_=*";
+
+/* Sorry no products found */
+"no_product" = "Извините, нет продуктов";
+
+/* No comment provided by engineer. */
+"no_profs_for_selected_filter" = "К сожалению, в настоящий момент результаты для этого поиска отсутствуют. В других категориях также есть много интересного.";
+
+/* No comment provided by engineer. */
+"none_effect_title" = "Нет";
+
+/* No comment provided by engineer. */
+"not_sign_in" = "Войдите, чтобы увидеть новые проекты из следующих";
+
+/*Notifications*/
+"notify_title" = "Уведомления";
+"notify_list_new_tag" = "новый";
+"notify_list_no" = "Пока нет уведомлений";
+"notify_list_like" = "%@ <b>понравился</b> ваш дизайн";
+"notify_list_like_group" = "%@ и %@ другим <b>понравился</b> ваш дизайн";
+"notify_list_follow" = "%@ начал <b>следить</b> за тобой";
+"notify_list_feature" = "Ваш дизайн был <b>показан</b> на нашей странице сообщества! Поздравления!";
+"notify_list_comment_replyMe" = "%@ %@ Вы: <br> <b>%@</b>";
+
+/* %i hrs */
+"num_hours" = "%i часа";
+
+/* %i min */
+"num_minutes" = "%i мин";
+
+/* (No Comment) */
+"page_title_about" = "О программе";
+
+/* About */
+"page_title_about2" = "О программе";
+
+/* (No Comment) */
+"page_title_terms" = "Положения и условия";
+
+/* Terms and Conditions */
+"page_title_terms2" = "Положения и условия";
+
+/* (No Comment) */
+"paint_button" = "Краска";
+
+/* No comment provided by engineer. */
+"paint_view_brightness_popup_title" = "Яркость";
+
+/* No comment provided by engineer. */
+"paint_view_contrast_popup_title" = "Смешивание";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape" = "Разблокируйте режим портретной ориентации и сделайте снимок в альбомном режиме.";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape_device" = "Выберите изображение в альбомной ориентации.";
+
+/* No comment provided by engineer. */
+"please_accept_terms" = "Примите условия обслуживания и заявление о конфиденциальности";
+
+/* Popularity */
+"popularity_sort" = "Популярные";
+
+/* No comment provided by engineer. */
+"post_description_field" = "Ознакомьтесь с этим от %@";
+
+/* (No Comment) */
+"post_description_field_article" = "Интересная статья, опубликованная в Homestyler";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format" = "Вы прокомментировали %@";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format_iphone" = "Вы\nпрокомментировали %@";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format" = "Вы и другие пользователи (%@) добавили проект %@ в избранное";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format_iphone" = "Вы\nи другие пользователи (%@) добавили в избранное проект %@";
+
+/* (No Comment) */
+"private_activity_design_liked_title_format" = "Вы добавили в избранное %@";
+
+/* (No Comment) */
+"private_activity_design_published_title_format" = "Вы добавили новый проект %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format" = "Вы подписаны на обновления пользователя %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format_iphone" = "Теперь\nвы подписаны на обновления пользователя %@";
+
+/* No comment provided by engineer. */
+"prod_action_brightness_btn_title" = "Яркость";
+
+/* No comment provided by engineer. */
+"prod_action_dimension_btn_title" = "Сведения о продукте";
+
+/* No comment provided by engineer. */
+"prod_action_duplicate_btn_title" = "Дублировать продукт";
+
+/* No comment provided by engineer. */
+"prod_action_remove_btn_title" = "Удалить продукт";
+
+/* No comment provided by engineer. */
+"prod_action_restore_btn_title" = "Восстановить масштаб";
+
+/* (No Comment) */
+"prod_catalog_go_to" = "Сведения о продукте";
+
+/* (No Comment) */
+"prod_size_height" = "Высота";
+
+/* (No Comment) */
+"prod_size_length" = "Длина";
+
+/* (No Comment) */
+"prod_size_title" = "Размеры продукта";
+
+/* (No Comment) */
+"prod_size_width" = "Ширина";
+
+/* (No Comment) */
+"prod_tag_remove_action" = "Удалить";
+
+/* (No Comment) */
+"prod_tag_remove_copy" = "Вы действительно хотите удалить данный продукт?";
+
+/* No comment provided by engineer. */
+"product_catalog_title" = "Каталог продуктов";
+
+/* No comment provided by engineer. */
+"production_information" = "Информация о производстве";
+
+/* NEW! */
+"products_catalog_new" = "Новые";
+
+/* No comment provided by engineer. */
+"prof_desc_collapse" = "Свернуть...";
+
+/* No comment provided by engineer. */
+"prof_desc_more" = "Больше...";
+
+/* No comment provided by engineer. */
+"prof_details_address_title" = "Адрес";
+
+/* Homestyler Professional Enquiry */
+"prof_email_subject" = "Запрос данных о профессионале Homestyler";
+
+/* No comment provided by engineer. */
+"prof_filter_all_key" = "Все";
+
+/* No comment provided by engineer. */
+"prof_follow_error" = "Вы нажали значок с сердечком, но при обработке избранного элемента произошла ошибка! Повторите попытку спустя некоторое время.";
+
+/* (No Comment) */
+"prof_phone1_title" = "Тел. 1";
+
+/* (No Comment) */
+"prof_phone2_title" = "Тел. 2";
+
+/* Profession */
+"profession_filter_button_name" = "Профессия";
+
+/* View Protfolio */
+"professional_cell_view_protfolio" = "ПОСМОТРЕТЬ ПОРТФОЛИО";
+
+/* (No Comment) */
+"professional_index_title" = "ИНДЕКС ПРОФЕССИОНАЛИЗМА";
+
+/* There was a problem loading this protfolio.\nPlease try again */
+"proffesional_load_failed_msg" = "К сожалению, загрузить это портфолио профессионала не удалось. Повторите попытку позже.";
+
+/* No followers yet */
+"profile_no_followers" = "Комментариев пока нет";
+
+/* No following yet */
+"profile_no_following" = "Не следует";
+
+/* No likes yet */
+"profile_no_likes" = "Пока нет никого";
+
+/* (No Comment) */
+"profile_tab_articles" = "Избранные статьи";
+
+/* Designs */
+"profile_tab_design" = "Проекты";
+
+/* Followers */
+"profile_tab_followers" = "Читают";
+
+/* Following */
+"profile_tab_following" = "Следующий";
+
+/* (No Comment) */
+"profile_tab_my_design" = "Мои проекты";
+
+/* (No Comment) */
+"profile_tab_professionals" = "Избранные специалисты";
+
+/* Zzzzz... */
+"progress_Loading_timedout1" = "";
+
+/* Loading timed out. */
+"progress_Loading_timedout2" = "Время ожидания загрузки истекло.";
+
+/* (No Comment) */
+"progress_erase_title" = "Стирание...";
+
+/* Please try again later */
+"progress_err_try_again" = "Повторите попытку позже";
+
+/* Network Error */
+"progress_label_err_network" = "Ошибка сети";
+
+/* (No Comment) */
+"read_comments_button" = "Читать комментарии";
+
+/* No comment provided by engineer. */
+"realScale_button" = "Реальный масштаб";
+
+/* No comment provided by engineer. */
+"redesign_after_crash_alert" = "Ой! Кажется, работа %@ завершилась неожиданно. Восстановить автоматически сохраненный проект?";
+
+/* Please Redesign this design in order to make any changes */
+"redesign_inorder_for_changes" = "Чтобы внести изменения, используйте кнопки \"Изменить проект\" и \"Сохранить\"";
+
+/* No comment provided by engineer. */
+"redesign_json_newer_alert" = "К сожалению, в этом проекте используются функции, доступные только в последнем обновлении.";
+
+/* redesign save button title */
+"redesign_save_button" = "Сохранить";
+
+/* button title cancel
+   redesign cancel button title */
+"redesign_sign_in_cancel_button" = "Отмена";
+
+/* (No Comment) */
+"redesign_sign_in_required" = "Необходимо выполнить вход";
+
+/* redesign sign in button title */
+"redesign_sign_in_sign_in_button" = "Вход";
+
+/* User sign in required */
+"redesign_sign_in_to_save" = "Для публикации проект необходимо сохранить";
+
+/* User sign in required */
+"redesign_sign_in_to_save_and_share_your_design." = "Для сохранения и публикации проекта необходимо выполнить вход.";
+
+/* Could not register */
+"register_error" = "Не удалось изменить проект";
+
+/* Rather not say */
+"remove_gender_title" = "Не указан";
+
+/* Resume */
+"resume_alert_button" = "Восстановить";
+
+/* (No Comment) */
+"room_type_copy" = "Тип комнаты";
+
+/* No comment provided by engineer. */
+"room_type_filter" = "Тип комнаты";
+
+/* No comment provided by engineer. */
+"save_design_action_title_save" = "Сохранить";
+
+/* No comment provided by engineer. */
+"save_design_action_title_saveas" = "Сохранить как";
+
+/* Sorry, we couldn't save your design . Please try again.
+   Sorry, we couldn't save your design. Please try again. */
+"save_design_error" = "К сожалению проект сохранить не удалось. Повторите попытку.";
+
+/* Hmm, looks like there are too many products for your device to save this design, sorry! Try removing a few products and then save again. */
+"save_design_error_low_memory" = "К сожалению, невозможно сохранить проект, поскольку количество продуктов слишком велико для вашего устройства. Удалите некоторые продукты и попробуйте сохранить еще раз.";
+
+/* Beautiful! Your design has been saved. */
+"save_design_ok" = "Великолепно! Проект сохранен.";
+
+/* No comment provided by engineer. */
+"save_design_override_action_back" = "Назад";
+
+/* No comment provided by engineer. */
+"save_design_override_action_override" = "Перезаписать";
+
+/* No comment provided by engineer. */
+"save_design_override_explanation" = "Действительно заменить проект? Если это не нужно, измените заголовок проекта.";
+
+/* (No Comment) */
+"save_design_reminder" = "Не забудьте сохранить проект!";
+
+/* No comment provided by engineer. */
+"save_design_title" = "Сохранить проект";
+
+/* Image save failed. */
+"save_image_failed_msg" = "Ошибка сохранения изображения.";
+
+/* Image successfully saved. */
+"save_image_success_msg" = "Изображение успешно сохранено.";
+
+/* No comment provided by engineer. */
+"save_profile_button_cancel" = "Не сохранять";
+
+/* No comment provided by engineer. */
+"save_profile_button_save" = "Сохранить";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn1" = "Разблокировать";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn2" = "Сохранить реальный масштаб";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy" = " Примечание: после разблокировки размеры продуктов в проекте будут отличаться от реальных.";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy_title" = "Разблокировать реальный масштаб?";
+
+/* No comment provided by engineer. */
+"search_product" = "Поиск продуктов";
+
+/* Searching for visible corners */
+"searching_vidible_corners" = "Поиск видимых углов";
+
+/* No comment provided by engineer. */
+"select_category_title" = "Выберите категорию";
+
+/* No comment provided by engineer. */
+"select_wishlist_title" = "Выбор списка пожеланий";
+
+/* No comment provided by engineer. */
+"set_gender_title" = "Выбор пола";
+
+/* No comment provided by engineer. */
+"setting_title_about" = "О программе";
+
+/* No comment provided by engineer. */
+"setting_title_allow_like_fb" = "Синхронизировать избранные проекты и понравившиеся материалы Facebook";
+
+/* No comment provided by engineer. */
+"setting_title_allow_newsletter" = "Получать новости и информацию о специальных предложениях Homestyler";
+
+/* No comment provided by engineer. */
+"setting_title_allow_pn" = "Получение уведомлений о комментариях, новых читателях и т. д.";
+
+/* No comment provided by engineer. */
+"setting_title_change_country" = "Country";
+
+/* No comment provided by engineer. */
+"setting_title_change_local" = "Язык";
+
+/* No comment provided by engineer. */
+"setting_title_clear_cache" = "Очистить кэш";
+
+/* No comment provided by engineer. */
+"setting_title_clear_offline_package" = "Очистка автономного пакета";
+
+/* No comment provided by engineer. */
+"setting_title_feedback" = "Обратная связь";
+
+/* No comment provided by engineer. */
+"setting_title_privacy" = "Политика конфиденциальности";
+
+/* No comment provided by engineer. */
+"setting_title_terms" = "Условия обслуживания";
+
+/* No comment provided by engineer. */
+"setting_title_usage_data" = "Разрешить сбор данных об использовании";
+
+/* (No Comment) */
+"settings" = "Настройки";
+
+/* No comment provided by engineer. */
+"share_after_save_design_copy" = "Представляю вам мой #проект_интерьера \"{{D_NAME}}\" в #%@ {{LINK}}";
+
+/* (No Comment) */
+"share_article_link_title" = "Статья";
+
+/* No comment provided by engineer. */
+"share_description" = "Design your dream home on Homestyler";
+
+/* (No Comment) */
+"share_description_with_ar" = "Посмотрите мой дизайн AR, сделанный с Homestyler";
+
+/* No comment provided by engineer. */
+"share_design_show_before_and_after" = "Показывать проект до и после";
+
+/* No comment provided by engineer. */
+"share_design_show_my_name" = "Показывать имя";
+
+/* (No Comment) */
+"share_email_body" = "Ознакомьтесь с этим от %@";
+
+/* (No Comment) */
+"share_email_body_article" = "Выдать эту статью \"{{ARTICLE}}\"";
+
+/* (No Comment) */
+"share_email_subject_article" = "Выдать эту статью";
+
+/* (No Comment) */
+"share_link_title" = "ссылка";
+
+/* (No Comment) */
+"share_on_facebook" = "Поделиться на Facebook";
+
+/* No comment provided by engineer. */
+"share_option_email" = "Эл. почта";
+
+/* (No Comment) */
+"share_option_facebook" = "Facebook";
+
+/* (No Comment) */
+"share_option_saveimage" = "Сохранить изображение";
+
+/* (No Comment) */
+"share_option_twitter" = "Twitter";
+
+/* button title skip */
+"share_your_design_skip_button_title" = "Пропустить";
+
+/* view title */
+"share_your_design_title" = "Поделиться проектом";
+
+/* by */
+"shopping_list_by" = "по";
+
+/* Close */
+"shopping_list_close" = "Закрыть";
+
+/* Sent from Autodesk Homestyler */
+"shopping_list_email_sent_homestyler" = "Отправлено из Autodesk Homestyler";
+
+/* Check out these products from Homestyler. */
+"shopping_list_email_subject" = "Ознакомьтесь с этими продуктами от Homestyler";
+
+/* Design Product List */
+"shopping_list_email_title1" = "Список продуктов проекта";
+
+/* List of products used to in the above design: */
+"shopping_list_email_title2" = "Список товаров, использованных в проекте выше:";
+
+/* View design on Homestyler */
+"shopping_list_email_view_design" = "Просмотр проекта на сайте Homestyler";
+
+/* Go to Website */
+"shopping_list_go_to_website" = "посетите вебсайт ＞";
+
+/* Product List */
+"shopping_list_title" = "Список продуктов";
+
+/* (No Comment) */
+"showGrid_button" = "Показать сетку";
+
+/* (No Comment) */
+"show_label" = "Показать:";
+
+/* Add Your Brand */
+"side_menu_cell_add_your_brand" = "Добавьте бренд";
+
+/* Sign In */
+"sign_in" = "Вход";
+
+/* No comment provided by engineer. */
+"sign_out" = "Выход";
+
+/* No comment provided by engineer. */
+"signin_title" = "Вход или регистрация";
+
+/* Signing In */
+"signing_in" = "Выполняется вход...";
+
+/* No comment provided by engineer. */
+"signout_confirm_alert" = "Выйти?";
+
+/* No comment provided by engineer. */
+"signup_ok" = "Замечательно! Спасибо, что присоединились к сообществу %@.";
+
+/* No comment provided by engineer. */
+"snapToGrid_button" = "Привязать к узлам сетки";
+
+/* No comment provided by engineer. */
+"sorry_search_friend_failed" = "Поиск по друзьям не дал результатов. Повторите попытку позже.";
+
+/* No comment provided by engineer. */
+"sort_type_copy" = "Сортировать по";
+
+/* No comment provided by engineer. */
+"start_design" = "дизайн";
+
+/* (No Comment) */
+"start_redesign" = "Правка";
+
+/* No comment provided by engineer. */
+"submit_button" = "ОТПРАВИТЬ";
+
+/* (No Comment) */
+"success_msg_facebook_share_success" = "Спасибо за предоставление общего доступа!";
+
+/* (No Comment) */
+"success_msg_name_updated" = "Имя профиля успешно обновлено";
+
+/* Your password updated successfully */
+"success_msg_pass_updated" = "Пароль успешно обновлен";
+
+/* (No Comment) */
+"sync" = "Синхронизировать";
+
+/* (No Comment) */
+"sync_alert_msg" = "Синхронизировать проекты, созданные в автономном режиме, с учетной записью Homestyler?";
+
+/* (No Comment) */
+"sync_alert_title_msg" = "Синхронизация проектов";
+
+/* (No Comment) */
+"sync_later" = "Позже";
+
+/* (No Comment) */
+"technical_difficultie_error" = "К сожалению, возникли технические сложности. Повторите попытку позже.";
+
+/* No comment provided by engineer. */
+"terms_of_service" = "Выучить больше";
+
+/* (No Comment) */
+"twitter_no_account_defined" = "Учетные записи Twitter не настроены. Вы можете добавить или создать учетную запись Twitter в разделе \"Настройки\".";
+
+/* (No Comment) */
+"twitter_share_copy" = "Интересное обновление \"%@\" от пользователя %@: %@";
+
+/* unfollow */
+"unfollow" = "Не следить";
+
+/* No comment provided by engineer. */
+"unfollow_user" = "Не следить %@?";
+
+/* No comment provided by engineer. */
+"update_location_title" = "Обновить местонахождение";
+
+/* (No Comment) */
+"update_profile_image_success" = "Фотография профиля успешно обновлена";
+
+/* No comment provided by engineer. */
+"update_version_available" = "Есть новая версия! Обновление APP может предоставить вам лучший дизайн";
+
+/* No comment provided by engineer. */
+"update_version_required" = "Готова новая версия Homestyler!";
+
+/* Other... */
+"user_detail_other_input_field" = "Прочее...";
+
+"user_liked_0_times" = "%@ пока не получил.";
+"user_liked_1_time" = "%@ получил 1, как в Homestyler!";
+"user_liked_times" = "%@ получил %d нравится в Homestyler!";
+
+/* No comment provided by engineer. */
+"user_profile_cell_Name_lbl" = "Имя";
+
+/* (No Comment) */
+"user_profile_cell_Name_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl" = "Описание";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_empty" = "Расскажите о себе";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_read" = "Описание:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl" = "Избранные стили";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl_read" = "Избранные стили:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_gender_lbl" = "Пол";
+
+/* (No Comment) */
+"user_profile_cell_gender_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl" = "Интересы";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_empty" = "Например: садоводство, пешие прогулки, рисование, ручное декоративное и прикладное искусство, оригами, чтение, туризм, кулинария, фотография, альпинизм и т. д. ";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_read" = "Интересы:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl" = "Расположение";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl_empty" = "Укажите свое местонахождение";
+
+/* (No Comment) */
+"user_profile_cell_location_lbl_read" = "Из:";
+
+/* (No Comment) */
+"user_profile_cell_password_lbl" = "Пароль";
+
+/* No comment provided by engineer. */
+"user_profile_cell_profession_lbl" = "Профессия";
+
+/* (No Comment) */
+"user_profile_cell_profession_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_styles_lbl_empty" = "Выберите любимые стили:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl" = "Другие используемые инструменты проектирования";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_empty" = "Выберите инструменты:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_read" = "Другие используемые инструменты проектирования:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_user_types_lbl_empty" = "Выберите один вариант:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl" = "Я";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl_read" = "Я:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl" = "Веб-сайт";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl_empty" = "Укажите свой веб-сайт";
+
+/* (No Comment) */
+"user_profile_cell_website_lbl_read" = "Веб-сайт:";
+
+/* No comment provided by engineer. */
+"user_profile_done_button" = "Готово";
+
+/* Sign Out */
+"user_profile_signout_lbl" = "Выход";
+
+/* No comment provided by engineer. */
+"waitting_to_sync" = "Автономный проект";
+
+/* (No Comment) */
+"wall_button" = "Стена";
+
+/* (No Comment) */
+"wallpaper_button" = "Обои";
+
+/* No comment provided by engineer. */
+"wish_list" = "Список пожеланий";
+
+/* Wish List Failed to Create */
+"wishlist_create_failed_msg" = "Ой! Попробуйте создать список пожеланий еще раз";
+
+/* Wish List Created */
+"wishlist_create_successfuly_msg" = "успешно создан.";
+
+/* Missing Wishlist */
+"wishlist_no_wishlist_msg" = "Отсутствует список пожеланий";
+
+/* Failed to Update Wishlist */
+"wishlist_update_failed_msg" = "Кажется, произошла ошибка. Попробуйте сохранить изменения еще раз.";
+
+/* Update Wishlist Succsessfully */
+"wishlist_update_successful_msg" = "Изменения в списке пожеланий сохранены.";
+
+/* No comment provided by engineer. */
+"wishlists_page_title" = "Списки пожеланий";
+
+/* Yesterday */
+"yesterday" = "вчера";
+
+"you_liked_0_times" = "Вы еще не получили.";
+"you_liked_1_time" = "Вы получили 1, как в Homestyler!";
+"you_liked_times" = "Вы получили %d в Homestyler!";

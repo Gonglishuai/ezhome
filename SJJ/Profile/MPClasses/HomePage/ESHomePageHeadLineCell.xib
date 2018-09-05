@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ESHomePageHeadLineCell" id="gTV-IL-0wX" customClass="ESHomePageHeadLineCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_page_headline" translatesAutoresizingMaskIntoConstraints="NO" id="5Ce-uH-MhN">
+                        <rect key="frame" x="15" y="36.5" width="45" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="G1F-xD-eFx"/>
+                            <constraint firstAttribute="height" constant="18" id="gNA-q6-cw7"/>
+                        </constraints>
+                    </imageView>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Leo-zO-Qfg">
+                        <rect key="frame" x="66" y="35.5" width="234" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="f6c-UB-6wd"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="pgt-CM-iRN"/>
+                        </connections>
+                    </scrollView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Leo-zO-Qfg" firstAttribute="leading" secondItem="5Ce-uH-MhN" secondAttribute="trailing" constant="6" id="5s0-RG-ZTD"/>
+                <constraint firstAttribute="trailing" secondItem="Leo-zO-Qfg" secondAttribute="trailing" constant="20" id="7yB-GF-91D"/>
+                <constraint firstItem="5Ce-uH-MhN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="IMj-5y-Khz"/>
+                <constraint firstItem="Leo-zO-Qfg" firstAttribute="centerY" secondItem="5Ce-uH-MhN" secondAttribute="centerY" id="Lbn-Qz-RSS"/>
+                <constraint firstItem="5Ce-uH-MhN" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Qla-a6-buF"/>
+                <constraint firstItem="5Ce-uH-MhN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="fwS-bb-p6p"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5Ce-uH-MhN" secondAttribute="bottom" constant="14" id="gwJ-Cs-tSR"/>
+            </constraints>
+            <size key="customSize" width="320" height="91"/>
+            <connections>
+                <outlet property="scrollView" destination="Leo-zO-Qfg" id="yjR-fH-L8a"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="74.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_page_headline" width="90" height="36"/>
+    </resources>
+</document>

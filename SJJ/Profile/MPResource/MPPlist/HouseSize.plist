@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>一室</string>
+		<string>两室</string>
+		<string>三室</string>
+		<string>四室</string>
+		<string>五室</string>
+		<string>LOFT</string>
+		<string>复式</string>
+		<string>别墅</string>
+		<string>其他</string>
+	</array>
+	<array>
+		<string>一厅</string>
+		<string>两厅</string>
+		<string>三厅</string>
+		<string>四厅</string>
+		<string>五厅</string>
+	</array>
+	<array>
+		<string>一卫</string>
+		<string>两卫</string>
+		<string>三卫</string>
+		<string>四卫</string>
+		<string>五卫</string>
+	</array>
+</array>
+</plist>

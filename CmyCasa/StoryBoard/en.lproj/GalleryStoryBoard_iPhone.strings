@@ -1,0 +1,351 @@
+
+/* Class = "UIButton"; accessibilityLabel = "btn_like"; ObjectID = "0Af-g8-Toe"; */
+"0Af-g8-Toe.accessibilityLabel" = "btn_like";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "0Af-g8-Toe"; */
+"0Af-g8-Toe.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "1Kq-b5-9th"; */
+"1Kq-b5-9th.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "1a6-g0-glB"; */
+"1a6-g0-glB.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "1a6-g0-glB"; */
+"1a6-g0-glB.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_catalog"; ObjectID = "1fL-c6-iRH"; */
+"1fL-c6-iRH.accessibilityLabel" = "btn_catalog";
+
+/* Class = "UIButton"; normalTitle = "CATALOG"; ObjectID = "1fL-c6-iRH"; */
+"1fL-c6-iRH.normalTitle" = "CATALOG";
+
+/* Class = "IBUIButton"; accessibilityLabel = "btn_community"; ObjectID = "f8C-ED-Jwi"; */
+"f8C-ED-Jwi.accessibilityLabel" = "btn_community";
+
+/* Class = "IBUIButton"; normalTitle = "COMMUNITY"; ObjectID = "f8C-ED-Jwi"; */
+"f8C-ED-Jwi.normalTitle" = "COMMUNITY";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_picker_cancel"; ObjectID = "1nH-5c-02Q"; */
+"1nH-5c-02Q.accessibilityLabel" = "btn_picker_cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "1nH-5c-02Q"; */
+"1nH-5c-02Q.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "44E-Ly-mEp"; */
+"44E-Ly-mEp.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_like_design_cell"; ObjectID = "4Ib-S4-l4y"; */
+"4Ib-S4-l4y.accessibilityLabel" = "lbl_like_design_cell";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "4Ib-S4-l4y"; */
+"4Ib-S4-l4y.text" = "0";
+
+/* Class = "UILabel"; text = "Download Package:"; ObjectID = "5rJ-4M-bqi"; */
+"5rJ-4M-bqi.text" = "Download Package:";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "7Ij-CA-rLP"; */
+"7Ij-CA-rLP.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Product List"; ObjectID = "7uI-WN-GEn"; */
+"7uI-WN-GEn.text" = "Product List";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_comment_design_cell"; ObjectID = "85f-mr-lvI"; */
+"85f-mr-lvI.accessibilityLabel" = "btn_comment_design_cell";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "85f-mr-lvI"; */
+"85f-mr-lvI.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_comment"; ObjectID = "AJE-HC-GdP"; */
+"AJE-HC-GdP.accessibilityLabel" = "btn_comment";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "AJE-HC-GdP"; */
+"AJE-HC-GdP.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_createNewDesign"; ObjectID = "ALa-VJ-M2y"; */
+"ALa-VJ-M2y.accessibilityLabel" = "btn_createNewDesign";
+
+/* Class = "UIButton"; normalTitle = "CREATE NEW DESIGN"; ObjectID = "ALa-VJ-M2y"; */
+"ALa-VJ-M2y.normalTitle" = "CREATE NEW DESIGN";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "APg-pi-b3s"; */
+"APg-pi-b3s.text" = "0";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_profile"; ObjectID = "BnP-YO-JZL"; */
+"BnP-YO-JZL.accessibilityLabel" = "img_profile";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "C4U-aQ-hZ7"; */
+"C4U-aQ-hZ7.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "C4U-aQ-hZ7"; */
+"C4U-aQ-hZ7.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_profile"; ObjectID = "DrD-GV-R4W"; */
+"DrD-GV-R4W.accessibilityLabel" = "btn_profile";
+
+/* Class = "UILabel"; text = "Project's Name"; ObjectID = "F1p-sf-twb"; */
+"F1p-sf-twb.text" = "Project's Name";
+
+/* Class = "UILabel"; text = "Filter By:"; ObjectID = "Fnj-cy-maM"; */
+"Fnj-cy-maM.text" = "Filter By:";
+
+/* Class = "UIButton"; normalTitle = "Write Comment"; ObjectID = "FuW-Yq-vS0"; */
+"FuW-Yq-vS0.normalTitle" = "Write Comment";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "H5n-pg-Nkg"; */
+"H5n-pg-Nkg.accessibilityLabel" = "btn_share";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "H5n-pg-Nkg"; */
+"H5n-pg-Nkg.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_username"; ObjectID = "IHK-aq-QGw"; */
+"IHK-aq-QGw.accessibilityLabel" = "lbl_username";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "IHK-aq-QGw"; */
+"IHK-aq-QGw.text" = "Sign In";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_contest"; ObjectID = "Iwq-Gg-KGe"; */
+"Iwq-Gg-KGe.accessibilityLabel" = "btn_contest";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "JrQ-Nk-SO4"; */
+"JrQ-Nk-SO4.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "JrQ-Nk-SO4"; */
+"JrQ-Nk-SO4.normalTitle" = "";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Ln3-3I-qTN"; */
+"Ln3-3I-qTN.text" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_like_design_cell"; ObjectID = "MNC-4a-ObT"; */
+"MNC-4a-ObT.accessibilityLabel" = "btn_like_design_cell";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "MNC-4a-ObT"; */
+"MNC-4a-ObT.disabledTitle" = "";
+
+/* Class = "UIButton"; highlightedTitle = ""; ObjectID = "MNC-4a-ObT"; */
+"MNC-4a-ObT.highlightedTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "MNC-4a-ObT"; */
+"MNC-4a-ObT.normalTitle" = "";
+
+/* Class = "UIButton"; selectedTitle = ""; ObjectID = "MNC-4a-ObT"; */
+"MNC-4a-ObT.selectedTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "MNf-Zn-5vq"; */
+"MNf-Zn-5vq.accessibilityLabel" = "btn_share";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "MNf-Zn-5vq"; */
+"MNf-Zn-5vq.normalTitle" = "";
+
+/* Class = "UILabel"; text = "By Niko Van Der Something"; ObjectID = "OA9-Yt-kzE"; */
+"OA9-Yt-kzE.text" = "By Niko Van Der Something";
+
+/* Class = "UILabel"; text = "Go To Website"; ObjectID = "Oio-w3-1iG"; */
+"Oio-w3-1iG.text" = "VISIT WEBSITE ＞";
+
+/* Class = "IBUIButton"; normalTitle = "Go To Website"; ObjectID = "DLF-9m-5gm"; */
+"DLF-9m-5gm.normalTitle" = "Go To Website";
+
+/* Class = "UILabel"; text = "Asam Orange"; ObjectID = "P7a-WT-KBb"; */
+"P7a-WT-KBb.text" = "Asam Orange";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_redesign"; ObjectID = "PZ4-f5-pp6"; */
+"PZ4-f5-pp6.accessibilityLabel" = "btn_redesign";
+
+/* Class = "UIButton"; normalTitle = "Redesign"; ObjectID = "PZ4-f5-pp6"; */
+"PZ4-f5-pp6.normalTitle" = "Design";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "Pr1-Y3-i8L"; */
+"Pr1-Y3-i8L.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Pr1-Y3-i8L"; */
+"Pr1-Y3-i8L.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_tag"; ObjectID = "QzP-dh-LdZ"; */
+"QzP-dh-LdZ.accessibilityLabel" = "btn_tag";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "QzP-dh-LdZ"; */
+"QzP-dh-LdZ.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "R6I-yO-o0h"; */
+"R6I-yO-o0h.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_filter_by"; ObjectID = "RCd-Zd-6PN"; */
+"RCd-Zd-6PN.accessibilityLabel" = "btn_filter_by";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "RCd-Zd-6PN"; */
+"RCd-Zd-6PN.normalTitle" = "All";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share_design_cell"; ObjectID = "TAE-gU-obC"; */
+"TAE-gU-obC.accessibilityLabel" = "btn_share_design_cell";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "TAE-gU-obC"; */
+"TAE-gU-obC.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "UCS-zb-uhH"; */
+"UCS-zb-uhH.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "UCS-zb-uhH"; */
+"UCS-zb-uhH.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_designStream"; ObjectID = "UeG-wA-qGH"; */
+"UeG-wA-qGH.accessibilityLabel" = "btn_designStream";
+
+/* Class = "UIButton"; normalTitle = "3D DESIGN STREAM"; ObjectID = "UeG-wA-qGH"; */
+"UeG-wA-qGH.normalTitle" = "3D DESIGN STREAM";
+
+/* Class = "UIButton"; normalTitle = "Portfolio"; ObjectID = "UgO-3T-ys8"; */
+"UgO-3T-ys8.normalTitle" = "Portfolio";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menu"; ObjectID = "Uug-Zv-SsT"; */
+"Uug-Zv-SsT.accessibilityLabel" = "btn_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Uug-Zv-SsT"; */
+"Uug-Zv-SsT.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Post"; ObjectID = "VCP-c7-jaG"; */
+"VCP-c7-jaG.normalTitle" = "Post";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_like"; ObjectID = "WaJ-6p-yrq"; */
+"WaJ-6p-yrq.accessibilityLabel" = "lbl_like";
+
+/* Class = "UILabel"; text = "142"; ObjectID = "WaJ-6p-yrq"; */
+"WaJ-6p-yrq.text" = "142";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menu"; ObjectID = "YJs-UI-HPN"; */
+"YJs-UI-HPN.accessibilityLabel" = "btn_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "YJs-UI-HPN"; */
+"YJs-UI-HPN.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Post"; ObjectID = "ZXR-uz-UQY"; */
+"ZXR-uz-UQY.normalTitle" = "Post";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_replay_comment"; ObjectID = "ZeW-RQ-Vis"; */
+"ZeW-RQ-Vis.accessibilityLabel" = "btn_replay_comment";
+
+/* Class = "UIButton"; normalTitle = "Reply"; ObjectID = "ZeW-RQ-Vis"; */
+"ZeW-RQ-Vis.normalTitle" = "Reply";
+
+/* Class = "UILabel"; text = "by B&B"; ObjectID = "a8C-Ec-L91"; */
+"a8C-Ec-L91.text" = "by B&B";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_no_internet"; ObjectID = "clc-6D-kdu"; */
+"clc-6D-kdu.accessibilityLabel" = "btn_no_internet";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "clc-6D-kdu"; */
+"clc-6D-kdu.normalTitle" = "";
+
+/* Class = "UIPickerView"; accessibilityLabel = "picker_"; ObjectID = "duQ-HN-noF"; */
+"duQ-HN-noF.accessibilityLabel" = "picker_";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "eIb-C4-lix"; */
+"eIb-C4-lix.disabledTitle" = "";
+
+/* Class = "UIButton"; highlightedTitle = ""; ObjectID = "eIb-C4-lix"; */
+"eIb-C4-lix.highlightedTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "eIb-C4-lix"; */
+"eIb-C4-lix.normalTitle" = "";
+
+/* Class = "UIButton"; selectedTitle = ""; ObjectID = "eIb-C4-lix"; */
+"eIb-C4-lix.selectedTitle" = "";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "ehu-Zq-9xh"; */
+"ehu-Zq-9xh.text" = "0%";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_like_design_cell"; ObjectID = "gAb-K4-Iy7"; */
+"gAb-K4-Iy7.accessibilityLabel" = "btn_like_design_cell";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "gAb-K4-Iy7"; */
+"gAb-K4-Iy7.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "hdg-fG-Ahr"; */
+"hdg-fG-Ahr.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "hdg-fG-Ahr"; */
+"hdg-fG-Ahr.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_comment"; ObjectID = "jmO-Hc-kmr"; */
+"jmO-Hc-kmr.accessibilityLabel" = "lbl_comment";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "jmO-Hc-kmr"; */
+"jmO-Hc-kmr.text" = "1000";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_design_cell"; ObjectID = "m4T-4Z-Whd"; */
+"m4T-4Z-Whd.accessibilityLabel" = "img_design_cell";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_comment_design_cell"; ObjectID = "m5y-vZ-ipo"; */
+"m5y-vZ-ipo.accessibilityLabel" = "lbl_comment_design_cell";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "m5y-vZ-ipo"; */
+"m5y-vZ-ipo.text" = "0";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "mZK-EQ-atE"; */
+"mZK-EQ-atE.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Reply"; ObjectID = "mee-2A-OYn"; */
+"mee-2A-OYn.normalTitle" = "Reply";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "omm-h0-uKJ"; */
+"omm-h0-uKJ.text" = "Label";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_tag"; ObjectID = "pZp-aS-WZe"; */
+"pZp-aS-WZe.accessibilityLabel" = "lbl_tag";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "qdE-hM-xuy"; */
+"qdE-hM-xuy.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_filter_close"; ObjectID = "rRC-ZY-uHM"; */
+"rRC-ZY-uHM.accessibilityLabel" = "btn_filter_close";
+
+/* Class = "UIButton"; normalTitle = "Filter"; ObjectID = "rRC-ZY-uHM"; */
+"rRC-ZY-uHM.normalTitle" = "Filter";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_picker_done"; ObjectID = "s39-Pw-NX7"; */
+"s39-Pw-NX7.accessibilityLabel" = "btn_picker_done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "s39-Pw-NX7"; */
+"s39-Pw-NX7.normalTitle" = "Done";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_profile_design_cell"; ObjectID = "t4l-1W-7in"; */
+"t4l-1W-7in.accessibilityLabel" = "img_profile_design_cell";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_filter"; ObjectID = "vGd-hk-nOy"; */
+"vGd-hk-nOy.accessibilityLabel" = "btn_filter";
+
+/* Class = "UIButton"; normalTitle = "Filter"; ObjectID = "vGd-hk-nOy"; */
+"vGd-hk-nOy.normalTitle" = "Filter";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "vrC-jP-AYE"; */
+"vrC-jP-AYE.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_sort_by"; ObjectID = "w6Y-gw-G04"; */
+"w6Y-gw-G04.accessibilityLabel" = "btn_sort_by";
+
+/* Class = "UIButton"; normalTitle = "Popular"; ObjectID = "w6Y-gw-G04"; */
+"w6Y-gw-G04.normalTitle" = "Popular";
+
+/* Class = "UILabel"; text = "Sort By:"; ObjectID = "yjg-dN-VxB"; */
+"yjg-dN-VxB.text" = "Sort By:";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_read_comments"; ObjectID = "z5a-3z-GWL"; */
+"z5a-3z-GWL.accessibilityLabel" = "btn_read_comments";
+
+/* Class = "UIButton"; normalTitle = "Read Comments"; ObjectID = "z5a-3z-GWL"; */
+"z5a-3z-GWL.normalTitle" = "Read Comments";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_write_comments"; ObjectID = "z6N-1Q-qoA"; */
+"z6N-1Q-qoA.accessibilityLabel" = "btn_write_comments";
+
+/* Class = "UIButton"; normalTitle = "Write Comment"; ObjectID = "z6N-1Q-qoA"; */
+"z6N-1Q-qoA.normalTitle" = "Write Comment";
+
+/* Class = "UILabel"; text = "Design Information"; ObjectID = "bH8-uK-M3f"; */
+"bH8-uK-M3f.text" = "Design Detail";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "s58-kD-rmO"; */
+"s58-kD-rmO.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Comments"; ObjectID = "OsH-NN-VVY"; */
+"OsH-NN-VVY.text" = "Comments";

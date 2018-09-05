@@ -1,0 +1,20 @@
+{
+  "name": "ESBasic",
+  "version": "0.0.4",
+  "summary": "Have no summary ESBasic.",
+  "description": "A Main Foundation Component for Other Kit",
+  "homepage": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESBasic.git",
+  "license": "MIT",
+  "authors": {
+    "jiangyunfeng": "554994782@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESBasic.git",
+    "branch": "develop"
+  },
+  "source_files": "ESBasic",
+  "public_header_files": "ESBasic/**/*.h"
+}

@@ -1,0 +1,357 @@
+/* Class = "UIView"; accessibilityLabel = "view_home"; ObjectID = "0mC-DD-ACR"; */
+"0mC-DD-ACR.accessibilityLabel" = "view_home";
+
+/* (No Comment) */
+"1Ya-ZI-MKc.accessibilityLabel" = "lbl_design_title";
+
+/* (No Comment) */
+"1Ya-ZI-MKc.text" = "AMBIENTE ILUMINADO";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "2B9-VK-jIY"; */
+"2B9-VK-jIY.normalTitle" = "";
+
+/* (No Comment) */
+"3N5-Ys-6Ya.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "3g9-Ju-0Tw"; */
+"3g9-Ju-0Tw.text" = "Visite o site >>";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "4Bg-30-pJg"; */
+"4Bg-30-pJg.accessibilityLabel" = "btn_back";
+
+/* (No Comment) */
+"4Bg-30-pJg.normalTitle" = "";
+
+/* (No Comment) */
+"4U4-rd-cxX.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Design Detail"; ObjectID = "4f0-dz-Mo6"; */
+"4f0-dz-Mo6.text" = "Detalhes do projeto";
+
+/* (No Comment) */
+"5NA-gz-j1d.accessibilityLabel" = "btn_scrolltop";
+
+/* (No Comment) */
+"5NA-gz-j1d.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_username"; ObjectID = "5WG-E7-JGH"; */
+"5WG-E7-JGH.accessibilityLabel" = "btn_username";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_create_new_design"; ObjectID = "6SC-Ea-DeL"; */
+"6SC-Ea-DeL.accessibilityLabel" = "btn_create_new_design";
+
+/* Class = "UIButton"; normalTitle = "CREATE NEW DESIGN"; ObjectID = "6SC-Ea-DeL"; */
+"6SC-Ea-DeL.normalTitle" = "CRIAR NOVO PROJETO";
+
+/* (No Comment) */
+"6o4-lG-VKz.accessibilityLabel" = "lbl_readmore";
+
+/* (No Comment) */
+"6o4-lG-VKz.text" = "Leia mais";
+
+/* (No Comment) */
+"7jV-2v-dTx.accessibilityLabel" = "lbl_prof_portfolio";
+
+/* (No Comment) */
+"7jV-2v-dTx.text" = "Portfólio do profissional";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_product_list"; ObjectID = "8DO-OG-2RN"; */
+"8DO-OG-2RN.accessibilityLabel" = "lbl_product_list";
+
+/* Class = "UILabel"; text = "Product List"; ObjectID = "8DO-OG-2RN"; */
+"8DO-OG-2RN.text" = "Lista de produtos";
+
+/* (No Comment) */
+"8L9-qj-pQG.accessibilityLabel" = "btn_like";
+
+/* (No Comment) */
+"8L9-qj-pQG.normalTitle" = "";
+
+/* (No Comment) */
+"8va-zM-60c.normalTitle" = "";
+
+/* (No Comment) */
+"9A2-WL-auR.accessibilityLabel" = "btn_shopping_list_bottom";
+
+/* (No Comment) */
+"9A2-WL-auR.normalTitle" = "";
+
+/* (No Comment) */
+"26O-N3-e33.accessibilityLabel" = "btn_comment";
+
+/* (No Comment) */
+"26O-N3-e33.normalTitle" = "";
+
+/* (No Comment) */
+"039-im-mT3.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"039-im-mT3.normalTitle" = "";
+
+/* (No Comment) */
+"41Y-ne-tgc.accessibilityLabel" = "lbl_username";
+
+/* (No Comment) */
+"41Y-ne-tgc.text" = "Por";
+
+/* Class = "UILabel"; text = "Design Title"; ObjectID = "AbG-ji-bS9"; */
+"AbG-ji-bS9.text" = "Título do projeto";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "B7W-9R-PzO"; */
+"B7W-9R-PzO.accessibilityLabel" = "btn_share";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "B7W-9R-PzO"; */
+"B7W-9R-PzO.normalTitle" = "";
+
+/* (No Comment) */
+"C16-gT-kJv.text" = "Lorem Ipsum Dolor. Lorem Ipsum Dolor.Lorem Ipsum Dolor.";
+
+/* (No Comment) */
+"CtU-ED-8nU.accessibilityLabel" = "btn_2d";
+
+/* (No Comment) */
+"CtU-ED-8nU.normalTitle" = "";
+
+/* (No Comment) */
+"Dez-rx-QIN.text" = "0";
+
+/* (No Comment) */
+"Djo-Un-A8S.accessibilityLabel" = "btn_3d_design_stream";
+
+/* (No Comment) */
+"Djo-Un-A8S.normalTitle" = "FLUXO DE PROJETOS 3D";
+
+/* (No Comment) */
+"FKI-ln-skJ.text" = "ADORNOS DA CIDADE DO TÍTULO";
+
+/* (No Comment) */
+"G3Q-cr-HJQ.accessibilityLabel" = "btn_sortby";
+
+/* (No Comment) */
+"G3Q-cr-HJQ.normalTitle" = "Classificar por: Popular";
+
+/* (No Comment) */
+"KeO-9c-iOK.accessibilityLabel" = "lbl_like_count";
+
+/* (No Comment) */
+"KeO-9c-iOK.text" = "999 mil";
+
+/* (No Comment) */
+"L7Q-fR-1PU.text" = "";
+
+/* (No Comment) */
+"LqX-fK-SgH.accessibilityLabel" = "btn_like";
+
+/* (No Comment) */
+"LqX-fK-SgH.normalTitle" = "";
+
+/* (No Comment) */
+"Mcr-8O-lU8.text" = "de J. C. Penny";
+
+/* (No Comment) */
+"NWI-KL-CuS.accessibilityLabel" = "btn_help";
+
+/* (No Comment) */
+"NWI-KL-CuS.normalTitle" = "";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "NYA-3I-Ws9"; */
+"NYA-3I-Ws9.text" = "0%";
+
+/* (No Comment) */
+"OJS-jo-Uhz.accessibilityLabel" = "lbl_username";
+
+/* (No Comment) */
+"OJS-jo-Uhz.text" = "Libi Axelrod";
+
+/* (No Comment) */
+"OdX-6d-G3i.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"OdX-6d-G3i.normalTitle" = "";
+
+/* Class = "UIView"; accessibilityLabel = "view_productlist"; ObjectID = "OjA-dp-oKX"; */
+"OjA-dp-oKX.accessibilityLabel" = "view_productlist";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "OjO-xn-328"; */
+"OjO-xn-328.normalTitle" = "";
+
+/* (No Comment) */
+"P1s-Dk-6Fl.accessibilityLabel" = "lbl_Redesia";
+
+/* (No Comment) */
+"P1s-Dk-6Fl.text" = "";
+
+/* (No Comment) */
+"PLW-X9-er0.text" = "";
+
+/* (No Comment) */
+"PXi-34-ZMb.accessibilityLabel" = "btn_profile";
+
+/* (No Comment) */
+"QBm-OD-5Lf.accessibilityLabel" = "btn_share";
+
+/* (No Comment) */
+"QBm-OD-5Lf.normalTitle" = "";
+
+/* (No Comment) */
+"TIO-dJ-7uR.accessibilityLabel" = "img_profile";
+
+/* Class = "UILabel"; text = "Linden Street Themal Gormet"; ObjectID = "TRf-Uy-SgS"; */
+"TRf-Uy-SgS.text" = "Linden Street Thermal Grommet";
+
+/* Class = "UILabel"; text = "Likes"; ObjectID = "V0f-iM-en0"; */
+"V0f-iM-en0.text" = "Gosto";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_contest"; ObjectID = "VZ6-Dk-J1o"; */
+"VZ6-Dk-J1o.accessibilityLabel" = "btn_contest";
+
+/* (No Comment) */
+"Vgt-CL-d0T.accessibilityLabel" = "lbl_comment_count";
+
+/* (No Comment) */
+"Vgt-CL-d0T.text" = "333 mil";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "YFO-86-ZVy"; */
+"YFO-86-ZVy.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "YFO-86-ZVy"; */
+"YFO-86-ZVy.normalTitle" = "";
+
+/* (No Comment) */
+"ZHo-p2-nGg.accessibilityLabel" = "btn_roomtype";
+
+/* (No Comment) */
+"ZHo-p2-nGg.normalTitle" = "Filtrar por: Tipo de ambiente";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_close"; ObjectID = "Zea-4u-d0q"; */
+"Zea-4u-d0q.accessibilityLabel" = "btn_close";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "Zea-4u-d0q"; */
+"Zea-4u-d0q.normalTitle" = "Fechar";
+
+/* (No Comment) */
+"bC3-P1-fCp.text" = "0";
+
+/* (No Comment) */
+"bRg-yD-Jhd.accessibilityLabel" = "btn_3d";
+
+/* (No Comment) */
+"bRg-yD-Jhd.normalTitle" = "";
+
+/* (No Comment) */
+"cAj-s6-KxB.text" = "COMENTÁRIOS";
+
+/* (No Comment) */
+"cRy-qD-NhC.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"cRy-qD-NhC.normalTitle" = "";
+
+/* (No Comment) */
+"csF-3s-6nx.text" = "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor";
+
+/* (No Comment) */
+"etu-NY-eIX.accessibilityLabel" = "btn_article";
+
+/* (No Comment) */
+"etu-NY-eIX.normalTitle" = "";
+
+/* (No Comment) */
+"fN6-8B-XCH.accessibilityLabel" = "btn_redesign";
+
+/* (No Comment) */
+"fg0-Ui-7Uq.accessibilityLabel" = "btn_prof_portfolio";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_community"; ObjectID = "gVG-cD-ULK"; */
+"gVG-cD-ULK.accessibilityLabel" = "btn_community";
+
+/* Class = "UIButton"; normalTitle = "COMMUNITY"; ObjectID = "gVG-cD-ULK"; */
+"gVG-cD-ULK.normalTitle" = "COMUNIDADE";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gbX-v5-rqj"; */
+"gbX-v5-rqj.text" = "Título";
+
+/* (No Comment) */
+"gsF-z4-Hxs.accessibilityLabel" = "btn_help";
+
+/* (No Comment) */
+"gsF-z4-Hxs.normalTitle" = "";
+
+/* (No Comment) */
+"nBX-lZ-ume.accessibilityLabel" = "btn_shoppinglist_top";
+
+/* (No Comment) */
+"nBX-lZ-ume.normalTitle" = "Lista de produtos";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nUA-KC-AZR"; */
+"nUA-KC-AZR.text" = "Título";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "nWt-5h-kxx"; */
+"nWt-5h-kxx.normalTitle" = "";
+
+/* (No Comment) */
+"nnx-zn-B6q.accessibilityLabel" = "btn_share";
+
+/* (No Comment) */
+"nnx-zn-B6q.normalTitle" = "";
+
+/* (No Comment) */
+"p66-6u-4Qf.accessibilityLabel" = "lbl_Redesia";
+
+/* (No Comment) */
+"p66-6u-4Qf.text" = "Reprojetar";
+
+/* (No Comment) */
+"pGC-eZ-6vd.accessibilityLabel" = "lbl_profile_name";
+
+/* (No Comment) */
+"pGC-eZ-6vd.text" = "Nome de usuário";
+
+/* Class = "UILabel"; text = "Comments"; ObjectID = "sfe-ig-qLL"; */
+"sfe-ig-qLL.text" = "Comente";
+
+/* Class = "UIButton"; normalTitle = "comment"; ObjectID = "tOV-Hi-iao"; */
+"tOV-Hi-iao.normalTitle" = "Comentário";
+
+/* (No Comment) */
+"uL9-2j-qK8.text" = "Detalhes do projeto";
+
+/* (No Comment) */
+"ufN-qg-D4r.accessibilityLabel" = "btn_back";
+
+/* (No Comment) */
+"ufN-qg-D4r.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_catalog"; ObjectID = "uvV-DM-fd9"; */
+"uvV-DM-fd9.accessibilityLabel" = "btn_catalog";
+
+/* Class = "UIButton"; normalTitle = "CATALOG"; ObjectID = "uvV-DM-fd9"; */
+"uvV-DM-fd9.normalTitle" = "CATÁLOGO";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "uzY-iz-nJc"; */
+"uzY-iz-nJc.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "uzY-iz-nJc"; */
+"uzY-iz-nJc.normalTitle" = "";
+
+/* (No Comment) */
+"w3H-j2-sCv.text" = "222 mil";
+
+/* (No Comment) */
+"wfR-pt-uFE.accessibilityLabel" = "lbl_show";
+
+/* (No Comment) */
+"wfR-pt-uFE.text" = "Mostrar:";
+
+/* Class = "UILabel"; text = "Downloading Package:"; ObjectID = "x2q-Eh-8mv"; */
+"x2q-Eh-8mv.text" = "Baixando pacote:";
+
+/* (No Comment) */
+"xKk-pK-sDh.text" = "";
+
+/* (No Comment) */
+"y0c-jV-TsF.normalTitle" = "";
+
+/* (No Comment) */
+"zDK-QE-1Pm.normalTitle" = "";
+

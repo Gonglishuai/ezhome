@@ -1,0 +1,1 @@
+../../../../ESNetworking/ESNetworking/Tools/framework/AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h

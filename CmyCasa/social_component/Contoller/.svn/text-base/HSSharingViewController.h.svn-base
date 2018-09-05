@@ -1,0 +1,28 @@
+//
+//  HSSharingViewController.h
+//  ADSharingComponent
+//
+//  Created by Ma'ayan on 10/9/13.
+//  Copyright (c) 2013 Ma'ayan. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@protocol HSSharingViewControllerDelegate <NSObject>
+
+@optional
+
+- (void)didCancelSharingViewController;
+- (void)didFinishSharingViewController;
+
+@end
+
+
+@interface HSSharingViewController : UIViewController
+
+@property (nonatomic, weak) id <HSSharingViewControllerDelegate> delegate;
+
+//hashtags array should be filled with HSHashtag objects.
+- (id)initWithShareText:(NSString *)shareText hashTags:(NSArray *)hashtags image:(UIImage *)image andImageURL:(NSURL *)imageUrl;
+
+@end

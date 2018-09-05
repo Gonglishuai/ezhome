@@ -1,0 +1,57 @@
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "0wW-Rs-an8"; */
+"0wW-Rs-an8.normalTitle" = "Voltar";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "1Xs-76-FW8"; */
+"1Xs-76-FW8.placeholder" = "E-mail";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "4vl-qv-tzv"; */
+"4vl-qv-tzv.normalTitle" = "ENVIAR";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "5ZF-fc-J7S"; */
+"5ZF-fc-J7S.normalTitle" = "Voltar";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9uB-cJ-2DZ"; */
+"9uB-cJ-2DZ.placeholder" = "Senha";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "BFy-1T-XWZ"; */
+"BFy-1T-XWZ.text" = "Expresse sua criatividade, encontre inspiração                    e faça escolhas mais inteligentes para projeto residenciais, mais depressa.";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choises, faster."; ObjectID = "CFz-CH-Skh"; */
+"CFz-CH-Skh.text" = "Expresse sua criatividade, encontre inspiração                    e faça escolhas mais inteligentes para projeto residenciais, mais depressa.";
+
+/* (No Comment) */
+"FRk-9O-K9C.normalTitle" = "Registre-se com o Google+";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "LB3-mh-WhR"; */
+"LB3-mh-WhR.text" = "Registre-se ou faça o login";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "NXX-gf-Lki"; */
+"NXX-gf-Lki.text" = "Registre-se ou fazer login para seu endereço de e-mail";
+
+/* Class = "UIButton"; normalTitle = "Forgot Your Password?"; ObjectID = "P81-v8-FeB"; */
+"P81-v8-FeB.normalTitle" = "Esqueceu sua senha?";
+
+/* Class = "UIButton"; normalTitle = "Register with your Email"; ObjectID = "PN5-bP-3Ql"; */
+"PN5-bP-3Ql.normalTitle" = "Endereço de e-mail";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "T7U-4G-W1G"; */
+"T7U-4G-W1G.normalTitle" = "ENVIAR";
+
+/* Class = "UIButton"; normalTitle = "Register with Facebook"; ObjectID = "Zzn-uu-7cs"; */
+"Zzn-uu-7cs.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "cZm-Rw-nf0"; */
+"cZm-Rw-nf0.normalTitle" = "Voltar";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "f5N-0J-wQ1"; */
+"f5N-0J-wQ1.placeholder" = "E-mail";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "p3G-Bx-F4I"; */
+"p3G-Bx-F4I.text" = "Expresse sua criatividade, encontre inspiração                    e faça escolhas mais inteligentes para projeto residenciais, mais depressa.";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "pw8-eN-sBJ"; */
+"pw8-eN-sBJ.text" = "Registre-se ou faça o login";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "yly-ch-K4N"; */
+"yly-ch-K4N.text" = "Registre-se ou fazer login para seu endereço de e-mail";
+

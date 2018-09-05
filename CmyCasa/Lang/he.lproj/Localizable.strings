@@ -1,0 +1,1734 @@
+/* 1 hr */
+"1_hour" = "1 שעות";
+
+/* 1 min */
+"1_minute" = "1 דקות";
+
+/* No comment provided by engineer. */
+"3d_design_stream" = "3Dגלריית העיצובים ב";
+
+/* No comment provided by engineer. */
+"AR Check Begining" = "סרוק את הרצפה סביב כדי להפעיל את מצב AR";
+
+/* (No Comment) */
+"Activity_title" = "זרם חדשות";
+
+/* No comment provided by engineer. */
+"Add_Products_ForAR" = "הוסף מוצרים";
+
+/* No comment provided by engineer. */
+"Apply_btn" = "החל";
+
+/* (No Comment) */
+"Basement" = "מרתף";
+
+/* (No Comment) */
+"Bathroom" = "חדר אמבטיה";
+
+/* (No Comment) */
+"Bedroom" = "חדר שינה";
+
+/* Cancel */
+"Cancel_edit_profile_button_title" = "ביטול";
+
+/* Change Password */
+"Change_Password_btn_title" = "שנה את הסיסמא";
+
+/* Change Profile Image */
+"Change_Profile_Image_btn_title" = "שנה את תמונת הפרופיל";
+
+/* (No Comment) */
+"Commercial/Public Exterior" = "מסחרי / חיצוני";
+
+/* (No Comment) */
+"Commercial/Public Interior" = "פנים מסחרי / ציבורי";
+
+/* No comment provided by engineer. */
+"Contact_Us" = "\n\n\n\n------------------------------------\n%@ גִרְסָה:V%@%@\nהתקן:%@\nגִרְסָה:iOS%@\nרֶשֶׁת:%@\nזהות המשתמש:%@.\n\n\n%@\n";
+
+/* (No Comment) */
+"Den" = "מְאוּרָה";
+
+/* (No Comment) */
+"Dining Room" = "חדר אוכל";
+
+/* (No Comment) */
+"Dismiss" = "בטל";
+
+/* Done */
+"Done_edit_profile_button_title" = "סיום";
+
+/* Edit Info */
+"edit_info" = "ערוך מידע";
+
+/* No comment provided by engineer. */
+"Empty_Rooms" = "חֶדֶר פָּנוּי";
+
+/* (No Comment) */
+"Entrance & Hallway" = "כניסה & מסדרון";
+
+/* Error */
+"Error" = "שגיאה";
+
+/* Female */
+"Female_segment_option" = "נקבה";
+
+/* First Name */
+"First_Name_text_placeholder" = "שם פרטי";
+
+/* (No Comment) */
+"Floor-Plan" = "קומה קומה";
+
+/* No comment provided by engineer. */
+"Follow us" = "לעקוב אחרינו";
+
+/* No comment provided by engineer. */
+"Guide_to_Record" = "הקש והחזק כדי להקליט וידאו";
+
+/* (No Comment) */
+"Home Cinema" = "קולנוע ביתי";
+
+/* (No Comment) */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "אם אתה נהנה להשתמש ב-@%, תוכל להקדיש רגע על מנת לדרג אותה? לא ייקח לך יותר מדקה לעשות כן. תודה על תמיכתך!";
+
+/* Invalide website link format */
+"Invalide_website_link_format" = "מצטערים, קישור זה אינו תקין. אנא הקלד אותו שנית.";
+
+/* (No Comment) */
+"Kids Room" = "חדר ילדים";
+
+/* (No Comment) */
+"Kitchen" = "מִטְבָּח";
+
+/* Last Name */
+"Last_Name_text_placeholder" = "שם משפחה";
+
+/* (No Comment) */
+"Library" = "סִפְרִיָה";
+
+/* (No Comment) */
+"Living Room" = "סלון";
+
+/* No comment provided by engineer. */
+"MESSAGE_COMMENT" = "%@ עיצובך '%@' קיבל הערה על ידי";
+
+/* (No Comment) */
+"MESSAGE_COMMENT_UPDATE" = "'%@' פירסם עיצוב חדש %@";
+
+/* No comment provided by engineer. */
+"MESSAGE_FEATURED" = "עיצובך '%@' פורסם בזרם העיצובים!";
+
+/* No comment provided by engineer. */
+"MESSAGE_FOLLOW" = "עוקב אחריך כעת! %@";
+
+/* (No Comment) */
+"MESSAGE_GENERAL_NOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"MESSAGE_LIKED_ASSET" = "%@ עיצובך '%@' נאהב על ידי";
+
+/* (No Comment) */
+"MESSAGE_PRIVATE" = "שלח לך הודעה פרטית %@";
+
+/* Male */
+"Male_segment_option" = "זכר";
+
+/* No comment provided by engineer. */
+"Nevermind" = "לא חשוב";
+
+/* No comment provided by engineer. */
+"No designs yet" = "אין עדיין עיצובים";
+
+"No empty rooms yet" = "עדיין אין חדרים ריקים";
+
+/* (No Comment) */
+"No, Thanks" = "לא, תודה";
+
+/* No link provided */
+"No_link_provided" = "אנא הכנס קישור לאתר שלך";
+
+/* (No Comment) */
+"Office" = "מִשׂרָד";
+
+/* (No Comment) */
+"Oops" = "אופס";
+
+/* (No Comment) */
+"Other Room" = "חדר אחר";
+
+/* (No Comment) */
+"Outdoors" = "מחוץ לבית";
+
+/* (No Comment) */
+"Porch & Balcony" = "מרפסת ומרפסת";
+
+/* (No Comment) */
+"PrivateNoComment" = "לא ניתן להוסיף הערות לעיצוב פרטי";
+
+/* (No Comment) */
+"Product Showcase" = "תצוגת מוצרים";
+
+/* (No Comment) */
+"Rate %@" = "%@ דרג את";
+
+/* No comment provided by engineer. */
+"Ready to design" = "מוכן לעצב";
+
+/* (No Comment) */
+"Remind me later" = "הזכר לי מאוחר יותר";
+
+/* (No Comment) */
+"Residential Exterior" = "בית מגורים חיצוני";
+
+/* No comment provided by engineer. */
+"Sample_Rooms" = "קהילה";
+
+/* Share */
+"Share" = "שיתוף";
+
+/* (No Comment) */
+"Sketch" = "סְקִיצָה";
+
+/* (No Comment) */
+"Studio" = "סטוּדִיוֹ";
+
+/* (No Comment) */
+"The application cannot send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device." = "האפליקציה לא יכולה לשלוח ציוץ כרגע, כיוון שאין באפשרותה לגשת לטוויטר או שאין לך חשבון טוויטר המשוייך למכשיר זה.";
+
+/* Update */
+"Update Now" = "עדכן";
+
+/* No comment provided by engineer. */
+"User agreement" = "άδειας χρήσης τελικού χρήστη της";
+
+/* Validate */
+"Validate_web_link_button" = "צפייה";
+
+/* No comment provided by engineer. */
+"about_me" = "אודותיי";
+
+/* No comment provided by engineer. */
+"activity_comment_button_title" = "הערה";
+
+/* (No Comment) */
+"activity_design_add_a_commented" = "הוסף הערה";
+
+/* (No Comment) */
+"activity_design_commented_title_format" = "%@ הגיב על %@";
+
+/* (No Comment) */
+"activity_design_commented_title_format_iphone" = "%@ הגיב על \n%@";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format" = "הגיב על העיצוב שלך %@";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format_iphone" = "הגיב על העיצוב שלך %@\n";
+
+/* (No Comment) */
+"activity_design_featured_title_format" = "העיצוב של %@ פורסם בזרם התמונות";
+
+/* (No Comment) */
+"activity_design_featured_title_format_private" = "העיצוב שלך %@ פורסם בזרם העיצובים";
+
+/* (No Comment) */
+"activity_design_featured_title_private_format" = "העיצוב שלך %@ פורסם בזרם העיצובים";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format" = "%@ וגם @% אחרים אהבו את %@";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format_iphone" = "%@\nוגם @% אחרים אהבו את %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format" = "%@ אהב את %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format_iphone" = "%@ אהב את \n%@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format" = "%@ אהב את העיצוב שלך %@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format_iphone" = "%@\nאהב את העיצוב שלך %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format" = "%@ פירסם תמונה חדשה %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format_private" = "פרסמת תמונה חדשה";
+
+/* (No Comment) */
+"activity_design_published_title_format" = "%@ הוסיף עיצוב חדש %@";
+
+/* (No Comment) */
+"activity_design_published_title_format_private" = "הוספת עיצוב חדש";
+
+/* No comment provided by engineer. */
+"activity_follow_button" = "עקוב";
+
+/* (No Comment) */
+"activity_new_article_author_format" = "%@ על ידי";
+
+/* (No Comment) */
+"activity_new_article_title_format" = "%@ צפה במאמר החדש";
+
+/* No comment provided by engineer. */
+"activity_no_data_message_data" = "לא נמצא מידע";
+
+/* (No Comment) */
+"activity_no_data_message_designs" = "לא נמצאו עיצובים";
+
+/* (No Comment) */
+"activity_private_follower_title_format" = "עוקב אחריך! %@";
+
+/* (No Comment) */
+"activity_private_follower_title_format_iphone" = "עוקב אחריך! \n%@";
+
+/* (No Comment) */
+"activity_public_follower_title_format" = "%@ עוקב אחרי %@";
+
+/* (No Comment) */
+"activity_public_follower_title_format_iphone" = "%@ עוקב אחרי \n%@";
+
+/* (No Comment) */
+"activity_public_follower_title_self_action_format" = "%@ אתה עוקב אחרי";
+
+/* 1 hour ago */
+"activity_stream_1_hour_ago" = "לפני שעה 1";
+
+/* 1 minute ago */
+"activity_stream_1_min_ago" = "לפני דקה 1";
+
+/* %d hours ago */
+"activity_stream_ts_hours_ago" = "שעות %d לפני";
+
+/* Just now */
+"activity_stream_ts_just_now" = "ממש עכשיו";
+
+/* %d mins ago */
+"activity_stream_ts_mins_ago" = "דקות %d לפני";
+
+/* Some time ago */
+"activity_stream_ts_some_time_ago" = "לפני זמן מה";
+
+/* Yesterday */
+"activity_stream_ts_yesterday" = "אתמול";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_key" = "מאמרים מועדפים";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_message" = "קרא ואהוב את המאמרים המועדפים עליך";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_key" = "מומחים מועדפים";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_message" = "עיין ומצא את המומחים המועדפים עליך";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message" = "מצא ועקוב אחר חברים חדשים המשתמשים בהומסטיילר";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message_wl" = "%@ מצא ועקוב אחר חברים חדשים באמצעות";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling" = "הומסטיילינג מהנה";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling_wl" = "עיצוב נעים!";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message" = "אהוב והגב על עיצובים של הומסטיילרים אחרים";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message_wl" = "אהוב והער על עיצובי @% אחרים";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_article_key" = "מאמר העזרה";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_key" = "עזרה";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_message" = "וכאשר אתה נתקע, פשוט בקש עזרה או פנה למאמר העזרה";
+
+/* No comment provided by engineer. */
+"activity_welcome_subtitle" = "צור את זרם החדשות שלך - קרא כיצד:";
+
+/* No comment provided by engineer. */
+"activity_welcome_title" = "ברוך הבא להומסטיילר!";
+
+/* No comment provided by engineer. */
+"activity_welcome_title_wl" = "ברוך הבא למתכנן החדרים!";
+
+/* No comment provided by engineer. */
+"add_brand" = "הוסף את המותג שלך";
+
+/* No comment provided by engineer. */
+"add_portfolio" = "הוסף את תיק העבודות שלך";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied" = "על מנת להוסיף חברים, פתח את הגדרות המכשיר, לחץ על פרטיות ואז על אנשי קשר, ותן גישה ל-@%";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied_title" = "תן גישה לאיש קשר?";
+
+/* OK */
+"alert_action_ok" = "טוב";
+
+/* (No Comment) */
+"alert_message_no_button" = "לא";
+
+/* Cancel */
+"alert_msg_button_cancel" = "בטל";
+
+/* Retry */
+"alert_msg_button_retry" = "שוב";
+
+/* Yes */
+"alert_msg_button_yes" = "כן";
+
+/* Close */
+"alert_view_close_btn" = "סגור";
+
+/* No, Thanks */
+"alert_view_dont_remind" = "לא, תודה";
+
+/* All */
+"all_filter" = "הכול";
+
+/* (No Comment) */
+"alternate_2d_3d" = "2D,3D החלף בין פרספקטיבות";
+
+/* In order to improve this app, we recieve non-personal, aggregated product usage data. You can turn this off in app settings. */
+"analytics_msg" = "על מנת לשפר אפליקציה זו, אנחנו מקבלים נתוני שימוש שאינם אישיים. ביכולתך לבטל זאת דרך הגדרות האפליקציה";
+
+/* (No Comment) */
+"analytics_title" = "ניתוח נתונים";
+
+/* (No Comment) */
+"app_build_copy" = "בנה";
+
+/* (No Comment) */
+"app_name" = "Homestyler";
+
+/* (No Comment) */
+"app_start_loading_copy" = "אנא המתן...";
+
+/* No comment provided by engineer. */
+"ask_contact_access_allow" = "הרשה";
+
+/* No comment provided by engineer. */
+"ask_contact_access_body" = "על מנת למצוא את חבריך, עלינו לשלוח מידע על אנשי הקשר שלך לשרתי הומסטיילר המשתמשים בחיבור מאובטח.";
+
+/* No comment provided by engineer. */
+"ask_contact_access_title" = "חפש באנשי הקשר שלך אחר הומסטיילרים?";
+
+/* Are you sure you want to delete your design? */
+"ask_delete_design" = "האם אתה בטוח שברצונך למחוק עיצוב זה?";
+
+/* No comment provided by engineer. */
+"ask_quit_design" = "עיצובים לא יישמרו לאחר יציאה ממצבהאם ברצונך לצאת ממצב AR?";
+
+/* No comment provided by engineer. */
+"ask_save_user_details" = "לשמור שינויים?";
+
+/* Please Redesign and Save this design in order to make any changes */
+"ask_to_redesign_auto_Save_from_mydesigns" = "אנא עצב מחדש ושמור עיצוב זה על מנת לבצע בו שינויים כלשהם";
+
+/* author_title */
+"author_title" = "%@ מאת";
+
+/* No comment provided by engineer. */
+"auto_saved_design_title" = "שמירה אוטומטית";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement" = "Με τη σύνδεση, αποδέχεστε τη συμφωνία άδειας χρήσης τελικού χρήστη της Easyhome Homestyler";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement_and_terms_of_service" = "הודעה חשובה: המשתמשים שנרשמו לפני מאי 2017 לא יוכלו לגשת לחשבונות המקוריים שלך ולעצב נתונים לאחר ההעברה מ- Autodesk ל- Easyhome, אנו ממליצים שתירשם לחשבון חדש כדי לחוות את התכונות החדשות שלנו. למד עוד   %@";
+
+/* No comment provided by engineer. */
+"available_variations" = "זמין וריאציות:";
+
+/* No comment provided by engineer. */
+"brightness_button" = "בהירות";
+
+/* No comment provided by engineer. */
+"by_prefix" = "על ידי";
+
+/* Private design can't be commented */
+"cannot_comment_private_design" = "עיצוב פרטי לא ניתן להגיב";
+
+/* No comment provided by engineer. */
+"catalog" = "קטלוג";
+
+/* (No Comment) */
+"catalog_open_categories_title" = "בחר קטגוריה";
+
+/* choose an effect popup title
+   Choose an effect popup title */
+"choose_an_effect_title" = "בחר אפקט";
+
+/* (No Comment) */
+"choose_area_replicate" = "בחר את האיזור שברצונך לשכפל";
+
+/* Choose Variation (%d): */
+"choose_variation" = "):%dוריאציות קיימות (";
+
+/* No comment provided by engineer. */
+"clean_tool_2d" = "2D";
+
+/* No comment provided by engineer. */
+"clean_tool_3d" = "3D";
+
+/* No comment provided by engineer. */
+"clean_tool_advanced" = "מתקדם";
+
+/* No comment provided by engineer. */
+"clean_tool_apply" = "החל";
+
+/* No comment provided by engineer. */
+"clean_tool_autoapply" = "החל אוטומטית";
+
+/* No comment provided by engineer. */
+"clean_tool_blend" = "ערבב";
+
+/* No comment provided by engineer. */
+"clean_tool_blend_mode" = "מצב";
+
+/* No comment provided by engineer. */
+"clean_tool_copy" = "העתק";
+
+/* (No Comment) */
+"clean_tool_mode" = "מצב";
+
+/* (No Comment) */
+"clean_tool_quickmode" = "מצב מהיר";
+
+/* (No Comment) */
+"clean_tool_redo" = "בצע שנית";
+
+/* No comment provided by engineer. */
+"clean_tool_reset" = "איפוס";
+
+/* No comment provided by engineer. */
+"clean_tool_size" = "גודל";
+
+/* No comment provided by engineer. */
+"clean_tool_stepper" = "סטפר";
+
+/* No comment provided by engineer. */
+"clean_tool_texture" = "טקסטורה";
+
+/* (No Comment) */
+"clean_tool_undo" = "בטל";
+
+/* No comment provided by engineer. */
+"clear_cache_success" = "מטמון נוקה בהצלחה";
+
+/* (No Comment) */
+"clear_room" = "חדר ריק";
+
+/* (No Comment) */
+"clear_room_tool_title" = "חדר ריק";
+
+/* (No Comment) */
+"close_comments_button" = "סגור הערות";
+
+/* No comments yet */
+"commentString" = "האם אתה אוהב את העבודה הזאת? בואו נדבר ביחד";
+
+/* No comment provided by engineer. */
+"commentTip" = "עדיין אין תגובה, למהר להוסיף אותו!";
+
+/* No comment provided by engineer. */
+"concealer_button" = "קונסילר";
+
+/* Sorry, Your design is unable to load at this time. Please choose another design. */
+"corrupted_load_design" = "מצטערים, לא ניתן לטעון עיצוב זה כרגע. אנא בחר עיצוב אחר.";
+
+/* No comment provided by engineer. */
+"create_new_design" = "צור עיצוב חדש";
+
+/* No comment provided by engineer. */
+"default_sort" = "ברירת מחדל";
+
+/* default_text_for_save_design */
+"default_text_for_save_design" = "שתף את מקורות ההשראה שלך, את החומרים בהם השתמשת, ספר על החנויות בהן ביקרת, על האנשים שהינך מעריץ, על מצב הרוח שהיה לך... כל דבר שעולה לך בראש!\n\nעל מנת להיכלל בזרם העיצובים, ספר לנו מעט אודות העיצוב שלך.";
+
+/* Sorry, we couldn't delete your design . Please try again. */
+"delete_design_error" = "מצטערים, לא הצלחנו למחוק את העיצוב שלך. אנא נסה שנית.";
+
+/* (No Comment) */
+"design_layers" = "Layers";
+
+/* Private design */
+"design_private" = "פרטי";
+
+/* No comment provided by engineer. */
+"design_public" = "ציבורי";
+
+/* No comment provided by engineer. */
+"design_published" = "מומלץ";
+
+/* No comment provided by engineer. */
+"design_stream_Close" = "לִסְגוֹר";
+
+/* No comment provided by engineer. */
+"design_stream_filter" = "סינון";
+
+/* (No Comment) */
+"design_title_for_others" = "עיצובים";
+
+/* No comment provided by engineer. */
+"dynamic_menu_homestyler_magazine" = "מגזין הומסטיילר";
+
+/* No comment provided by engineer. */
+"dynamic_menu_photo_gallery" = "גלריית התמונות";
+
+/* No comment provided by engineer. */
+"dynamic_menu_prof_index" = "אינדקס מומחים";
+
+/* (No Comment) */
+"dynamic_menu_wl_magazine" = "מגזין";
+
+/* Edit */
+"edit_button" = "ערוך";
+
+/* Edit Profile */
+"edit_profile" = "ערוך פרופיל";
+
+/* Editor's Choice */
+"editor_choice_sort" = "בחירת העורכים";
+
+/* Sorry no email account defined on this device */
+"email_missing_default_msg" = "מצטערים, אף כתובת דואר אלקטרוני לא הוגדרה על גבי מכשיר זה";
+
+/* Sorry this professional doesn't have email configured */
+"email_missing_prof_page" = "מצטערים, למומחה זה אין כתובת דואר אלקטרוני";
+
+/* (No Comment) */
+"erh_register_email_exists_msg" = "כתובת דואר אלקטרוני זו נמצאת בשימוש!";
+
+/* No comment provided by engineer. */
+"erh_unknown_error_msg" = "מצטערים, אירעה שגיאה. אנא נסה שנית.";
+
+/* Please enter you first/last name */
+"err_msg_enter_new_full_name" = "אנא הכנס את שמך הפרטי ואת שם משפחתך";
+
+/* Please enter new password */
+"err_msg_enter_new_pass" = "אנא הכנס סיסמא חדשה";
+
+/* (No Comment) */
+"err_msg_facebook_share_failed" = "שיתוף נכשל";
+
+/* No comment provided by engineer. */
+"err_msg_failed_image_upload" = "שיתוף נכשל";
+
+/* No comment provided by engineer. */
+"err_msg_failed_retrive_wish_list" = "כדי ליצור רשימת משאלות, לחץ על אייקון האהבה של המוצרים המועדפים עליך.";
+
+/* No comment provided by engineer. */
+"err_msg_login_before_email_status" = "אנא התחבר לפני עריכת כל שינוי בהגדרות שלך.";
+
+/* (No Comment) */
+"err_msg_login_before_name_reset" = "עליך להתחבר לפני שינוי שמך בפרופיל";
+
+/* You must login before changing your current password */
+"err_msg_login_before_pass_reset" = "עליך להתחבר לפני שינוי סיסמתך הנוכחית";
+
+/* Password change failed */
+"err_msg_pass_change_failed" = "שינוי הסיסמא נכשל";
+
+/* New password and confirm password don't match */
+"err_msg_pass_confirm_mismatch" = "הסיסמא החדשה לא תואמת לסיסמתך הנוכחית";
+
+/* Your current password is incorrect */
+"err_msg_pass_incorrect" = "זאת איננה סיסמתך הנוכחית";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading" = "אין באפשרותך לגשת לפרופיל שלך כרגע. אנא נסה שנית מאוחר יותר.";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading_other" = "אין באפשרותך לגשת כעת לפרופיל זה. אנא נסה שנית מאוחר יותר.";
+
+/* (No Comment) */
+"err_msg_update_full_name" = "עדכון שם מלא נכשל";
+
+/* Failed to update user info */
+"err_msg_update_user_info" = "עדכון פרטי משתמש נכשל";
+
+/* Failed to upload profile image */
+"err_msg_upload_profile_image" = "עדכון תמונת פרופיל נכשל";
+
+/* No comment provided by engineer. */
+"error_missing_result" = "אנא הכנס שאילתא אחרת.\nמצטערים, לא נמצאו תוצאות לחיפוש שערכת.";
+
+/* No comment provided by engineer. */
+"error_missing_result_ipad" = "מצטערים, לא נמצאו תוצאות לחיפוש שערכת. אנא הכנס שאילתא אחרת.";
+
+/* (No Comment) */
+"exception_message" = "אופס, משהו השתבש! אנא נסה שנית מאוחר יותר.";
+
+/* No comment provided by engineer. */
+"facebook_friends_empty_copy" = "מצטערים, לא נמצאו חברי פייסבוק";
+
+/* (No Comment) */
+"facebook_login_failed_msg" = "עליך להתחבר דרך פייסבוק כדי לגשת לחברי הפייסבוק שלך";
+
+/* Sign in failed, please check your Facebook account details and try again. */
+"facebook_login_general_error" = "ההתחברות נכשלה, אנא בדוק את פרטי חשבון גוגל+ שלך ונסה שנית.";
+
+/* We lost you! Check your network connection. */
+"failed_action_no_network_found" = "איבדנו אותך! אנא בדוק את החיבור שלך לרשת";
+
+/* You seem to be offline. Please check your internet connection and retry. */
+"failed_action_no_network_found_start" = "נראה שאתה לא מחובר לרשת. אנא בדוק את החיבור ונסה שנית";
+
+/* Sorry, this product is currently unavailable. */
+"failed_load_catalog_item" = "מצטערים, מוצר זה לא קיים כרגע.";
+
+/* Please select another product. */
+"failed_load_catalog_item_p2" = "אנא בחר מוצר אחר.";
+
+/* We couldn't load the design */
+"failed_load_models" = "מצטערים, לא הצלחנו לטעון עיצוב זה.";
+
+/* (No Comment) */
+"failed_load_models_p2" = "אנא נסה שנית מאוחר יותר.";
+
+/* Sorry! The internet connection is a bit slow at the moment. Thank you for your patience. */
+"failed_slow_connection" = "מצטערים! החיבור לרשת מעט איטי כרגע. תודה על סבלנותך.";
+
+/* (No Comment) */
+"fb_find_friend_invite" = "פגוש אותי באוטודסק הומסטיילר, היכן שתוכל לגלות רעיונות עיצוב חדשים וליצור את חללי המגורים שלך!~";
+
+/* No comment provided by engineer. */
+"feedback_email_body" = "אל דאגה, המידע למטה נגיש אך ורק לצוות הטכני שלנו עבור יעילות ואפקטיביות מציאת הפתרון לבעיה אשר אתה חווה. תודה מראש עבור שיתוף הפעולה!";
+
+/* Share with Homestyler Team */
+"feedback_email_subject" = "ספר לנו כיצד נוכל להשתפר!";
+
+/* (No Comment) */
+"finalized_scene" = "סצנה מוגמרת";
+
+/* No comment provided by engineer. */
+"find_by_name_or_email" = "מצא לפי שם או כתובת דואר אלקטרוני";
+
+/* No comment provided by engineer. */
+"find_contact_friends" = "מצא את אנשי הקשר שלך";
+
+/* No comment provided by engineer. */
+"find_facebook_friends" = "מצא את חברי הפייסבוק שלך";
+
+/* No comment provided by engineer. */
+"find_friends" = "מצא חברים";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_copy" = "%@הזמן משתמש זה ל-";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_filter_copy" = "מצטערים, לא מצאנו תוצאות לחיפוש שערכת.";
+
+/* (No Comment) */
+"find_friends_result_title_follow" = "עקוב";
+
+/* No comment provided by engineer. */
+"find_friends_result_title_following" = "עוקב אחרי";
+
+/* (No Comment) */
+"find_friends_result_title_invite" = "הזמן";
+
+/* (No Comment) */
+"find_friends_result_title_invited" = "מוזמן";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_addrbook" = "אנשי קשר";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_facebook" = "חברי פייסבוק";
+
+/* (No Comment) */
+"floor_button" = "רצפה";
+
+/* follow
+   Follow */
+"follow" = "עקוב";
+
+/* Enter the email you used to sign up. */
+"forgot_password_error" = "הכנס את כתובת הדואר האלקטרוני שבאמצעותה התחברת בעבר";
+
+/* A new password has been sent to your email. */
+"forgot_password_ok" = "סיסמא חדשה נשלחה לכתובת הדואר האלקטרוני שלך.";
+
+/* No comment provided by engineer. */
+"friend_action_btn_follow" = "עקוב";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invite" = "הזמן";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invited" = "מוזמן";
+
+/* No comment provided by engineer. */
+"friend_action_btn_unfollow" = "עוקב אחרי";
+
+/* No comment provided by engineer. */
+"friend_cell_no_account_yet" = "אין עדיין %@ חשבון";
+
+/* No comment provided by engineer. */
+"get_location_hide_title" = "הסתר";
+
+/* No comment provided by engineer. */
+"get_location_title" = "השתמש במיקומי";
+
+/* No comment provided by engineer. */
+"gps_failed_to_retrieve_location" = "לא ניתן למצוא את המיקום";
+
+/* (No Comment) */
+"help_3danalysis_label1" = "שפר את התוצאה על ידי יישור הקירות עם פינות החדר.";
+
+/* (No Comment) */
+"help_camera_label1" = "כדי לקבל תוצאה טובה, נסה לכלול את הרצפה ושני קירות בתמונה.";
+
+/* (No Comment) */
+"help_note_label1" = "הערה: הגדלים, הצורות, הצבעים ותכונות אחרות של תמונות הנראות באוטודסק הומסטיילר יכולים להיות שונים מאובייקטים במציאות.";
+
+/* (No Comment) */
+"help_note_label2" = "סובב";
+
+/* (No Comment) */
+"help_note_label3" = "מדוד";
+
+/* (No Comment) */
+"help_note_label4" = "העלה באמצעות 2 אצבעות";
+
+/* (No Comment) */
+"help_paint_line_label1" = "צבוט והחלק את הקו לאיזור הרצוי.";
+
+/* (No Comment) */
+"help_reomve_tip_label1" = "הצפת צבע? תקן כאן.";
+
+/* (No Comment) */
+"help_scale_label1" = "כל המוצרים יופיעו בקנה מידה התואם למדידה זו. עבור תוצאה מדוייקת, דאג שהסרגל ישקף גודל אמיתי.";
+
+/* (No Comment) */
+"help_take_pic_label1" = "קח תמונה ושלח אותה לעצמך";
+
+/* (No Comment) */
+"help_take_pic_label2" = "שמור זאת ברול המצלמה";
+
+/* (No Comment) */
+"help_take_pic_label3" = "צור עיצוב חדש עם תמונתך";
+
+/* No comment provided by engineer. */
+"i_am_title" = "אני...";
+
+/* Please enter a valid email, like stylerlover@yourmail.com */
+"illigal_email" = "stylerlover@yourmail.com אנא הכנס כתובת דואר אלקטרוני תקינה, כמו לדוגמא";
+
+/* Almost there! Your password should be at least 1 character long. */
+"illigal_password" = "כמעט שם! סיסמתך חייבת להכיל לפחות 1 תווים.";
+
+/* Please choose Room Type. */
+"illigal_room_type" = "אנא בחר את סוג החדר.";
+
+/* (No Comment) */
+"illigal_save_desc" = "שתף את תהליך היצירה שלך.";
+
+/* Give your design a title. */
+"illigal_save_title" = "תן כותרת לעיצוב שלך.";
+
+/* (No Comment) */
+"illigal_signin_password" = "אנא הכנס את סיסמתך";
+
+/* No comment provided by engineer. */
+"input_limit_reached" = "מצטערים, עברת את מכסת התווים האפשרית עבור אופציה זו.";
+
+/* No comment provided by engineer. */
+"invite_email_friend_no_email" = "נראה שכתובת הדואר האלקטרוני של איש קשר זה אינה תקינה";
+
+/* No comment provided by engineer. */
+"invite_fb_friend_success" = "נפלא! חבר הפייסבוק שלך הוזמן להומסטיילר";
+
+/* check out this design... */
+"invite_friend_email_body" = "<a href=\"{{url}}\">{{title_url}}</a>צפה באפליקציות המובייל ב- </br> פגוש אותי באוטודסק, שם תוכל לגלות רעיונות עיצוב חדשים וליצור את חללי המגורים שלך! <br> היי,";
+
+/* No comment provided by engineer. */
+"invite_friend_email_subject" = "פגוש אותי באוטודסק @%!";
+
+/* (No Comment) */
+"iphone_share_action_email" = "כתובת דואר אלקטרוני";
+
+/* (No Comment) */
+"iphone_share_action_facebook" = "פייסבוק";
+
+/* (No Comment) */
+"iphone_share_action_save_image" = "שמור תמונה";
+
+/* Just now */
+"just_now" = "רק עכשיו";
+
+/* No comment provided by engineer. */
+"lang_action_take_affect" = "השפה שבחרת תופיע בהפעלה הבאה של האפליקציה.";
+
+/* Likes */
+"likes" = "אוהב";
+
+/* (No Comment) */
+"likes_count_ipad" = "לייקים סך הכול %d";
+
+/* (No Comment) */
+"likes_count_iphone" = "לייקים %d";
+
+/* Loading */
+"loading_popup_title_iPad" = "טוען...";
+
+/* Loading */
+"loading_popup_title_iPhone" = "טוען";
+
+/* No comment provided by engineer. */
+"loading_tips_loading_title" = "טוען";
+
+/* (No Comment) */
+"loading_tips_title" = "טיפים תוך כדי המתנה";
+
+/* (No Comment) */
+"local_notification_monthly_copy" = "התגעגענו אליך! צפה בכל הדברים המדהימים שהוספו מאז הפעם האחרונה שהיית כאן.";
+
+/* (No Comment) */
+"local_notification_once_copy" = "ברוך הבא להומסטיילר! צפה במוצרים, עיצובים ונותני ההשראה החדשים היום.";
+
+/* (No Comment) */
+"location_field_placeholder" = "הכנס את מיקומך";
+
+/* Area of Service */
+"location_filter_button_name" = "איזור שירות";
+
+/* (No Comment) */
+"login_error" = "אופס, לא הצלחנו למצוא אותך. אנא בדוק את כתובת הדואר האלקטרוני והסיסמא שלך.";
+
+/* This email is already part of the Homestyler community. Check your password and try again. */
+"login_error_after_signup" = "הסיסמה שהזנת אינה נכונה. נסה שוב.";
+
+/* (No Comment) */
+"login_success_after_signup" = "כתובת דואר אלקטרוני זו הינה חלק מקהילת הומסטיילר. התחברת בהצלחה.";
+
+/* (No Comment) */
+"low_memory_user_notification" = "אוי! לעיצוב זה יש יותר מדי מוצרים עבור המכשיר שברשותך, אבל נסה לעצב אותם בעת שאנו עובדים על מציאת פתרון.";
+
+/* (No Comment) */
+"measure_unit_cm" = "ס״מ";
+
+/* (No Comment) */
+"measure_unit_ft" = "רגל";
+
+/* (No Comment) */
+"measure_unit_in" = "אינץ׳";
+
+/* (No Comment) */
+"measure_unit_m" = "מטר";
+
+/* Missing SKU for Product */
+"missing_sku_product" = "מוצר או מק״ט חסרים";
+
+/* (No Comment) */
+"move_adjust_area" = "הזז ובחר את האיזור שברצונך לנקות";
+
+/* No comment provided by engineer. */
+"multi_share_all_success" = "נפלא! שיתפת את העיצוב שלך.";
+
+/* (No Comment) */
+"multi_share_cancel_btn" = "בטל";
+
+/* (No Comment) */
+"multi_share_charlimit_msg" = "אופס, נראה שהציוץ שלך ארוך מדי; נסה לערוך אותו כך שלא יעבור 140 תווים לפני שתנסה לשתפו שוב.";
+
+/* (No Comment) */
+"multi_share_configure_email_msg" = "אנא לך להגדרות מכשירך והגדר חשבון דואר אלקטרוני";
+
+/* (No Comment) */
+"multi_share_email_subject" = "צפה בזה מ-@%";
+
+/* (No Comment) */
+"multi_share_fail_email_msg" = "מצטערים, לא הצלחנו לשתף לכתובת הדואר האלקטרוני";
+
+/* (No Comment) */
+"multi_share_fail_msg_first_part" = "מצטערים, לא הצלחנו לשתף עם";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_fb" = "פייסבוק";
+
+/* (No Comment) */
+"multi_share_fail_msg_part_2_none" = "אין";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_twitter" = "טוויטר";
+
+/* (No Comment) */
+"multi_share_nophoto_msg" = "אופס, התמונה חסרה... אנא נסה שנית.";
+
+/* No comment provided by engineer. */
+"multi_share_part_no_success" = "מצטערים, לא הצלחנו לשתף את העיצוב שלך ב-%@. אנא נסה שנית.";
+
+/* No comment provided by engineer. */
+"multi_share_part_success" = "%@\nמצטערים, נראה שהשיתוף עובד רק עם:";
+
+/* No comment provided by engineer. */
+"multi_share_part_success_part2" = "%@ אנא נסה שוב לשתף בעזרת";
+
+/* (No Comment) */
+"multi_share_share_btn" = "שיתוף";
+
+/* (No Comment) */
+"multi_share_share_title" = "שתף את העיצוב שלך";
+
+/* (No Comment) */
+"multi_share_twitter_login_msg" = "אנא לך להגדרות מכשירך והתחבר לטוויטר על ידי חשבון הטוויטר שלך";
+
+/* Could not load the selected design */
+"my_design_could_not_load" = "לא הצלחנו לטעון את העיצוב הנבחר";
+
+/* No comment provided by engineer. */
+"my_homestyler_menu_wl" = "הפרופיל שלי";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy_other" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy" = "עוד אין לך מאמרים אהובים? פשוט אהוב מאמר כדי להוסיף אותו לכאן.";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy_other" = "למעצב זה אין עיצובים ציבוריים כעת. אנא בדוק מאוחר יותר.";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy" = "עוד אין לך עיצובים? שחרר את הצד האמנותי שלך וצור עיצוב חדש, או עצב מחדש תמונה קיימת מהגלרייה.";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy" = "אל דאגה, התחל באינטראקציות עם משתמשים אחרים ויתחילו לעקוב גם אחריך...";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy_other" = "למעצב זה אין עוקבים כעת. הייה הראשון!";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy" = "למה אתה מחכה? צפה בפרופילי %@ אחרים ועקוב אחריהם כדי להישאר בקשר.";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy_other" = "מעצב זה לא עוקב אחר פרופילי @% אחרים. אנא בדוק מאוחר יותר.";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy" = "צור אינדקס של המומחים המועדפים עליך. פשוט עקוב אחר מומחה כדי להוסיף אותו לכאן.";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy_other" = "מעצב זה אינו עוקב כעת אחר מומחים מאינדקס המומחים של הומסטיילר. אנא בדוק מאוחר יותר.";
+
+/* (No Comment) */
+"new_design_share_pinteret_title" = "עיצוב חדש";
+
+/* New */
+"new_sort" = "חדש";
+
+/* No comment provided by engineer. */
+"no_camera_allowed_error" = "עדיין אין להומסטיילר אישור להשתמש במצלמה שלך. אנא בדוק בהגדרות המכשיר ואשר שימוש במצלמה.";
+
+/* (No Comment) */
+"no_camera_exists_error" = "אופס, אין לך מצלמה. אנא בחר תמונה מהגלרייה שלך או עצב תמונה מזרם העיצובים.";
+
+/* No comment provided by engineer. */
+"no_contacts_in_address_copy" = "אנשי קשר לא נמצאו, נסה חיפוש שונה על מנת למצוא חברים.";
+
+/* (No Comment) */
+"no_filter_gstream_data" = "מצטערים, כרגע אין תוצאות לחיפוש שערכת. תהנה משיטוט בקטגוריות האחרות.";
+
+/* No comment provided by engineer. */
+"no_following" = "עדיין לא הלכת אחרי אף אחד";
+
+/* No comment provided by engineer. */
+"no_gps_location_enabled" = "על מנת להשתמש במיקומך אנא אשר את הומסטיילר בהגדרות > פרטיות > שירותי מיקום";
+
+/* No more */
+"no_more" = "לא עוד עיצובים =_=*";
+
+/* Sorry no products found */
+"no_product" = "מצטערים, לא נמצאו מוצרים";
+
+/* No comment provided by engineer. */
+"no_profs_for_selected_filter" = "מצטערים, כרגע אין תוצאות לחיפוש שערכת. תהנה משיטוט בקטגוריות האחרות.";
+
+/* No comment provided by engineer. */
+"none_effect_title" = "אין";
+
+/* No comment provided by engineer. */
+"not_sign_in" = "היכנס כדי לראות עיצובים חדשים מהבאים הבאים";
+
+/*Notifications*/
+"notify_title" = "התראות";
+"notify_list_new_tag" = "חָדָשׁ";
+"notify_list_no" = "עדיין אין הודעה";
+"notify_list_like" = "%@ העיצוב ש<b>אהב את </b>";
+"notify_list_like_group" = "%@ אהבו את העיצוב שלך %d ו";
+"notify_list_follow" = "%@ <b>החל לעקוב </b>אחריך";
+"notify_list_feature" = "בקהילה שלנו! מזל טוב<b>פורסם </b>העיצוב שלך!";
+"notify_list_comment_replyMe" = "%@ %@ אתה: <br> <b>%@</b>";
+
+/* %i hrs */
+"num_hours" = "%i שעות";
+
+/* %i min */
+"num_minutes" = "%i דקות";
+
+/* (No Comment) */
+"page_title_about" = "אודות";
+
+/* About */
+"page_title_about2" = "אודות";
+
+/* (No Comment) */
+"page_title_terms" = "תנאים והגבלות";
+
+/* Terms and Conditions */
+"page_title_terms2" = "תנאים והגבלות";
+
+/* (No Comment) */
+"paint_button" = "צביעה";
+
+/* No comment provided by engineer. */
+"paint_view_brightness_popup_title" = "בהירות";
+
+/* No comment provided by engineer. */
+"paint_view_contrast_popup_title" = "ערבב";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape" = "נא לשחרר את מצב כיוון ההדפסה לאורך ולצלם את התמונה במצב לרוחב.";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape_device" = "אנא בחר תמונה אשר צולמה במאוזן.";
+
+/* No comment provided by engineer. */
+"please_accept_terms" = "אנא ארש את תנאי הרישיון ואת הצהרת הפרטיות";
+
+/* Popularity */
+"popularity_sort" = "פופולרי";
+
+/* No comment provided by engineer. */
+"post_description_field" = "%@צפה ב-";
+
+/* (No Comment) */
+"post_description_field_article" = "צפה במאמר זה של הומסטיילר";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format" = "%@ הגבת על";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format_iphone" = "%@ הגבת על";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format" = "%@ אתה וגם @% אחרים אהבתם את";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format_iphone" = "@% אתה וגם @% אחרים אהבתם את ";
+
+/* (No Comment) */
+"private_activity_design_liked_title_format" = "%@ אהבת את";
+
+/* (No Comment) */
+"private_activity_design_published_title_format" = "%@ הוספת עיצוב חדש";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format" = "%@ אתה עוקב אחרי";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format_iphone" = "%@ עוקב אחרי\nאתה";
+
+/* No comment provided by engineer. */
+"prod_action_brightness_btn_title" = "בהירות";
+
+/* No comment provided by engineer. */
+"prod_action_dimension_btn_title" = "פרטי מוצר";
+
+/* No comment provided by engineer. */
+"prod_action_duplicate_btn_title" = "שכפל מוצר";
+
+/* No comment provided by engineer. */
+"prod_action_remove_btn_title" = "הסר מוצר";
+
+/* No comment provided by engineer. */
+"prod_action_restore_btn_title" = "החזר קנה מידה לברירת המחדל";
+
+/* (No Comment) */
+"prod_catalog_go_to" = "פרטי המוצר";
+
+/* (No Comment) */
+"prod_size_height" = "גובה";
+
+/* (No Comment) */
+"prod_size_length" = "אורך";
+
+/* (No Comment) */
+"prod_size_title" = "מימדי מוצר";
+
+/* (No Comment) */
+"prod_size_width" = "רוחב";
+
+/* (No Comment) */
+"prod_tag_remove_action" = "הסר";
+
+/* (No Comment) */
+"prod_tag_remove_copy" = "האם אתה בטוח שברצונך להסיר את המוצר הזה?";
+
+/* No comment provided by engineer. */
+"product_catalog_title" = "קטלוג המוצרים";
+
+/* No comment provided by engineer. */
+"production_information" = "מידע הייצור";
+
+/* NEW! */
+"products_catalog_new" = "חדש";
+
+/* No comment provided by engineer. */
+"prof_desc_collapse" = "פחות...";
+
+/* No comment provided by engineer. */
+"prof_desc_more" = "עוד...";
+
+/* No comment provided by engineer. */
+"prof_details_address_title" = "כתובת";
+
+/* Homestyler Professional Enquiry */
+"prof_email_subject" = "כתובת מומחה הומסטיילר";
+
+/* No comment provided by engineer. */
+"prof_filter_all_key" = "הכול";
+
+/* No comment provided by engineer. */
+"prof_follow_error" = "לחצת על כפתור אהוב אבל התרחשה שגיאה במהלך עיבוד האהבה שלך - אופס! אנא נסה שנית בקרוב.";
+
+/* (No Comment) */
+"prof_phone1_title" = "טלפון 1";
+
+/* (No Comment) */
+"prof_phone2_title" = "טלפון 2";
+
+/* Profession */
+"profession_filter_button_name" = "מומחיות";
+
+/* View Protfolio */
+"professional_cell_view_protfolio" = "צפה בתיר עבודות";
+
+/* (No Comment) */
+"professional_index_title" = "אינדקס המומחים";
+
+/* There was a problem loading this protfolio.\nPlease try again */
+"proffesional_load_failed_msg" = "מצטערים, לא הצלחנו לטעון את תיק העבודות של מומחה זה. אנא נסה מאוחר יותר.";
+
+/* No followers yet */
+"profile_no_followers" = "אין עדיין עוקבים";
+
+/* No following yet */
+"profile_no_following" = "עדיין אין מעקב";
+
+/* No likes yet */
+"profile_no_likes" = "עדיין לא אהבתי";
+
+/* (No Comment) */
+"profile_tab_articles" = "מאמרים מועדפים";
+
+/* Designs */
+"profile_tab_design" = "עיצובים";
+
+/* Followers */
+"profile_tab_followers" = "עוקבים";
+
+/* Following */
+"profile_tab_following" = "עוקב אחרי";
+
+/* (No Comment) */
+"profile_tab_my_design" = "העיצובים שלי";
+
+/* (No Comment) */
+"profile_tab_professionals" = "מומחים שאני עוקב אחריהם";
+
+/* Zzzzz... */
+"progress_Loading_timedout1" = "";
+
+/* Loading timed out. */
+"progress_Loading_timedout2" = "זמן הטעינה ארוך מדי.";
+
+/* (No Comment) */
+"progress_erase_title" = "מוחק...";
+
+/* Please try again later */
+"progress_err_try_again" = "אנא נסה שנית מאוחר יותר...";
+
+/* Network Error */
+"progress_label_err_network" = "שגיאת רשת";
+
+/* (No Comment) */
+"read_comments_button" = "קרא הערות";
+
+/* No comment provided by engineer. */
+"realScale_button" = "קנה מידה אמיתי";
+
+/* No comment provided by engineer. */
+"redesign_after_crash_alert" = "אופס, נראה שעזיבתך את %@ היתה לא צפויה. האם תהיה מעוניין להמשיך לעצב את עיצובך שנשמר אוטומטית?";
+
+/* Please Redesign this design in order to make any changes */
+"redesign_inorder_for_changes" = "אנא עצב מחדש ושמור עיצוב זה על מנת לבצע בו שינויים כלשהם";
+
+/* No comment provided by engineer. */
+"redesign_json_newer_alert" = "מצטערים, עיצוב זה משתמש בתכונות אשר קיימות רק בגרסא החדשה.";
+
+/* redesign save button title */
+"redesign_save_button" = "שמירה";
+
+/* button title cancel
+   redesign cancel button title */
+"redesign_sign_in_cancel_button" = "ביטול";
+
+/* (No Comment) */
+"redesign_sign_in_required" = "נדרשת התחברות";
+
+/* redesign sign in button title */
+"redesign_sign_in_sign_in_button" = "התחבר";
+
+/* User sign in required */
+"redesign_sign_in_to_save" = "אנא שמור את העיצובך שלך על מנת לשתפו";
+
+/* User sign in required */
+"redesign_sign_in_to_save_and_share_your_design." = "התחבר כדי לשמור ולשתף את העיצוב שלך.";
+
+/* Could not register */
+"register_error" = "לא מצליח להתחבר";
+
+/* Rather not say */
+"remove_gender_title" = "מעדיף שלא לחשוף";
+
+/* Resume */
+"resume_alert_button" = "המשך";
+
+/* (No Comment) */
+"room_type_copy" = "סוג החדר";
+
+/* No comment provided by engineer. */
+"room_type_filter" = "סוג החדר";
+
+/* No comment provided by engineer. */
+"save_design_action_title_save" = "שמור";
+
+/* No comment provided by engineer. */
+"save_design_action_title_saveas" = "שמור בשם";
+
+/* Sorry, we couldn't save your design . Please try again.
+   Sorry, we couldn't save your design. Please try again. */
+"save_design_error" = "מצטערים, לא הצלחנו לשמור את העיצוב שלך. אנא נסה שנית.";
+
+/* Hmm, looks like there are too many products for your device to save this design, sorry! Try removing a few products and then save again. */
+"save_design_error_low_memory" = "הממ, נראה שיש יותר מדי מוצרים מאשר הכמות שהמכשיר שלך יוכל לשמור בעיצוב זה, מצטערים! נסה להוריד כמה ולשמור שנית.";
+
+/* Beautiful! Your design has been saved. */
+"save_design_ok" = "נפלא! העיצוב שלך נשמר.";
+
+/* No comment provided by engineer. */
+"save_design_override_action_back" = "אחורה";
+
+/* No comment provided by engineer. */
+"save_design_override_action_override" = "דרוס ושמור";
+
+/* No comment provided by engineer. */
+"save_design_override_explanation" = "יש גרסה חדשה של זה! עדכון APP יכול לספק לך חוויית עיצוב טובה יותר";
+
+/* (No Comment) */
+"save_design_reminder" = "אל תשכח לשמור את העיצוב שלך!";
+
+/* No comment provided by engineer. */
+"save_design_title" = "שמור עיצוב";
+
+/* Image save failed. */
+"save_image_failed_msg" = "שמירת התמונה נכשלה";
+
+/* Image successfully saved. */
+"save_image_success_msg" = "התמונה נשמרה בהצלחה.";
+
+/* No comment provided by engineer. */
+"save_profile_button_cancel" = "אל תשמור";
+
+/* No comment provided by engineer. */
+"save_profile_button_save" = "שמירה";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn1" = "שמירה על קנה מידה אמיתי";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn2" = "נעילת";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy" = "הערה - אם נעולים, מוצרים לא מייצגים את הגודל האמיתי שלהם בסצינה.";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy_title" = "נעילת ריאלי סולם?";
+
+/* No comment provided by engineer. */
+"search_product" = "חפש מוצרים";
+
+/* Searching for visible corners */
+"searching_vidible_corners" = "מחפש אחר פינות גלויות";
+
+/* No comment provided by engineer. */
+"select_category_title" = "בחר קטגוריה";
+
+/* No comment provided by engineer. */
+"select_wishlist_title" = "בחר רשימת משאלות";
+
+/* No comment provided by engineer. */
+"set_gender_title" = "בחר מין?";
+
+/* No comment provided by engineer. */
+"setting_title_about" = "אודות";
+
+/* No comment provided by engineer. */
+"setting_title_allow_like_fb" = "סנכרן את העיצובים האהובים עליי עם הלייקים שלי בפייסבוק";
+
+/* No comment provided by engineer. */
+"setting_title_allow_newsletter" = "קבל עלונים ומבצעים מיוחדים הקשורים להומסטיילר";
+
+/* No comment provided by engineer. */
+"setting_title_allow_pn" = "קבל הודעות אודות הערות, עוקבים חדשים, וכו׳.";
+
+/* No comment provided by engineer. */
+"setting_title_change_country" = "מדינה";
+
+/* No comment provided by engineer. */
+"setting_title_change_local" = "שפה";
+
+/* No comment provided by engineer. */
+"setting_title_clear_cache" = "נקה זיכרון מטמון";
+
+/* No comment provided by engineer. */
+"setting_title_clear_offline_package" = "נקה חבילת אופליין";
+
+/* No comment provided by engineer. */
+"setting_title_feedback" = "מָשׁוֹב";
+
+/* No comment provided by engineer. */
+"setting_title_privacy" = "הצהרת פרטיות";
+
+/* No comment provided by engineer. */
+"setting_title_terms" = "תנאי שימוש";
+
+/* No comment provided by engineer. */
+"setting_title_usage_data" = "אשר איסוף נתוני שימוש";
+
+/* (No Comment) */
+"settings" = "הגדרות";
+
+/* No comment provided by engineer. */
+"share_after_save_design_copy" = "{{LINK}} #%@ מתוך \"{{D_NAME}}\" צפה בעיצוב שלי";
+
+/* (No Comment) */
+"share_article_link_title" = "מאמר";
+
+/* No comment provided by engineer. */
+"share_description" = "Design your dream home on Homestyler";
+
+/* (No Comment) */
+"share_description_with_ar" = "בדוק את העיצוב AR שלי עשה עם Homestyler";
+
+/* No comment provided by engineer. */
+"share_design_show_before_and_after" = "הראה לפני ואחרי";
+
+/* No comment provided by engineer. */
+"share_design_show_my_name" = "הצג את שמי";
+
+/* (No Comment) */
+"share_email_body" = "%@צפה ב-";
+
+/* (No Comment) */
+"share_email_body_article" = "{{ARTICLE}}צפה ב-";
+
+/* (No Comment) */
+"share_email_subject_article" = "צפה במאמר זה";
+
+/* (No Comment) */
+"share_link_title" = "קישור";
+
+/* (No Comment) */
+"share_on_facebook" = "שתף בפייסבוק";
+
+/* No comment provided by engineer. */
+"share_option_email" = "כתובת דואר אלקטרוני";
+
+/* (No Comment) */
+"share_option_facebook" = "פייסבוק";
+
+/* (No Comment) */
+"share_option_saveimage" = "שמור תמונה";
+
+/* (No Comment) */
+"share_option_twitter" = "טוויטר";
+
+/* button title skip */
+"share_your_design_skip_button_title" = "דלג";
+
+/* view title */
+"share_your_design_title" = "שתף את העיצוב שלך";
+
+/* by */
+"shopping_list_by" = "של";
+
+/* Close */
+"shopping_list_close" = "סגור";
+
+/* Sent from Autodesk Homestyler */
+"shopping_list_email_sent_homestyler" = "נשלח מאוטודסק הומסטיילר";
+
+/* Check out these products from Homestyler. */
+"shopping_list_email_subject" = "צפה במוצרים אלו של הומסטיילר";
+
+/* Design Product List */
+"shopping_list_email_title1" = "רשימת המוצרים בעיצוב";
+
+/* List of products used to in the above design: */
+"shopping_list_email_title2" = "רשימת המוצרים בעיצוב למעלה:";
+
+/* View design on Homestyler */
+"shopping_list_email_view_design" = "צפה בעיצוב באמצעות הומסטיילר";
+
+/* Go to Website */
+"shopping_list_go_to_website" = "בקר באתר ＞";
+
+/* Product List */
+"shopping_list_title" = "רשימת מוצרים";
+
+/* (No Comment) */
+"showGrid_button" = "הצג רשת";
+
+/* (No Comment) */
+"show_label" = "הצג:";
+
+/* Add Your Brand */
+"side_menu_cell_add_your_brand" = "הוסף את המותג שלך";
+
+/* Sign In */
+"sign_in" = "התחבר";
+
+/* No comment provided by engineer. */
+"sign_out" = "ביטול";
+
+/* No comment provided by engineer. */
+"signin_title" = "הירשם או התחבר";
+
+/* Signing In */
+"signing_in" = "מתחבר...";
+
+/* No comment provided by engineer. */
+"signout_confirm_alert" = "האם אתה בטוח שברצונך להתנתק?";
+
+/* No comment provided by engineer. */
+"signup_ok" = "%@ ווהוו! תודה שהצטרפת לקהילת";
+
+/* No comment provided by engineer. */
+"snapToGrid_button" = "הצמד לרשת";
+
+/* No comment provided by engineer. */
+"sorry_search_friend_failed" = "אופס, לא מצאנו את חבריך כעת. אנא נסה שנית מאוחר יותר";
+
+/* No comment provided by engineer. */
+"sort_type_copy" = "מיין לפי";
+
+/* No comment provided by engineer. */
+"start_design" = "לְעַצֵב";
+
+/* (No Comment) */
+"start_redesign" = "עיצוב מחדש";
+
+/* No comment provided by engineer. */
+"submit_button" = "שלח";
+
+/* (No Comment) */
+"success_msg_facebook_share_success" = "תודה ששיתפת!";
+
+/* (No Comment) */
+"success_msg_name_updated" = "שמך בפרופיל עודכן בהצלחה";
+
+/* Your password updated successfully */
+"success_msg_pass_updated" = "סיסמתך עודכנה בהצלחה!";
+
+/* (No Comment) */
+"sync" = "סנכרן";
+
+/* (No Comment) */
+"sync_alert_msg" = "האם אתה בטוח שברצונך לסנכרן בין עיצוביך שנעשו אופליין לחשבון הומסטיילר שלך?";
+
+/* (No Comment) */
+"sync_alert_title_msg" = "Sync Designs";
+
+/* (No Comment) */
+"sync_later" = "מאוחר יותר";
+
+/* (No Comment) */
+"technical_difficultie_error" = "מצטערים, אנו חווים קשיים טכנולוגיים. אנא נסה שנית מאוחר יותר.";
+
+/* No comment provided by engineer. */
+"terms_of_service" = "άδειας χρήσης τελικού χρήστη";
+
+/* (No Comment) */
+"twitter_no_account_defined" = "אין חשבונות טוויטר מוגדרים. תוכל להוסיף או ליצור חשבון טוויטר דרך הגדרות.";
+
+/* (No Comment) */
+"twitter_share_copy" = "מתוך @%: @% צפה ב- @%.";
+
+/* unfollow */
+"unfollow" = "הסר מעקב";
+"unfollow_user" = "לעקוב %@？";
+
+/* No comment provided by engineer. */
+"update_location_title" = "עדכן מיקום";
+
+/* (No Comment) */
+"update_profile_image_success" = "תמונת הפרופיל עודכנה בהצלחה";
+
+/* No comment provided by engineer. */
+"update_version_available" = "יש להומסטיילר כמה עדכונים חדשים שישפרו את חוויית העיצוב שלך!";
+
+/* No comment provided by engineer. */
+"update_version_required" = "קיימת גרסא חדשה של הומסטיילר!";
+
+/* Other... */
+"user_detail_other_input_field" = "אחר...";
+
+"user_liked_0_times" = "%@ עדיין לא קיבל סימוני 'אהבתי'.";
+"user_liked_1_time" = "%@ קיבל 1 כמו ב Homestyler!";
+"user_liked_times" = "%@ אוהב ב %d קיבל Homestyler!";
+
+/* No comment provided by engineer. */
+"user_profile_cell_Name_lbl" = "שם";
+
+/* (No Comment) */
+"user_profile_cell_Name_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl" = "תיאור";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_empty" = "ספר לנו קצת אודותיך";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_read" = "תיאור:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl" = "סגנונות אהובים";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl_read" = "סגנונות מועדפים:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_gender_lbl" = "מין";
+
+/* (No Comment) */
+"user_profile_cell_gender_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl" = "תחביבים";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_empty" = "לדוגמא: גינון, סקי, ציור, אומנות, אוריגמי, קריאה, טיולים, בישול, צילום, טיפוס הרים...";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_read" = "תחביבים:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl" = "מיקום";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl_empty" = "הכנס את מיקומך";
+
+/* (No Comment) */
+"user_profile_cell_location_lbl_read" = "מאת:";
+
+/* (No Comment) */
+"user_profile_cell_password_lbl" = "סיסמא";
+
+/* No comment provided by engineer. */
+"user_profile_cell_profession_lbl" = "מקצוע";
+
+/* (No Comment) */
+"user_profile_cell_profession_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_styles_lbl_empty" = "בחר מועדפים:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl" = "כלי עיצוב נוספים בהם אני משתמש";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_empty" = "בחר את הכלים שלך:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_read" = "כלי עיצוב נוספים בהם אני משתמש:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_user_types_lbl_empty" = "בחר אחד:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl" = "אני";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl_read" = "אני:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl" = "אתר";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl_empty" = "הכנס את כתובת האתר שלך";
+
+/* (No Comment) */
+"user_profile_cell_website_lbl_read" = "אתר:";
+
+/* No comment provided by engineer. */
+"user_profile_done_button" = "סיום";
+
+/* Sign Out */
+"user_profile_signout_lbl" = "התנתק";
+
+/* No comment provided by engineer. */
+"waitting_to_sync" = "עיצוב אופליין";
+
+/* (No Comment) */
+"wall_button" = "קיר";
+
+/* (No Comment) */
+"wallpaper_button" = "טפטים";
+
+/* No comment provided by engineer. */
+"wish_list" = "רשימת משאלות";
+
+/* Wish List Failed to Create */
+"wishlist_create_failed_msg" = "אופס! אנא נסה ליצור את רשימת המשאלות שלך שנית";
+
+/* Wish List Created */
+"wishlist_create_successfuly_msg" = "נוצר בהצלחה!";
+
+/* Missing Wishlist */
+"wishlist_no_wishlist_msg" = "רשימת משאלות חסרה";
+
+/* Failed to Update Wishlist */
+"wishlist_update_failed_msg" = "נראה שקיימת בעיה, אנא נסה לשמור את השינויים שנית";
+
+/* Update Wishlist Succsessfully */
+"wishlist_update_successful_msg" = "אשימת משאלות עודכנה!";
+
+/* No comment provided by engineer. */
+"wishlists_page_title" = "רשימות המשאלות שלי";
+
+/* Yesterday */
+"yesterday" = "вчера";
+
+"you_liked_0_times" = "לא קיבלת עדיין סימוני 'אהבתי'.";
+"you_liked_1_time" = "ללא שם: קיבלת 1 כמו ב- Homestyler!";
+"you_liked_times" = "אוהב ב %d קיבלת- Homestyler!";

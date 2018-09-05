@@ -1,0 +1,1743 @@
+/* 1 hr */
+"1_hour" = "1時間前";
+
+/* 1 min */
+"1_minute" = "1 分前";
+
+/* No comment provided by engineer. */
+"3d_design_stream" = "3D デザイン ストリーム";
+
+/* No comment provided by engineer. */
+"AR Check Begining" = "床をスキャンしてARモードを開始する";
+
+/* (No Comment) */
+"Activity_title" = "ニュース ストリーム";
+
+/* No comment provided by engineer. */
+"Add_Products_ForAR" = "プロダクトを追加する";
+
+/* No comment provided by engineer. */
+"Apply_btn" = "適用";
+
+/* (No Comment) */
+"Basement" = "地下";
+
+/* (No Comment) */
+"Bathroom" = "バスルーム";
+
+/* (No Comment) */
+"Bedroom" = "ベッドルーム";
+
+/* Cancel */
+"Cancel_edit_profile_button_title" = "キャンセル";
+
+/* Change Password */
+"Change_Password_btn_title" = "パスワードを変更";
+
+/* Change Profile Image */
+"Change_Profile_Image_btn_title" = "プロファイル イメージを変更";
+
+/* (No Comment) */
+"Commercial/Public Exterior" = "商業/公共の外観";
+
+/* (No Comment) */
+"Commercial/Public Interior" = "商業/公共のインテリア";
+
+/* No comment provided by engineer. */
+"Contact_Us" = "\n\n\n\n------------------------------------\n%@ バージョン:V%@%@\nデバイス:%@\nバージョン:iOS%@\nネットワーク:%@\nユーザーID:%@.\n\n\n%@\n";
+
+/* (No Comment) */
+"Den" = "デン";
+
+/* (No Comment) */
+"Dining Room" = "ダイニングルーム";
+
+/* (No Comment) */
+"Dismiss" = "解除";
+
+/* Done */
+"Done_edit_profile_button_title" = "完了";
+
+/* Edit Info */
+"edit_info" = "情報を編集する";
+
+/* No comment provided by engineer. */
+"Empty_Rooms" = "空の部屋";
+
+/* (No Comment) */
+"Entrance & Hallway" = "エントランス＆廊下";
+
+/* Error */
+"Error" = "エラー";
+
+/* Female */
+"Female_segment_option" = "女性";
+
+/* First Name */
+"First_Name_text_placeholder" = "名";
+
+/* (No Comment) */
+"Floor-Plan" = "フロアプラン";
+
+/* No comment provided by engineer. */
+"Follow us" = "フォローする";
+
+/* No comment provided by engineer. */
+"Guide_to_Record" = "タップして、動画を記録する";
+
+/* (No Comment) */
+"Home Cinema" = "ホームシネマ";
+
+/* (No Comment) */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "%@ を気に入っていただけましたか? よろしければあなたの評価をお聞かせください。1 分ほどで完了できます。お客様のサポートに感謝いたします!";
+
+/* Invalide website link format */
+"Invalide_website_link_format" = "このリンクは見つかりません。もう一度入力してください。";
+
+/* (No Comment) */
+"Kids Room" = "キッズルーム";
+
+/* (No Comment) */
+"Kitchen" = "キッチン";
+
+/* Last Name */
+"Last_Name_text_placeholder" = "姓";
+
+/* (No Comment) */
+"Library" = "としょうかん";
+
+/* (No Comment) */
+"Living Room" = "リビングルーム";
+
+/* No comment provided by engineer. */
+"MESSAGE_COMMENT" = "%@ さんがデザイン '%@' にコメントしました";
+
+/* (No Comment) */
+"MESSAGE_COMMENT_UPDATE" = "%@ さんがデザイン '%@' のコメントを更新しました";
+
+/* No comment provided by engineer. */
+"MESSAGE_FEATURED" = "あなたのデザイン '%@' がデザイン ストリームに公開されました!";
+
+/* No comment provided by engineer. */
+"MESSAGE_FOLLOW" = "%@ さんがあなたをフォローしています!";
+
+/* (No Comment) */
+"MESSAGE_GENERAL_NOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"MESSAGE_LIKED_ASSET" = "あなたのデザイン '%@' に %@ さんがハートマークを付けました";
+
+/* (No Comment) */
+"MESSAGE_PRIVATE" = "%@ さんがあなたにプライベート メッセージを送信しました";
+
+/* No comment provided by engineer. */
+"MESSAGE_PUBLISHED_ASSET" = "%@ さんが新しいデザイン '%@' を公開しました";
+
+/* Male */
+"Male_segment_option" = "男性";
+
+/* No comment provided by engineer. */
+"Nevermind" = "気にしない";
+
+/* No comment provided by engineer. */
+"No designs yet" = "デザインはまだありません";
+
+"No empty rooms yet" = "空き部屋はまだありません";
+
+/* (No Comment) */
+"No, Thanks" = "しない";
+
+/* No link provided */
+"No_link_provided" = "あなたの Web サイトへのリンクを入力してください";
+
+"number_unit_hundred_m" = "億";
+"number_unit_ten_thousand" = "万";
+
+/* (No Comment) */
+"Office" = "オフィス";
+
+/* (No Comment) */
+"Oops" = "Oops";
+
+/* (No Comment) */
+"Other Room" = "その他の部屋";
+
+/* (No Comment) */
+"Outdoors" = "屋外";
+
+/* (No Comment) */
+"Porch & Balcony" = "ポーチ＆バルコニー";
+
+/* (No Comment) */
+"PrivateNoComment" = "プライベートのデザインにコメントを追加できません";
+
+/* (No Comment) */
+"Product Showcase" = "製品ショーケース";
+
+/* (No Comment) */
+"Rate %@" = "%@ を評価する";
+
+/* No comment provided by engineer. */
+"Ready to design" = "デザインの準備ができました";
+
+/* (No Comment) */
+"Remind me later" = "後で通知";
+
+/* (No Comment) */
+"Residential Exterior" = "住宅の外観";
+
+/* No comment provided by engineer. */
+"Sample_Rooms" = "コミュニティ";
+
+/* Share */
+"Share" = "共有";
+
+/* (No Comment) */
+"Sketch" = "スケッチ";
+
+/* (No Comment) */
+"Studio" = "スタジオ";
+
+/* (No Comment) */
+"The application cannot send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device." = "現在アプリケーションからツイートを送信できません。Twitter にアクセスできないか、このデバイスが Twitter アカウントに関連付けられていないようです。";
+
+/* Update */
+"Update Now" = "更新する";
+
+/* No comment provided by engineer. */
+"User agreement" = "エンドユーザーライセンス契約";
+
+/* Validate */
+"Validate_web_link_button" = "表示";
+
+/* No comment provided by engineer. */
+"about_me" = "自分について";
+
+/* No comment provided by engineer. */
+"activity_comment_button_title" = "コメント";
+
+/* (No Comment) */
+"activity_design_add_a_commented" = "コメント";
+
+/* (No Comment) */
+"activity_design_commented_title_format" = "%@ さんが %@ についてコメントしています";
+
+/* (No Comment) */
+"activity_design_commented_title_format_iphone" = "%@さんが\n%@ についてコメントしています";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format" = "%@ さんがあなたのデザインについてコメントしています";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format_iphone" = "%@さんが\nあなたのデザインについてコメントしています";
+
+/* (No Comment) */
+"activity_design_featured_title_format" = "デザイン ストリームで %@ さんのデザインが紹介されています";
+
+/* (No Comment) */
+"activity_design_featured_title_format_private" = "デザイン ストリームであなたのデザイン %@ が紹介されています";
+
+/* (No Comment) */
+"activity_design_featured_title_private_format" = "デザイン ストリームであなたのデザイン %@ が紹介されています";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format" = "%@ さんと他%@人が %@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format_iphone" = "%@さんと\n他%@人が %@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_liked_title_format" = "%@ さんが %@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_liked_title_format_iphone" = "%@ さんが\n%@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format" = "%@ さんがあなたのデザイン %@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format_iphone" = "%@さんが\nあなたのデザイン %@ にハートマークを付けました";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format" = "%@ さんが新しい写真 %@ を公開しました。";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format_private" = "あなたは新しい写真を公開しました";
+
+/* (No Comment) */
+"activity_design_published_title_format" = "%@ さんが新しいデザイン %@ を付け加えました。";
+
+/* (No Comment) */
+"activity_design_published_title_format_private" = "あなたは新しいデザインを追加しました";
+
+/* No comment provided by engineer. */
+"activity_follow_button" = "フォロー";
+
+/* (No Comment) */
+"activity_new_article_author_format" = "%@ によって";
+
+/* (No Comment) */
+"activity_new_article_title_format" = "新しい記事 %@ をチェックしましょう";
+
+/* No comment provided by engineer. */
+"activity_no_data_message_data" = "データが見つかりません";
+
+/* (No Comment) */
+"activity_no_data_message_designs" = "デザインが見つかりません";
+
+/* (No Comment) */
+"activity_private_follower_title_format" = "%@ さんがあなたをフォローしています!";
+
+/* (No Comment) */
+"activity_private_follower_title_format_iphone" = "%@さんが\nあなたをフォローしています!";
+
+/* (No Comment) */
+"activity_public_follower_title_format" = "%@ さんが %@ さんをフォローしています";
+
+/* (No Comment) */
+"activity_public_follower_title_format_iphone" = "%@さんが\n%@ さんをフォローしています";
+
+/* (No Comment) */
+"activity_public_follower_title_self_action_format" = "あなたは %@ さんのフォローを始めました";
+
+/* 1 hour ago */
+"activity_stream_1_hour_ago" = "1 時間前";
+
+/* 1 minute ago */
+"activity_stream_1_min_ago" = "1 分前";
+
+/* %d hours ago */
+"activity_stream_ts_hours_ago" = "%d 時間前";
+
+/* Just now */
+"activity_stream_ts_just_now" = "たった今";
+
+/* %d mins ago */
+"activity_stream_ts_mins_ago" = "%d 分前";
+
+/* Some time ago */
+"activity_stream_ts_some_time_ago" = "少し前";
+
+/* Yesterday */
+"activity_stream_ts_yesterday" = "昨日";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_key" = "気に入った記事";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_message" = "気に入った記事を読み、ハートマークを付けます";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_key" = "お気に入りのプロフェッショナル";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_message" = "お気に入りのプロフェッショナルを一覧から見つけます";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message" = "Homestyler を使用して新しい友人を見つけ";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message_wl" = "%@ を使って新しい友達を検索、フォロー";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling" = "Homestyler を楽しくご利用ください";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling_wl" = "デザインを楽しもう!";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message" = "他の Homestyler ユーザーのデザインについて、ハートマークを付けたりコメントします";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message_wl" = "他の %@ デザインのハートマークとコメント";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_article_key" = "ヘルプ記事";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_key" = "ヘルプ";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_message" = "使い方がわからなくなった場合は、ヘルプを利用するか、ヘルプ記事を参照してください";
+
+/* No comment provided by engineer. */
+"activity_welcome_subtitle" = "あなた自身のニュース ストリームを作りましょう - 方法:";
+
+/* No comment provided by engineer. */
+"activity_welcome_title" = "Homestyler へようこそ!";
+
+/* No comment provided by engineer. */
+"activity_welcome_title_wl" = "ルーム デザイナーへようこそ!";
+
+/* No comment provided by engineer. */
+"add_brand" = "ブランドを追加";
+
+/* No comment provided by engineer. */
+"add_portfolio" = "ポートフォリオを追加";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied" = "友達を増やすには、[設定]アプリを起動し、[プライバシー] > [連絡先] の順にタップして %@ の連絡先へのアクセスを許可してください。";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied_title" = "Grant Contact Access?";
+
+/* OK */
+"alert_action_ok" = "OK";
+
+/* (No Comment) */
+"alert_message_no_button" = "いいえ";
+
+/* Cancel */
+"alert_msg_button_cancel" = "キャンセル";
+
+/* Retry */
+"alert_msg_button_retry" = "リトライ";
+
+/* Yes */
+"alert_msg_button_yes" = "はい";
+
+/* Close */
+"alert_view_close_btn" = "閉じる";
+
+/* No, Thanks */
+"alert_view_dont_remind" = "更新しない";
+
+/* All */
+"all_filter" = "すべて";
+
+/* (No Comment) */
+"alternate_2d_3d" = "2D と 3D 間でパースを切り替える";
+
+/* In order to improve this app, we recieve non-personal, aggregated product usage data. You can turn this off in app settings. */
+"analytics_msg" = "このアプリケーションの機能を改善するために、個人情報を含まない製品の使用状況データを集約的に収集しています。アプリケーション設定を変更することで、この機能をオフにできます。";
+
+/* (No Comment) */
+"analytics_title" = "分析";
+
+/* (No Comment) */
+"app_build_copy" = "ビルド";
+
+/* (No Comment) */
+"app_name" = "Homestyler";
+
+/* (No Comment) */
+"app_start_loading_copy" = "お待ちください...";
+
+/* No comment provided by engineer. */
+"ask_contact_access_allow" = "許可";
+
+/* No comment provided by engineer. */
+"ask_contact_access_body" = "友達を検索するには、安全な接続を使用して Homestyler サーバに連絡先情報を送信する必要があります。";
+
+/* No comment provided by engineer. */
+"ask_contact_access_title" = "Homestyler の友達を連絡先から追加しますか?";
+
+/* Are you sure you want to delete your design? */
+"ask_delete_design" = "このデザインを削除しますか?";
+
+/* No comment provided by engineer. */
+"ask_quit_design" = "ARモードを終了しますか？";
+
+/* No comment provided by engineer. */
+"ask_save_user_details" = "変更を保存しますか?";
+
+/* Please Redesign and Save this design in order to make any changes */
+"ask_to_redesign_auto_Save_from_mydesigns" = "変更するには、このデザインを再デザインし保存してください";
+
+/* author_title */
+"author_title" = "%@ によって";
+
+/* No comment provided by engineer. */
+"auto_saved_design_title" = "自動保存";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement" = "サインインすることで、Easyhome Homestyler エンドユーザーライセンス契約に同意したことになります";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement_and_terms_of_service" = "重要なお知らせ：2017年5月以前に登録したユーザーは、AutodeskからEasyhomeへの移行後に元のアカウントとデザインデータにアクセスすることができません。新しいアカウントを登録して新しい機能を体験することをおすすめします   %@";
+
+/* No comment provided by engineer. */
+"available_variations" = "使用可能なバリエーション:";
+
+/* No comment provided by engineer. */
+"brightness_button" = "輝度";
+
+/* No comment provided by engineer. */
+"by_prefix" = "提供:";
+
+/* Private design can't be commented */
+"cannot_comment_private_design" = "プライベートデザインはコメントできません";
+
+/* No comment provided by engineer. */
+"catalog" = "カタログ";
+
+/* (No Comment) */
+"catalog_open_categories_title" = "カテゴリの選択";
+
+/* choose an effect popup title
+   Choose an effect popup title */
+"choose_an_effect_title" = "効果を選択";
+
+/* (No Comment) */
+"choose_area_replicate" = "複製したい領域を選択";
+
+/* Choose Variation (%d): */
+"choose_variation" = "利用可能なバリエーション(%d):";
+
+/* No comment provided by engineer. */
+"clean_tool_2d" = "2D";
+
+/* No comment provided by engineer. */
+"clean_tool_3d" = "3D";
+
+/* No comment provided by engineer. */
+"clean_tool_advanced" = "詳細";
+
+/* No comment provided by engineer. */
+"clean_tool_apply" = "適用";
+
+/* No comment provided by engineer. */
+"clean_tool_autoapply" = "自動適用";
+
+/* No comment provided by engineer. */
+"clean_tool_blend" = "ブレンド";
+
+/* No comment provided by engineer. */
+"clean_tool_blend_mode" = "モード";
+
+/* No comment provided by engineer. */
+"clean_tool_copy" = "コピー";
+
+/* (No Comment) */
+"clean_tool_mode" = "モード";
+
+/* (No Comment) */
+"clean_tool_quickmode" = "クイック モード";
+
+/* (No Comment) */
+"clean_tool_redo" = "やり直す";
+
+/* No comment provided by engineer. */
+"clean_tool_reset" = "リセット";
+
+/* No comment provided by engineer. */
+"clean_tool_size" = "サイズ";
+
+/* No comment provided by engineer. */
+"clean_tool_stepper" = "ステッパー";
+
+/* No comment provided by engineer. */
+"clean_tool_texture" = "テクスチャ";
+
+/* (No Comment) */
+"clean_tool_undo" = "元に戻す";
+
+/* No comment provided by engineer. */
+"clear_cache_success" = "キャッシュは正常にクリアされました";
+
+/* (No Comment) */
+"clear_room" = "部屋をクリア";
+
+/* (No Comment) */
+"clear_room_tool_title" = "部屋をクリア";
+
+/* (No Comment) */
+"close_comments_button" = "コメントを閉じる";
+
+/* No comments yet */
+"commentString" = "コメントはまだありません";
+
+/* No comment provided by engineer. */
+"commentTip" = "コメントを追加";
+
+/* No comment provided by engineer. */
+"concealer_button" = "コンシーラー";
+
+/* Sorry, Your design is unable to load at this time. Please choose another design. */
+"corrupted_load_design" = "現在このデザインをロードできません。別のデザインを選択してください。";
+
+/* No comment provided by engineer. */
+"create_new_design" = "新規デザインを作成";
+
+/* No comment provided by engineer. */
+"default_sort" = "既定";
+
+/* default_text_for_save_design */
+"default_text_for_save_design" = "デザイン ストリームに表示するための、あなたのデザインに関する説明を入力してください。\n\n発想のきっかけ、使用したマテリアル、訪れたショップ、感銘を受けた人々、あなたのそのときの気持ち... あらゆることをご記入ください。";
+
+/* Sorry, we couldn't delete your design . Please try again. */
+"delete_design_error" = "デザインを削除できません。もう一度行ってください。";
+
+/* (No Comment) */
+"design_layers" = "Layers";
+
+/* Private design */
+"design_private" = "プライベート";
+
+/* No comment provided by engineer. */
+"design_public" = "パブリック";
+
+/* No comment provided by engineer. */
+"design_published" = "お勧め商品";
+
+/* No comment provided by engineer. */
+"design_stream_Close" = "閉じる";
+
+/* No comment provided by engineer. */
+"design_stream_filter" = "フィルタ";
+
+/* (No Comment) */
+"design_title_for_others" = "デザイン";
+
+/* No comment provided by engineer. */
+"dynamic_menu_homestyler_magazine" = "Homestyler マガジン";
+
+/* No comment provided by engineer. */
+"dynamic_menu_photo_gallery" = "フォト ギャラリー";
+
+/* No comment provided by engineer. */
+"dynamic_menu_prof_index" = "プロフェッショナル一覧";
+
+/* (No Comment) */
+"dynamic_menu_wl_magazine" = "マガジン";
+
+/* Edit */
+"edit_button" = "編集";
+
+/* Edit Profile */
+"edit_profile" = "プロファイルを編集";
+
+/* Editor's Choice */
+"editor_choice_sort" = "お勧め";
+
+/* Sorry no email account defined on this device */
+"email_missing_default_msg" = "このデバイスには電子メール アカウントが定義されていません";
+
+/* Sorry this professional doesn't have email configured */
+"email_missing_prof_page" = "このプロフェッショナルには電子メール アドレスがありません";
+
+/* (No Comment) */
+"erh_register_email_exists_msg" = "この電子メールはすでに使用されています。";
+
+/* No comment provided by engineer. */
+"erh_unknown_error_msg" = "エラーが発生しました。もう一度行ってください。";
+
+/* Please enter you first/last name */
+"err_msg_enter_new_full_name" = "名/姓を入力してください";
+
+/* Please enter new password */
+"err_msg_enter_new_pass" = "新しいパスワードを入力してください";
+
+/* (No Comment) */
+"err_msg_facebook_share_failed" = "共有に失敗しました";
+
+/* No comment provided by engineer. */
+"err_msg_failed_image_upload" = "共有に失敗しました";
+
+/* No comment provided by engineer. */
+"err_msg_failed_retrive_wish_list" = "ウィッシュリストを作成するには、お気に入りの製品のハート アイコンをタップしてください";
+
+/* No comment provided by engineer. */
+"err_msg_login_before_email_status" = "設定を変更するにはログインが必要です。";
+
+/* (No Comment) */
+"err_msg_login_before_name_reset" = "プロファイル名を変更する前にログインしてください";
+
+/* You must login before changing your current password */
+"err_msg_login_before_pass_reset" = "現在のパスワードを変更する前にログインしてください";
+
+/* Password change failed */
+"err_msg_pass_change_failed" = "パスワードの変更に失敗しました";
+
+/* New password and confirm password don't match */
+"err_msg_pass_confirm_mismatch" = "新しいパスワードと確認用のパスワードが一致しません";
+
+/* Your current password is incorrect */
+"err_msg_pass_incorrect" = "現在のパスワードが間違っています";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading" = "現在、プロファイルにアクセスすることができません。後でもう一度行ってください。";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading_other" = "現在、このプロファイルにアクセスすることができません。後でもう一度行ってください。";
+
+/* (No Comment) */
+"err_msg_update_full_name" = "フル ネームの更新に失敗しました";
+
+/* Failed to update user info */
+"err_msg_update_user_info" = "ユーザ情報の更新に失敗しました";
+
+/* Failed to upload profile image */
+"err_msg_upload_profile_image" = "プロファイル イメージのアップロードに失敗しました";
+
+/* No comment provided by engineer. */
+"error_missing_result" = "検索結果が見つかりませんでした。\n別の検索用語を使用してみてください。";
+
+/* No comment provided by engineer. */
+"error_missing_result_ipad" = "検索結果が見つかりませんでした。別の検索用語を使用してみてください。";
+
+/* (No Comment) */
+"exception_message" = "正常に動作していないようです。後でもう一度行ってください。";
+
+/* No comment provided by engineer. */
+"facebook_friends_empty_copy" = "Facebook のお友達が見つかりません";
+
+/* (No Comment) */
+"facebook_login_failed_msg" = "Facebook の友達にアクセスするには Facebook にログインする必要があります。";
+
+/* Sign in failed, please check your Facebook account details and try again. */
+"facebook_login_general_error" = "サイン インに失敗しました。Facebook アカウントの詳細を確認してもう一度行ってください。";
+
+/* We lost you! Check your network connection. */
+"failed_action_no_network_found" = "接続が中断しました。ネットワークの接続状態を確認してください。";
+
+/* You seem to be offline. Please check your internet connection and retry. */
+"failed_action_no_network_found_start" = "現在オフラインのようです。インターネットの接続を確認してもう一度行ってください。";
+
+/* Sorry, this product is currently unavailable. */
+"failed_load_catalog_item" = "申し訳ありません。この製品は現在ご利用いただけません。";
+
+/* Please select another product. */
+"failed_load_catalog_item_p2" = "別の製品を選択してください。";
+
+/* We couldn't load the design */
+"failed_load_models" = "このデザインをロードできませんでした。";
+
+/* (No Comment) */
+"failed_load_models_p2" = "後でもう一度行ってください。";
+
+/* Sorry! The internet connection is a bit slow at the moment. Thank you for your patience. */
+"failed_slow_connection" = "現在、インターネット接続の速度が遅くなっているようです。少々お待ちください。";
+
+/* (No Comment) */
+"fb_find_friend_invite" = "Autodesk Homestyler を使ってみませんか。ここでは新しいデザインのアイデアを発見したり、部屋の空間を自由に創造することができます。";
+
+/* No comment provided by engineer. */
+"feedback_email_body" = "下記に示す情報は、弊社の技術チームが問題の解決を効率的かつ効果的に行うための調査にのみ使用しますので、どうぞご心配なさらないでください。ご協力いただきありがとうございます!";
+
+/* Share with Homestyler Team */
+"feedback_email_subject" = "ご意見をお送りください。";
+
+/* (No Comment) */
+"finalized_scene" = "ファイナライズされたシーン";
+
+/* No comment provided by engineer. */
+"find_by_name_or_email" = "名前または電子メールで検索";
+
+/* No comment provided by engineer. */
+"find_contact_friends" = "連絡先の友達を検索";
+
+/* No comment provided by engineer. */
+"find_facebook_friends" = "Facebook の友達を検索";
+
+/* No comment provided by engineer. */
+"find_friends" = "友達を検索";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_copy" = "このユーザはまだ %@ に登録されていません。電子メール アドレスを入力して %@ に招待しましょう。";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_filter_copy" = "検索に一致する結果がありません。";
+
+/* (No Comment) */
+"find_friends_result_title_follow" = "フォロー";
+
+/* No comment provided by engineer. */
+"find_friends_result_title_following" = "フォロー中";
+
+/* (No Comment) */
+"find_friends_result_title_invite" = "招待";
+
+/* (No Comment) */
+"find_friends_result_title_invited" = "招待済み";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_addrbook" = "連絡先の友達";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_facebook" = "Facebook の友達";
+
+/* (No Comment) */
+"floor_button" = "床";
+
+/* follow
+   Follow */
+"follow" = "フォロー";
+
+/* Enter the email you used to sign up. */
+"forgot_password_error" = "サインアップに使用した電子メール アドレスを入力してください。";
+
+/* A new password has been sent to your email. */
+"forgot_password_ok" = "新しいパスワードが電子メールで送信されました。";
+
+/* No comment provided by engineer. */
+"friend_action_btn_follow" = "フォロー";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invite" = "招待";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invited" = "招待済み";
+
+/* No comment provided by engineer. */
+"friend_action_btn_unfollow" = "フォロー中";
+
+/* No comment provided by engineer. */
+"friend_cell_no_account_yet" = "no %@ account yet";
+
+/* No comment provided by engineer. */
+"get_location_hide_title" = "非表示";
+
+/* No comment provided by engineer. */
+"get_location_title" = "自分の場所を使用";
+
+/* No comment provided by engineer. */
+"gps_failed_to_retrieve_location" = "場所が見つかりません";
+
+/* (No Comment) */
+"help_3danalysis_label1" = "部屋のコーナーと壁の位置関係を調整してください。";
+
+/* (No Comment) */
+"help_camera_label1" = "最適な結果を得るには、画面内に床と 2 面の壁を含めるようにしてください。";
+
+/* (No Comment) */
+"help_note_label1" = "注: Easyhome® Homestyler® に表示されるイメージのサイズ、形状、色やその他の特徴は、実際のものと異なることがありますので、予めご了承ください。";
+
+/* (No Comment) */
+"help_note_label2" = "回転";
+
+/* (No Comment) */
+"help_note_label3" = "スケール";
+
+/* (No Comment) */
+"help_note_label4" = "2 本の指で持ち上げる";
+
+/* (No Comment) */
+"help_paint_line_label1" = "線をピンチして目的の領域までスライドしてください。";
+
+/* (No Comment) */
+"help_reomve_tip_label1" = "ペイントがはみ出ている箇所はこのツールで修正できます。";
+
+/* (No Comment) */
+"help_scale_label1" = "すべての製品はこの寸法に対応して尺度設定されます。正確な結果を得るためには、実寸を反映するようにルーラーを調整してください。 ";
+
+/* (No Comment) */
+"help_take_pic_label1" = "写真を撮影して自分宛にメールで送信";
+
+/* (No Comment) */
+"help_take_pic_label2" = "カメラ ロールに保存";
+
+/* (No Comment) */
+"help_take_pic_label3" = "自分の写真から新しいデザインを作成";
+
+/* No comment provided by engineer. */
+"i_am_title" = "私は...";
+
+/* Please enter a valid email, like stylerlover@yourmail.com */
+"illigal_email" = "有効な電子メールを stylerlover@yourmail.com の形式で入力してください。";
+
+/* Almost there! Your password should be at least 1 character long. */
+"illigal_password" = "もうすぐ完了です。1 文字以上のパスワードを作成してください。";
+
+/* Please choose Room Type. */
+"illigal_room_type" = "部屋のタイプを選択してください。";
+
+/* (No Comment) */
+"illigal_save_desc" = "あなたのデザインのストーリーを他のメンバーと共有しましょう。";
+
+/* Give your design a title. */
+"illigal_save_title" = "デザインの名前を入力してください。";
+
+/* (No Comment) */
+"illigal_signin_password" = "パスワードを入力してください";
+
+/* No comment provided by engineer. */
+"input_limit_reached" = "このオプションに対する文字数の制限を超えました。";
+
+/* No comment provided by engineer. */
+"invite_email_friend_no_email" = "この連絡先の電子メール アドレスは有効ではないようです。";
+
+/* No comment provided by engineer. */
+"invite_fb_friend_success" = "あなたの Facebook のお友達を Homestyler に招待しました。";
+
+/* check out this design... */
+"invite_friend_email_body" = "こんにちは。<br/>Autodesk %@ を使ってみませんか。ここでは新しいデザインのアイデアを発見したり、部屋の空間を自由に創造することができます。<br/><a href=\"{{url}}\">{{title_url}}</a>  でモバイル アプリを今すぐチェック! ";
+
+/* No comment provided by engineer. */
+"invite_friend_email_subject" = "Autodesk %@ でお会いしましょう!";
+
+/* (No Comment) */
+"iphone_share_action_email" = "電子メール";
+
+/* (No Comment) */
+"iphone_share_action_facebook" = "Facebook";
+
+/* (No Comment) */
+"iphone_share_action_save_image" = "イメージを保存";
+
+/* Just now */
+"just_now" = "ちょうど今";
+
+/* No comment provided by engineer. */
+"lang_action_take_affect" = "選択した言語への切り替えは、次回アプリを起動したときに反映されます。";
+
+/* Likes */
+"likes" = "好き";
+
+/* (No Comment) */
+"likes_count_ipad" = "いいね! の合計 %d 個";
+
+/* (No Comment) */
+"likes_count_iphone" = "いいね! %d 個";
+
+/* Loading */
+"loading_popup_title_iPad" = "ロード中...";
+
+/* Loading */
+"loading_popup_title_iPhone" = "ロード中";
+
+/* No comment provided by engineer. */
+"loading_tips_loading_title" = "ロード中";
+
+/* (No Comment) */
+"loading_tips_title" = "お待ちの間にクイック ヒント";
+
+/* (No Comment) */
+"local_notification_monthly_copy" = "おかえりなさい! この期間に追加されたさまざまな素晴らしい内容をぜひチェックしてください。";
+
+/* (No Comment) */
+"local_notification_once_copy" = "Homestyler へようこそ! 最新の製品やデザインをチェックしてさまざまな刺激を受けることができます。";
+
+/* (No Comment) */
+"location_field_placeholder" = "あなたの場所を入力";
+
+/* Area of Service */
+"location_filter_button_name" = "サービス提供範囲";
+
+/* (No Comment) */
+"login_error" = "入力されたユーザが見つかりません。電子メールとパスワードを確認してください。";
+
+/* This email is already part of the Homestyler community. Check your password and try again. */
+"login_error_after_signup" = "入力したパスワードは間違っています。もう一度お試しください。";
+
+/* (No Comment) */
+"login_success_after_signup" = "この電子メールはすでに Homestyler コミュニティで使用されています。正常にサイン インしました。";
+
+/* (No Comment) */
+"low_memory_user_notification" = "このデザインにはお使いのデバイスでは表示しきれないほどたくさんの製品が含まれています。解決方法が提供されるまで、このままお使いください。";
+
+/* (No Comment) */
+"measure_unit_cm" = "cm";
+
+/* (No Comment) */
+"measure_unit_ft" = "ft";
+
+/* (No Comment) */
+"measure_unit_in" = "in";
+
+/* (No Comment) */
+"measure_unit_m" = "m";
+
+/* Missing SKU for Product */
+"missing_sku_product" = "製品の SKU が見つかりません";
+
+/* (No Comment) */
+"move_adjust_area" = "クリアしたい領域を移動して調整";
+
+/* No comment provided by engineer. */
+"multi_share_all_success" = "あなたのデザインが共有されました。";
+
+/* (No Comment) */
+"multi_share_cancel_btn" = "キャンセル";
+
+/* (No Comment) */
+"multi_share_charlimit_msg" = "ツイートのテキストが長すぎるようです。共有するには 140 文字までに収まるように編集してください。";
+
+/* (No Comment) */
+"multi_share_configure_email_msg" = "デバイス設定を開いて電子メールアカウントを設定してください";
+
+/* (No Comment) */
+"multi_share_email_subject" = "%@ でチェック";
+
+/* (No Comment) */
+"multi_share_fail_email_msg" = "電子メールでは共有できません。";
+
+/* (No Comment) */
+"multi_share_fail_msg_first_part" = "次のユーザと共有できませんでした:";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_fb" = "Facebook";
+
+/* (No Comment) */
+"multi_share_fail_msg_part_2_none" = "なし";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_twitter" = "Twitter";
+
+/* (No Comment) */
+"multi_share_nophoto_msg" = "イメージが見つかりません... もう一度行ってください。";
+
+/* No comment provided by engineer. */
+"multi_share_part_no_success" = "あなたのデザインを %@ で共有できませんでした。\n もう一度行ってください。";
+
+/* No comment provided by engineer. */
+"multi_share_part_success" = "共有は次のみで有効です:\n%@";
+
+/* No comment provided by engineer. */
+"multi_share_part_success_part2" = "%@ での共有をもう一度設定してください";
+
+/* (No Comment) */
+"multi_share_share_btn" = "共有";
+
+/* (No Comment) */
+"multi_share_share_title" = "デザインを共有";
+
+/* (No Comment) */
+"multi_share_twitter_login_msg" = "デバイス設定を開き、自分の Twitter アカウントを使用して Twitter にログインしてください";
+
+/* Could not load the selected design */
+"my_design_could_not_load" = "選択したデザインをロードできません";
+
+/* No comment provided by engineer. */
+"my_homestyler_menu_wl" = "マイ プロファイル";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy_other" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy" = "記事のお気に入り一覧を作成できます。ハート マークをタップして興味のある記事を追加してください。";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy_other" = "このデザイナーはまだ Homestyler マガジンの記事にハート マークを付けていません。後でもう一度確認してください。";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy" = "まだデザインを始めていませんか? 「新規デザイン」、または既存のギャラリー イメージから「再設計」をクリックしてあなたの創造性を発揮してください。";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy_other" = "このデザイナーにはまだ公共デザインがありません。後でもう一度確認してください。";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy" = "No worries, start interacting with other users and your followers are sure to come...";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy_other" = "このデザイナーにはまだフォロワーがいません。最初の一人になりましょう!";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy" = "待っている必要はありません。他の %@ ユーザのプロファイルを参照し、「フォロー」をクリックして連絡を取り合いましょう。 ";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy_other" = "このデザイナーは現在、他の %@ ユーザのプロファイルをフォローしていません。後でもう一度確認してください。 ";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy" = "プロフェッショナルのお気に入り一覧を作成できます。 「フォロー」をタップして興味のあるプロフェッショナルを追加してください。";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy_other" = "このデザイナーにはまだ Homestyler のプロフェッショナル一覧でフォローしているプロフェッショナルがいません。後でもう一度確認してください。";
+
+/* (No Comment) */
+"new_design_share_pinteret_title" = "新規デザイン";
+
+/* New */
+"new_sort" = "新着順";
+
+/* No comment provided by engineer. */
+"no_camera_allowed_error" = "Homestyler はカメラを利用する許可をまだ得ていません。デバイス設定を確認してカメラの利用許可を変更してください。";
+
+/* (No Comment) */
+"no_camera_exists_error" = "カメラが接続されていないようです。ギャラリーから写真を選択するか、デザイン ストリームのイメージを使って再設計を行ってください。";
+
+/* No comment provided by engineer. */
+"no_contacts_in_address_copy" = "連絡先が見つかりません。別の検索オプションを使用して友達を追加してください。 ";
+
+/* (No Comment) */
+"no_filter_gstream_data" = "申し訳ありません、現在この検索には該当するものがありません。他のカテゴリを参照してください。";
+
+/* No comment provided by engineer. */
+"no_following" = "まだ誰も追跡していない";
+
+/* No comment provided by engineer. */
+"no_gps_location_enabled" = "位置情報を使用するには、[設定] > [プライバシー] > [位置情報サービス] で Homestyler を有効にしてください";
+
+/* No more */
+"no_more" = "もうデザインはありません =_=*";
+
+/* Sorry no products found */
+"no_product" = "申し訳ありません";
+
+/* No comment provided by engineer. */
+"no_profs_for_selected_filter" = "申し訳ありません、現在この検索には該当するものがありません。他のカテゴリを参照してください。";
+
+/* No comment provided by engineer. */
+"none_effect_title" = "なし";
+
+/* No comment provided by engineer. */
+"not_sign_in" = "サインインしてあなたの次の新しいデザインを見てください";
+
+/*Notifications*/
+"notify_title" = "通知";
+"notify_list_new_tag" = "新しい";
+"notify_list_no" = "まだ通知がありません";
+"notify_list_like" = "%@ あなたのデザインが<b>好き</b>だった";
+"notify_list_like_group" = "あなたのデザインが<b>好き</b>な ％@ と ％@ その他";
+"notify_list_follow" = "%@ あなたに<b>フォローし始めました</b>";
+"notify_list_feature" = "あなたのデザインはコミュニティページに<b>掲載</b>されています！ おめでとう！";
+"notify_list_comment_replyMe" = "%@ %@ 君は: <br> <b>%@</b>";
+
+/* %i hrs */
+"num_hours" = "%i時間前";
+
+/* %i min */
+"num_minutes" = "%i 分前";
+
+/* (No Comment) */
+"page_title_about" = "バージョン情報";
+
+/* About */
+"page_title_about2" = "バージョン情報";
+
+/* (No Comment) */
+"page_title_terms" = "使用条件";
+
+/* Terms and Conditions */
+"page_title_terms2" = "使用条件";
+
+/* (No Comment) */
+"paint_button" = "ペイント";
+
+/* No comment provided by engineer. */
+"paint_view_brightness_popup_title" = "輝度";
+
+/* No comment provided by engineer. */
+"paint_view_contrast_popup_title" = "ブレンド";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape" = "ポートレートの向きを解除して、横長モードで撮影してください。";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape_device" = "横置き方向のイメージを選択してください。";
+
+/* No comment provided by engineer. */
+"please_accept_terms" = "サービス利用規約とプライバシー ポリシーに同意してください";
+
+/* Popularity */
+"popularity_sort" = "人気順";
+
+/* No comment provided by engineer. */
+"post_description_field" = "%@ でチェック";
+
+/* (No Comment) */
+"post_description_field_article" = "Homestyler のこのデザインをチェックしましょう";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format" = "あなたは %@ についてコメントしました";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format_iphone" = "あなたは\n%@ についてコメントしました";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format" = "あなたと他%@人が %@ にハートマークを付けました";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format_iphone" = "あなたと\n 他%@人が %@ にハートマークを付けました";
+
+/* (No Comment) */
+"private_activity_design_liked_title_format" = "%@ にハートを付けました";
+
+/* (No Comment) */
+"private_activity_design_published_title_format" = "あなたは新しいデザイン %@ を追加しました";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format" = "あなたは %@ さんのフォローを始めました";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format_iphone" = "あなたは\n%@ さんのフォローを始めました";
+
+/* No comment provided by engineer. */
+"prod_action_brightness_btn_title" = "輝度";
+
+/* No comment provided by engineer. */
+"prod_action_dimension_btn_title" = "製品の詳細";
+
+/* No comment provided by engineer. */
+"prod_action_duplicate_btn_title" = "製品を複製";
+
+/* No comment provided by engineer. */
+"prod_action_remove_btn_title" = "製品を除去";
+
+/* No comment provided by engineer. */
+"prod_action_restore_btn_title" = "尺度を復元";
+
+/* (No Comment) */
+"prod_catalog_go_to" = "製品の詳細";
+
+/* (No Comment) */
+"prod_size_height" = "高さ";
+
+/* (No Comment) */
+"prod_size_length" = "長さ";
+
+/* (No Comment) */
+"prod_size_title" = "製品の寸法";
+
+/* (No Comment) */
+"prod_size_width" = "幅";
+
+/* (No Comment) */
+"prod_tag_remove_action" = "除去";
+
+/* (No Comment) */
+"prod_tag_remove_copy" = "この製品を除去しますか?";
+
+/* No comment provided by engineer. */
+"product_catalog_title" = "製品カタログ";
+
+/* No comment provided by engineer. */
+"production_information" = "生産情報";
+
+/* NEW! */
+"products_catalog_new" = "新着順";
+
+/* No comment provided by engineer. */
+"prof_desc_collapse" = "簡略...";
+
+/* No comment provided by engineer. */
+"prof_desc_more" = "詳細...";
+
+/* No comment provided by engineer. */
+"prof_details_address_title" = "アドレス";
+
+/* Homestyler Professional Enquiry */
+"prof_email_subject" = "Homestyler プロフェッショナルについての問い合わせ";
+
+/* No comment provided by engineer. */
+"prof_filter_all_key" = "すべて";
+
+/* No comment provided by engineer. */
+"prof_follow_error" = "ハート マークがタップされましたが、その処理でエラーが発生しました。すぐに再実行してください。";
+
+/* (No Comment) */
+"prof_phone1_title" = "電話 1";
+
+/* (No Comment) */
+"prof_phone2_title" = "電話 2:";
+
+/* Profession */
+"profession_filter_button_name" = "職種";
+
+/* View Protfolio */
+"professional_cell_view_protfolio" = "ポートフォリオを表示";
+
+/* (No Comment) */
+"professional_index_title" = "プロフェッショナル一覧";
+
+/* There was a problem loading this protfolio.\nPlease try again */
+"proffesional_load_failed_msg" = "現在、このプロフェッショナル ポートフォリオを開けません。後でもう一度行ってください。";
+
+/* No followers yet */
+"profile_no_followers" = "まだフォロワーはいません";
+
+/* No following yet */
+"profile_no_following" = "まだフォローしていない";
+
+/* No likes yet */
+"profile_no_likes" = "いいえいいえ";
+
+/* (No Comment) */
+"profile_tab_articles" = "お気に入りの記事";
+
+/* Designs */
+"profile_tab_design" = "デザイン";
+
+/* Followers */
+"profile_tab_followers" = "フォロワー";
+
+/* Following */
+"profile_tab_following" = "フォロー中";
+
+/* (No Comment) */
+"profile_tab_my_design" = "マイ デザイン";
+
+/* (No Comment) */
+"profile_tab_professionals" = "フォロー中のプロフェッショナル";
+
+/* Zzzzz... */
+"progress_Loading_timedout1" = "";
+
+/* Loading timed out. */
+"progress_Loading_timedout2" = "ロードがタイムアウトしました。";
+
+/* (No Comment) */
+"progress_erase_title" = "削除しています...";
+
+/* Please try again later */
+"progress_err_try_again" = "後でもう一度行ってください";
+
+/* Network Error */
+"progress_label_err_network" = "ネットワーク エラー";
+
+/* (No Comment) */
+"read_comments_button" = "コメントを読む";
+
+/* No comment provided by engineer. */
+"realScale_button" = "実寸";
+
+/* No comment provided by engineer. */
+"redesign_after_crash_alert" = "%@ が予期しない終了をしたようです。自動保存されたデザインを再開しますか?";
+
+/* Please Redesign this design in order to make any changes */
+"redesign_inorder_for_changes" = "変更するには、このデザインを再デザインし保存してください";
+
+/* No comment provided by engineer. */
+"redesign_json_newer_alert" = "申し訳ありません。このデザインでは、新規更新でのみ利用可能な機能を使用しています。";
+
+/* redesign save button title */
+"redesign_save_button" = "保存";
+
+/* button title cancel
+   redesign cancel button title */
+"redesign_sign_in_cancel_button" = "キャンセル";
+
+/* (No Comment) */
+"redesign_sign_in_required" = "サインインが必要です";
+
+/* redesign sign in button title */
+"redesign_sign_in_sign_in_button" = "サインイン";
+
+/* User sign in required */
+"redesign_sign_in_to_save" = "共有するには保存してください";
+
+/* User sign in required */
+"redesign_sign_in_to_save_and_share_your_design." = "サインインしてからあなたのデザインの保存と共有を行ってください。";
+
+/* Could not register */
+"register_error" = "登録できません";
+
+/* Rather not say */
+"remove_gender_title" = "選択しない";
+
+/* Resume */
+"resume_alert_button" = "再開";
+
+/* (No Comment) */
+"room_type_copy" = "部屋のタイプ";
+
+/* No comment provided by engineer. */
+"room_type_filter" = "部屋のタイプ";
+
+/* No comment provided by engineer. */
+"save_design_action_title_save" = "上書き保存";
+
+/* No comment provided by engineer. */
+"save_design_action_title_saveas" = "名前を付けて保存";
+
+/* Sorry, we couldn't save your design . Please try again.
+   Sorry, we couldn't save your design. Please try again. */
+"save_design_error" = "デザインを保存できませんでした。もう一度行ってください。";
+
+/* Hmm, looks like there are too many products for your device to save this design, sorry! Try removing a few products and then save again. */
+"save_design_error_low_memory" = "使用されている製品が多すぎるため、お使いのデバイスではこのデザインを保存できないようです。いくつかの製品を除去してからもう一度保存を試してください。";
+
+/* Beautiful! Your design has been saved. */
+"save_design_ok" = "デザインを保存しました。";
+
+/* No comment provided by engineer. */
+"save_design_override_action_back" = "戻る";
+
+/* No comment provided by engineer. */
+"save_design_override_action_override" = "上書き";
+
+/* No comment provided by engineer. */
+"save_design_override_explanation" = "デザインを置き換えますか? 置き換えない場合は、デザインのタイトルを変更してください。";
+
+/* (No Comment) */
+"save_design_reminder" = "あなたのデザインを保存することを忘れないでください!";
+
+/* No comment provided by engineer. */
+"save_design_title" = "デザインを保存";
+
+/* Image save failed. */
+"save_image_failed_msg" = "イメージの保存に失敗しました。";
+
+/* Image successfully saved. */
+"save_image_success_msg" = "イメージを正常に保存しました。";
+
+/* No comment provided by engineer. */
+"save_profile_button_cancel" = "保存しない";
+
+/* No comment provided by engineer. */
+"save_profile_button_save" = "保存";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn1" = "リアルスケールのロック解除";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn2" = "保持";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy" = "注 - ロックされていない場合、製品はシーン内で実際のサイズを表現しません。";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy_title" = "実数スケールのロックを解除しますか？";
+
+/* No comment provided by engineer. */
+"search_product" = "製品を検索";
+
+/* Searching for visible corners */
+"searching_vidible_corners" = "可視コーナーを探しています";
+
+/* No comment provided by engineer. */
+"select_category_title" = "カテゴリを選択";
+
+/* No comment provided by engineer. */
+"select_wishlist_title" = "ウィッシュリストを選択";
+
+/* No comment provided by engineer. */
+"set_gender_title" = "性別を選択しますか?";
+
+/* No comment provided by engineer. */
+"setting_title_about" = "バージョン情報";
+
+/* No comment provided by engineer. */
+"setting_title_allow_like_fb" = "ハート マークを付けたデザインと Facebook の「いいね」を同期化";
+
+/* No comment provided by engineer. */
+"setting_title_allow_newsletter" = "Homestyler ニュースレターと特別なプロモーション情報を受け取る";
+
+/* No comment provided by engineer. */
+"setting_title_allow_pn" = "コメント、新しいフォロワーなどの通知を受け取る";
+
+/* No comment provided by engineer. */
+"setting_title_change_country" = "Country";
+
+/* No comment provided by engineer. */
+"setting_title_change_local" = "言語";
+
+/* No comment provided by engineer. */
+"setting_title_clear_cache" = "キャッシュをクリア";
+
+/* No comment provided by engineer. */
+"setting_title_clear_offline_package" = "オフライン パッケージをクリア";
+
+/* No comment provided by engineer. */
+"setting_title_feedback" = "フィードバック";
+
+/* No comment provided by engineer. */
+"setting_title_privacy" = "プライバシー ポリシー";
+
+/* No comment provided by engineer. */
+"setting_title_terms" = "サービス利用規約";
+
+/* No comment provided by engineer. */
+"setting_title_usage_data" = "使用状況のデータの収集を許可";
+
+/* (No Comment) */
+"settings" = "設定";
+
+/* No comment provided by engineer. */
+"share_after_save_design_copy" = "私の#インテリアデザイン \"{{D_NAME}}\" を #%@ {{LINK}} でチェックしてください";
+
+/* (No Comment) */
+"share_article_link_title" = "記事";
+
+/* No comment provided by engineer. */
+"share_description" = "Design your dream home on Homestyler";
+
+/* (No Comment) */
+"share_description_with_ar" = "Homestylerで作成した私のARデザインをチェックしてください";
+
+/* No comment provided by engineer. */
+"share_design_show_before_and_after" = "変更前と変更後を表示";
+
+/* No comment provided by engineer. */
+"share_design_show_my_name" = "自分の名前を表示";
+
+/* (No Comment) */
+"share_email_body" = "%@ でチェック";
+
+/* (No Comment) */
+"share_email_body_article" = "この{{ARTICLE}}をチェック";
+
+/* (No Comment) */
+"share_email_subject_article" = "この記事をチェック";
+
+/* (No Comment) */
+"share_link_title" = "リンク";
+
+/* (No Comment) */
+"share_on_facebook" = "Facebook で共有";
+
+/* No comment provided by engineer. */
+"share_option_email" = "電子メール";
+
+/* (No Comment) */
+"share_option_facebook" = "Facebook";
+
+/* (No Comment) */
+"share_option_saveimage" = "イメージを保存";
+
+/* (No Comment) */
+"share_option_twitter" = "Twitter";
+
+/* button title skip */
+"share_your_design_skip_button_title" = "スキップ";
+
+/* view title */
+"share_your_design_title" = "デザインを共有";
+
+/* by */
+"shopping_list_by" = "によって";
+
+/* Close */
+"shopping_list_close" = "閉じる";
+
+/* Sent from Autodesk Homestyler */
+"shopping_list_email_sent_homestyler" = "Autodesk Homestyler から送信";
+
+/* Check out these products from Homestyler. */
+"shopping_list_email_subject" = "Homestyler でこれらの製品をチェック";
+
+/* Design Product List */
+"shopping_list_email_title1" = "デザイン製品一覧";
+
+/* List of products used to in the above design: */
+"shopping_list_email_title2" = "上記のデザインに使用された製品の一覧:";
+
+/* View design on Homestyler */
+"shopping_list_email_view_design" = "Homestyler デザインを表示";
+
+/* Go to Website */
+"shopping_list_go_to_website" = "ウェブサイトを訪問 ＞";
+
+/* Product List */
+"shopping_list_title" = "製品一覧";
+
+/* (No Comment) */
+"showGrid_button" = "グリッドを表示";
+
+/* (No Comment) */
+"show_label" = "表示:";
+
+/* Add Your Brand */
+"side_menu_cell_add_your_brand" = "ブランドを追加";
+
+/* Sign In */
+"sign_in" = "サイン イン";
+
+/* No comment provided by engineer. */
+"sign_out" = "終了";
+
+/* No comment provided by engineer. */
+"signin_title" = "サイン インまたは登録";
+
+/* Signing In */
+"signing_in" = "サインインしています...";
+
+/* No comment provided by engineer. */
+"signout_confirm_alert" = "サインアウトしますか?";
+
+/* No comment provided by engineer. */
+"signup_ok" = "%@ コミュニティにご参加いただきありがとうございます。";
+
+/* No comment provided by engineer. */
+"snapToGrid_button" = "グリッドにスナップ";
+
+/* No comment provided by engineer. */
+"sorry_search_friend_failed" = "現在、友達の検索を行えません。後でもう一度行ってください。";
+
+/* No comment provided by engineer. */
+"sort_type_copy" = "並べ替え";
+
+/* No comment provided by engineer. */
+"start_design" = "設計";
+
+/* (No Comment) */
+"start_redesign" = "再設計";
+
+/* No comment provided by engineer. */
+"submit_button" = "送信";
+
+/* (No Comment) */
+"success_msg_facebook_share_success" = "共有していただき、ありがとうございました!";
+
+/* (No Comment) */
+"success_msg_name_updated" = "プロファイル名が正常に更新されました";
+
+/* Your password updated successfully */
+"success_msg_pass_updated" = "パスワードは正常に更新されました";
+
+/* (No Comment) */
+"sync" = "同期";
+
+/* (No Comment) */
+"sync_alert_msg" = "オフラインで作成したデザインを Homestyler アカウントに同期しますか?";
+
+/* (No Comment) */
+"sync_alert_title_msg" = "設計の同期化";
+
+/* (No Comment) */
+"sync_later" = "後で";
+
+/* (No Comment) */
+"technical_difficultie_error" = "技術的な問題が発生しています。後でもう一度行ってください。";
+
+/* No comment provided by engineer. */
+"terms_of_service" = "もっと詳しく知る";
+
+/* (No Comment) */
+"twitter_no_account_defined" = "Twitter アカウントが設定されていません。[設定]で Twitter アカウントの追加と作成を行えます。";
+
+/* (No Comment) */
+"twitter_share_copy" = "この %@ (%@ から)を今すぐチェック!  %@";
+
+/* unfollow */
+"unfollow" = "アンフォロー";
+"unfollow_user" = "アンフォロー %@?";
+
+/* No comment provided by engineer. */
+"update_location_title" = "場所を更新";
+
+/* (No Comment) */
+"update_profile_image_success" = "プロファイル写真が正常に更新されました";
+
+/* No comment provided by engineer. */
+"update_version_available" = "それの新しいバージョンがあります！ APPを更新すると、より優れたデザイン体験を提供できます";
+
+/* No comment provided by engineer. */
+"update_version_required" = "Homestyler の新しいバージョンをご利用いただけます。";
+
+/* Other... */
+"user_detail_other_input_field" = "その他...";
+
+"user_liked_0_times" = "%@はまだお気に入りを受け取っていません。";
+"user_liked_1_time" = "%@ はHomestylerのように1を受け取った!";
+"user_liked_times" = "%@はHomestylerで%dつの好きなものを受け取りました！";
+
+/* No comment provided by engineer. */
+"user_profile_cell_Name_lbl" = "名前";
+
+/* (No Comment) */
+"user_profile_cell_Name_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl" = "説明";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_empty" = "あなたについて一言";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_read" = "説明:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl" = "好みのスタイル";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl_read" = "好みのスタイル:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_gender_lbl" = "性別";
+
+/* (No Comment) */
+"user_profile_cell_gender_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl" = "興味/関心";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_empty" = "例: ガーデニング、ハイキング、絵画、アートとクラフト、折り紙、読書、旅行、料理、写真、ロッククライミング... ";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_read" = "興味/関心:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl" = "場所";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl_empty" = "あなたの場所を入力";
+
+/* (No Comment) */
+"user_profile_cell_location_lbl_read" = "送信元:";
+
+/* (No Comment) */
+"user_profile_cell_password_lbl" = "パスワード";
+
+/* No comment provided by engineer. */
+"user_profile_cell_profession_lbl" = "職種";
+
+/* (No Comment) */
+"user_profile_cell_profession_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_styles_lbl_empty" = "お気に入りを選択:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl" = "使用しているその他のツール";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_empty" = "ツールを選択:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_read" = "使用しているその他のツール:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_user_types_lbl_empty" = "1 つ選択:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl" = "私は";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl_read" = "私は:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl" = "Web サイト";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl_empty" = "あなたの Web サイトを入力";
+
+/* (No Comment) */
+"user_profile_cell_website_lbl_read" = "Web サイト:";
+
+/* No comment provided by engineer. */
+"user_profile_done_button" = "完了";
+
+/* Sign Out */
+"user_profile_signout_lbl" = "サインアウト";
+
+/* No comment provided by engineer. */
+"waitting_to_sync" = "オフライン デザイン";
+
+/* (No Comment) */
+"wall_button" = "壁";
+
+/* (No Comment) */
+"wallpaper_button" = "壁紙";
+
+/* No comment provided by engineer. */
+"wish_list" = "ウィッシュリスト";
+
+/* Wish List Failed to Create */
+"wishlist_create_failed_msg" = "ウィッシュリストをもう一度作成してください";
+
+/* Wish List Created */
+"wishlist_create_successfuly_msg" = "正常に作成!";
+
+/* Missing Wishlist */
+"wishlist_no_wishlist_msg" = "ウィッシュ リストが見つかりません";
+
+/* Failed to Update Wishlist */
+"wishlist_update_failed_msg" = "エラーが発生したようです。変更をもう一度保存してみてください。";
+
+/* Update Wishlist Succsessfully */
+"wishlist_update_successful_msg" = "ウィッシュリストへの変更が保存されました!";
+
+/* No comment provided by engineer. */
+"wishlists_page_title" = "ウィッシュリスト";
+
+/* Yesterday */
+"yesterday" = "昨日";
+
+"you_liked_0_times" = "あなたはまだ好き嫌いを受けていません.";
+"you_liked_1_time" = "あなたはHomestylerのように1を受け取った!";
+"you_liked_times" = "あなたはHomestylerで %d 好きになりました!";

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESOrderDetailPersonTableViewCell" rowHeight="62" id="KGk-i7-Jjw" customClass="ESOrderDetailPersonTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFu-mW-KAk">
+                        <rect key="frame" x="232" y="0.0" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="BQu-PQ-qgE"/>
+                        </constraints>
+                        <connections>
+                            <action selector="phoneButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MDE-7S-qEe"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="TJn-an-UMt">
+                        <rect key="frame" x="15" y="9" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="TJn-an-UMt" secondAttribute="height" id="Az1-Cp-bfx"/>
+                            <constraint firstAttribute="height" constant="40" id="Kzb-5o-4Y3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6R-aa-ZFy">
+                        <rect key="frame" x="62.5" y="19" width="161.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TJn-an-UMt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="3LP-F6-buB"/>
+                    <constraint firstItem="s6R-aa-ZFy" firstAttribute="centerY" secondItem="TJn-an-UMt" secondAttribute="centerY" id="8xG-cT-OEA"/>
+                    <constraint firstItem="TJn-an-UMt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="Sp9-US-HXw"/>
+                    <constraint firstAttribute="bottom" secondItem="TJn-an-UMt" secondAttribute="bottom" constant="9" id="Wkl-r5-9BH"/>
+                    <constraint firstItem="tFu-mW-KAk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="X1X-tN-ywx"/>
+                    <constraint firstItem="tFu-mW-KAk" firstAttribute="leading" secondItem="s6R-aa-ZFy" secondAttribute="trailing" constant="8" id="ad2-nz-SfT"/>
+                    <constraint firstAttribute="trailing" secondItem="tFu-mW-KAk" secondAttribute="trailing" constant="15" id="eRe-aB-joA"/>
+                    <constraint firstItem="s6R-aa-ZFy" firstAttribute="leading" secondItem="TJn-an-UMt" secondAttribute="trailing" constant="7.5" id="tDc-CA-CVz"/>
+                    <constraint firstItem="tFu-mW-KAk" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="uIQ-Gd-q5k"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImageView" destination="TJn-an-UMt" id="uck-Sn-Sxo"/>
+                <outlet property="nameLabel" destination="s6R-aa-ZFy" id="6Ef-mx-GaK"/>
+                <outlet property="phoneButton" destination="tFu-mW-KAk" id="bsA-kK-0nV"/>
+            </connections>
+            <point key="canvasLocation" x="38.5" y="61"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="defaultPlaceholder" width="375" height="188"/>
+    </resources>
+</document>

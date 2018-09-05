@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SHAboutWebViewController">
+            <connections>
+                <outlet property="aboutWebView" destination="Z3D-vP-5YA" id="Afu-sc-Zfl"/>
+                <outlet property="versionLabel" destination="Bqt-vh-Hzg" id="rwn-f2-KVU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3D-vP-5YA">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <dataDetectorType key="dataDetectorTypes"/>
+                </webView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqt-vh-Hzg">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Vvf-Vi-Ill"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Bqt-vh-Hzg" secondAttribute="trailing" constant="8" id="8FG-zN-OtE"/>
+                <constraint firstItem="Bqt-vh-Hzg" firstAttribute="top" secondItem="Z3D-vP-5YA" secondAttribute="bottom" constant="8" id="CVR-dr-UQd"/>
+                <constraint firstItem="Z3D-vP-5YA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="QJZ-90-FfJ"/>
+                <constraint firstItem="Bqt-vh-Hzg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="ZeY-d4-lZZ"/>
+                <constraint firstAttribute="bottom" secondItem="Bqt-vh-Hzg" secondAttribute="bottom" constant="19" id="b0W-JK-IqG"/>
+                <constraint firstItem="Z3D-vP-5YA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="e8h-iY-VTX"/>
+                <constraint firstAttribute="trailing" secondItem="Z3D-vP-5YA" secondAttribute="trailing" id="tZL-CR-En2"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

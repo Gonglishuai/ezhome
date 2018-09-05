@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GalleryStreamEmptyRoomHeaderID" id="U6b-Vx-4bR" customClass="GalleryStreamEmptyRoomHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="496" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uea-l4-2F6" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="496" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRV-5W-dGT" userLabel="container">
+                            <rect key="frame" x="0.0" y="0.0" width="496" height="50"/>
+                            <subviews>
+                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wP-WD-Zmw">
+                                    <rect key="frame" x="50" y="0.0" width="364" height="49"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="U6b-Vx-4bR" id="t3W-TY-6c7"/>
+                                    </connections>
+                                </scrollView>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Poh-4z-R5b" userLabel="Room Types Button">
+                                    <rect key="frame" x="414" y="0.0" width="44" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="44" id="hqE-We-c6a"/>
+                                    </constraints>
+                                    <color key="tintColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" image="more_filter"/>
+                                    <connections>
+                                        <action selector="showAllRoomTypes:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="Agl-Gh-omo"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7Q-la-i0H" userLabel="BottomLine">
+                                    <rect key="frame" x="0.0" y="49" width="496" height="1"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="0.5" id="4Sd-tu-4Kx"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Poh-4z-R5b" firstAttribute="centerY" secondItem="NRV-5W-dGT" secondAttribute="centerY" id="7Gw-iG-dOL"/>
+                                <constraint firstItem="s7Q-la-i0H" firstAttribute="top" secondItem="3wP-WD-Zmw" secondAttribute="bottom" id="7U1-A6-9l5"/>
+                                <constraint firstItem="Poh-4z-R5b" firstAttribute="top" secondItem="NRV-5W-dGT" secondAttribute="top" id="8EP-fV-F2Y"/>
+                                <constraint firstItem="Poh-4z-R5b" firstAttribute="leading" secondItem="3wP-WD-Zmw" secondAttribute="trailing" id="AjL-SF-wV9"/>
+                                <constraint firstItem="3wP-WD-Zmw" firstAttribute="top" secondItem="NRV-5W-dGT" secondAttribute="top" id="Dav-uM-vBN"/>
+                                <constraint firstAttribute="height" constant="50" id="S7z-Fx-PcB"/>
+                                <constraint firstAttribute="bottom" secondItem="Poh-4z-R5b" secondAttribute="bottom" id="T93-TY-Ysa"/>
+                                <constraint firstItem="3wP-WD-Zmw" firstAttribute="leading" secondItem="NRV-5W-dGT" secondAttribute="leading" constant="50" id="TXL-dN-hrb"/>
+                                <constraint firstAttribute="bottom" secondItem="s7Q-la-i0H" secondAttribute="bottom" id="Uyi-p5-Shv"/>
+                                <constraint firstAttribute="trailing" secondItem="s7Q-la-i0H" secondAttribute="trailing" id="ie4-uP-YJw"/>
+                                <constraint firstAttribute="trailing" secondItem="Poh-4z-R5b" secondAttribute="trailing" constant="38" id="vWQ-1g-3yv"/>
+                                <constraint firstItem="s7Q-la-i0H" firstAttribute="leading" secondItem="NRV-5W-dGT" secondAttribute="leading" id="yFp-XJ-TdJ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="NRV-5W-dGT" secondAttribute="bottom" id="J5Z-l6-y7R"/>
+                        <constraint firstAttribute="trailing" secondItem="NRV-5W-dGT" secondAttribute="trailing" id="PEc-zq-pGs"/>
+                        <constraint firstItem="NRV-5W-dGT" firstAttribute="top" secondItem="uea-l4-2F6" secondAttribute="top" id="TJq-Ff-Nt6"/>
+                        <constraint firstItem="NRV-5W-dGT" firstAttribute="leading" secondItem="uea-l4-2F6" secondAttribute="leading" id="VF0-xJ-P61"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="9Gg-ye-v9C" firstAttribute="trailing" secondItem="uea-l4-2F6" secondAttribute="trailing" id="R6L-k7-ey4"/>
+                <constraint firstItem="uea-l4-2F6" firstAttribute="top" secondItem="9Gg-ye-v9C" secondAttribute="top" id="Rs0-SE-xjN"/>
+                <constraint firstItem="uea-l4-2F6" firstAttribute="leading" secondItem="9Gg-ye-v9C" secondAttribute="leading" id="eks-qx-2XC"/>
+                <constraint firstItem="9Gg-ye-v9C" firstAttribute="bottom" secondItem="uea-l4-2F6" secondAttribute="bottom" id="wfh-qt-gnB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="9Gg-ye-v9C"/>
+            <connections>
+                <outlet property="marginLeftConstraint" destination="TXL-dN-hrb" id="qrv-iZ-A85"/>
+                <outlet property="marginRightConstraint" destination="vWQ-1g-3yv" id="HXX-6k-pOe"/>
+                <outlet property="roomTypesButton" destination="Poh-4z-R5b" id="ipt-ck-Asm"/>
+                <outlet property="roomTypesList" destination="3wP-WD-Zmw" id="yGr-QL-VlC"/>
+            </connections>
+            <point key="canvasLocation" x="-208" y="-166"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="more_filter" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="378" id="KGk-i7-Jjw" customClass="NoCommentCell">
+            <rect key="frame" x="0.0" y="0.0" width="455" height="378"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="455" height="377.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_comments" translatesAutoresizingMaskIntoConstraints="NO" id="Yha-7f-FRa">
+                        <rect key="frame" x="172" y="96" width="110" height="110"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No comments yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuK-Vs-hnL">
+                        <rect key="frame" x="167" y="226" width="121" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="Text_Body3"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="LuK-Vs-hnL" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="F3Z-3g-5Jp"/>
+                    <constraint firstItem="Yha-7f-FRa" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="KNs-2B-2HY"/>
+                    <constraint firstItem="Yha-7f-FRa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.8" id="rj8-10-cdG"/>
+                    <constraint firstItem="LuK-Vs-hnL" firstAttribute="top" secondItem="Yha-7f-FRa" secondAttribute="bottom" constant="20" id="whB-MF-uc2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tip" destination="LuK-Vs-hnL" id="y0k-yf-8RO"/>
+            </connections>
+            <point key="canvasLocation" x="-158" y="-8"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="no_comments" width="110" height="110"/>
+    </resources>
+</document>

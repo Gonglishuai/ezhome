@@ -1,0 +1,1180 @@
+//
+//  SocialManager.m
+//
+//  Created by Stav Ashuri on 12/2/12.
+//  Copyright (c) 2012 Stav Ashuri. All rights reserved.
+//
+
+#import "HSSocialServices.h"
+
+
+//#import "FBSBJSON.h"
+//#import "FBFriend.h"
+
+#import <Social/Social.h>
+#import <Accounts/Accounts.h>
+#import "Facebook.h"
+
+
+
+#define kFacebookSDKJsonResponseKey @"com.facebook.sdk:ParsedJSONResponseKey"
+#define KFacebookLoginRetriesMax 2
+
+//Error handling
+//Taken from https://developers.facebook.com/docs/reference/api/errors/
+#define kFacebookSDKErrorCodeOAuthError 190
+#define kFacebookSDKErrorSubcodeAppNotInstalled 458
+#define kFacebookSDKErrorSubcodeUserCheckpointed 459
+#define kFacebookSDKErrorSubcodePasswordChanged 460
+#define kFacebookSDKErrorSubcodeExpired 463
+#define kFacebookSDKErrorSubcodeUnconfirmedUser 464
+#define kFacebookErrorUserInfoKeyBody    @"body"
+#define kFacebookErrorUserInfoKeyError   @"error"
+#define kFacebookErrorUserInfoKeyCode    @"code"
+#define kFacebookErrorUserInfoKeySubCode @"error_subcode"
+
+
+
+//Dialogs
+#define kFacebookDialogURLReturnKeyPostId @"post_id"
+
+//Post dialog
+#define kFacebookPostParamLink          @"link"
+#define kFacebookPostParamPictureUrl    @"picture"
+#define kFacebookPostParamName          @"name"
+#define kFacebookPostParamCaption       @"caption"
+#define kFacebookPostParamDescription   @"description"
+#define kFacebookPostParamMessage       @"message"
+
+//Feed dialog
+#define kFacebookFeedDialogParamName @"name"
+#define kFacebookFeedDialogParamCaption @"caption"
+#define kFacebookFeedDialogParamDescription @"description"
+#define kFacebookFeedDialogParamLink @"link"
+#define kFacebookFeedDialogParamPicture @"picture"
+#define kFacebookFeedDialogParamTo @"to"
+#define kFacebookFeedDialogName @"feed"
+#define kFacebookFeedDialogAppId @"app_id"
+
+//Invite Parameters
+#define kFacebookInviteParamMessage     @"message"
+#define kFacebookInviteParamTo          @"to"
+#define kFacebookInviteDialogName       @"apprequests"
+
+//FQL
+#define kFacebookFQLGetFriendsQuery @"SELECT uid, name, pic_square FROM user WHERE uid IN (SELECT uid2 FROM friend WHERE uid1 = me())"
+#define kFacebookFQLGetFriendQuery @"SELECT uid, name, pic_square FROM user WHERE uid = %@"
+#define kFacebookFQLGetProfileImageUrlQuery @"SELECT uid, pic_big FROM user WHERE uid = me()"
+#define kFacebookFQLResponseKeyData @"data"
+#define kFacebookFQLResponseKeyLargePic @"pic_big"
+
+
+@interface HSSocialServices() <NSCoding, FBDialogDelegate>
+{
+    FacebookInviteCompletionBlock inviteCompletionBlock;
+    SocialPostFailBlock inviteFailBlock;
+    FBGraphUser *userinfo;
+    
+    dispatch_queue_t backgroundQueue;
+}
+
+@property (strong, nonatomic) NSArray *cachedFacebookFriends;
+@property (strong, nonatomic) NSArray *cachedFBFriends;
+@property (strong, nonatomic) FacebookFeedDialogPostCompletionBlock pendingFacebookPostCompletionBlock;
+@property (strong, nonatomic) SocialPostFailBlock pendingFacebookPostFailBlock;
+
+@property (assign ,nonatomic) int numberOfFacebookRetries;
+
+@end
+
+@implementation HSSocialServices
+
+@synthesize numberOfFacebookRetries;
+
+#pragma mark - NSObject
+
+- (id)init
+{
+    self = [super init];
+    if (self)
+    {        
+        backgroundQueue = dispatch_queue_create(kSocialManagerBackgroundQueueName, NULL);
+    }
+    return self;
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+#pragma mark - Setters
+
+-(void) setTwitterEnabled:(BOOL)twitterEnabled
+{
+    [self saveToDisk];
+}
+
+#pragma mark - Session Changes
+/*
+ * Callback for session changes.
+ */
+- (void)sessionStateChanged:(NSNotification*)notification
+{
+    if (FBSession.activeSession.isOpen)
+    {
+    }
+    else
+    {
+    }
+}
+
+- (void)sessionStateChanged:(FBSession *)session
+                      state:(FBSessionState) state
+                      error:(NSError *)error
+{
+    switch (state) {
+        case FBSessionStateOpen:
+            if (!error) {
+                // We have a valid session
+            }
+            break;
+        case FBSessionStateClosed:
+        case FBSessionStateClosedLoginFailed:
+            [FBSession.activeSession closeAndClearTokenInformation];
+            break;
+        default:
+            break;
+    }
+    
+    if (error) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", nil) message:error.localizedDescription delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil];
+        [alertView show];
+    }
+}
+
+#pragma mark - Private
+
+- (BOOL)validBlocks:(id)block1 :(id)block2 {
+    if (block1 && block2) {
+        return YES;
+    }
+    return NO;
+}
+
+
+#pragma mark - Private (Facebook)
+
+- (void)postToFacebookWithFeedDialogWithPostName:(NSString *)name andCaption:(NSString *)caption andDescription:(NSString *)description andLink:(NSString *)link andPictureUrl:(NSString *)pictureUrl postToFriendOrNil:(NSString *)friendFbId onCompletion:(FacebookFeedDialogPostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock{
+    if (![self validBlocks:completionBlock :failBlock]) {
+        return;
+    }
+    
+    // Put together the dialog parameters
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    
+    if ([self isValidString:name]) {
+        [params setObject:name forKey:kFacebookFeedDialogParamName];
+    }
+    
+    if ([self isValidString:caption]) {
+        [params setObject:caption forKey:kFacebookFeedDialogParamCaption];
+    }
+    
+    if ([self isValidString:description]) {
+        [params setObject:description forKey:kFacebookFeedDialogParamDescription];
+    }
+    
+    if ([self isValidString:link]) {
+        [params setObject:link forKey:kFacebookFeedDialogParamLink];
+    }
+    
+    if ([self isValidString:pictureUrl]) {
+        [params setObject:pictureUrl forKey:kFacebookFeedDialogParamPicture];
+    }
+    
+    if ([self isValidString:friendFbId]) {
+        [params setObject:friendFbId forKey:kFacebookFeedDialogParamTo];
+    }
+    
+    [FBWebDialogs presentFeedDialogModallyWithSession:nil parameters:params handler: ^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+        if (error) {
+            // Case A: Error launching the dialog or publishing story.
+            failBlock(NSLocalizedString(@"Error publishing story.", nil));
+        }
+        else {
+            if (result == FBWebDialogResultDialogNotCompleted) {
+                // Case B: User clicked the "x" icon
+                failBlock(NSLocalizedString(@"User canceled story publishing.", nil));
+            }
+            else {
+                // Case C: Dialog shown and the user clicks Cancel or Share
+                NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
+                if (![urlParams valueForKey:@"post_id"]) {
+                    // User clicked the Cancel button
+                    failBlock(NSLocalizedString(@"User canceled story publishing.", nil));
+                }
+                else {
+                    // User clicked the Share button
+                    NSString *postID = [urlParams valueForKey:@"post_id"];
+                    completionBlock(postID);
+                }
+            }
+        }
+    }];
+}
+
+/*
+ * Opens a Facebook session and optionally shows the login UX.
+ */
+- (void)openSessionWithAllowLoginUI:(BOOL)allowLoginUI completionHandler:(FBSessionStateHandler)completion
+{
+    self.numberOfFacebookRetries++;
+    NSArray *permissions = @[kFacebookPermissionsEmail];
+   // NSArray *permissions = kInitialPermissions;
+    ACAccountStore *store = [[ACAccountStore alloc] init];
+    ACAccountType *accountType  = [store accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
+    NSArray *accounts = [store accountsWithAccountType:accountType];
+    if(accounts.count > 0)
+    {
+        permissions = kInitialPermissions;
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        @try {
+            [FBSession openActiveSessionWithReadPermissions:permissions
+                                               allowLoginUI:allowLoginUI
+                                          completionHandler:completion];
+        }
+        @catch (NSException *exception) {
+            
+        }
+
+
+    });
+}
+
+- (void) closeSession {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        @try {
+            [FBSession.activeSession closeAndClearTokenInformation];
+        }
+        @catch (NSException *exception) {
+            
+        }
+
+        
+    });
+}
+
+- (void)publishToFeedWithParams:(NSDictionary *)params withCompletionBlock:(SocialPostCompletionBlock)completionBlock andFailBlock:(SocialPostFailBlock)failBlock {
+    [FBRequestConnection
+     startWithGraphPath:@"me/feed"
+     parameters:params
+     HTTPMethod:@"POST"
+     completionHandler:^(FBRequestConnection *connection,
+                         id result,
+                         NSError *error) {
+         if (error.code) {
+             failBlock([[error userInfo] description]);
+         }
+         else {
+             completionBlock();
+         }
+     }];
+}
+
+/**
+ * Helper method for parsing URL parameters.
+ */
+- (NSDictionary*)parseURLParams:(NSString *)query {
+    NSArray *pairs = [query componentsSeparatedByString:@"&"];
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    for (NSString *pair in pairs) {
+        NSArray *kv = [pair componentsSeparatedByString:@"="];
+        NSString *val =
+        [[kv objectAtIndex:1]
+         stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        
+        [params setObject:val forKey:[kv objectAtIndex:0]];
+    }
+    return params;
+}
+
+-(BOOL)isValidString:(NSString*)stringToValidate {
+    if (stringToValidate && !([stringToValidate isEqualToString:@""]) ) {
+        return YES;
+    }
+    
+    return NO;
+}
+
+#pragma mark - Public (Facebook)
+
+- (BOOL)isSessionStateEffectivelyLoggedIn:(FBSessionState)state
+{
+    BOOL effectivelyLoggedIn;
+    
+    switch (state)
+    {
+        case FBSessionStateOpen:
+            effectivelyLoggedIn = YES;
+            break;
+        case FBSessionStateCreatedTokenLoaded:
+            effectivelyLoggedIn = YES;
+            break;
+        case FBSessionStateOpenTokenExtended:
+            effectivelyLoggedIn = YES;
+            break;
+        default:
+            effectivelyLoggedIn = NO;
+            break;
+    }
+    
+    return effectivelyLoggedIn;
+}
+
+/**
+ * Determines if the Facebook session has an authorized state. It might still need to be opened if it is a cached
+ * token, but the purpose of this call is to determine if the user is authorized at least that they will not be
+ * explicitly asked anything.
+ */
+- (BOOL)isLoggedIn
+{
+    FBSession *activeSession = [FBSession activeSession];
+    FBSessionState state = activeSession.state;
+    BOOL isLoggedIn = activeSession && [self isSessionStateEffectivelyLoggedIn:state];
+    
+    return isLoggedIn;
+}
+
+/**
+ * Attempts to silently open the Facebook session if we have a valid token loaded (that perhaps needs a behind the scenes refresh).
+ * After that attempt, we defer to the basic concept of the session being in one of the valid authorized states.
+ */
+- (void)requestReadPermissionsWithPermissions:(NSArray*)permissions AndCompletion:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock
+{
+    __block int retries = 0;
+
+    @try
+    {
+            [FBSession openActiveSessionWithPublishPermissions:permissions defaultAudience:FBSessionDefaultAudienceFriends allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error)
+             {
+                 if(status == FBSessionStateCreated || status == FBSessionStateCreatedTokenLoaded || status == FBSessionStateOpen)
+                 {
+                     [[FBRequest requestForMe] startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error)
+                      {
+                          if (!error)
+                          {
+                              [self getFacebookUserInfoWIthCompletion:successBlock onFailure:failBlock];
+                          }
+                          else if ([[error userInfo][FBErrorParsedJSONResponseKey][@"body"][@"error"][@"code"] compare:@190] == NSOrderedSame)
+                          {
+                              retries++;
+                              if(retries <= 1)
+                              {
+                              //requestForMe failed due to error validating access token (code 190), so retry login
+                              [FBSession openActiveSessionWithReadPermissions:permissions allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error)
+                               {
+                                   if (!error)
+                                   {
+                                       //do something again, or consider recursive call with a max retry count.
+                                       [self getFacebookUserInfoWIthCompletion:successBlock onFailure:failBlock];
+                                   }
+                                   else
+                                   {
+                                       failBlock(error.description);
+                                       
+                                   }
+                               }];
+                              }
+                          }
+                          else
+                          {
+                              if(retries <= 1)
+                              {
+                              [FBSession.activeSession closeAndClearTokenInformation];
+                              
+                              retries++;
+                              //request failed due to unknown error, so retry login
+                              [FBSession openActiveSessionWithReadPermissions:permissions allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error)
+                               {
+                                   if (!error)
+                                   {
+                                       //do something again, or consider recursive call with a max retry count.
+                                       [self getFacebookUserInfoWIthCompletion:successBlock onFailure:failBlock];
+                                   }
+                                   else
+                                   {
+                                       failBlock(error.description);
+                                   }
+                               }];
+                              }
+                          }
+                      }];
+                 }
+                 //IOS6 password changed
+                 else
+                 {
+                     if (error != nil)
+                     {
+                         if ([self ios6AccountFacebookAccount] != nil)
+                         {
+                             retries++;
+                             if (retries <= 1)
+                             {
+                                 [self fbResyncWithPermissions:permissions WithComplition:^(BOOL granted, NSError *e)
+                                  {
+                                      if (granted == YES)
+                                      {
+                                          [FBSession openActiveSessionWithReadPermissions:permissions allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error)
+                                           {
+                                               if (!error)
+                                               {
+                                                   //do something again, or consider recursive call with a max retry count.
+                                                   [self getFacebookUserInfoWIthCompletion:successBlock onFailure:failBlock];
+                                               }
+                                               else
+                                               {
+                                                   failBlock(error.description);                                                   
+                                               }
+                                           }];
+                                      }
+                                      else
+                                      {
+                                          failBlock(error.description);
+                                      }
+                                  }];
+                             }
+                             else
+                             {
+                                 failBlock(error.description);
+                             }
+                         }
+                         else
+                         {
+//                             retries++;
+//                             if(retries > 1)
+//                             {
+                             failBlock(error.description);
+//                             }
+                         }                         
+                         
+                     }
+                     else
+                     {
+                         [self getFacebookUserInfoWIthCompletion:successBlock onFailure:failBlock];
+
+                         //(FBSession.activeSession.state, FBSession.activeSession.accessTokenData.accessToken
+                          
+                         //successBlock();(int state, NSString *token, NSString *firstName, NSString *lastName, NSString *username, NSString *fbUid)
+                         NSLog(@"%@", error.debugDescription);
+                     }
+                 }
+             }];
+    }
+    @catch (NSException *exception)
+    {
+        failBlock(exception.reason);
+    }
+    
+}
+
+- (void)showFacebookError:(BOOL) shouldNotify andMessage:(NSString*) message
+{
+    NSString *localMessage;
+    if(message != nil)
+    {
+        localMessage = message;
+    }
+    else
+    {
+        localMessage = NSLocalizedString(@"Please check Your facebook account in device setting.", nil);
+    }
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"FaceBook Login Error", nil)
+                                                        message:localMessage
+                                                       delegate:nil
+                                              cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                              otherButtonTitles:nil];
+    [alertView show];
+}
+
+- (ACAccount*)ios6AccountFacebookAccount
+{
+    ACAccountStore *store = [[ACAccountStore alloc] init];
+    ACAccountType *accountType  = [store accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
+    NSArray *accounts = [store accountsWithAccountType:accountType];
+    if(accounts.count > 0)
+    {
+        return [accounts lastObject];
+    }
+    else
+    {
+        return nil;
+    }
+}
+
+-(void)fbResyncWithPermissions:(NSArray*)permissions WithComplition:(void (^)(BOOL granted, NSError *e))complitionBlock;
+{
+    ACAccountStore *accountStore;
+    ACAccountType *accountTypeFB;
+    if ((accountStore = [[ACAccountStore alloc] init]) && (accountTypeFB = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook] ) ){
+        
+        NSArray *fbAccounts = [accountStore accountsWithAccountType:accountTypeFB];
+        id account;
+        if (fbAccounts && [fbAccounts count] > 0 && (account = [fbAccounts objectAtIndex:0]))
+        {
+            [accountStore renewCredentialsForAccount:account completion:^(ACAccountCredentialRenewResult renewResult, NSError *error)
+             {
+                 if (error)
+                 {
+
+                 }
+                 else
+                 {
+                     
+                 }
+                 
+             //try to request permisisons again
+             NSDictionary *options = @{
+                                  ACFacebookAppIdKey: @"1441794289380376",
+                            ACFacebookPermissionsKey: permissions,
+                               ACFacebookAudienceKey: ACFacebookAudienceFriends
+             };
+             
+             [accountStore requestAccessToAccountsWithType:accountTypeFB
+                                                   options:options completion:^(BOOL granted, NSError *e)
+              {
+                  if(complitionBlock != nil)
+                  {
+                      dispatch_async(dispatch_get_main_queue(), ^
+                                     {
+                                            complitionBlock(granted ,e);
+                                     });
+                  }
+              }];
+             
+            }];
+        }
+    }
+}
+
+- (void)requestPublishPermissionsWithPermissions:(NSArray*)permissions withCompletion:(FacebookLoginSuccessBlock)completionBlock failBlock:(FacebookLoginFailBlock)failBlock
+{
+    
+    if (![self validBlocks:completionBlock :failBlock])
+    {
+        return;
+    }
+    
+    if(permissions == nil || permissions.count == 0)
+    {
+        return;
+    }
+    @try
+    {
+        [[FBSession activeSession] requestNewPublishPermissions:permissions defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+         {
+             if (error || ([session.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound) || [self ios6AccountFacebookAccount] != nil)
+             {
+                 if([self ios6AccountFacebookAccount] != nil)
+                 {
+                     [self fbResyncWithPermissions:permissions WithComplition:^(BOOL granted, NSError *e)
+                      {
+                          if(granted == YES)
+                          {
+                              [[FBSession activeSession] requestNewPublishPermissions:permissions defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+                               {
+                                   if (error || ([session.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound))
+                                   {
+                                       failBlock(error.description);
+                                   }
+                                   else
+                                   {
+                                       [self getFacebookUserInfoWIthCompletion:completionBlock onFailure:failBlock];
+                                   }
+                               }];
+                          }
+                          else
+                          {
+                              failBlock(error.description);
+                          }
+                      }];
+                 }
+                 else
+                 {
+                     failBlock(error.description);
+                 }
+             }
+             else
+             {
+                 [self getFacebookUserInfoWIthCompletion:completionBlock onFailure:failBlock];
+             }
+         }];
+    }
+    @catch (NSException *exception)
+    {
+        failBlock(exception.reason);
+    }
+}
+
+- (void)getFacebookUserInfoWIthCompletion:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock
+{
+    @try
+    {
+        dispatch_async(dispatch_get_main_queue(), ^
+        {
+            [FBRequestConnection startForMeWithCompletionHandler:^(FBRequestConnection *connection, id <FBGraphUser> result, NSError *error)
+             {
+                 if (error)
+                 {
+                     if(failBlock != nil)
+                     {
+                         failBlock(error.description);
+                     }
+                 }
+                 else
+                 {
+                     userinfo = (FBGraphUser*)result;
+                     NSString *firstName = [result first_name];
+                     NSString *lastName = [result last_name];
+                     NSString *username = [result username];
+                     NSString *uid = [result id];
+                     //FBSession *s = FBSession.activeSession;
+                     if(successBlock != nil)
+                     {
+                         successBlock(FBSession.activeSession.state, FBSession.activeSession.accessTokenData.accessToken, firstName, lastName, username, uid);
+                     }
+                 }
+             }];
+        });
+
+    }
+    @catch (NSException *exception)
+    {
+        if(failBlock != nil)
+        {
+            failBlock(exception.reason);
+        }
+    }
+}
+
+- (void)cleanCache
+{
+    self.cachedFacebookFriends = nil;
+}
+
+- (void)facebookLoginWithCompletion:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock
+{
+    self.numberOfFacebookRetries = 0;
+    if (![self validBlocks:successBlock :failBlock])
+    {
+        return;
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^
+    {
+        if (FBSession.activeSession.isOpen)
+        {
+            [self closeSession];
+            [FBSession.activeSession closeAndClearTokenInformation];
+        }
+        
+        FBSessionStateHandler handler = ^(FBSession *session,
+                                          FBSessionState state,
+                                          NSError *error)
+        {
+            if (error)
+            {
+                failBlock([[error userInfo] description]);
+            }
+            
+            if(state == FBSessionStateOpen)
+            {
+                if (error)
+                {
+                    failBlock([[error userInfo] description]);
+                }
+                else
+                {
+                    [FBRequestConnection startForMeWithCompletionHandler:^(FBRequestConnection *connection, id <FBGraphUser> result, NSError *error) {
+                        if (error)
+                        {
+                            if (!error.code == 5)
+                            {
+                                failBlock([[error userInfo] description]);
+                            }
+                            else
+                            {
+                                NSDictionary *userInfo = [error userInfo];
+                                NSDictionary *parsedJSON = [userInfo objectForKey:kFacebookSDKJsonResponseKey];
+                                NSDictionary *body = [parsedJSON objectForKey:kFacebookErrorUserInfoKeyBody];
+                                NSDictionary *bodyError = [body objectForKey:kFacebookErrorUserInfoKeyError];
+                                int code = [[bodyError objectForKey:kFacebookErrorUserInfoKeyCode] intValue];
+                                int subcode = [[bodyError objectForKey:kFacebookErrorUserInfoKeySubCode] intValue];
+                                
+                                if (code == kFacebookSDKErrorCodeOAuthError && subcode == kFacebookSDKErrorSubcodeAppNotInstalled)
+                                {
+                                    failBlock(NSLocalizedString(@"Please authorize the application on Facebook", nil));
+                                }
+                                else if (code == kFacebookSDKErrorCodeOAuthError && subcode == kFacebookSDKErrorSubcodePasswordChanged)
+                                {
+                                    failBlock(NSLocalizedString(@"The user might have changed password since last stored session", nil));
+                                }
+                                else
+                                {
+                                    failBlock(NSLocalizedString(@"Facebook general error", nil));
+                                }
+                            }
+                        }
+                        else
+                        {
+                            NSString *firstName = [result first_name];
+                            NSString *lastName = [result last_name];
+                            NSString *username = [result username];
+                            NSString *uid = [result id];
+                            successBlock(state, session.accessTokenData.accessToken, firstName, lastName, username, uid);
+                        }
+                    }];
+                }
+            }
+        };
+        
+        [self openSessionWithAllowLoginUI:YES completionHandler:handler];
+    });
+}
+
+- (void)sendFbInviteTo:(NSArray*)fbUserIDs withTitle:(NSString *)title andMessage:(NSString*)message onCompletion:(FacebookInviteCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock {
+    
+    @try
+    {
+        [FBSession openActiveSessionWithAllowLoginUI:NO];
+    }
+    @catch (NSException *exception)
+    {
+        
+    }
+
+    NSMutableString * IDs = [[NSMutableString alloc] init];
+    for (NSString * fbId in fbUserIDs) {
+        if ([fbUserIDs indexOfObject:fbId] == fbUserIDs.count - 1) {
+            [IDs appendString:fbId];
+        }
+        else {
+            [IDs appendFormat:@"%@,",fbId];
+        }
+    }
+    
+    NSMutableDictionary* params =
+    [NSMutableDictionary dictionaryWithObjectsAndKeys:
+     message, kFacebookInviteParamMessage,
+     IDs, kFacebookInviteParamTo,
+     nil];
+    
+    [FBWebDialogs presentRequestsDialogModallyWithSession:nil message:message title:title parameters:params handler:^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+        if (error) {
+            // Case A: Error launching the dialog or sending request.
+            if (failBlock) {
+                failBlock(NSLocalizedString(@"Error sending request.", nil));
+            }
+        }
+        else {
+            if (result == FBWebDialogResultDialogNotCompleted) {
+                // Case B: User clicked the "x" icon
+                if (failBlock) {
+                    failBlock(NSLocalizedString(@"User canceled request.", nil));
+                }
+            }
+            else {
+                // Case C: Dialog shown and the user clicks Cancel or Send
+                NSDictionary *urlParams = [self parseURLParams:[resultURL query]];
+                if (![urlParams valueForKey:@"request"]) {
+                    // User clicked the Cancel button
+                    if (failBlock) {
+                        failBlock(NSLocalizedString(@"User canceled request.", nil));
+                    }
+                }
+                else {
+                    // User clicked the Send button
+                    if (completionBlock) {
+                        completionBlock();
+                    }
+                }
+            }
+        }
+    }];
+}
+
+- (void)getFacebookProfileImageURLWithCompletion:(FacebookProfileImageUrlCompletionBlock)successBlock onFailure:(SocialPostFailBlock)failBlock {
+    if (![self validBlocks:successBlock :failBlock]) {
+        return;
+    }
+    
+    NSString *query = kFacebookFQLGetProfileImageUrlQuery;
+    
+    NSDictionary *queryParam = [NSDictionary dictionaryWithObjectsAndKeys:query, @"q", nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [FBRequestConnection startWithGraphPath:@"/fql"
+                                     parameters:queryParam
+                                     HTTPMethod:@"GET"
+                              completionHandler:^(FBRequestConnection *connection,
+                                                  id result,
+                                                  NSError *error) {
+                                  if (error) {
+                                      failBlock([[error userInfo] description]);
+                                  }
+                                  else {
+                                      if ([result respondsToSelector:@selector(objectForKey:)]) {
+                                          NSArray *data = [result objectForKey:kFacebookFQLResponseKeyData];
+                                          if ([data respondsToSelector:@selector(count)]) {
+                                              NSDictionary *dataDict = [data lastObject];
+                                              if ([dataDict respondsToSelector:@selector(objectForKey:)]) {
+                                                  NSString *urlStr = [dataDict objectForKey:kFacebookFQLResponseKeyLargePic];
+                                                  if (urlStr) {
+                                                      NSURL *url = [[NSURL alloc] initWithString:urlStr];
+                                                      successBlock(url);
+                                                  }
+                                                  else {
+                                                      failBlock(NSLocalizedString(@"Unexpected response structure", nil));
+                                                  }
+                                              }
+                                              else {
+                                                  failBlock(NSLocalizedString(@"Unexpected response structure", nil));
+                                              }
+                                          }
+                                          else {
+                                              failBlock(NSLocalizedString(@"Unexpected response structure", nil));
+                                          }
+                                      }
+                                      else {
+                                          failBlock(NSLocalizedString(@"Unexpected response structure", nil));
+                                      }
+                                  }
+                              }];
+    });
+}
+
+- (void)postToFacebookWithLink:(NSString *)link andPictureURL:(NSString *)picUrl andName:(NSString *)name andCaption:(NSString *)caption andDescription:(NSString *)description andMessage:(NSString *)message onCompletion:(SocialPostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock {
+    if (![self validBlocks:completionBlock :failBlock])
+    {
+        return;
+    }
+    
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    if (link.length)
+    {
+        [params setObject:link forKey:kFacebookPostParamLink];
+    }
+    
+    if (picUrl.length)
+    {
+        [params setObject:picUrl forKey:kFacebookPostParamPictureUrl];
+    }
+    
+    if (name.length)
+    {
+        [params setObject:name forKey:kFacebookPostParamName];
+    }
+    
+    if (caption.length)
+    {
+        [params setObject:caption forKey:kFacebookPostParamCaption];
+    }
+    
+    if (description.length)
+    {
+        [params setObject:description forKey:kFacebookPostParamDescription];
+    }
+    
+    if (message.length)
+    {
+        [params setObject:message forKey:kFacebookPostParamMessage];
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        
+        //Stav: This is to prevent inactive access tokens from being used while publishing
+//        @try
+//        {
+//            [FBSession openActiveSessionWithAllowLoginUI:NO];
+//        }
+//        @catch (NSException *exception)
+//        {
+//            
+//        }
+
+        switch (FBSession.activeSession.state)
+        {
+            case FBSessionStateOpen:
+                break;
+            case FBSessionStateCreated:
+                break;
+            case FBSessionStateCreatedOpening:
+                break;
+            case FBSessionStateCreatedTokenLoaded:
+                break;
+            case FBSessionStateOpenTokenExtended:
+                // I think this is the state that is calling
+                break;
+            case FBSessionStateClosed:
+                break;
+            case FBSessionStateClosedLoginFailed:
+                break;
+            default:
+                break;
+        }
+        if (FBSession.activeSession.isOpen == NO)
+        {
+            //[FBSession.activeSession closeAndClearTokenInformation];
+            [FBSession openActiveSessionWithReadPermissions:nil
+                                               allowLoginUI:NO
+                                          completionHandler:^(FBSession *session,
+                                                              FBSessionState state,
+                                                              NSError *error) {
+                                              if (error)
+                                              {
+                                                  UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", nil)
+                                                                                                      message:error.localizedDescription
+                                                                                                     delegate:nil
+                                                                                            cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                                                                                            otherButtonTitles:nil];
+                                                  [alertView show];
+                                              }
+                                              else if (session.isOpen)
+                                              {
+                                                  //run your user info request here
+                                                  if ([FBSession.activeSession.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound)
+                                                  {
+                                                      @try
+                                                      {
+                                                          [FBSession.activeSession requestNewPublishPermissions:@[kFacebookPermissionsPublishAction] defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+                                                           {
+                                                               if (!error)
+                                                               {
+                                                                   [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                                                               }
+                                                               else
+                                                               {
+                                                                   failBlock([[error userInfo] description]);
+                                                               }
+                                                           }];
+                                                      }
+                                                      @catch (NSException *exception)
+                                                      {
+                                                          @try
+                                                          {
+                                                              [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                                                          }
+                                                          @catch (NSException *exception)
+                                                          {
+                                                              
+                                                          }
+                                                      }
+                                                  }
+                                                  else
+                                                  {
+                                                      @try
+                                                      {
+                                                          [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                                                      }
+                                                      @catch (NSException *exception)
+                                                      {
+                                                          
+                                                      }
+                                                  }
+                                              }
+                                          }];
+        }
+
+        else
+        {
+            if ([FBSession.activeSession.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound)
+            {
+                @try
+                {
+                    [FBSession.activeSession requestNewPublishPermissions:@[kFacebookPermissionsPublishAction] defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+                     {
+                         if (!error)
+                         {
+                             [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                         }
+                         else
+                         {
+                             failBlock([[error userInfo] description]);
+                         }
+                     }];
+                }
+                @catch (NSException *exception)
+                {
+                    @try
+                    {
+                        [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                    }
+                    @catch (NSException *exception)
+                    {
+                        
+                    }
+                }
+            }
+            else
+            {
+                @try
+                {
+                    [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                }
+                @catch (NSException *exception)
+                {
+                    
+                }
+            }
+        }
+        
+    });
+}
+
+- (void)postToFacebookFromViewController:(UIViewController *)sender withInitialText:(NSString *)initialText withImageUrl:(NSString *)imageUrl andUrl:(NSString *)url onCompletion:(FacebookNativePostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock {
+    if (![self validBlocks:completionBlock :failBlock]) {
+        return;
+    }
+    
+    void (^postToFacebookWithFeedDialog)(void) = ^{
+        NSURL *imgUrlToUse = [NSURL URLWithString:imageUrl];
+        if (!imgUrlToUse) {
+            imgUrlToUse = [NSURL URLWithString:@""];
+        }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self postToFacebookWithFeedDialogWithPostName:initialText andCaption:kFacebookFeedDialogDefaultCaption andDescription:kFacebookFeedDialogDefaultDescription andLink:url andPictureUrl:imgUrlToUse.absoluteString postToFriendOrNil:nil onCompletion:completionBlock onFailure:failBlock];
+        });
+    };
+    
+    if ([SLComposeViewController class]) {
+        
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+            
+            dispatch_async(backgroundQueue, ^{
+                
+                NSData *imageData  = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
+                UIImage *image     = [UIImage imageWithData:imageData];
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    SLComposeViewController *fbComposeController = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+                    [fbComposeController setInitialText:initialText];
+                    [fbComposeController addImage:image];
+                    [fbComposeController addURL:[NSURL URLWithString:url]];
+                    [fbComposeController setCompletionHandler:^(SLComposeViewControllerResult result) {
+                        if (result == SLComposeViewControllerResultDone) {
+                            completionBlock(@"0");
+                        }
+                        else if (result == SLComposeViewControllerResultCancelled) {
+                            failBlock(NSLocalizedString(@"User cancelled", nil));
+                        }
+                    }];
+                    [sender presentViewController:fbComposeController animated:YES completion:nil];
+                });
+            });
+        }
+        else {
+            postToFacebookWithFeedDialog();
+        }
+    }
+    else {
+        postToFacebookWithFeedDialog();
+    }
+}
+
+- (void)postToFriendTimelineWithMessage:(NSString *)message andCaption:(NSString *)caption andDescription:(NSString *)description andLink:(NSString *)link andPictureUrl:(NSString *)pictureUrl andFriendFacebookId:(NSString *)fbId onCompletion:(FacebookPostToFriendCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock
+    {
+    if (![self validBlocks:completionBlock :failBlock]) {
+        return;
+    }
+    
+    if (!fbId.length) {
+        failBlock(NSLocalizedString(@"Please provide a Facebook ID", nil));
+        return;
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self postToFacebookWithFeedDialogWithPostName:message andCaption:caption andDescription:description andLink:link andPictureUrl:pictureUrl postToFriendOrNil:fbId onCompletion:^(NSString *postId) {
+            completionBlock(postId);
+        } onFailure:^(NSString *errorDescription) {
+            failBlock(errorDescription);
+        }];
+    });
+}
+
+//- (BOOL)isNativeFacebookShareDialogAvailable
+//{
+//    @try
+//    {
+//        return [FBNativeDialogs canPresentShareDialogWithSession:FBSession.activeSession];
+//    }
+//    @catch (NSException *exception)
+//    {
+//        return NO;
+//    }
+//  
+//}
+#pragma mark - NSCoding
+
+
+
+- (id) initWithCoder:(NSCoder *)aDecoder
+{
+    self = [self init];
+    if (self)
+    {
+
+    }
+    return self;
+}
+
+- (void) encodeWithCoder:(NSCoder *)aCoder
+{
+    
+}
+
+#define kSocialManagerFileName @"socialManagerData"
++ (NSString *) socialNetworkFilePath
+{
+    return [NSString stringWithFormat:@"%@/%@", [HSSocialServices getPrivateDocsDir], kSocialManagerFileName];
+}
+
++ (BOOL) socialFileExists
+{
+    return [[NSFileManager defaultManager] fileExistsAtPath:[HSSocialServices socialNetworkFilePath]];
+}
+
++ (NSString *)getPrivateDocsDir
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    documentsDirectory = [documentsDirectory stringByAppendingPathComponent:@"Private Documents"];
+    
+    NSError *error = nil;
+    [[NSFileManager defaultManager] createDirectoryAtPath:documentsDirectory withIntermediateDirectories:YES attributes:nil error:&error];
+    
+    //Handle Error?
+    if (error == nil)
+        return documentsDirectory;
+    else
+        return nil;
+}
+
+- (void) saveToDisk
+{
+    NSString * filePath = [HSSocialServices socialNetworkFilePath];
+    
+    if (![HSSocialServices socialFileExists])
+    {
+        if (![[NSFileManager defaultManager] createFileAtPath:filePath contents:nil attributes:nil])
+        {
+        }
+    }
+    
+    if ([NSKeyedArchiver archiveRootObject:self toFile:filePath]== NO)
+    {
+    }
+}
+
+
+@end

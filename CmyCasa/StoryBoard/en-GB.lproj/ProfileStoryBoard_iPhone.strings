@@ -1,0 +1,214 @@
+/* Class = "UIButton"; accessibilityLabel = "btn_done_profile_user_details"; ObjectID = "1Gc-YH-f4o"; */
+"1Gc-YH-f4o.accessibilityLabel" = "btn_done_profile_user_details";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "1Gc-YH-f4o"; */
+"1Gc-YH-f4o.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Redesign"; ObjectID = "1zE-Id-dT9"; */
+"1zE-Id-dT9.normalTitle" = "Redesign";
+
+/* Class = "UIButton"; normalTitle = "Facebook Friends"; ObjectID = "2Yd-S9-uV0"; */
+"2Yd-S9-uV0.normalTitle" = "Facebook Friends";
+
+/* (No Comment) */
+"3Kq-UY-iiX.text" = "666";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "3wc-ne-bha"; */
+"3wc-ne-bha.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "5K2-Yq-eb4"; */
+"5K2-Yq-eb4.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_find_friends"; ObjectID = "5sx-IN-i0R"; */
+"5sx-IN-i0R.accessibilityLabel" = "btn_back_find_friends";
+
+/* (No Comment) */
+"5sx-IN-i0R.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "6is-I7-m7P"; */
+"6is-I7-m7P.normalTitle" = "";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "8nx-GS-wli"; */
+"8nx-GS-wli.text" = "No items found";
+
+/* Class = "UIView"; accessibilityLabel = "view_my_design_edit_view"; ObjectID = "9Bb-wn-9bH"; */
+"9Bb-wn-9bH.accessibilityLabel" = "view_my_design_edit_view";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "049-Wu-dqI"; */
+"049-Wu-dqI.text" = "Edit Profile";
+
+/* (No Comment) */
+"Arc-JP-iYO.text" = "My Designs";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "B5L-11-2BB"; */
+"B5L-11-2BB.text" = "Label";
+
+/* (No Comment) */
+"BhB-A9-ovQ.normalTitle" = "Edit Profile";
+
+/* (No Comment) */
+"BhB-A9-ovQ.selectedTitle" = "Unfollow";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "BpR-QW-j55"; */
+"BpR-QW-j55.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "CU2-2J-Bdo"; */
+"CU2-2J-Bdo.placeholder" = "Current Password";
+
+/* Class = "UIView"; accessibilityLabel = "view_back_find_friends"; ObjectID = "CkY-DT-pf7"; */
+"CkY-DT-pf7.accessibilityLabel" = "view_back_find_friends";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "E9Z-MU-c1e"; */
+"E9Z-MU-c1e.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Eu0-Nd-5JK"; */
+"Eu0-Nd-5JK.normalTitle" = "";
+
+/* (No Comment) */
+"F1k-sr-60O.text" = "Profile";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "G1q-ih-KmO"; */
+"G1q-ih-KmO.text" = "Edit Profile";
+
+/* Class = "UIView"; accessibilityLabel = "view_profile_page_menu"; ObjectID = "HB3-Jw-fhg"; */
+"HB3-Jw-fhg.accessibilityLabel" = "view_profile_page_menu";
+
+/* Class = "UILabel"; text = "has no Homestyler account yet"; ObjectID = "HlJ-8y-YFz"; */
+"HlJ-8y-YFz.text" = "has no Homestyler account yet";
+
+/* Class = "UILabel"; text = ""; ObjectID = "NJm-h7-RHs"; */
+"NJm-h7-RHs.text" = "";
+
+/* (No Comment) */
+"NL6-hb-0Xa.text" = "Read More";
+
+/* (No Comment) */
+"NNu-C8-zmq.text" = "666";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "Nd3-iz-2gC"; */
+"Nd3-iz-2gC.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "I am..."; ObjectID = "PQX-Tg-fSf"; */
+"PQX-Tg-fSf.text" = "I am...";
+
+/* Class = "UILabel"; text = "Find Friends"; ObjectID = "PpM-3T-SkB"; */
+"PpM-3T-SkB.text" = "Find Friends";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ptu-GL-vib"; */
+"Ptu-GL-vib.text" = "Label";
+
+/* (No Comment) */
+"Qcf-1f-HcF.normalTitle" = "";
+
+/* (No Comment) */
+"S3j-4R-A5g.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "SI9-Nb-YvI"; */
+"SI9-Nb-YvI.placeholder" = "Confirm Password";
+
+/* (No Comment) */
+"SWC-tz-Q5h.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "Tmk-3w-ONT"; */
+"Tmk-3w-ONT.normalTitle" = "Back";
+
+/* (No Comment) */
+"UH5-tc-LwD.accessibilityLabel" = "view_profile_master";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_profile_user_details"; ObjectID = "XF0-8k-TJi"; */
+"XF0-8k-TJi.accessibilityLabel" = "btn_back_profile_user_details";
+
+/* (No Comment) */
+"XF0-8k-TJi.normalTitle" = "";
+
+/* (No Comment) */
+"XWa-Nx-6Cj.text" = "da sdfasdfhas ldkfjhasd flasd sdlkfjasd lfkasdjas ldfkjasdhfa lsdfjahsd lfkajsdfha lsdkfjahsd f;asdfas dfgas dgfadfg sdfgsdfgkladjhfg alsdfighsd flgisdhf glisd fhg sldfghbsdf lgjsdfg";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "Yhq-JO-31R"; */
+"Yhq-JO-31R.text" = "Edit";
+
+/* Class = "UIButton"; normalTitle = "Contact List"; ObjectID = "aa5-SK-kkW"; */
+"aa5-SK-kkW.normalTitle" = "Contact List";
+
+/* Class = "UITextField"; placeholder = "Design Title"; ObjectID = "ahQ-nt-XV8"; */
+"ahQ-nt-XV8.placeholder" = "Design Title";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "c4u-Xz-H2b"; */
+"c4u-Xz-H2b.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "ccq-Hg-7Ds"; */
+"ccq-Hg-7Ds.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Duplicate"; ObjectID = "ddi-4M-avL"; */
+"ddi-4M-avL.normalTitle" = "Duplicate";
+
+/* (No Comment) */
+"eO3-Xo-Uu7.normalTitle" = "Following";
+
+/* (No Comment) */
+"fEn-tD-8Pt.text" = "Views";
+
+/* (No Comment) */
+"fIi-OE-FwV.text" = "666";
+
+/* Class = "UILabel"; text = "9999"; ObjectID = "gfg-4y-iFA"; */
+"gfg-4y-iFA.text" = "9999";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "k02-9t-oa4"; */
+"k02-9t-oa4.placeholder" = "New Password";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "lT1-Cd-P2M"; */
+"lT1-Cd-P2M.normalTitle" = "Save";
+
+
+/* (No Comment) */
+"ncC-s3-5Mq.normalTitle" = "News Stream";
+
+/* (No Comment) */
+"nx1-Zy-nxA.text" = "Tel Aviv";
+
+/* (No Comment) */
+"oaK-v9-rla.accessibilityLabel" = "btn_back_new_profile_view";
+
+/* (No Comment) */
+"oaK-v9-rla.normalTitle" = "";
+
+/* (No Comment) */
+"pYf-0d-oTi.normalTitle" = "Followers";
+
+/* Class = "UILabel"; text = "Following"; ObjectID = "qwU-l5-6Ow"; */
+"qwU-l5-6Ow.text" = "Following";
+
+/* (No Comment) */
+"sLr-Fc-qmt.normalTitle" = "Find Friends";
+
+/* (No Comment) */
+"sLr-Fc-qmt.selectedTitle" = "Unfollow";
+
+/* (No Comment) */
+"sfJ-KZ-nsq.accessibilityLabel" = "btn_scroll_to_top_new_profile_view";
+
+/* (No Comment) */
+"sfJ-KZ-nsq.normalTitle" = "";
+
+/* Class = "UIView"; accessibilityLabel = "view_edit_profile"; ObjectID = "v0j-2d-ktY"; */
+"v0j-2d-ktY.accessibilityLabel" = "view_edit_profile";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "vBX-FY-gtx"; */
+"vBX-FY-gtx.text" = "No items found";
+
+/* (No Comment) */
+"xmO-s9-IVX.normalTitle" = "";
+
+/* Class = "UILabel"; text = "* Please note: your designs must be set to Public to be considered for the Design Stream"; ObjectID = "xyB-k0-Ekl"; */
+"xyB-k0-Ekl.text" = "* Please note: your designs must be set to Public to be considered for the Design Stream";
+
+/* Class = "UILabel"; text = "I am..."; ObjectID = "yIH-MB-edz"; */
+"yIH-MB-edz.text" = "I am...";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "ySp-P5-SbR"; */
+"ySp-P5-SbR.text" = "Public";
+
+/* Class = "UILabel"; text = "Find friends by name or email"; ObjectID = "yaN-AR-hEl"; */
+"yaN-AR-hEl.text" = "Find friends by name or email";
+

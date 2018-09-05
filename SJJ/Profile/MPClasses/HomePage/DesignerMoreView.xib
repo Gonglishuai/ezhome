@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SuU-lQ-ha7" customClass="DesignerMoreView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="313"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLm-Cl-maN">
+                    <rect key="frame" x="0.0" y="-0.5" width="375" height="313"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more_designer" translatesAutoresizingMaskIntoConstraints="NO" id="smc-OB-Uwv">
+                    <rect key="frame" x="8" y="0.0" width="359" height="313"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看更多" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgF-Ac-Dy7">
+                    <rect key="frame" x="112.5" y="81.5" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="MbL-PS-3JD"/>
+                        <constraint firstAttribute="height" constant="150" id="beO-zh-xNm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PVf-XB-YmI">
+                    <rect key="frame" x="8" y="0.0" width="359" height="313"/>
+                    <connections>
+                        <action selector="checkMoreButtonClicked:" destination="SuU-lQ-ha7" eventType="touchUpInside" id="yW8-RL-GO9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PVf-XB-YmI" firstAttribute="width" secondItem="smc-OB-Uwv" secondAttribute="width" id="Jhh-Wc-Jwx"/>
+                <constraint firstItem="sLm-Cl-maN" firstAttribute="height" secondItem="SuU-lQ-ha7" secondAttribute="height" id="NNX-1A-4ko"/>
+                <constraint firstItem="PVf-XB-YmI" firstAttribute="centerY" secondItem="smc-OB-Uwv" secondAttribute="centerY" id="Nk5-qh-esQ"/>
+                <constraint firstItem="sLm-Cl-maN" firstAttribute="centerX" secondItem="SuU-lQ-ha7" secondAttribute="centerX" id="ScH-jq-QXS"/>
+                <constraint firstItem="sLm-Cl-maN" firstAttribute="centerY" secondItem="SuU-lQ-ha7" secondAttribute="centerY" id="UD6-6f-ZKp"/>
+                <constraint firstItem="PVf-XB-YmI" firstAttribute="height" secondItem="smc-OB-Uwv" secondAttribute="height" id="WqS-cg-Eaa"/>
+                <constraint firstItem="lgF-Ac-Dy7" firstAttribute="centerY" secondItem="smc-OB-Uwv" secondAttribute="centerY" id="gwl-D7-hqD"/>
+                <constraint firstItem="PVf-XB-YmI" firstAttribute="centerX" secondItem="smc-OB-Uwv" secondAttribute="centerX" id="kl4-gs-rWr"/>
+                <constraint firstItem="smc-OB-Uwv" firstAttribute="height" secondItem="SuU-lQ-ha7" secondAttribute="height" id="lD2-8A-Jqa"/>
+                <constraint firstItem="lgF-Ac-Dy7" firstAttribute="centerX" secondItem="smc-OB-Uwv" secondAttribute="centerX" id="mcC-Hv-gyA"/>
+                <constraint firstAttribute="trailing" secondItem="smc-OB-Uwv" secondAttribute="trailing" constant="8" id="oQE-mH-hCf"/>
+                <constraint firstItem="sLm-Cl-maN" firstAttribute="width" secondItem="SuU-lQ-ha7" secondAttribute="width" id="qDe-Ix-Zg1"/>
+                <constraint firstItem="smc-OB-Uwv" firstAttribute="centerY" secondItem="SuU-lQ-ha7" secondAttribute="centerY" id="rMi-MO-0cM"/>
+                <constraint firstItem="smc-OB-Uwv" firstAttribute="leading" secondItem="SuU-lQ-ha7" secondAttribute="leading" constant="8" id="wxl-Sd-Fh5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backImageView" destination="smc-OB-Uwv" id="9wE-KI-VxH"/>
+                <outlet property="moreLabel" destination="lgF-Ac-Dy7" id="mG2-Q0-sRC"/>
+            </connections>
+            <point key="canvasLocation" x="52.5" y="-106.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="more_designer" width="338" height="300"/>
+    </resources>
+</document>

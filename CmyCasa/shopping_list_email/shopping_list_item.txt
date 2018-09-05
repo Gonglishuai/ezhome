@@ -1,0 +1,23 @@
+<table width="700"  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#f7f7f7">
+  <tr>
+    <td><img src="{IMAGES_BASE_URL}L-5-new.jpg" width="62" height="185" style="display:block" /></td>
+    <td><img src="{PRODUCT_IMAGE}" width="183" height="185" style="display:block" /></td>
+    <td><img src="{IMAGES_BASE_URL}L-5-04-new.jpg" width="14" height="185" style="display:block" /></td>
+    <td width="100%"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr  width="100%">
+          <td width="100%"><span style=" font-family: 'Myriad Pro', Arial, Sans-Serif; font-size:25px; color:#464646; line-height:29px;"><br />{PRODUCT_NAME}<br />
+            </span><span style=" font-family: 'Myriad Pro', Arial, Sans-Serif; font-size:20px; color:#464646; line-height:28px;">{VENDOR_NAME}</span></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="100%"><span style=" font-family: 'Myriad Pro', Arial, Sans-Serif; font-size:20px;"><br />
+            <br />
+            <br />
+            <a style="color: #1381bd; text-decoration:none;" href="{VENDOR_PRODUCT_URL}">{GOTO_WEB_TEXT}>></a></span><br /></td>
+          <td><img src="{VENDOR_IMAGE}" width="95" height="96" style="display:block"/></td>
+        </tr>
+      </table></td>
+    <td><img src="{IMAGES_BASE_URL}R-4-new.jpg" width="66" height="185" style="display:block"/></td>
+  </tr>
+</table>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="homestylermainicons.ttf">
+            <string>homestylermainicons</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="KUDfieldUserProfile" rowHeight="141" id="LcJ-f7-GH1" customClass="TblRecordProfileImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="700" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LcJ-f7-GH1" id="ko0-eD-ycD">
+                <rect key="frame" x="0.0" y="0.0" width="700" height="141.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mb-sH-ZWw">
+                        <rect key="frame" x="18" y="0.0" width="664" height="141"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-NW-PKO">
+                                <rect key="frame" x="561" y="15" width="103" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="XVt-JQ-oa8"/>
+                                    <constraint firstAttribute="height" constant="50" id="c74-BU-MXP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Sign Out ">
+                                    <color key="titleColor" red="0.28455191850662231" green="0.57906663417816162" blue="0.75474154949188232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_SignOut_Button"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="signOutAction:" destination="LcJ-f7-GH1" eventType="touchUpInside" id="YGi-Pm-Fs7"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iph_profile_settings_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="cLv-ct-XwB">
+                                <rect key="frame" x="26" y="22" width="96" height="96"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="6m3-Lo-4vT"/>
+                                    <constraint firstAttribute="height" constant="96" id="qoQ-pG-g5D"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxc-tV-n3q">
+                                <rect key="frame" x="51" y="46" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="av7-h0-ZXm"/>
+                                    <constraint firstAttribute="width" constant="46" id="zfP-iT-R9k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="homestylermainicons" family="homestylermainicons" pointSize="15"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_CameraIcon"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuF-ty-RB6">
+                                <rect key="frame" x="26" y="21" width="104" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="IGa-v4-JRe"/>
+                                    <constraint firstAttribute="height" constant="97" id="qx9-TV-Uvd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeProfileImageAction:" destination="LcJ-f7-GH1" eventType="touchUpInside" id="K1e-5r-w9Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2tq-k8-g42">
+                                <rect key="frame" x="160" y="105" width="213" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="4XM-Iq-JJq"/>
+                                    <constraint firstAttribute="height" constant="36" id="moE-1n-FcQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Change Profile Image">
+                                    <color key="titleColor" red="0.28455191850662231" green="0.57906663417816162" blue="0.75474154949188232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_ClickableText"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="changeProfileImageAction:" destination="LcJ-f7-GH1" eventType="touchUpInside" id="ZCH-gf-qua"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="m5u-QL-7PL">
+                                <rect key="frame" x="381" y="108" width="246" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="UQe-ec-Vj3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Change Password">
+                                    <color key="titleColor" red="0.28455191850662231" green="0.57906663417816162" blue="0.75474154949188232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_ClickableText"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="changePasswordAction:" destination="LcJ-f7-GH1" eventType="touchUpInside" id="73H-UZ-4q9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="uuF-ty-RB6" firstAttribute="bottom" secondItem="cLv-ct-XwB" secondAttribute="bottom" id="BIz-F1-MoE"/>
+                            <constraint firstItem="fxc-tV-n3q" firstAttribute="centerX" secondItem="cLv-ct-XwB" secondAttribute="centerX" id="BT6-6N-L0f"/>
+                            <constraint firstItem="m5u-QL-7PL" firstAttribute="leading" secondItem="2tq-k8-g42" secondAttribute="trailing" constant="8" symbolic="YES" id="MhR-wi-UrD"/>
+                            <constraint firstItem="cLv-ct-XwB" firstAttribute="leading" secondItem="uuF-ty-RB6" secondAttribute="leading" id="X8R-cn-ah1"/>
+                            <constraint firstItem="tpn-NW-PKO" firstAttribute="top" secondItem="9mb-sH-ZWw" secondAttribute="top" constant="15" id="XuC-S2-esw"/>
+                            <constraint firstItem="uuF-ty-RB6" firstAttribute="leading" secondItem="9mb-sH-ZWw" secondAttribute="leading" constant="26" id="aTZ-Qf-uTi"/>
+                            <constraint firstAttribute="trailing" secondItem="tpn-NW-PKO" secondAttribute="trailing" id="bl7-Ye-MjT"/>
+                            <constraint firstItem="2tq-k8-g42" firstAttribute="top" secondItem="m5u-QL-7PL" secondAttribute="top" constant="-3" id="fV2-Tm-EBP"/>
+                            <constraint firstItem="fxc-tV-n3q" firstAttribute="top" secondItem="9mb-sH-ZWw" secondAttribute="top" constant="46" id="kny-1J-aHd"/>
+                            <constraint firstItem="cLv-ct-XwB" firstAttribute="centerY" secondItem="9mb-sH-ZWw" secondAttribute="centerY" id="rj0-m0-Ock"/>
+                            <constraint firstItem="2tq-k8-g42" firstAttribute="leading" secondItem="9mb-sH-ZWw" secondAttribute="leading" constant="160" id="wPs-mB-Py2"/>
+                            <constraint firstAttribute="bottom" secondItem="2tq-k8-g42" secondAttribute="bottom" id="wpz-wY-SrT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9mb-sH-ZWw" firstAttribute="top" secondItem="LcJ-f7-GH1" secondAttribute="top" id="9F0-w7-6cx"/>
+                <constraint firstAttribute="bottom" secondItem="9mb-sH-ZWw" secondAttribute="bottom" constant="1" id="Ixs-mo-acT"/>
+                <constraint firstItem="9mb-sH-ZWw" firstAttribute="centerX" secondItem="LcJ-f7-GH1" secondAttribute="centerX" id="gk3-UQ-I0j"/>
+                <constraint firstItem="9mb-sH-ZWw" firstAttribute="leading" secondItem="LcJ-f7-GH1" secondAttribute="leading" constant="18" id="qMm-uh-211"/>
+            </constraints>
+            <connections>
+                <outlet property="cameraButtonIcon" destination="fxc-tV-n3q" id="0JN-tk-obD"/>
+                <outlet property="changeImageButton" destination="2tq-k8-g42" id="WOP-VY-Zq6"/>
+                <outlet property="changePassButton" destination="m5u-QL-7PL" id="YM1-x1-qJa"/>
+                <outlet property="profileImageView" destination="cLv-ct-XwB" id="A0M-ZD-FgQ"/>
+                <outlet property="signOutButton" destination="tpn-NW-PKO" id="h0d-49-FP1"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="iph_profile_settings_image.png" width="90" height="90"/>
+    </resources>
+</document>

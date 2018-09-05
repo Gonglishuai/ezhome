@@ -1,0 +1,180 @@
+/* Class = "UITextField"; text = "sdfs"; ObjectID = "1OO-uw-BSc"; */
+"1OO-uw-BSc.text" = "sdfs";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "1W4-SL-aOX"; */
+"1W4-SL-aOX.normalTitle" = "Fine";
+
+/* Class = "UIButton"; normalTitle = "Find contact friends"; ObjectID = "1xm-nP-IgV"; */
+"1xm-nP-IgV.normalTitle" = "Trova gli amici dei contatti";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "1zg-X3-cw5"; */
+"1zg-X3-cw5.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "2gk-tm-JXb"; */
+"2gk-tm-JXb.placeholder" = "Password corrente";
+
+/* (No Comment) */
+"3J0-xS-5Um.text" = "0";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "3fp-Yh-lGT"; */
+"3fp-Yh-lGT.text" = "Nessun elemento trovato";
+
+/* Class = "UIButton"; normalTitle = "Find your Facebook friends"; ObjectID = "6GH-Y4-Cp3"; */
+"6GH-Y4-Cp3.normalTitle" = "Trova i tuoi amici su Facebook";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "6Xe-p1-KmB"; */
+"6Xe-p1-KmB.text" = "Profilo";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "7BX-h4-HeO"; */
+"7BX-h4-HeO.text" = "Notifiche";
+
+/* Class = "UILabel"; text = "I am..."; ObjectID = "7d3-dh-rA2"; */
+"7d3-dh-rA2.text" = "Sono...";
+
+/* (No Comment) */
+"8No-uw-YVu.text" = "0";
+
+/* Class = "UILabel"; text = "Followers"; ObjectID = "9aX-n3-MZV"; */
+"9aX-n3-MZV.text" = "Salva";
+
+/* (No Comment) */
+"11s-CG-CIn.text" = "Nome completo";
+
+/* (No Comment) */
+"15S-91-5gR.text" = "0";
+
+/* (No Comment) */
+"29G-bv-iJS.normalTitle" = "Trova amici";
+
+/* (No Comment) */
+"29G-bv-iJS.selectedTitle" = "  Fine  ";
+
+/* Class = "UILabel"; text = "Label "; ObjectID = "69I-wz-ApW"; */
+"69I-wz-ApW.text" = "Etichetta ";
+
+/* (No Comment) */
+"92n-Ue-CvW.selectedTitle" = "  Fine  ";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Ahj-CB-WHD"; */
+"Ahj-CB-WHD.normalTitle" = "Fine";
+
+/* (No Comment) */
+"BZW-Zo-y6Y.text" = "Visualizzazioni";
+
+/* Class = "UILabel"; text = "has no Homestyler account yet"; ObjectID = "Dra-Jq-X23"; */
+"Dra-Jq-X23.text" = "non dispone ancora di un account Homestyler";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "F8e-06-WK9"; */
+"F8e-06-WK9.text" = "Nessun elemento trovato";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Fr1-wZ-zcw"; */
+"Fr1-wZ-zcw.normalTitle" = "Fine";
+
+/* Class = "UILabel"; text = "Facebook Friends"; ObjectID = "H3Z-sk-jO9"; */
+"H3Z-sk-jO9.text" = "Amici su Facebook";
+
+/* Class = "UIButton"; normalTitle = "Find by name or email"; ObjectID = "HuH-uF-XPc"; */
+"HuH-uF-XPc.normalTitle" = "Trova per nome o indirizzo e-mail";
+
+/* (No Comment) */
+"I5B-wI-cQd.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "IZZ-EX-alz"; */
+"IZZ-EX-alz.placeholder" = "Conferma password";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "Iix-Ff-LOl"; */
+"Iix-Ff-LOl.normalTitle" = "Elimina";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Kfl-pY-WRx"; */
+"Kfl-pY-WRx.normalTitle" = "Annulla";
+
+/* (No Comment) */
+"NoW-6D-jpe.normalTitle" = "";
+
+/* (No Comment) */
+"OWC-MK-pSe.text" = "Follower";
+
+/* (No Comment) */
+"PjU-oD-SdO.text" = "Siguiendo";
+
+/* Class = "UILabel"; text = "Find Friends"; ObjectID = "Rgp-PY-rsW"; */
+"Rgp-PY-rsW.text" = "Trova amici";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "S7w-K7-Iag"; */
+"S7w-K7-Iag.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Following"; ObjectID = "VGt-Q4-AYt"; */
+"VGt-Q4-AYt.text" = "Segui già";
+
+/* Class = "UITextView"; text = "design description"; ObjectID = "YDh-tU-uCE"; */
+"YDh-tU-uCE.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Likes"; ObjectID = "ax7-cK-xkx"; */
+"ax7-cK-xkx.text" = "Mi piace";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "b2X-Pz-imo"; */
+"b2X-Pz-imo.normalTitle" = "Fine";
+
+/* (No Comment) */
+"bpS-Sd-Ga1.disabledTitle" = "";
+
+/* (No Comment) */
+"bpS-Sd-Ga1.normalTitle" = "";
+
+/* (No Comment) */
+"br2-15-Tyk.text" = "0";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "btS-HK-fVr"; */
+"btS-HK-fVr.text" = "Modifica";
+
+/* (No Comment) */
+"bx4-zH-XaJ.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "cyX-sm-ZtF"; */
+"cyX-sm-ZtF.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ecD-P4-bZB"; */
+"ecD-P4-bZB.text" = "Etichetta";
+
+/* Class = "UIButton"; normalTitle = "Redesign"; ObjectID = "gxx-yb-kw0"; */
+"gxx-yb-kw0.normalTitle" = "Modifica progetto";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "hUw-HG-y7c"; */
+"hUw-HG-y7c.normalTitle" = "Fine";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "kKz-uz-XEy"; */
+"kKz-uz-XEy.placeholder" = "Nuova password";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "kat-B8-vkj"; */
+"kat-B8-vkj.text" = "Modifica profilo";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "lnp-bN-CgZ"; */
+"lnp-bN-CgZ.normalTitle" = "Annulla";
+
+/* (No Comment) */
+"mEl-YV-TWv.text" = "Più informazioni";
+
+/* (No Comment) */
+"mfZ-bp-pbh.text" = "Profilo";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "o8f-yu-hq2"; */
+"o8f-yu-hq2.normalTitle" = "Annulla";
+
+/* Class = "UIButton"; normalTitle = "Duplicate"; ObjectID = "pWT-wo-8vL"; */
+"pWT-wo-8vL.normalTitle" = "Duplica";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "q4W-MI-Vaa"; */
+"q4W-MI-Vaa.normalTitle" = "Annulla";
+
+/* Class = "UITextField"; placeholder = "Design Title"; ObjectID = "qlR-fj-F5p"; */
+"qlR-fj-F5p.placeholder" = "Titolo del progetto";
+
+/* (No Comment) */
+"sdn-cx-FnG.normalTitle" = "Modifica profilo";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "uoX-hH-PpI"; */
+"uoX-hH-PpI.text" = "Pubblico";
+
+/* (No Comment) */
+"ylQ-pc-pnm.text" = "Etichetta";
+

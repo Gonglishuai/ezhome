@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GalleryStreamEmptyCellID" id="gTV-IL-0wX" customClass="GalleryStreamEmptyCell">
+            <rect key="frame" x="0.0" y="0.0" width="504" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="504" height="260"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2tr-3A-yQt" userLabel="ContentView">
+                        <rect key="frame" x="0.0" y="0.0" width="504" height="260"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="d4P-6g-tME">
+                                <rect key="frame" x="192" y="10" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="UC4-HK-dzR"/>
+                                    <constraint firstAttribute="width" constant="120" id="xcH-N1-qGo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No design yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jN-8d-Gi5">
+                                <rect key="frame" x="0.0" y="155" width="504" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.30588235289999999" green="0.30588235289999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="Text_Body3"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cb3-ac-1Uu">
+                                <rect key="frame" x="186" y="199.5" width="132" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="Bio-g8-80n"/>
+                                    <constraint firstAttribute="height" constant="40" id="smz-hL-Iob"/>
+                                </constraints>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="Community_SignInButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="signIn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="GCT-W0-mPT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d4P-6g-tME" firstAttribute="centerY" secondItem="2tr-3A-yQt" secondAttribute="centerY" constant="-60" id="0gM-SB-Gae"/>
+                            <constraint firstItem="cb3-ac-1Uu" firstAttribute="top" secondItem="1jN-8d-Gi5" secondAttribute="bottom" constant="30" id="Dcj-zQ-zfo"/>
+                            <constraint firstItem="1jN-8d-Gi5" firstAttribute="leading" secondItem="2tr-3A-yQt" secondAttribute="leading" id="ElR-g6-hdO"/>
+                            <constraint firstAttribute="trailing" secondItem="1jN-8d-Gi5" secondAttribute="trailing" id="aoz-Ka-O6x"/>
+                            <constraint firstItem="1jN-8d-Gi5" firstAttribute="top" secondItem="d4P-6g-tME" secondAttribute="bottom" constant="25" id="b4R-NB-mku"/>
+                            <constraint firstItem="d4P-6g-tME" firstAttribute="centerX" secondItem="2tr-3A-yQt" secondAttribute="centerX" id="iuh-oH-alK"/>
+                            <constraint firstItem="cb3-ac-1Uu" firstAttribute="centerX" secondItem="2tr-3A-yQt" secondAttribute="centerX" id="xVV-0P-x7w"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2tr-3A-yQt" secondAttribute="trailing" id="JVw-hq-HaY"/>
+                <constraint firstItem="2tr-3A-yQt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Sp8-Pm-hC4"/>
+                <constraint firstAttribute="bottom" secondItem="2tr-3A-yQt" secondAttribute="bottom" id="g1m-c1-9Am"/>
+                <constraint firstItem="2tr-3A-yQt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vzj-Bb-193"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="504" height="340"/>
+            <connections>
+                <outlet property="emptyImageView" destination="d4P-6g-tME" id="zkO-4X-cCB"/>
+                <outlet property="emptyText" destination="1jN-8d-Gi5" id="zl1-FB-Zm1"/>
+                <outlet property="imageTextSpacing" destination="b4R-NB-mku" id="H2i-ag-90a"/>
+                <outlet property="signInButton" destination="cb3-ac-1Uu" id="smu-ZM-jxE"/>
+            </connections>
+            <point key="canvasLocation" x="-108" y="-54"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cat" width="112" height="95"/>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+{
+  "name": "ESNetworking",
+  "version": "0.0.24",
+  "summary": "Have no summary ESNetworking.",
+  "description": "A Main Foundation Component for Other Kit",
+  "homepage": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESNetworking.git",
+  "license": "MIT",
+  "authors": {
+    "jiangyunfeng": "554994782@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESNetworking.git",
+    "branch": "release/2018_04_25"
+  },
+  "source_files": "ESNetworking",
+  "prefix_header_contents": "#import <AMapLocationKit/AMapLocationKit.h>\n#import <AMapFoundationKit/AMapFoundationKit.h>",
+  "dependencies": {
+    "ESBasic": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "MGJRouter": [
+      "~>0.9.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Tools",
+      "source_files": "ESNetworking/Tools/*.{h,swift,c,m}",
+      "public_header_files": "ESNetworking/Tools/*.h",
+      "vendored_frameworks": [
+        "ESNetworking/Tools/framework/AMapFoundationKit.framework",
+        "ESNetworking/Tools/framework/AMapLocationKit.framework"
+      ],
+      "ios": {
+        "frameworks": [
+          "CoreMotion",
+          "CFNetwork",
+          "SystemConfiguration",
+          "CoreTelephony",
+          "QuartzCore",
+          "CoreText",
+          "CoreGraphics"
+        ],
+        "libraries": [
+          "z",
+          "c++"
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "framework"
+        }
+      ]
+    },
+    {
+      "name": "Response",
+      "source_files": "ESNetworking/Response/*.{h,swift,c,m}"
+    },
+    {
+      "name": "API",
+      "public_header_files": "ESNetworking/API/*.h",
+      "source_files": "ESNetworking/API/*.{h,swift,c,m}"
+    },
+    {
+      "name": "Config",
+      "public_header_files": "ESNetworking/Config/*.h",
+      "source_files": "ESNetworking/Config/*.{h,swift,c,m}"
+    }
+  ]
+}

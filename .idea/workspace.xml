@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df939348-996b-4773-a66c-525911b8eac3" name="Default" comment="prog">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homestyler.xcworkspace/xcuserdata/sergey.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Homestyler.xcworkspace/xcuserdata/sergey.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homestyler.xcworkspace/xcuserdata/sergey.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/Homestyler.xcworkspace/xcuserdata/sergey.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/HockeySDKResources.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/HockeySDKResources.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-AFNetworking-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-ASIHTTPRequest-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-ASIHTTPRequest-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-ASIHTTPRequest-prefix.pch" afterPath="$PROJECT_DIR$/Pods/Pods-ASIHTTPRequest-prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-ASIHTTPRequest.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-ASIHTTPRequest.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-FlurrySDK-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-FlurrySDK-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-FlurrySDK.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-FlurrySDK.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-GoogleAnalytics-iOS-SDK-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-GoogleAnalytics-iOS-SDK.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-GoogleAnalytics-iOS-SDK.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-HockeySDK-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-HockeySDK-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-HockeySDK.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-HockeySDK.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-ISO8601DateFormatterValueTransformer-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-ISO8601DateFormatterValueTransformer-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-ISO8601DateFormatterValueTransformer.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-ISO8601DateFormatterValueTransformer.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-Mixpanel-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-Mixpanel-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Mixpanel.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Mixpanel.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-OCMock-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-OCMock-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-OCMock.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-OCMock.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-OpenCV-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-OpenCV-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-OpenCV.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-OpenCV.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-Pinterest-iOS-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-Pinterest-iOS-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Pinterest-iOS.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Pinterest-iOS.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-RKValueTransformers-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-RKValueTransformers-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-RKValueTransformers.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-RKValueTransformers.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-Reachability-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-Reachability-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Reachability.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-Reachability.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-RestKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-RestKit-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-RestKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-RestKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-SOCKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-SOCKit-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-SOCKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-SOCKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-TransitionKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-TransitionKit-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-TransitionKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-TransitionKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Pods-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Pods-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-environment.h" afterPath="$PROJECT_DIR$/Pods/Pods-environment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-google-plus-ios-sdk-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-google-plus-ios-sdk-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-google-plus-ios-sdk.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-google-plus-ios-sdk.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-resources.sh" afterPath="$PROJECT_DIR$/Pods/Pods-resources.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-zipzap-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods-zipzap-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-zipzap.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods-zipzap.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcconfig" afterPath="$PROJECT_DIR$/Pods/Pods.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/Pods.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/sergey.xcuserdatad/xcschemes/xcschememanagement.plist" />
+    </list>
+    <ignored path="GIT.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="CmyCasa" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UIGalleryManager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CmyCasa/UIGalleryManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="62" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GalleryStreamViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CmyCasa/GalleryStreamViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="241" column="17" selection-start="7130" selection-end="7130" vertical-scroll-proportion="0.2737921" vertical-offset="3910" max-vertical-offset="9537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIGalleryManager.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CmyCasa/UIGalleryManager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="219" column="4" selection-start="7716" selection-end="7716" vertical-scroll-proportion="0.0" vertical-offset="3723" max-vertical-offset="16779">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/CmyCasa/HS Core/Modeling/FloortileCompanyDO.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/HS Core/Modeling/FloortileCompanyDO.m" />
+        <option value="$PROJECT_DIR$/Homestyler Tests/RedesignToolUndoHandler.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHanlder.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHanlder.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoStepItem.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHandler.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/Furniture3DViewController.m" />
+        <option value="$PROJECT_DIR$/Homestyler Tests/RedesignToolUndoHandlerTests.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoStepItem.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/CommandItem.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHandler.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/UIGalleryManager.h" />
+        <option value="$PROJECT_DIR$/CmyCasa/UIGalleryManager.m" />
+        <option value="$PROJECT_DIR$/CmyCasa/GalleryStreamViewController.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1117" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralObjective-C</id>
+          </State>
+          <State>
+            <id>Objective-C</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>GeneralObjective-C</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCasa" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCasa" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iPad Gallery" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCasa" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iPad Gallery" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gallery Stream" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homestyler" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmyCasa" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+      <pane id="DirectoryView.Xcode" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editing.templates" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Homestyler,,,Homestyler Tests,,,Homestyler- RenderFarm,,,Homestyler-cal" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Homestyler">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="zipzap" TARGET_NAME="zipzap (OS X)" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PROJECT_NAME="zipzap" TARGET_NAME="zipzapTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="Homestyler" TARGET_NAME="Homestyler" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HockeySDKResources" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="HockeySDKResources" PROJECT_NAME="Pods" TARGET_NAME="HockeySDKResources" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-AFNetworking" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-AFNetworking" PROJECT_NAME="Pods" TARGET_NAME="Pods-AFNetworking" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-ASIHTTPRequest" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-ASIHTTPRequest" PROJECT_NAME="Pods" TARGET_NAME="Pods-ASIHTTPRequest" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-FlurrySDK" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-FlurrySDK" PROJECT_NAME="Pods" TARGET_NAME="Pods-FlurrySDK" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-google-plus-ios-sdk" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-google-plus-ios-sdk" PROJECT_NAME="Pods" TARGET_NAME="Pods-google-plus-ios-sdk" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-GoogleAnalytics-iOS-SDK" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-GoogleAnalytics-iOS-SDK" PROJECT_NAME="Pods" TARGET_NAME="Pods-GoogleAnalytics-iOS-SDK" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-HockeySDK" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-HockeySDK" PROJECT_NAME="Pods" TARGET_NAME="Pods-HockeySDK" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-ISO8601DateFormatterValueTransformer" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-ISO8601DateFormatterValueTransformer" PROJECT_NAME="Pods" TARGET_NAME="Pods-ISO8601DateFormatterValueTransformer" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Mixpanel" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-Mixpanel" PROJECT_NAME="Pods" TARGET_NAME="Pods-Mixpanel" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-OCMock" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-OCMock" PROJECT_NAME="Pods" TARGET_NAME="Pods-OCMock" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-OpenCV" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-OpenCV" PROJECT_NAME="Pods" TARGET_NAME="Pods-OpenCV" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Pinterest-iOS" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-Pinterest-iOS" PROJECT_NAME="Pods" TARGET_NAME="Pods-Pinterest-iOS" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Reachability" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-Reachability" PROJECT_NAME="Pods" TARGET_NAME="Pods-Reachability" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-RestKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-RestKit" PROJECT_NAME="Pods" TARGET_NAME="Pods-RestKit" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-RKValueTransformers" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-RKValueTransformers" PROJECT_NAME="Pods" TARGET_NAME="Pods-RKValueTransformers" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-SOCKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-SOCKit" PROJECT_NAME="Pods" TARGET_NAME="Pods-SOCKit" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-TransitionKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-TransitionKit" PROJECT_NAME="Pods" TARGET_NAME="Pods-TransitionKit" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-zipzap" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-zipzap" PROJECT_NAME="Pods" TARGET_NAME="Pods-zipzap" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NUI" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NUI" PROJECT_NAME="Pods" TARGET_NAME="Pods-NUI" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NUIParse" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NUIParse" PROJECT_NAME="Pods" TARGET_NAME="Pods-NUIParse" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="25">
+      <item index="0" class="java.lang.String" itemvalue="Application.Homestyler-cal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Homestyler" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AutomatedHomestyler" />
+      <item index="3" class="java.lang.String" itemvalue="XCTest/Kiwi.Homestyler Tests" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HockeySDKResources" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Pods-AFNetworking" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Pods-ASIHTTPRequest" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Pods-FlurrySDK" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-google-plus-ios-sdk" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Pods-GoogleAnalytics-iOS-SDK" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-HockeySDK" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Pods-ISO8601DateFormatterValueTransformer" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Pods-Mixpanel" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Pods-OCMock" />
+      <item index="14" class="java.lang.String" itemvalue="Application.Pods-OpenCV" />
+      <item index="15" class="java.lang.String" itemvalue="Application.Pods-Pinterest-iOS" />
+      <item index="16" class="java.lang.String" itemvalue="Application.Pods-Reachability" />
+      <item index="17" class="java.lang.String" itemvalue="Application.Pods-RestKit" />
+      <item index="18" class="java.lang.String" itemvalue="Application.Pods-RKValueTransformers" />
+      <item index="19" class="java.lang.String" itemvalue="Application.Pods-SOCKit" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Pods-TransitionKit" />
+      <item index="21" class="java.lang.String" itemvalue="Application.Pods-zipzap" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Pods" />
+      <item index="23" class="java.lang.String" itemvalue="Application.Pods-NUI" />
+      <item index="24" class="java.lang.String" itemvalue="Application.Pods-NUIParse" />
+    </list>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="OCUnit" PROJECT_NAME="zipzap" TARGET_NAME="zipzapTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HSUnitTesting" type="OCUnitRunConfiguration" factoryName="OCUnit" SCHEME_NAME="HSUnitTesting" PROJECT_NAME="Homestyler" TARGET_NAME="HSUnitTesting" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE">
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df939348-996b-4773-a66c-525911b8eac3" name="Default" comment="" />
+      <created>1387701010507</created>
+      <updated>1387701010507</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1117" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28767124" sideWeight="0.49947202" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960339" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21647307" sideWeight="0.7123288" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3598901" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28885832" sideWeight="0.500528" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33462033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965517" sideWeight="0.49964565" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42759296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3238189" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43125618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37487635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27695352" sideWeight="0.5002644" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965517" sideWeight="0.49964565" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3125618" sideWeight="0.4997356" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21575886" sideWeight="0.6251236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3363007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/HSUnitTesting/LocationTests.m</url>
+          <line>37</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CmyCasa/Base Controller/TblRecord2TextsFieldsCell.m</url>
+          <line>166</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CmyCasa/Base Controller/TblRecord2TextsFieldsCell.m</url>
+          <line>171</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CmyCasa/Base Controller/TblRecordTextViewCell.m</url>
+          <line>142</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CmyCasa/Base Controller/TblRecordTextViewCell.m</url>
+          <line>147</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="102" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Base Controller/MyDesignEditBaseViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="258" column="0" selection-start="8083" selection-end="8083" vertical-scroll-proportion="0.0" vertical-offset="4386" max-vertical-offset="8415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Base Controller/MyDesignEditBaseViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/HS Core/Modeling/DesignsManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="566" column="0" selection-start="16287" selection-end="16287" vertical-scroll-proportion="0.32697946" vertical-offset="9399" max-vertical-offset="10081" />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="8" selection-start="5496" selection-end="5496" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="2856" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Furniture3DViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="2295" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/MainViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="39" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.84339815" vertical-offset="60" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homestyler Tests/RedesignToolUndoHandlerTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="1" selection-start="7870" selection-end="7870" vertical-scroll-proportion="0.060388945" vertical-offset="4735" max-vertical-offset="5712" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/CommandItem.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="541" selection-end="541" vertical-scroll-proportion="0.48080808" vertical-offset="0" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.15454546" vertical-offset="0" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Furniture3DViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="859" column="1" selection-start="34460" selection-end="34460" vertical-scroll-proportion="-0.10440123" vertical-offset="14603" max-vertical-offset="26469" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/UndoHandler.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="4" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.27474746" vertical-offset="663" max-vertical-offset="2295" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/Features/Undo Redesign Tool/Model/CommandItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="104" selection-end="104" vertical-scroll-proportion="0.13737373" vertical-offset="0" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/UIGalleryManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="62" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/UIGalleryManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="4" selection-start="7716" selection-end="7716" vertical-scroll-proportion="0.0" vertical-offset="3723" max-vertical-offset="16779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.40536514" vertical-offset="0" max-vertical-offset="671">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CmyCasa/GalleryStreamViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="17" selection-start="7130" selection-end="7130" vertical-scroll-proportion="0.2737921" vertical-offset="3910" max-vertical-offset="9537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

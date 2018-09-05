@@ -1,0 +1,58 @@
+//
+//  HSSharingConstants.h
+//  ADSharingComponent
+//
+//  Created by Ma'ayan on 10/10/13.
+//  Copyright (c) 2013 Ma'ayan. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+typedef enum
+{
+	HSSocialNetworkTypeTwitter = 4100,
+    HSSocialNetworkTypeFacebook = 4101,
+    HSSocialNetworkTypePinterest = 4102
+} HSSocialNetworkType;
+
+typedef enum
+{
+    HSSharingIntentTypeNone         = 3101,
+    HSSharingIntentTypeFacebook     = 3102,
+	HSSharingIntentTypeTwitter      = 3103,
+    HSSharingIntentTypeEmail        = 3104,
+    HSSharingIntentTypePinterest    = 3105
+} HSSharingIntentType;
+
+//Comfort
+#define IS_IPAD                                     (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE_5                                 (!IS_IPAD && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+
+//Xib
+#define kHSSharingViewControllerXibNameiPhone       @"HSSharingViewController_iPhone"
+#define kHSSharingViewControllerXibNameiPad         @"HSSharingViewController_iPad"
+
+#pragma mark - View Controllers
+//HSSHaringViewController
+#define kHSSharingViewControlleriPhone5BackgroundImage      @"iph_5_multi_share_bg.png"
+
+#define kHSSharingViewControllerTitleButtonCancel           @"Cancel"
+#define kHSSharingViewControllerTitleButtonShare            @"Share"
+#define kHSSharingViewControllerTitleLabelTitle             @"Share"
+
+#define kHSSharingViewControllerAlertNoData                 @"You must have data connection in order to share"
+#define kHSSharingViewControllerAlertNoPhoto                @"You must have a photo in order to share"
+#define kHSSharingViewControllerAlertTooMuchCharacters      @"Cannot share more than 140 characters on Twitter"
+#define kHSSharingViewControllerAlertSharingFailedGeneric   @"Fail to share by"
+#define kHSSharingViewControllerAlertSharingFailedEmail     @"Fail to share by Email"
+
+#define kHSSharingViewControllerMailSubject                 @"My new Home Styler design"
+
+//HSSHaringLogic
+#define kHSSharingLogicSNTypeDescriptionNone                @"None"
+#define kHSSharingLogicSNTypeDescriptionFacebook            @"Facebook"
+#define kHSSharingLogicSNTypeDescriptionTwitter             @"Twitter"
+#define kHSSharingLogicSNTypeDescriptionPinterest           @"Pinterest"
+
+
+

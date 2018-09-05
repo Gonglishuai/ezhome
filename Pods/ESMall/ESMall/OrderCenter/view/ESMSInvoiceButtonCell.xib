@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESMSInvoiceButtonCell" rowHeight="62" id="KGk-i7-Jjw" customClass="ESMSInvoiceButtonCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hI1-M9-r4n">
+                        <rect key="frame" x="17" y="17" width="92" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="92" id="C2e-sw-2kW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="不开具发票"/>
+                        <connections>
+                            <action selector="leftButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="S6z-dF-w9I"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj6-VA-rhM">
+                        <rect key="frame" x="124" y="17" width="92" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="不开具发票"/>
+                        <connections>
+                            <action selector="rightButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zL8-da-UkI"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aj6-VA-rhM" firstAttribute="leading" secondItem="hI1-M9-r4n" secondAttribute="trailing" constant="15" id="06T-oA-dJi"/>
+                    <constraint firstItem="aj6-VA-rhM" firstAttribute="centerY" secondItem="hI1-M9-r4n" secondAttribute="centerY" id="2re-3x-fbj"/>
+                    <constraint firstItem="hI1-M9-r4n" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Z0t-dK-Hhk"/>
+                    <constraint firstItem="hI1-M9-r4n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="cH7-Af-yZd"/>
+                    <constraint firstItem="aj6-VA-rhM" firstAttribute="width" secondItem="hI1-M9-r4n" secondAttribute="width" id="gL6-8q-d8I"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftButton" destination="hI1-M9-r4n" id="kd0-xT-NK9"/>
+                <outlet property="rightButton" destination="aj6-VA-rhM" id="slg-4E-btG"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="61"/>
+        </tableViewCell>
+    </objects>
+</document>

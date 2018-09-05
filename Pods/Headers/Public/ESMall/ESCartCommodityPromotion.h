@@ -1,0 +1,1 @@
+../../../ESMall/ESMall/Model/shoppingCart/ESCartCommodityPromotion.h

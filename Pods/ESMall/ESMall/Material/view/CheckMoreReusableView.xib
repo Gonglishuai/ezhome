@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CheckMoreReusableView" id="U6b-Vx-4bR" customClass="CheckMoreReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpm-5R-VQ6">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="查看更多"/>
+                    <connections>
+                        <action selector="checkMoreButtonClicked:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="iH2-sn-fM8"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWa-5l-Oq3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="0.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="fSR-C7-GRL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="wpm-5R-VQ6" firstAttribute="height" secondItem="U6b-Vx-4bR" secondAttribute="height" id="958-V5-pnL"/>
+                <constraint firstItem="NWa-5l-Oq3" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="LHC-V2-Tgc"/>
+                <constraint firstItem="wpm-5R-VQ6" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="Qav-iy-1Vk"/>
+                <constraint firstItem="NWa-5l-Oq3" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="Z5A-NW-6Tm"/>
+                <constraint firstItem="wpm-5R-VQ6" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="feL-29-0mL"/>
+                <constraint firstItem="NWa-5l-Oq3" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="lvp-gl-E97"/>
+                <constraint firstItem="wpm-5R-VQ6" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="mnl-Lf-Ugm"/>
+            </constraints>
+            <connections>
+                <outlet property="checkMoreButton" destination="wpm-5R-VQ6" id="Yow-gx-Kjg"/>
+                <outlet property="lineLabel" destination="NWa-5l-Oq3" id="IvX-6Y-xQC"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

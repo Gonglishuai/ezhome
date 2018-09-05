@@ -1,0 +1,10 @@
+//
+//  BOYK.xcconfig
+//  SA iSecurity Safety Input System for iOS
+//
+//  This resources file was created by Wang Xuesong on 13-4-7
+//
+//  Copyright 2012年 北京科蓝软件系统有限公司. All rights reserved.
+//
+
+OTHER_CFLAGS = $(inherited) -DENCRYPTIONTYPE=25

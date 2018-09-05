@@ -1,0 +1,661 @@
+//
+//  HSSharingViewController.m
+//  ADSharingComponent
+//
+//  Created by Ma'ayan on 10/9/13.
+//  Copyright (c) 2013 Ma'ayan. All rights reserved.
+//
+
+#import "HSSharingViewController.h"
+
+#import "HSSharingConstants.h"
+#import "HSSharingLogic.h"
+#import "HSSocialManager.h"
+
+#import <MessageUI/MessageUI.h>
+#import "Reachability.h"
+
+@interface HSSharingViewController () <SocialManagerSharingDelegate, MFMailComposeViewControllerDelegate, UITextViewDelegate>
+{
+}
+
+@property (nonatomic, weak) IBOutlet UITextView *tvShareTextView;
+@property (nonatomic, weak) IBOutlet UIImageView *ivShareImage;
+@property (nonatomic, weak) IBOutlet UIButton *btnFacebook;
+@property (nonatomic, weak) IBOutlet UIButton *btnTwitter;
+@property (nonatomic, weak) IBOutlet UIButton *btnEmail;
+@property (nonatomic, weak) IBOutlet UIButton *btnPinterest;
+@property (nonatomic, weak) IBOutlet UIButton *btnShare;
+@property (nonatomic, weak) IBOutlet UIButton *btnCancel;
+@property (nonatomic, weak) IBOutlet UILabel *lblTitle;
+@property (nonatomic, weak) IBOutlet UIImageView *ivBackground;
+//@property (nonatomic, weak) IBOutlet UIButton *btnDoneKeyboard;
+
+@property (nonatomic, strong) HSSharingLogic *logic;
+@property (nonatomic, strong) UIImage *imgShareImage;
+@property (nonatomic, strong) NSURL *urlShareImage;
+//iPhone5 only
+@property (nonatomic, strong) UIButton *btnKeyboardResign;
+
+//Temp
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *tempActivityIndicator;
+@property (nonatomic, weak) IBOutlet UITextView *tempTextView;
+
+- (IBAction)buttonClickedDone:(id)sender;
+- (IBAction)buttonClickedCancel:(id)sender;
+- (IBAction)buttonTouchDown:(id)sender;
+
+@end
+
+@implementation HSSharingViewController
+
+- (id)initWithShareText:(NSString *)shareText hashTags:(NSArray *)hashtags image:(UIImage *)image andImageURL:(NSURL *)imageUrl
+{
+    NSString *xibName = IS_IPAD ? kHSSharingViewControllerXibNameiPad : kHSSharingViewControllerXibNameiPhone;
+    
+    self = [self initWithNibName:xibName bundle:[NSBundle mainBundle]];
+    
+    if (self)
+    {
+        self.logic = [[HSSharingLogic alloc] initWithText:shareText andHashtags:hashtags];
+        self.imgShareImage = image;
+        self.urlShareImage = imageUrl;        
+    }
+    return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    if (!IS_IPAD)
+    {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShowNotification:) name:UIKeyboardWillShowNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
+    }
+    
+    if (IS_IPHONE_5)
+    {
+        [self fitForiPhone5];
+    }
+    
+    [self setUIStrings];
+    
+    [self.logic setSharingText:[self.logic getSharingTextWithHashtags]];
+    
+    self.tvShareTextView.text = [self.logic getSharingText];
+    self.tvShareTextView.delegate = self;
+    self.ivShareImage.image = self.imgShareImage;
+    
+    [self selectPreferedButtons];
+}
+
+- (void)fitForiPhone5
+{
+    //background
+    self.ivBackground.image = [UIImage imageNamed:kHSSharingViewControlleriPhone5BackgroundImage];
+    
+    //textview
+    CGRect rectTvShare = self.tvShareTextView.frame;
+    CGRect rectIvShare = self.ivShareImage.frame;
+    self.tvShareTextView.frame = CGRectMake(rectTvShare.origin.x, rectIvShare.origin.y + rectIvShare.size.height - 5, rectTvShare.size.width, 98);
+    
+    //SN buttons
+    rectTvShare = self.tvShareTextView.frame;
+    CGRect rectBtnFB = self.btnFacebook.frame;
+    CGRect rectBtnTwitter = self.btnTwitter.frame;
+    CGRect rectBtnEmail = self.btnEmail.frame;
+    CGRect rectBtnPinterest = self.btnPinterest.frame;
+    CGFloat fButtonOffset = 18;
+    self.btnFacebook.frame = CGRectMake(rectBtnFB.origin.x, rectTvShare.origin.y + rectTvShare.size.height + fButtonOffset, rectBtnFB.size.width, rectBtnFB.size.height);
+    self.btnTwitter.frame = CGRectMake(rectBtnTwitter.origin.x, rectTvShare.origin.y + rectTvShare.size.height + fButtonOffset, rectBtnTwitter.size.width, rectBtnTwitter.size.height);
+    self.btnEmail.frame = CGRectMake(rectBtnEmail.origin.x, rectTvShare.origin.y + rectTvShare.size.height + fButtonOffset, rectBtnEmail.size.width, rectBtnEmail.size.height);
+    self.btnPinterest.frame = CGRectMake(rectBtnPinterest.origin.x, rectTvShare.origin.y + rectTvShare.size.height + fButtonOffset, rectBtnPinterest.size.width, rectBtnPinterest.size.height);
+}
+
+- (void)setUIStrings
+{
+    //all UI strings that do not change during app runing
+    [self.btnCancel setTitle:NSLocalizedString(kHSSharingViewControllerTitleButtonCancel, nil) forState:UIControlStateNormal];
+    [self.lblTitle setText:NSLocalizedString(kHSSharingViewControllerTitleLabelTitle, nil)];
+    [self.btnShare setTitle:NSLocalizedString(kHSSharingViewControllerTitleButtonShare, nil) forState:UIControlStateNormal];
+}
+
+- (void)selectPreferedButtons
+{
+    //select the last state the user had used or the default state
+    [self deselectButton:self.btnFacebook];
+    [self deselectButton:self.btnTwitter];
+    [self deselectButton:self.btnEmail];
+    [self deselectButton:self.btnPinterest];
+    
+    NSDictionary *dicPrefs = [self.logic getUserSharingPreferences];
+    
+    if (dicPrefs.count == 0) //first use
+    {
+        [self buttonTouchDown:self.btnFacebook];
+    }
+    else
+    {
+        for (NSNumber *num in [dicPrefs allKeys])
+        {
+            switch (num.intValue)
+            {
+                case HSSharingIntentTypeFacebook:
+                    [self buttonTouchDown:self.btnFacebook];
+                    break;
+                case HSSharingIntentTypeTwitter:
+                    [self buttonTouchDown:self.btnTwitter];
+                    break;
+                case HSSharingIntentTypeEmail:
+                    [self buttonTouchDown:self.btnEmail];
+                    break;
+                case HSSharingIntentTypePinterest:
+                    [self buttonTouchDown:self.btnPinterest];
+                    break;
+            }
+        }
+    }
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Orientation
+
+- (BOOL)shouldAutorotate
+{
+    if (IS_IPAD)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+// Applications should use supportedInterfaceOrientations and/or shouldAutorotate..
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    if (IS_IPAD)
+    {
+        return UIInterfaceOrientationIsLandscape(toInterfaceOrientation);
+    }
+    else
+    {
+        return UIInterfaceOrientationIsPortrait(toInterfaceOrientation);
+    }
+    
+    return YES;
+}
+
+// New Autorotation support.
+//- (BOOL)shouldAutorotate NS_AVAILABLE_IOS(6_0);
+- (NSUInteger)supportedInterfaceOrientations
+{
+    if (IS_IPAD)
+    {
+        return UIInterfaceOrientationMaskLandscape;
+    }
+    else
+    {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+    
+    return UIInterfaceOrientationMaskAll;
+}
+
+#pragma mark - Button Clicks
+
+- (IBAction)buttonClickedDone:(id)sender
+{
+    [self startSharingProccess];
+}
+
+- (IBAction)buttonClickedCancel:(id)sender
+{
+    if ((self.delegate != nil) && ([self.delegate respondsToSelector:@selector(didFinishSharingViewController)]))
+    {
+        [self.delegate didCancelSharingViewController];
+    }
+}
+
+//iPhoneOnly
+- (IBAction)buttonClickedDoneKeyboard:(id)sender
+{
+    [self.tvShareTextView resignFirstResponder];
+}
+
+- (IBAction)buttonTouchDown:(id)sender
+{
+    [self toggleImageForButton:sender];
+
+    if (sender == self.btnFacebook)
+    {
+        if ([[self.btnFacebook imageForState:UIControlStateNormal] isEqual:[self.btnFacebook imageForState:UIControlStateSelected]])
+        {
+            [self.logic addGeneralSharingIntentType:HSSharingIntentTypeFacebook];
+        }
+        else
+        {
+            [self.logic removeGeneralSharingIntentType:HSSharingIntentTypeFacebook];
+        }
+    }
+    else if (sender == self.btnTwitter)
+    {
+        if ([[self.btnTwitter imageForState:UIControlStateNormal] isEqual:[self.btnTwitter imageForState:UIControlStateSelected]])
+        {
+            [self.logic addGeneralSharingIntentType:HSSharingIntentTypeTwitter];
+        }
+        else
+        {
+            [self.logic removeGeneralSharingIntentType:HSSharingIntentTypeTwitter];
+        }
+    }
+    else if (sender == self.btnEmail)
+    {
+        if ([[self.btnEmail imageForState:UIControlStateNormal] isEqual:[self.btnEmail imageForState:UIControlStateSelected]])
+        {
+            [self.logic addGeneralSharingIntentType:HSSharingIntentTypeEmail];
+        }
+        else
+        {
+            [self.logic removeGeneralSharingIntentType:HSSharingIntentTypeEmail];
+        }
+    }
+    else if (sender == self.btnPinterest)
+    {
+        if ([[self.btnPinterest imageForState:UIControlStateNormal] isEqual:[self.btnPinterest imageForState:UIControlStateSelected]])
+        {
+            [self.logic addGeneralSharingIntentType:HSSharingIntentTypePinterest];
+        }
+        else
+        {
+            [self.logic removeGeneralSharingIntentType:HSSharingIntentTypePinterest];
+        }
+    }
+    
+    if (![self.logic isHaveGeneralSharingIntent])
+    {
+        self.btnShare.enabled = NO;
+    }
+    else
+    {
+        self.btnShare.enabled = YES;
+    }
+}
+
+#pragma mark - UI Supporting Functions
+
+//this is just a comfort method that is using the Selected state to hold whatever image should be the next "Normal" image, and the Disabled state for the "Highlighted" image
+- (void)toggleImageForButton:(UIButton *)button
+{    
+    if ([[button imageForState:UIControlStateNormal] isEqual:[button imageForState:UIControlStateSelected]]) //the button was selected
+    {
+        [self deselectButton:button];
+    }
+    else //the button was unselected
+    {
+        [self selectButton:button];
+    }
+}
+
+- (void)selectButton:(UIButton *)button
+{
+    [button setImage:[button imageForState:UIControlStateSelected] forState:UIControlStateNormal];
+    [button setImage:[button imageForState:UIControlStateSelected] forState:UIControlStateHighlighted];
+}
+
+- (void)deselectButton:(UIButton *)button
+{
+    [button setImage:[button imageForState:UIControlStateDisabled] forState:UIControlStateNormal];
+    [button setImage:[button imageForState:UIControlStateDisabled] forState:UIControlStateHighlighted];
+}
+
+#pragma mark - UI Logic
+
+- (void)showAlertMessage:(NSString *)message
+{
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+                       UIAlertView *avError = [[UIAlertView alloc] initWithTitle:nil message:message delegate:nil cancelButtonTitle:NSLocalizedString(@"Back", nil) otherButtonTitles:nil];
+                       [avError show];
+                   });
+}
+
+- (BOOL)canShareToIntentType:(HSSharingIntentType)type
+{
+    if (![[Reachability reachabilityForInternetConnection] isReachable])
+    {
+        [self showAlertMessage:NSLocalizedString(kHSSharingViewControllerAlertNoData, nil)];
+        return NO;
+    }
+    else if ((self.imgShareImage == nil) || (self.urlShareImage == nil))
+    {
+        [self showAlertMessage:NSLocalizedString(kHSSharingViewControllerAlertNoPhoto, nil)];
+        return NO;
+    }
+    
+    if (type == HSSharingIntentTypeFacebook)
+    {
+        
+    }
+    else if (type == HSSharingIntentTypeTwitter)
+    {
+        if (self.tvShareTextView.text.length > 140)
+        {
+            [self showAlertMessage:NSLocalizedString(kHSSharingViewControllerAlertTooMuchCharacters, nil)];
+            return NO;
+        }
+    }
+    else if (type == HSSharingIntentTypeEmail)
+    {
+        
+    }
+    else if (type == HSSharingIntentTypePinterest)
+    {
+        
+    }
+    
+    return YES;
+}
+
+#pragma mark - Keyboard Notifications
+
+- (void)keyboardWillShowNotification:(NSNotification *)notification
+{
+    NSTimeInterval animationDuration;
+    UIViewAnimationCurve animationCurve;
+    CGRect keyboardEndFrame;
+    
+    NSDictionary *info = [notification userInfo];
+    [[info objectForKey:UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
+    [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] getValue:&animationDuration];
+    [[info objectForKey:UIKeyboardFrameEndUserInfoKey] getValue:&keyboardEndFrame];
+    
+    self.btnKeyboardResign = [[UIButton alloc] initWithFrame:self.view.frame];
+    [self.btnKeyboardResign setBackgroundColor:[UIColor clearColor]];
+    [self.btnKeyboardResign addTarget:self.tvShareTextView action:@selector(resignFirstResponder) forControlEvents:UIControlEventTouchDown];
+    [self.view insertSubview:self.btnKeyboardResign belowSubview:self.tvShareTextView];
+    
+    UIViewAnimationOptions options = (UIViewAnimationOptions) animationCurve;
+    
+    [UIView animateWithDuration:animationDuration delay:0.0 options:options animations:^
+     {
+         self.view.center = CGPointMake(self.view.center.x, self.view.center.y - keyboardEndFrame.size.height);
+     }
+                     completion:^(BOOL finished){}];
+}
+
+- (void)keyboardWillHideNotification:(NSNotification *)notification
+{
+    NSTimeInterval animationDuration;
+    UIViewAnimationCurve animationCurve;
+    CGRect keyboardEndFrame;
+    
+    NSDictionary *info = [notification userInfo];
+    [[info objectForKey:UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
+    [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] getValue:&animationDuration];
+    [[info objectForKey:UIKeyboardFrameEndUserInfoKey] getValue:&keyboardEndFrame];
+    
+    [self.btnKeyboardResign removeFromSuperview];
+    
+    UIViewAnimationOptions options = (UIViewAnimationOptions) animationCurve;
+    
+    [UIView animateWithDuration:animationDuration delay:0.0 options:options animations:^
+     {
+         self.view.center = CGPointMake(self.view.center.x, self.view.frame.size.height/2);
+     }
+                     completion:^(BOOL finished){}];
+}
+
+
+#pragma mark - UITextView Delegate
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+{
+    if ((!IS_IPAD) && (range.length == 0) && ([text isEqualToString:@"\n"])) //user pressed return key
+    {
+        [textView resignFirstResponder];
+    }
+    
+    [self.logic setSharingText:[self.tvShareTextView.text stringByReplacingCharactersInRange:range withString:text]];
+    
+    return YES;
+}
+
+#pragma mark - SN Sharing
+
+- (void)startSharingProccess
+{
+    [self.logic saveUserSharingPreferences];
+    
+    [self.logic initCurrentSharingQueue];
+    
+    if ([self.logic hasSharingIntentsPending])
+    {
+        dispatch_async(dispatch_get_main_queue(), ^
+                       {
+                           [self.tempActivityIndicator startAnimating];
+                           self.tempTextView.text = [self.tempTextView.text stringByAppendingString:@"\nSharing started.."];
+                       });
+        
+        [self shareToIntentType:[self.logic getNextSharingIntentType]];
+    }
+    else // user tried to share with no SN selected
+    {
+        [self shareToIntentType:HSSharingIntentTypeFacebook]; //hard coded by product request
+    }
+}
+
+- (void)sharingProccessDidFinish
+{
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+                       [self.tempActivityIndicator stopAnimating];
+                       self.tempTextView.text = [self.tempTextView.text stringByAppendingString:@"\nSharing finished.."];
+                   });
+    
+    if ((self.delegate != nil) && ([self.delegate respondsToSelector:@selector(didFinishSharingViewController)]))
+    {
+        [self.delegate didFinishSharingViewController];
+    }
+}
+
+- (void)shareToIntentType:(HSSharingIntentType)type
+{
+    if ([self canShareToIntentType:type])
+    {
+        dispatch_async(dispatch_get_main_queue(), ^
+                       {
+                           self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nStarted sharing to SN type: %d", type];
+                           
+                           switch (type) {
+                               case HSSharingIntentTypeFacebook:
+                                   [[HSSocialManager sharedSocialManager] shareText:[self.logic getSharingText] image:self.imgShareImage andUrl:self.urlShareImage toSocialNetworkType:HSSocialNetworkTypeFacebook fromViewController:self withDelegate:self];
+                                   break;
+                               case HSSharingIntentTypeTwitter:
+                                   [[HSSocialManager sharedSocialManager] shareText:[self.logic getSharingText] image:self.imgShareImage andUrl:self.urlShareImage toSocialNetworkType:HSSocialNetworkTypeTwitter fromViewController:self withDelegate:self];
+                                   break;
+                               case HSSharingIntentTypeEmail:
+                                   [self shareByEmail];
+                                   break;
+                               case HSSharingIntentTypePinterest:
+                                   [[HSSocialManager sharedSocialManager] shareText:[self.logic getSharingText] image:self.imgShareImage andUrl:self.urlShareImage toSocialNetworkType:HSSocialNetworkTypePinterest fromViewController:self withDelegate:self];
+                                   break;
+                               case HSSharingIntentTypeNone:
+                                   break;
+                           }
+                       });
+    }
+    else
+    {
+        dispatch_async(dispatch_get_main_queue(), ^
+                       {
+                           [self.tempActivityIndicator stopAnimating];
+                           self.tempTextView.text = [self.tempTextView.text stringByAppendingString:@"\nSharing finished.."];
+                       });
+    }
+}
+
+#pragma mark - SocialManagerSharingDelegate
+
+- (void)didFinishShareToSocialNetworkType:(HSSocialNetworkType)type
+{
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+    self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nFinished sharing to SN type: %d", [self.logic getSharingIntentTypeFromSocialNetworkType:type]];
+                   });
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
+                   {
+                       HSSharingIntentType sharingType = [self.logic getSharingIntentTypeFromSocialNetworkType:type];
+                       
+                       [self.logic removeSharingIntentTypeFromQueue:sharingType];
+                       
+                       if ([self.logic hasSharingIntentsPending])
+                       {
+                           [self shareToIntentType:[self.logic getNextSharingIntentType]];
+                       }
+                       else
+                       {
+                           [self sharingProccessDidFinish];
+                       }
+                   });
+}
+
+- (void)shareToSocialNetworkType:(HSSocialNetworkType)type didFailWithError:(NSString *)errorString
+{    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
+                   {
+                       [self.logic clearSharingIntentQueue];
+                       if ((type == HSSocialNetworkTypePinterest) && (errorString != nil))
+                       {
+                           [self showAlertMessage:[NSString stringWithFormat:@"%@ %@ - %@", NSLocalizedString(kHSSharingViewControllerAlertSharingFailedGeneric, nil), [self.logic getDescriptionFromSocialNetworkType:type], errorString]];
+                       }
+                       else
+                       {
+                           [self showAlertMessage:[NSString stringWithFormat:@"%@ %@", NSLocalizedString(kHSSharingViewControllerAlertSharingFailedGeneric, nil), [self.logic getDescriptionFromSocialNetworkType:type]]];
+                       }
+                       
+                       dispatch_async(dispatch_get_main_queue(), ^
+                                      {
+                                          [self.tempActivityIndicator stopAnimating];
+                                          
+                                          self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nError sharing to SN type: %d (%@)", [self.logic getSharingIntentTypeFromSocialNetworkType:type], errorString];
+                                      });
+                   });
+}
+
+#pragma mark - MFMailComposer
+
+- (void)shareByEmail
+{
+    if ([MFMailComposeViewController canSendMail])
+    {
+        MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] initWithNibName:nil bundle:nil];
+        [composeViewController setMailComposeDelegate:self];
+        //[composeViewController setToRecipients:@[@"example@email.com"]];
+        [composeViewController setSubject:NSLocalizedString(kHSSharingViewControllerMailSubject, nil)];
+        [composeViewController setMessageBody:[NSString stringWithFormat:@"%@", [self.logic getSharingTextForEmail]] isHTML:NO];
+        [composeViewController addAttachmentData:UIImagePNGRepresentation(self.imgShareImage) mimeType:@"image/png" fileName:[self.urlShareImage absoluteString]];
+
+        dispatch_async(dispatch_get_main_queue(), ^
+                       {
+                           [self presentViewController:composeViewController animated:YES completion:nil];
+                       });
+    }
+    else
+    {
+        [self didFailToShareByEmail];
+    }
+}
+
+- (void)didFailToShareByEmail
+{
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+    self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nError sharing to SN type: %d (%@)", HSSharingIntentTypeEmail, @"Device can't send mail"];
+                   });
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
+                   {                       
+                       [self.logic clearSharingIntentQueue];
+                       
+                       [self showAlertMessage:NSLocalizedString(kHSSharingViewControllerAlertSharingFailedEmail, nil)];
+                       
+                       dispatch_async(dispatch_get_main_queue(), ^
+                                      {
+                                          [self.tempActivityIndicator stopAnimating];
+
+                                          self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nError sharing to SN type: %d (%@)", HSSharingIntentTypeEmail, @"Device can't send mail"];
+                                      });
+                   });
+}
+
+- (void)didSucceedToShareByEmail
+{
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+    self.tempTextView.text = [self.tempTextView.text stringByAppendingFormat:@"\nFinished sharing to SN type: %d", HSSharingIntentTypeEmail];
+                   });
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^
+                   {
+                       [self.logic removeSharingIntentTypeFromQueue:HSSharingIntentTypeEmail];
+                       
+                       if ([self.logic hasSharingIntentsPending])
+                       {
+                           [self shareToIntentType:[self.logic getNextSharingIntentType]];
+                       }
+                       else
+                       {
+                           [self sharingProccessDidFinish];
+                       }
+                   });
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
+{
+    BOOL isSharing = NO;
+    switch (result)
+    {
+        case MFMailComposeResultCancelled:
+            break;
+        case MFMailComposeResultSaved:
+            break;
+        case MFMailComposeResultSent:
+            isSharing = YES;
+            break;
+        case MFMailComposeResultFailed:
+            break;
+    }
+    dispatch_async(dispatch_get_main_queue(), ^
+                   {
+                       [self dismissViewControllerAnimated:YES completion:^
+                        {
+                            if (isSharing)
+                            {
+                                [self didSucceedToShareByEmail];
+                            }
+                            else
+                            {
+                                [self didFailToShareByEmail];
+                            }
+                        }];
+                   });
+}
+
+
+@end

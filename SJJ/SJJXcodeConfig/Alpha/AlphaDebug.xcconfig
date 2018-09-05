@@ -1,0 +1,11 @@
+//
+//  AlphaDebug.xcconfig
+//  ESProprietor
+//
+//  Created by 焦旭 on 2017/10/20.
+//  Copyright © 2017年 Easyhome Shejijia. All rights reserved.
+//
+
+XCCONFIG_BUNDLE_NAME                = 居然设计家(AD)
+
+#include "Alpha.xcconfig"

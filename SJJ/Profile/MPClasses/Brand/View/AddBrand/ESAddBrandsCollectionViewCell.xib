@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ESAddBrandsCollectionViewCell" customModule="Consumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="252"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="252"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eu8-PS-jPd">
+                        <rect key="frame" x="0.0" y="15" width="167" height="167"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Eu8-PS-jPd" secondAttribute="height" multiplier="1:1" id="GTq-Iz-eIR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hre-ZE-lE9">
+                        <rect key="frame" x="0.0" y="192" width="167" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="cED-Sy-QUk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="erp_btn_sel" translatesAutoresizingMaskIntoConstraints="NO" id="yEK-KE-xsa">
+                        <rect key="frame" x="141" y="21" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="MYS-Zu-D5Y"/>
+                            <constraint firstAttribute="width" constant="20" id="a3U-oy-cfi"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Eu8-PS-jPd" secondAttribute="trailing" id="HpQ-03-BqT"/>
+                <constraint firstItem="hre-ZE-lE9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KrA-ze-VC8"/>
+                <constraint firstItem="hre-ZE-lE9" firstAttribute="top" secondItem="Eu8-PS-jPd" secondAttribute="bottom" constant="10" id="eWO-HM-blb"/>
+                <constraint firstAttribute="bottom" secondItem="hre-ZE-lE9" secondAttribute="bottom" priority="250" id="kFy-PM-q09"/>
+                <constraint firstItem="Eu8-PS-jPd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mMa-t7-rdZ"/>
+                <constraint firstAttribute="trailing" secondItem="hre-ZE-lE9" secondAttribute="trailing" id="vKW-12-ZX7"/>
+                <constraint firstItem="Eu8-PS-jPd" firstAttribute="top" secondItem="yEK-KE-xsa" secondAttribute="bottom" constant="-26" id="vrA-k1-67r"/>
+                <constraint firstItem="yEK-KE-xsa" firstAttribute="leading" secondItem="Eu8-PS-jPd" secondAttribute="trailing" constant="-26" id="wQd-BK-IHq"/>
+                <constraint firstItem="Eu8-PS-jPd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="x4C-e4-nph"/>
+            </constraints>
+            <size key="customSize" width="244" height="252"/>
+            <connections>
+                <outlet property="brandImageView" destination="Eu8-PS-jPd" id="kGB-e4-qru"/>
+                <outlet property="brandName" destination="hre-ZE-lE9" id="hq7-7F-dni"/>
+                <outlet property="selectrdIcon" destination="yEK-KE-xsa" id="B0m-i2-1mg"/>
+            </connections>
+            <point key="canvasLocation" x="-74.5" y="-3"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="erp_btn_sel" width="18" height="18"/>
+    </resources>
+</document>

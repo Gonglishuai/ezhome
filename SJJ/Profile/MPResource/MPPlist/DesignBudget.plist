@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>3000元以下</string>
+	<string>3000元-6000元</string>
+	<string>6001元-10000元</string>
+	<string>10001元-50000元</string>
+	<string>50000元以上</string>
+</array>
+</plist>

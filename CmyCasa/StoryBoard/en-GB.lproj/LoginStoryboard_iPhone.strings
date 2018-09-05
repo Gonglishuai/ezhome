@@ -1,0 +1,63 @@
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "6Y9-sP-T1H"; */
+"6Y9-sP-T1H.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Enter your Email address"; ObjectID = "30X-YV-8da"; */
+"30X-YV-8da.text" = "Enter your Email address";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "FWQ-QF-t4M"; */
+"FWQ-QF-t4M.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Enter Email and password"; ObjectID = "HPT-8G-B97"; */
+"HPT-8G-B97.text" = "Register or log in via your email address";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "NBa-lL-yyg"; */
+"NBa-lL-yyg.normalTitle" = "SUBMIT";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_facebook"; ObjectID = "PHd-Ue-u8I"; */
+"PHd-Ue-u8I.accessibilityLabel" = "btn_facebook";
+
+/* Class = "UIButton"; normalTitle = "Register with Facebook"; ObjectID = "PHd-Ue-u8I"; */
+"PHd-Ue-u8I.normalTitle" = "Facebook";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "Uku-Kc-mM8"; */
+"Uku-Kc-mM8.text" = "Register or Log In";
+
+/* Class = "UILabel"; text = "By clicking Sign Up you are indicating that you have read and agree to the Autodesk Privacy Statement and Terms of Service"; ObjectID = "WVp-dJ-Uf7"; */
+"WVp-dJ-Uf7.text" = "By clicking Sign Up you are indicating that you have read and agree to the Autodesk Privacy Statement and Terms of Service";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_email"; ObjectID = "YtU-Xo-O2h"; */
+"YtU-Xo-O2h.accessibilityLabel" = "btn_email";
+
+/* Class = "UIButton"; normalTitle = "Register with your Email"; ObjectID = "YtU-Xo-O2h"; */
+"YtU-Xo-O2h.normalTitle" = "Email";
+
+/* (No Comment) */
+"ZQc-j8-vlS.normalTitle" = "";
+
+/* (No Comment) */
+"Zj8-8T-wSs.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "ahi-MO-8yq"; */
+"ahi-MO-8yq.normalTitle" = "Forgot your password?";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "cFB-XD-d1s"; */
+"cFB-XD-d1s.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Restore Password"; ObjectID = "imp-bA-jlb"; */
+"imp-bA-jlb.text" = "Restore Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "mli-vZ-erP"; */
+"mli-vZ-erP.placeholder" = "Email";
+
+/* (No Comment) */
+"uhG-sB-Rvb.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "vIl-U5-yF6"; */
+"vIl-U5-yF6.text" = "Register or Log In";
+
+/* Class = "UILabel"; text = "By clicking Sign Up you are indicating that you have read and agree to the Autodesk Privacy Statement and Terms of Service"; ObjectID = "vuV-Kf-IbA"; */
+"vuV-Kf-IbA.text" = "By clicking Sign Up you are indicating that you have read and agree to the Autodesk Privacy Statement and Terms of Service";
+
+/* (No Comment) */
+"xeQ-Be-QrP.normalTitle" = "Register with Google";
+

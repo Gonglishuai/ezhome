@@ -1,0 +1,123 @@
+/* (No Comment) */
+"0YI-qW-VnI.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"0YI-qW-VnI.normalTitle" = "";
+
+/* (No Comment) */
+"3Pj-1g-oOH.text" = "Nom du professionnel";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "4hh-iK-i5P"; */
+"4hh-iK-i5P.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4hh-iK-i5P"; */
+"4hh-iK-i5P.normalTitle" = "";
+
+/* (No Comment) */
+"8Rj-uD-XAe.text" = "Designer\nArchitecte\nCharpentier";
+
+/* Class = "UILabel"; text = "Professional Portfolio"; ObjectID = "9sm-iH-DvF"; */
+"9sm-iH-DvF.text" = "Portfolio de professionnel";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "38R-r5-3rk"; */
+"38R-r5-3rk.text" = "Titre";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_add_portfolio"; ObjectID = "Bc3-9N-L4w"; */
+"Bc3-9N-L4w.accessibilityLabel" = "btn_add_portfolio";
+
+/* Class = "UIButton"; normalTitle = "Add Your Portfolio"; ObjectID = "Bc3-9N-L4w"; */
+"Bc3-9N-L4w.normalTitle" = "Ajouter votre portfolio";
+
+/* Class = "UILabel"; text = "Proffesionals name"; ObjectID = "Dri-uN-FGi"; */
+"Dri-uN-FGi.text" = "Nom professionnel";
+
+/* Class = "UILabel"; text = "Designer\nArchitect\nCarpenter"; ObjectID = "EWu-uq-ubE"; */
+"EWu-uq-ubE.text" = "Designer\nArchitecte\nCharpentier";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "JDH-sS-knV"; */
+"JDH-sS-knV.text" = "E-mail:";
+
+/* Class = "UILabel"; text = "Website:"; ObjectID = "MNV-Ft-5Ju"; */
+"MNV-Ft-5Ju.text" = "Site Web:";
+
+/* (No Comment) */
+"NLe-cY-271.text" = "Emplacement:";
+
+/* Class = "UILabel"; text = "Phone 2:"; ObjectID = "R2M-Dn-eDa"; */
+"R2M-Dn-eDa.text" = "Tél. 2:";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Rg0-i6-mUd"; */
+"Rg0-i6-mUd.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "SWb-rv-Zq8"; */
+"SWb-rv-Zq8.normalTitle" = "";
+
+/* Class = "UILabel"; text = "37K"; ObjectID = "Sh8-qe-fW0"; */
+"Sh8-qe-fW0.text" = "37K";
+
+/* (No Comment) */
+"WWM-pI-xg4.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Professional's Name"; ObjectID = "a2L-Wi-pvV"; */
+"a2L-Wi-pvV.text" = "Nom du professionnel";
+
+/* Class = "UILabel"; text = ""; ObjectID = "fGA-o8-1Wg"; */
+"fGA-o8-1Wg.text" = "";
+
+/* Class = "UILabel"; text = "Sorry, there are currently no listings available for this search. Have fun browsing through the other categories."; ObjectID = "fXK-lO-i8c"; */
+"fXK-lO-i8c.text" = "Désolé, aucune liste n'est actuellement disponible pour cette recherche. N'hésitez pas à parcourir d'autres catégories.";
+
+/* (No Comment) */
+"fZV-od-4t3.text" = "Israël";
+
+/* (No Comment) */
+"gGs-hy-PWa.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_areaservice"; ObjectID = "hBY-FI-HBp"; */
+"hBY-FI-HBp.accessibilityLabel" = "btn_areaservice";
+
+/* Class = "UIButton"; normalTitle = "Area of Service"; ObjectID = "hBY-FI-HBp"; */
+"hBY-FI-HBp.normalTitle" = "Domaine d'expertise";
+
+/* Class = "UIButton"; normalTitle = "VIEW PORTFOLIO"; ObjectID = "ihE-s2-Gkf"; */
+"ihE-s2-Gkf.normalTitle" = "Afficher le portfolio";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_profession"; ObjectID = "mT8-V7-pOX"; */
+"mT8-V7-pOX.accessibilityLabel" = "btn_profession";
+
+/* Class = "UIButton"; normalTitle = "Profession"; ObjectID = "mT8-V7-pOX"; */
+"mT8-V7-pOX.normalTitle" = "Profession";
+
+/* Class = "UILabel"; text = ""; ObjectID = "oF2-wv-ESA"; */
+"oF2-wv-ESA.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "p8v-X0-Fgv"; */
+"p8v-X0-Fgv.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Israel"; ObjectID = "pkf-I6-cKx"; */
+"pkf-I6-cKx.text" = "Israël";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "sd0-qr-pgy"; */
+"sd0-qr-pgy.text" = "Adresse:";
+
+/* Class = "UILabel"; text = "PROJECTS"; ObjectID = "ss2-7B-KVe"; */
+"ss2-7B-KVe.text" = "PROJETS";
+
+/* Class = "UILabel"; text = "Home Architect"; ObjectID = "tEQ-9K-rLK"; */
+"tEQ-9K-rLK.text" = "Architecte de maison";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "voX-nJ-4qH"; */
+"voX-nJ-4qH.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Project Name"; ObjectID = "vtL-Ha-fpH"; */
+"vtL-Ha-fpH.text" = "Nom du projet";
+
+/* Class = "UILabel"; text = "Go to site"; ObjectID = "yBi-v9-941"; */
+"yBi-v9-941.text" = "Accéder au site";
+
+/* Class = "UILabel"; text = "Phone 1:"; ObjectID = "ywT-N2-VKA"; */
+"ywT-N2-VKA.text" = "Tél. 1:";
+
+/* Class = "UILabel"; text = "Send email"; ObjectID = "zAv-MH-pWL"; */
+"zAv-MH-pWL.text" = "Envoyer un e-mail";
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MessagesNoNotificationsCell">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="282"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_notifications" translatesAutoresizingMaskIntoConstraints="NO" id="3fO-0s-hLr">
+                    <rect key="frame" x="162" y="61" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="TP8-xG-qwB"/>
+                        <constraint firstAttribute="width" constant="120" id="hKA-bX-vI2"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No notifications yet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iW-D6-oXM">
+                    <rect key="frame" x="0.0" y="201" width="445" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3fO-0s-hLr" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="1NO-jm-XAp"/>
+                <constraint firstItem="9iW-D6-oXM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6aK-IF-twy"/>
+                <constraint firstItem="9iW-D6-oXM" firstAttribute="top" secondItem="3fO-0s-hLr" secondAttribute="bottom" constant="20" id="7gz-2p-pKQ"/>
+                <constraint firstItem="9iW-D6-oXM" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="YDi-NB-PUj"/>
+                <constraint firstItem="3fO-0s-hLr" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-20" id="t1A-vZ-TId"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="noNotifications" destination="9iW-D6-oXM" id="dfq-hx-f5T"/>
+            </connections>
+            <point key="canvasLocation" x="-247" y="-409"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="no_notifications" width="120" height="120"/>
+    </resources>
+</document>

@@ -1,0 +1,36 @@
+//
+//  AppStoreConfig.xcconfig
+//  Mall
+//
+//  Created by 焦旭 on 2017/8/28.
+//  Copyright © 2017年 EasyHome. All rights reserved.
+//
+
+XCCONFIG_BUNDLE_ID                  = cn.juran.juranHomeDesignerAppstore
+XCCONFIG_BUNDLE_NAME                = 居然设计家
+SHEJIJIA_HOST                       = @"api.shejijia.com"
+M_SHEJIJIA_HOST                     = @"m.shejijia.com"
+APP_TYPE                            = @"Shejijia"
+// 环境标识
+ENV_FLAG                            = @""
+
+///Json
+//论坛
+BBS_URL                             = @"download.shejijia.com/shejijia-consumer-app/discuz-prod/bbs_url.json"
+//App配置文件
+APP_CONFIG_URL                      = @"app-config.shejijia.com/prd/consumer_app_config.json"
+
+//===================== 第三方 =====================//
+/// 高德
+AMAP_KEY                            = @"77c6f8aa2516780356f8eb2ca9473566"
+/// 微博
+WEIBO_KEY                           = @"3945678701"
+WEIBO_REDIRECT_URI                  = @"www.sina.com"
+/// 银联
+UPAPAY_SCHEME                       = @"upapay82c5a1b3c7a6eedd"
+/// 微信
+WX_APP_KEY                          = @"wx263a5376163cf920"
+/// 友盟
+UMENG_APP_KEY                       = @"58b3a07b7f2c745349003204"
+UMEMNG_CHANNEL_ID                   = @"App Store"
+#include "Generator.xcconfig"

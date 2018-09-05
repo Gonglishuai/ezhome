@@ -1,0 +1,236 @@
+//
+//  HSSharingLogic.m
+//  ADSharingComponent
+//
+//  Created by Ma'ayan on 10/10/13.
+//  Copyright (c) 2013 Ma'ayan. All rights reserved.
+//
+
+#import "HSSharingLogic.h"
+
+#import "HSSharingPreferencesManager.h"
+
+#import "HSSharingConstants.h"
+#import "HSHashtag.h"
+
+@interface HSSharingLogic ()
+
+@property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) NSArray *hashtags;
+
+//sharing queue
+@property (nonatomic, strong) NSMutableDictionary *dicGeneralSharingIntents; //dic of NSNumber(HSSharingIntentType)
+@property (nonatomic, strong) NSMutableDictionary *dicCurrentSharingIntents; //dic of NSNumber(HSSharingIntentType)
+
+@end
+
+
+@implementation HSSharingLogic
+
+- (id)initWithText:(NSString *)text andHashtags:(NSArray *)hashtags
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self.text = text;
+        self.hashtags = hashtags;
+        
+        self.dicGeneralSharingIntents = [NSMutableDictionary dictionaryWithCapacity:4];
+    }
+    
+    return self;
+}
+
+- (HSSocialNetworkType)getSocialNetworkTypeFromHashtagType:(HSHashtagType)hashtype
+{
+    switch (hashtype)
+    {
+        case HSHashtagTypeFacebook:
+            return HSSocialNetworkTypeFacebook;
+            break;
+        case HSHashtagTypeTwitter:
+            return HSSocialNetworkTypeTwitter;
+            break;
+    }
+}
+
+#pragma mark - Sharing Texts
+
+- (NSString *)getSharingText
+{
+    return [self.text copy];
+}
+
+- (void)setSharingText:(NSString *)modifiedText
+{
+    self.text = modifiedText;
+}
+
+- (NSString *)getSharingTextWithHashtags
+{
+    //create hashtag prefix & suffix strings
+    NSMutableString *strPrefix = [NSMutableString string];
+    NSMutableString *strSuffix = [NSMutableString string];
+    NSMutableArray *arrHashtagsProccessed = [NSMutableArray array];
+
+    for (HSHashtag *hash in [self.hashtags sortedArrayUsingSelector:@selector(compare:)])
+    {
+        BOOL isHashBeenProccessedBefore = NO;
+        
+        for (HSHashtag *prevHash in arrHashtagsProccessed)
+        {
+            if ([hash isEqual:prevHash])
+            {
+                isHashBeenProccessedBefore = YES;
+                break;
+            }
+        }
+        if (isHashBeenProccessedBefore)
+        {
+            continue;
+        }
+        else
+        {
+            [arrHashtagsProccessed addObject:hash];
+        }
+        
+        if (hash.location == HSHashtagLocationStart)
+        {
+            [strPrefix appendString:hash.text];
+        }
+        else if (hash.location == HSHashtagLocationEnd)
+        {
+            [strSuffix appendString:hash.text];
+        }
+    }
+    
+    NSString *strFull = [NSString stringWithFormat:@"%@ %@ %@", strPrefix, self.text, strSuffix];
+    
+    return strFull;
+}
+
+- (NSString *)getSharingTextForEmail
+{
+    return self.text;
+}
+
+#pragma mark - User Sharing Preferences
+
+- (NSDictionary *)getUserSharingPreferences
+{
+    return [[HSSharingPreferencesManager sharedSharingPreferencesManager] getSharingPreferences];
+}
+
+- (void)saveUserSharingPreferences
+{
+    [[HSSharingPreferencesManager sharedSharingPreferencesManager] saveSharingPreferences:[self.dicGeneralSharingIntents copy]];
+}
+
+#pragma mark - Sharing Queue
+
+- (void)initCurrentSharingQueue
+{
+    self.dicCurrentSharingIntents = [self.dicGeneralSharingIntents mutableCopy];
+}
+
+- (void)clearSharingIntentQueue
+{
+    [self.dicCurrentSharingIntents removeAllObjects];
+}
+
+- (void)removeSharingIntentTypeFromQueue:(HSSharingIntentType)type
+{
+    [self.dicCurrentSharingIntents removeObjectForKey:[self keyForSharingIntentType:type]];
+}
+
+- (BOOL)hasSharingIntentsPending
+{
+    BOOL isPending = ([[self.dicCurrentSharingIntents allKeys] count] > 0);
+    return isPending;
+}
+
+- (HSSharingIntentType)getNextSharingIntentType
+{
+    NSArray *arrIntents = [[self.dicCurrentSharingIntents allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    
+    if (arrIntents.count > 0)
+    {
+        NSNumber *numIntent = [arrIntents objectAtIndex:0];
+        return [numIntent intValue];
+    }
+    
+    return HSSharingIntentTypeNone;
+}
+
+- (BOOL)isHaveGeneralSharingIntent
+{
+    if (self.dicGeneralSharingIntents.count == 0)
+    {
+        return NO;
+    }
+    
+    return YES;
+}
+
+- (void)addGeneralSharingIntentType:(HSSharingIntentType)type
+{
+    [self.dicGeneralSharingIntents setObject:@(YES) forKey:[self keyForSharingIntentType:type]];
+}
+
+- (void)removeGeneralSharingIntentType:(HSSharingIntentType)type
+{
+    [self.dicGeneralSharingIntents removeObjectForKey:[self keyForSharingIntentType:type]];
+}
+
+- (NSString *)keyForSharingIntentType:(HSSharingIntentType)type
+{
+    return [NSString stringWithFormat:@"%d", type];
+}
+
+- (HSSharingIntentType)getSharingIntentTypeFromSocialNetworkType:(HSSocialNetworkType)socialType
+{
+    HSSharingIntentType sharingType = HSSharingIntentTypeNone;
+    
+    switch (socialType) {
+        case HSSocialNetworkTypeFacebook:
+            sharingType = HSSharingIntentTypeFacebook;
+            break;
+        case HSSocialNetworkTypeTwitter:
+            sharingType = HSSharingIntentTypeTwitter;
+            break;
+        case HSSocialNetworkTypePinterest:
+            sharingType = HSSharingIntentTypePinterest;
+            break;
+    }
+    
+    return sharingType;
+}
+
+
+#pragma mark - Logging
+
+- (NSString *)getDescriptionFromSocialNetworkType:(HSSocialNetworkType)socialType
+{
+    NSString *sharingDescription = NSLocalizedString(kHSSharingLogicSNTypeDescriptionNone, nil);
+    
+    switch (socialType) {
+        case HSSocialNetworkTypeFacebook:
+            sharingDescription = NSLocalizedString(kHSSharingLogicSNTypeDescriptionFacebook, nil);
+            break;
+        case HSSocialNetworkTypeTwitter:
+            sharingDescription = NSLocalizedString(kHSSharingLogicSNTypeDescriptionTwitter, nil);
+            break;
+        case HSSocialNetworkTypePinterest:
+            sharingDescription = NSLocalizedString(kHSSharingLogicSNTypeDescriptionPinterest, nil);
+            break;
+    }
+    
+    return sharingDescription;
+}
+
+
+
+
+
+@end

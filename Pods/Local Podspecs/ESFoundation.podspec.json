@@ -1,0 +1,239 @@
+{
+  "name": "ESFoundation",
+  "version": "0.0.21",
+  "summary": "Have no summary ESFoundation.",
+  "description": "A Main Foundation Component for Other Kit",
+  "homepage": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESFoundation.git",
+  "license": "MIT",
+  "authors": {
+    "jiangyunfeng": "554994782@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESFoundation.git",
+    "branch": "release/2018_03_29"
+  },
+  "source_files": "ESFoundation",
+  "resource_bundles": {
+    "ESFoundation": [
+      "ESFoundation/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "dependencies": {
+    "ESBasic": [
+
+    ],
+    "ESNetworking": [
+
+    ],
+    "MGJRouter": [
+      "~> 0.9.0"
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Reachability": [
+
+    ],
+    "M80AttributedLabel": [
+
+    ],
+    "Toast": [
+
+    ],
+    "TZImagePickerController": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Common",
+      "source_files": "ESFoundation/Common/*.{h,swift,c,m}",
+      "public_header_files": "ESFoundation/Common/*.h"
+    },
+    {
+      "name": "Categories",
+      "source_files": "ESFoundation/Categories/*.{h,swift,c,m}",
+      "public_header_files": [
+        "ESFoundation/Categories/*.h",
+        "ESFoundation/Categories/MJRefresh/*.h"
+      ],
+      "subspecs": [
+        {
+          "name": "MJRefresh",
+          "source_files": "ESFoundation/Categories/MJRefresh/*.{h,swift,c,m}"
+        }
+      ]
+    },
+    {
+      "name": "ExtManager",
+      "source_files": "ESFoundation/ExtManager/*.{h,swift,c,m}"
+    },
+    {
+      "name": "Config",
+      "source_files": "ESFoundation/Config/*.{h,swift,c,m}",
+      "public_header_files": "ESFoundation/Config/*.h"
+    },
+    {
+      "name": "View",
+      "source_files": "ESFoundation/View/*.{h,swift,c,m}",
+      "public_header_files": "ESFoundation/View/*.h"
+    },
+    {
+      "name": "MPBase",
+      "source_files": "ESFoundation/MPBase/*.{h,swift,c,m}",
+      "public_header_files": "ESFoundation/MPBase/*.h"
+    },
+    {
+      "name": "Wx",
+      "source_files": "ESFoundation/ExtManager/Wx/*.{h,m}",
+      "public_header_files": "ESFoundation/ExtManager/Wx/*.h",
+      "vendored_libraries": "ESFoundation/ExtManager/Wx/libWeChatSDK.a",
+      "ios": {
+        "frameworks": [
+          "SystemConfiguration",
+          "Security",
+          "CoreTelephony",
+          "CFNetwork"
+        ],
+        "libraries": [
+          "z",
+          "c++",
+          "sqlite3.0"
+        ]
+      },
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-Objc -all_load"
+      }
+    },
+    {
+      "name": "UPA",
+      "source_files": "ESFoundation/ExtManager/UPA/*.{h,m,mm}",
+      "public_header_files": "ESFoundation/ExtManager/UPA/*.h",
+      "vendored_libraries": "ESFoundation/ExtManager/UPA/libPaymentControl.a",
+      "ios": {
+        "frameworks": [
+          "SystemConfiguration",
+          "CoreTelephony",
+          "CFNetwork"
+        ]
+      },
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-Objc -all_load"
+      },
+      "subspecs": [
+        {
+          "name": "inc",
+          "public_header_files": "ESFoundation/ExtManager/UPA/inc/*.h",
+          "source_files": "ESFoundation/ExtManager/UPA/inc/*.{h,swift,c,m}"
+        }
+      ]
+    },
+    {
+      "name": "libWeiboSDK",
+      "source_files": "ESFoundation/ExtManager/libWeiboSDK/*.{h,m}",
+      "public_header_files": "ESFoundation/ExtManager/libWeiboSDK/*.h",
+      "vendored_libraries": "ESFoundation/ExtManager/libWeiboSDK/libWeiboSDK.a",
+      "resources": "ESFoundation/ExtManager/libWeiboSDK/WeiboSDK.bundle",
+      "ios": {
+        "frameworks": [
+          "CoreTelephony",
+          "CoreText",
+          "QuartzCore",
+          "ImageIO",
+          "SystemConfiguration",
+          "Security",
+          "UIKit",
+          "Foundation",
+          "CoreGraphics",
+          "Photos"
+        ],
+        "libraries": [
+          "sqlite3",
+          "z"
+        ]
+      },
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
+    },
+    {
+      "name": "Alipay",
+      "source_files": "ESFoundation/ExtManager/Alipay/*.{h,m}",
+      "vendored_frameworks": "ESFoundation/ExtManager/Alipay/AlipaySDK.framework",
+      "public_header_files": "ESFoundation/ExtManager/Alipay/*.h",
+      "resources": "ESFoundation/ExtManager/Alipay/AlipaySDK.bundle",
+      "ios": {
+        "frameworks": [
+          "CoreMotion",
+          "CFNetwork",
+          "SystemConfiguration",
+          "CoreTelephony",
+          "QuartzCore",
+          "CoreText",
+          "CoreGraphics"
+        ],
+        "libraries": [
+          "z",
+          "c++"
+        ]
+      }
+    },
+    {
+      "name": "Finance",
+      "source_files": "ESFoundation/ExtManager/Finance/*.{h,m}",
+      "public_header_files": "ESFoundation/ExtManager/Finance/*.h",
+      "vendored_frameworks": "ESFoundation/ExtManager/Finance/JRFRAMEWORK.framework",
+      "resources": "ESFoundation/ExtManager/Finance/*.bundle",
+      "ios": {
+        "frameworks": [
+          "Foundation",
+          "AVFoundation",
+          "CoreGraphics",
+          "CoreMedia",
+          "CoreVideo",
+          "QuartzCore"
+        ],
+        "libraries": [
+          "stdc++",
+          "z",
+          "iconv.2.4.0",
+          "sqlite3.0",
+          "sqlite3"
+        ]
+      },
+      "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-all_load"
+      }
+    },
+    {
+      "name": "UMeng",
+      "source_files": "ESFoundation/ExtManager/UMeng/*.{h,m}",
+      "vendored_frameworks": "ESFoundation/ExtManager/UMeng/UMMobClick.framework",
+      "public_header_files": "ESFoundation/ExtManager/UMeng/*.h",
+      "ios": {
+        "frameworks": "CoreTelephony",
+        "libraries": [
+          "z",
+          "sqlite3.0"
+        ]
+      }
+    },
+    {
+      "name": "ESFile",
+      "public_header_files": "ESFoundation/ExtManager/ESFile/*.h",
+      "source_files": "ESFoundation/ExtManager/ESFile/*.{h,m}"
+    }
+  ]
+}

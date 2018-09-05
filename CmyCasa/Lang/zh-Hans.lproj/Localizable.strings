@@ -1,0 +1,1751 @@
+/* 1 hr */
+"1_hour" = "1小时前";
+
+/* 1 min */
+"1_minute" = "1分钟前";
+
+/* No comment provided by engineer. */
+"3d_design_stream" = "3D 设计流";
+
+/* No comment provided by engineer. */
+"AR Check Begining" = "请扫描周围的地面来启动AR设计";
+
+/* (No Comment) */
+"Activity_title" = "新闻流";
+
+/* No comment provided by engineer. */
+"Add_Products_ForAR" = "添加物品";
+
+/* No comment provided by engineer. */
+"Apply_btn" = "应用";
+
+/* (No Comment) */
+"Basement" = "地下室";
+
+/* (No Comment) */
+"Bathroom" = "浴室";
+
+/* (No Comment) */
+"Bedroom" = "卧室";
+
+/* Cancel */
+"Cancel_edit_profile_button_title" = "取消";
+
+/* Change Password */
+"Change_Password_btn_title" = "更改密码";
+
+/* Change Profile Image */
+"Change_Profile_Image_btn_title" = "更改头像";
+
+/* (No Comment) */
+"Commercial/Public Exterior" = "商用/公用室外区域";
+
+/* (No Comment) */
+"Commercial/Public Interior" = "商用/公用室内区域";
+
+/* No comment provided by engineer. */
+"Contact_Us" = "\n\n\n\n------------------------------------\n%@ 版本:V%@%@\n设备:%@\n版本:iOS%@\n网络:%@\nUserID:%@.\n\n\n%@\n";
+
+/* (No Comment) */
+"Den" = "小房间";
+
+/* (No Comment) */
+"Dining Room" = "餐厅";
+
+/* (No Comment) */
+"Dismiss" = "解除";
+
+/* Done */
+"Done_edit_profile_button_title" = "完成";
+
+/* Edit Info */
+"edit_info" = "修改设计信息";
+
+/* No comment provided by engineer. */
+"Empty_Rooms" = "空房间";
+
+/* (No Comment) */
+"Entrance & Hallway" = "入口&门厅";
+
+/* Error */
+"Error" = "错误";
+
+/* Female */
+"Female_segment_option" = "女";
+
+/* First Name */
+"First_Name_text_placeholder" = "名字";
+
+/* (No Comment) */
+"Floor-Plan" = "平面图";
+
+/* No comment provided by engineer. */
+"Follow us" = "关注我们";
+
+/* No comment provided by engineer. */
+"Guide_to_Record" = "长按录制视频";
+
+/* (No Comment) */
+"Home Cinema" = "家庭影院";
+
+/* (No Comment) */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "如果您喜欢使用 %@，能否烦请您评价一下？评价时间不会超过一分钟。非常感谢您的支持！";
+
+/* Invalide website link format */
+"Invalide_website_link_format" = "对不起，此链接无效。请重新键入。";
+
+/* (No Comment) */
+"Kids Room" = "儿童房";
+
+/* (No Comment) */
+"Kitchen" = "厨房";
+
+/* Last Name */
+"Last_Name_text_placeholder" = "姓";
+
+/* (No Comment) */
+"Library" = "图书室";
+
+/* (No Comment) */
+"Living Room" = "客厅";
+
+/* No comment provided by engineer. */
+"MESSAGE_COMMENT" = "%@ 已经评论了 '%@'";
+
+/* (No Comment) */
+"MESSAGE_COMMENT_UPDATE" = "%@ 已经更新了对设计 '%@' 的评论";
+
+/* No comment provided by engineer. */
+"MESSAGE_FEATURED" = "您的设计 '%@' 已发布到设计流！";
+
+/* No comment provided by engineer. */
+"MESSAGE_FOLLOW" = "%@ 正在关注您！";
+
+/* (No Comment) */
+"MESSAGE_GENERAL_NOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"MESSAGE_LIKED_ASSET" = "您的设计 '%@' 已被 %@ 赞过";
+
+/* (No Comment) */
+"MESSAGE_PRIVATE" = "%@ 给您发送了私人消息";
+
+/* No comment provided by engineer. */
+"MESSAGE_PUBLISHED_ASSET" = "%@ 发布了新设计 '%@'";
+
+/* Male */
+"Male_segment_option" = "男";
+
+/* No comment provided by engineer. */
+"Nevermind" = "取消";
+
+/* No comment provided by engineer. */
+"No designs yet" = "还没有设计";
+
+"No empty rooms yet" = "没有空房间啦";
+
+/* (No Comment) */
+"No, Thanks" = "不，谢谢";
+
+/* No link provided */
+"No_link_provided" = "请输入您网站的链接";
+
+"number_unit_hundred_m" = "亿";
+"number_unit_ten_thousand" = "万";
+
+/* (No Comment) */
+"Office" = "办公室";
+
+/* (No Comment) */
+"Oops" = "咦";
+
+/* (No Comment) */
+"Other Room" = "其他";
+
+/* (No Comment) */
+"Outdoors" = "户外";
+
+/* (No Comment) */
+"Porch & Balcony" = "走廊&阳台";
+
+/* (No Comment) */
+"PrivateNoComment" = "私有设计不能评论";
+
+/* (No Comment) */
+"Product Showcase" = "产品展示柜";
+
+/* (No Comment) */
+"Rate %@" = "评价 %@";
+
+/* No comment provided by engineer. */
+"Ready to design" = "开始设计吧";
+
+/* (No Comment) */
+"Remind me later" = "稍后提醒我";
+
+/* (No Comment) */
+"Residential Exterior" = "住宅室外区域";
+
+/* No comment provided by engineer. */
+"Sample_Rooms" = "社区";
+
+/* Share */
+"Share" = "分享";
+
+/* (No Comment) */
+"Sketch" = "过道";
+
+/* (No Comment) */
+"Studio" = "工作室";
+
+/* (No Comment) */
+"The application cannot send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device." = "应用程序当前无法发送推文，因为无法连接到 Twitter，或者您的 Twitter 帐号未与此设备关联。";
+
+/* Update */
+"Update Now" = "立即更新";
+
+/* No comment provided by engineer. */
+"User agreement" = "用户使用条款";
+
+/* Validate */
+"Validate_web_link_button" = "查看";
+
+/* No comment provided by engineer. */
+"about_me" = "关于我们";
+
+/* No comment provided by engineer. */
+"activity_comment_button_title" = "评论";
+
+/* (No Comment) */
+"activity_design_add_a_commented" = "添加评论";
+
+/* (No Comment) */
+"activity_design_commented_title_format" = "%@ 已经评论了 %@";
+
+/* (No Comment) */
+"activity_design_commented_title_format_iphone" = "%@\n已经评论了 %@";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format" = "%@ 已经对您的设计进行了评论";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format_iphone" = "%@\n已经对您的设计进行了评论";
+
+/* (No Comment) */
+"activity_design_featured_title_format" = "%@ 的设计已在设计流上特别推荐";
+
+/* (No Comment) */
+"activity_design_featured_title_format_private" = "您的设计 %@ 已在设计流上特别推荐";
+
+/* (No Comment) */
+"activity_design_featured_title_private_format" = "您的设计 %@ 已在设计流上特别推荐";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format" = "%@ 和 %@ 其他人赞了 %@";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format_iphone" = "%@\n和 %@ 其他人赞了 %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format" = "%@ 已经赞了 %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format_iphone" = "%@\n已经赞了 %@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format" = "%@ 已经赞了您的设计 %@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format_iphone" = "%@\n赞了您的设计 %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format" = "%@ 发布了新照片 %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format_private" = "您发布了新照片";
+
+/* (No Comment) */
+"activity_design_published_title_format" = "%@ 添加了新设计 %@";
+
+/* (No Comment) */
+"activity_design_published_title_format_private" = "您添加了新设计";
+
+/* No comment provided by engineer. */
+"activity_follow_button" = "关注";
+
+/* (No Comment) */
+"activity_new_article_author_format" = "作者: %@";
+
+/* (No Comment) */
+"activity_new_article_title_format" = "查看新作品 %@";
+
+/* No comment provided by engineer. */
+"activity_no_data_message_data" = "没有找到任何数据";
+
+/* (No Comment) */
+"activity_no_data_message_designs" = "没有找到任何设计";
+
+/* (No Comment) */
+"activity_private_follower_title_format" = "%@ 正在关注您！";
+
+/* (No Comment) */
+"activity_private_follower_title_format_iphone" = "%@\n正在关注您！";
+
+/* (No Comment) */
+"activity_public_follower_title_format" = "%@ 正在关注 %@";
+
+/* (No Comment) */
+"activity_public_follower_title_format_iphone" = "%@\n正在关注 %@";
+
+/* (No Comment) */
+"activity_public_follower_title_self_action_format" = "您现在正在关注 %@";
+
+/* 1 hour ago */
+"activity_stream_1_hour_ago" = "1 小时前";
+
+/* 1 minute ago */
+"activity_stream_1_min_ago" = "1 分钟前";
+
+/* %d hours ago */
+"activity_stream_ts_hours_ago" = "%d 小时前";
+
+/* Just now */
+"activity_stream_ts_just_now" = "刚刚";
+
+/* %d mins ago */
+"activity_stream_ts_mins_ago" = "%d 分钟前";
+
+/* Some time ago */
+"activity_stream_ts_some_time_ago" = "片刻前";
+
+/* Yesterday */
+"activity_stream_ts_yesterday" = "昨天";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_key" = "喜欢的作品";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_message" = "阅读并赞您喜欢的作品";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_key" = "喜欢的专业人士";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_message" = "浏览并查找您喜欢的专业人士";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message" = "使用 Homestyler 查找和关注新朋友";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message_wl" = "使用 %@ 查找和关注新朋友";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling" = "请尽情使用 Homestyler！";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling_wl" = "祝您设计愉快！";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message" = "赞并评论其他 Homestyler 用户的设计";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message_wl" = "其他 %@ 设计的赞和评论";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_article_key" = "帮助文档";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_key" = "帮助";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_message" = "在您遇到困难时，只需寻求帮助或参考帮助文档";
+
+/* No comment provided by engineer. */
+"activity_welcome_subtitle" = "创建属于自己的新闻流 - 方法如下:";
+
+/* No comment provided by engineer. */
+"activity_welcome_title" = "欢迎使用 Homestyler！";
+
+/* No comment provided by engineer. */
+"activity_welcome_title_wl" = "欢迎使用房间设计师！";
+
+/* No comment provided by engineer. */
+"add_brand" = "添加您的品牌";
+
+/* No comment provided by engineer. */
+"add_portfolio" = "添加您的设计展示";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied" = "若要添加更多好友，请打开设置应用程序，点按“隐私”，接着是“联系人”，然后授权访问 %@";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied_title" = "Grant Contact Access?";
+
+/* OK */
+"alert_action_ok" = "确定";
+
+/* (No Comment) */
+"alert_message_no_button" = "否";
+
+/* Cancel */
+"alert_msg_button_cancel" = "取消";
+
+/* Retry */
+"alert_msg_button_retry" = "重试";
+
+/* Yes */
+"alert_msg_button_yes" = "确定";
+
+/* Close */
+"alert_view_close_btn" = "关闭";
+
+/* No, Thanks */
+"alert_view_dont_remind" = "不，谢谢";
+
+/* All */
+"all_filter" = "全部";
+
+/* (No Comment) */
+"alternate_2d_3d" = "交替使用 2D 和 3D 透视图";
+
+/* In order to improve this app, we recieve non-personal, aggregated product usage data. You can turn this off in app settings. */
+"analytics_msg" = "为了改进此应用程序，我们将接收非个人产品使用数据总计。您可以在应用程序设置中关闭该选项。";
+
+/* (No Comment) */
+"analytics_title" = "分析";
+
+/* (No Comment) */
+"app_build_copy" = "版本";
+
+/* (No Comment) */
+"app_name" = "Homestyler";
+
+/* (No Comment) */
+"app_start_loading_copy" = "请稍后...";
+
+/* No comment provided by engineer. */
+"ask_contact_access_allow" = "允许";
+
+/* No comment provided by engineer. */
+"ask_contact_access_body" = "为了找到您的好友，我们需要使用安全连接将联系信息发送到 Homestyler 服务器。";
+
+/* No comment provided by engineer. */
+"ask_contact_access_title" = "在您的联系人中搜索 Homestyler 好友？";
+
+/* Are you sure you want to delete your design? */
+"ask_delete_design" = "确定要删除您的设计吗?";
+
+/* No comment provided by engineer. */
+"ask_quit_design" = "确定要退出AR吗？";
+
+/* No comment provided by engineer. */
+"ask_save_user_details" = "是否保存更改？";
+
+/* Please Redesign and Save this design in order to make any changes */
+"ask_to_redesign_auto_Save_from_mydesigns" = "要进行更改，请重新设计并保存此设计";
+
+/* author_title */
+"author_title" = "作者: %@";
+
+/* No comment provided by engineer. */
+"auto_saved_design_title" = "自动保存";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement" = "登录即表示您确认已阅读并同意居然美家达人用户使用条款";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement_and_terms_of_service" = "重要通知：由于从Autodesk到居然之家的转变，如果您在2017年5月前注册过Homestyler APP，您的账户和设计资料将无法访问，我们诚邀您重新注册体验我们的全新功能 %@";
+
+/* No comment provided by engineer. */
+"available_variations" = "Available Variations:";
+
+/* No comment provided by engineer. */
+"brightness_button" = "亮度";
+
+/* No comment provided by engineer. */
+"by_prefix" = "设计者:";
+
+/* Private design can't be commented */
+"cannot_comment_private_design" = "私有设计不能添加评论哦";
+
+/* No comment provided by engineer. */
+"catalog" = "目录";
+
+/* (No Comment) */
+"catalog_open_categories_title" = "选择类别";
+
+/* choose an effect popup title
+   Choose an effect popup title */
+"choose_an_effect_title" = "选择效果";
+
+/* (No Comment) */
+"choose_area_replicate" = "选择想要复制的区域";
+
+/* Choose Variation (%d): */
+"choose_variation" = "可用的变量 (%d):";
+
+/* No comment provided by engineer. */
+"clean_tool_2d" = "2D";
+
+/* No comment provided by engineer. */
+"clean_tool_3d" = "3D";
+
+/* No comment provided by engineer. */
+"clean_tool_advanced" = "高级";
+
+/* No comment provided by engineer. */
+"clean_tool_apply" = "应用";
+
+/* No comment provided by engineer. */
+"clean_tool_autoapply" = "自动应用";
+
+/* No comment provided by engineer. */
+"clean_tool_blend" = "混合";
+
+/* No comment provided by engineer. */
+"clean_tool_blend_mode" = "模式";
+
+/* No comment provided by engineer. */
+"clean_tool_copy" = "复制";
+
+/* (No Comment) */
+"clean_tool_mode" = "模式";
+
+/* (No Comment) */
+"clean_tool_quickmode" = "快速模式";
+
+/* (No Comment) */
+"clean_tool_redo" = "重做";
+
+/* No comment provided by engineer. */
+"clean_tool_reset" = "重设";
+
+/* No comment provided by engineer. */
+"clean_tool_size" = "大小";
+
+/* No comment provided by engineer. */
+"clean_tool_stepper" = "位置微调";
+
+/* No comment provided by engineer. */
+"clean_tool_texture" = "纹理";
+
+/* (No Comment) */
+"clean_tool_undo" = "撤消";
+
+/* No comment provided by engineer. */
+"clear_cache_success" = "已成功清除缓存";
+
+/* (No Comment) */
+"clear_room" = "清除房间";
+
+/* (No Comment) */
+"clear_room_tool_title" = "清除房间";
+
+/* (No Comment) */
+"close_comments_button" = "关闭评论";
+
+/* No comments yet */
+"commentString" = "暂时还没有评论，赶紧来添加吧！";
+
+/* No comment provided by engineer. */
+"commentTip" = "喜欢这个作品吗？一起来聊聊吧";
+
+/* No comment provided by engineer. */
+"concealer_button" = "印章工具";
+
+/* Sorry, Your design is unable to load at this time. Please choose another design. */
+"corrupted_load_design" = "对不起，目前无法加载您的设计。请选择其他设计。";
+
+/* No comment provided by engineer. */
+"create_new_design" = "创建新设计";
+
+/* No comment provided by engineer. */
+"default_sort" = "默认";
+
+/* default_text_for_save_design */
+"default_text_for_save_design" = "说说这个设计背后的故事吧！";
+
+/* Sorry, we couldn't delete your design . Please try again. */
+"delete_design_error" = "抱歉，我们无法删除您的设计。请重试。";
+
+/* (No Comment) */
+"design_layers" = "Layers";
+
+/* Private design */
+"design_private" = "私人";
+
+/* No comment provided by engineer. */
+"design_public" = "公开";
+
+/* No comment provided by engineer. */
+"design_published" = "精选";
+
+/* No comment provided by engineer. */
+"design_stream_Close" = "关闭";
+
+/* No comment provided by engineer. */
+"design_stream_filter" = "过滤";
+
+/* (No Comment) */
+"design_title_for_others" = "设计";
+
+/* No comment provided by engineer. */
+"dynamic_menu_homestyler_magazine" = "Homestyler 杂志";
+
+/* No comment provided by engineer. */
+"dynamic_menu_photo_gallery" = "照片库";
+
+/* No comment provided by engineer. */
+"dynamic_menu_prof_index" = "专业人士索引";
+
+/* (No Comment) */
+"dynamic_menu_wl_magazine" = "杂志";
+
+/* Edit */
+"edit_button" = "编辑";
+
+/* Edit Profile */
+"edit_profile" = "编辑个人信息";
+
+/* Editor's Choice */
+"editor_choice_sort" = "编辑精选";
+
+/* Sorry no email account defined on this device */
+"email_missing_default_msg" = "对不起，该设备未绑定邮件帐号";
+
+/* Sorry this professional doesn't have email configured */
+"email_missing_prof_page" = "抱歉，专业人士没有提供电子邮件地址";
+
+/* (No Comment) */
+"erh_register_email_exists_msg" = "邮件地址已占用！";
+
+/* No comment provided by engineer. */
+"erh_unknown_error_msg" = "对不起，出错啦! 请稍后再尝试!";
+
+/* No comment provided by engineer. */
+"erh_wechat_not_installed_error_msg" = "啊噢，你还没有安装微信!";
+
+/* Please enter you first/last name */
+"err_msg_enter_new_full_name" = "请输入您的名/姓";
+
+/* Please enter new password */
+"err_msg_enter_new_pass" = "请输入新密码";
+
+/* (No Comment) */
+"err_msg_facebook_share_failed" = "分享失败";
+
+/* No comment provided by engineer. */
+"err_msg_failed_image_upload" = "分享失败";
+
+/* No comment provided by engineer. */
+"err_msg_failed_retrive_wish_list" = "若要创建愿望列表，请点击喜欢的产品的“赞”图标。";
+
+/* No comment provided by engineer. */
+"err_msg_login_before_email_status" = "请登录后再更改设置。";
+
+/* (No Comment) */
+"err_msg_login_before_name_reset" = "必须先登录才能更改姓名";
+
+/* You must login before changing your current password */
+"err_msg_login_before_pass_reset" = "您必须登录后才可以更改当前密码";
+
+/* Password change failed */
+"err_msg_pass_change_failed" = "更改密码失败";
+
+/* New password and confirm password don't match */
+"err_msg_pass_confirm_mismatch" = "新密码和确认密码不一致";
+
+/* Your current password is incorrect */
+"err_msg_pass_incorrect" = "当前密码不正确";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading" = "您当前无法访问您的个人信息。请稍后再尝试！";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading_other" = "您当前无法访问此个人信息。请稍后重试！";
+
+/* (No Comment) */
+"err_msg_update_full_name" = "更新全名失败";
+
+/* Failed to update user info */
+"err_msg_update_user_info" = "更新用户信息失败";
+
+/* Failed to upload profile image */
+"err_msg_upload_profile_image" = "更新头像失败";
+
+/* No comment provided by engineer. */
+"error_missing_result" = "对不起，未找到结果。\n请尝试使用其他搜索词。";
+
+/* No comment provided by engineer. */
+"error_missing_result_ipad" = "对不起，未找到结果。请尝试使用其他搜索词。";
+
+/* (No Comment) */
+"exception_message" = "发生了错误！请稍后再尝试！";
+
+/* No comment provided by engineer. */
+"facebook_friends_empty_copy" = "对不起，未找到 Facebook 好友";
+
+/* (No Comment) */
+"facebook_login_failed_msg" = "您必须使用 Facebook 登录以访问您的 Facebook 好友";
+
+/* Sign in failed, please check your Facebook account details and try again. */
+"facebook_login_general_error" = "登录失败，请检查您的 Facebook 帐号详细信息，然后重试。";
+
+/* We lost you! Check your network connection. */
+"failed_action_no_network_found" = "您已显示离线状态! 请检查您的网络连接。";
+
+/* You seem to be offline. Please check your internet connection and retry. */
+"failed_action_no_network_found_start" = "您似乎已离线。请检查您的网络连接，然后重试。";
+
+/* Sorry, this product is currently unavailable. */
+"failed_load_catalog_item" = "对不起，该产品当前不可用。";
+
+/* Please select another product. */
+"failed_load_catalog_item_p2" = "请选择其他产品。";
+
+/* We couldn't load the design */
+"failed_load_models" = "对不起，无法加载该设计。";
+
+/* (No Comment) */
+"failed_load_models_p2" = "请稍后再尝试！";
+
+/* Sorry! The internet connection is a bit slow at the moment. Thank you for your patience. */
+"failed_slow_connection" = "非常抱歉！目前 Internet 连接较慢。感谢您的耐心等待。";
+
+/* (No Comment) */
+"fb_find_friend_invite" = "嗨，相约在 Autodesk Homestyler，您会发现新的设计创意，可以创建属于自己的生活空间！";
+
+/* No comment provided by engineer. */
+"feedback_email_body" = "以上信息将仅用于帮助我们的技术团队高效地找到针对您问题的有效解决方案。";
+
+/* Share with Homestyler Team */
+"feedback_email_subject" = "请告诉我们如何做得更好！";
+
+/* (No Comment) */
+"finalized_scene" = "最终场景";
+
+/* No comment provided by engineer. */
+"find_by_name_or_email" = "按姓名或电子邮件查找";
+
+/* No comment provided by engineer. */
+"find_contact_friends" = "查找联系人好友";
+
+/* No comment provided by engineer. */
+"find_facebook_friends" = "查找您的 Facebook 好友";
+
+/* No comment provided by engineer. */
+"find_friends" = "查找好友";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_copy" = "此用户还不在 %@ 上，请输入其电子邮件地址邀请他/她";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_filter_copy" = "抱歉，没有与您的搜索匹配的结果。";
+
+/* (No Comment) */
+"find_friends_result_title_follow" = "关注";
+
+/* No comment provided by engineer. */
+"find_friends_result_title_following" = "当前关注";
+
+/* (No Comment) */
+"find_friends_result_title_invite" = "邀请";
+
+/* (No Comment) */
+"find_friends_result_title_invited" = "受邀";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_addrbook" = "联系人列表好友";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_facebook" = "Facebook 好友";
+
+/* (No Comment) */
+"floor_button" = "地板";
+
+/* follow
+   Follow */
+"follow" = "关注";
+
+/* Enter the email you used to sign up. */
+"forgot_password_error" = "请输入用于注册的邮件地址。";
+
+/* A new password has been sent to your email. */
+"forgot_password_ok" = "新密码已经发到您的邮箱。";
+
+/* No comment provided by engineer. */
+"friend_action_btn_follow" = "关注";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invite" = "邀请";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invited" = "受邀";
+
+/* No comment provided by engineer. */
+"friend_action_btn_unfollow" = "当前关注";
+
+/* No comment provided by engineer. */
+"friend_cell_no_account_yet" = "no %@ account yet";
+
+/* No comment provided by engineer. */
+"get_location_hide_title" = "隐藏";
+
+/* No comment provided by engineer. */
+"get_location_title" = "使用我的位置";
+
+/* No comment provided by engineer. */
+"gps_failed_to_retrieve_location" = "无法找到位置";
+
+/* (No Comment) */
+"help_3danalysis_label1" = "请将墙与房间拐角对齐，以美化您的效果图。";
+
+/* (No Comment) */
+"help_camera_label1" = "尝试在照片中显示地板和两面墙，以获得最好的效果图。";
+
+/* (No Comment) */
+"help_note_label1" = "注意：在屏幕中显示的图像的大小、形状、颜色和其他特性可能不同于现实的对象和空间的大小、形状、颜色和其他特性。";
+
+/* (No Comment) */
+"help_note_label2" = "旋转";
+
+/* (No Comment) */
+"help_note_label3" = "缩放";
+
+/* (No Comment) */
+"help_note_label4" = "用两根手指提起来";
+
+/* (No Comment) */
+"help_paint_line_label1" = "将线条收缩并滑动到所需区域。";
+
+/* (No Comment) */
+"help_reomve_tip_label1" = "涂料溢出? 请在此处处理。";
+
+/* (No Comment) */
+"help_scale_label1" = "所有产品都将根据该尺寸进行调整。为获得精确结果，请调整标尺，以反映实际大小。 ";
+
+/* (No Comment) */
+"help_take_pic_label1" = "拍一张照片，然后用电子邮件发给您自己";
+
+/* (No Comment) */
+"help_take_pic_label2" = "保存到相机相册";
+
+/* (No Comment) */
+"help_take_pic_label3" = "使用您的照片创建新设计";
+
+/* No comment provided by engineer. */
+"i_am_title" = "我是...";
+
+/* Please enter a valid email, like stylerlover@yourmail.com */
+"illigal_email" = "请输入有效的邮件地址，如 stylerlover@yourmail.com";
+
+/* Almost there! Your password should be at least 1 character long. */
+"illigal_password" = "接近完成! 您的密码长度应不少于 1 个字符。";
+
+/* Please choose Room Type. */
+"illigal_room_type" = "请选择房间类型。";
+
+/* (No Comment) */
+"illigal_save_desc" = "分享您的设计心得。";
+
+/* Give your design a title. */
+"illigal_save_title" = "为您的设计提供一个标题吧。";
+
+/* (No Comment) */
+"illigal_signin_password" = "请输入密码";
+
+/* No comment provided by engineer. */
+"input_limit_reached" = "对不起，您已超出此选项的字符数限制。";
+
+/* No comment provided by engineer. */
+"invite_email_friend_no_email" = "似乎此联系人的电子邮件地址无效";
+
+/* No comment provided by engineer. */
+"invite_fb_friend_success" = "已将您的 Facebook 好友邀请到 Homestyler";
+
+/* check out this design... */
+"invite_friend_email_body" = "嗨，<br/>相约在 Autodesk %@，您会发现新的设计创意，可以创建属于自己的生活空间！<br/>从以下位置查看移动应用: <a href=\"{{url}}\">{{title_url}}</a> ";
+
+/* No comment provided by engineer. */
+"invite_friend_email_subject" = "相约在 Autodesk %@！";
+
+/* (No Comment) */
+"iphone_share_action_email" = "邮件地址";
+
+/* (No Comment) */
+"iphone_share_action_facebook" = "Facebook";
+
+/* (No Comment) */
+"iphone_share_action_save_image" = "保存图片";
+
+/* Just now */
+"just_now" = "刚刚";
+
+/* No comment provided by engineer. */
+"lang_action_take_affect" = "您的语言选择将在您下次打开该应用程序时生效。";
+
+/* Likes */
+"likes" = "赞";
+
+/* (No Comment) */
+"likes_count_ipad" = "总共 %d 人喜欢";
+
+/* (No Comment) */
+"likes_count_iphone" = "%d 人喜欢";
+
+/* Loading */
+"loading_popup_title_iPad" = "正在加载...";
+
+/* Loading */
+"loading_popup_title_iPhone" = "正在加载";
+
+/* No comment provided by engineer. */
+"loading_tips_loading_title" = "正在加载";
+
+/* (No Comment) */
+"loading_tips_title" = "供您等待时阅读的快速提示";
+
+/* (No Comment) */
+"local_notification_monthly_copy" = "我们想念您啦！自您上次注销后，我们添加了很多很棒的东西，快来查看吧！";
+
+/* (No Comment) */
+"local_notification_once_copy" = "欢迎使用 Homestyler！立即查看我们的最新产品、设计和灵感。";
+
+/* (No Comment) */
+"location_field_placeholder" = "输入您的位置";
+
+/* Area of Service */
+"location_filter_button_name" = "服务区域";
+
+/* (No Comment) */
+"login_error" = "我们找不到您。请检查您的邮件地址/密码。";
+
+/* This email is already part of the Homestyler community. Check your password and try again. */
+"login_error_after_signup" = "您输入的密码不正确。请重试。";
+
+/* (No Comment) */
+"login_success_after_signup" = "该邮件地址用于注册过 Homestyler 社区。您已成功登录。";
+
+/* (No Comment) */
+"low_memory_user_notification" = "该设计中适用于您设备的产品过多，请忽略这些产品，重新设计。我们正在寻求解决方案。";
+
+/* (No Comment) */
+"measure_unit_cm" = "厘米";
+
+/* (No Comment) */
+"measure_unit_ft" = "英尺";
+
+/* (No Comment) */
+"measure_unit_in" = "英寸";
+
+/* (No Comment) */
+"measure_unit_m" = "米";
+
+/* Missing SKU for Product */
+"missing_sku_product" = "产品 SKU 缺失";
+
+/* (No Comment) */
+"move_adjust_area" = "移动和调整想要清除的区域";
+
+/* No comment provided by engineer. */
+"multi_share_all_success" = "好极了！您的设计已分享。";
+
+/* (No Comment) */
+"multi_share_cancel_btn" = "取消";
+
+/* (No Comment) */
+"multi_share_charlimit_msg" = "您的推文似乎太长；请先对其进行编辑以符合 140 个字符的限制，然后才能进行分享。";
+
+/* (No Comment) */
+"multi_share_configure_email_msg" = "请前往设备设置，然后配置邮件帐号";
+
+/* (No Comment) */
+"multi_share_email_subject" = "从 %@ 中查看";
+
+/* (No Comment) */
+"multi_share_fail_email_msg" = "抱歉，我们无法通过电子邮件分享";
+
+/* (No Comment) */
+"multi_share_fail_msg_first_part" = "抱歉，我们无法分享到";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_fb" = "Facebook";
+
+/* (No Comment) */
+"multi_share_fail_msg_part_2_none" = "无";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_twitter" = "Twitter";
+
+/* (No Comment) */
+"multi_share_nophoto_msg" = "图片不见了，请重试。";
+
+/* No comment provided by engineer. */
+"multi_share_part_no_success" = "对不起，我们无法将您的设计在 %@ 上进行分享。\n请重试。";
+
+/* No comment provided by engineer. */
+"multi_share_part_success" = "对不起，分享似乎只能用于:\n%@";
+
+/* No comment provided by engineer. */
+"multi_share_part_success_part2" = "请重试在 %@ 上进行分享";
+
+/* (No Comment) */
+"multi_share_share_btn" = "分享";
+
+/* (No Comment) */
+"multi_share_share_title" = "分享您的设计";
+
+/* (No Comment) */
+"multi_share_twitter_login_msg" = "请前往设备设置并使用您的 Twitter 帐号登录 Twitter";
+
+/* Could not load the selected design */
+"my_design_could_not_load" = "无法加载选定设计";
+
+/* No comment provided by engineer. */
+"my_homestyler_menu_wl" = "我的个人信息";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy_other" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy" = "还没有喜欢的作品? 只需“赞”任意作品，添加到这儿就行啦。";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy_other" = "此设计师还没有赞过任何 Homestyler 杂志作品。请稍后再来查看。";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy" = "还没有设计? 发挥您的创造力创建一个新的设计，或者使用库中现有的图片重新设计。";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy_other" = "此设计师当前没有公开的设计。请稍后再来查看。";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy" = "No worries, start interacting with other users and your followers are sure to come...";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy_other" = "此设计师当前没有关注者。来成为第一个吧！";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy" = "您还在等什么？查看其他 %@ 个人信息并“关注”他们，与之保持联系。 ";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy_other" = "此设计师当前没有关注其他 %@ 个人信息。请稍后再来查看。 ";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy" = "为您喜欢的专业人士创建一个索引。只需“关注”任意专业人士，添加到这儿就行啦。";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy_other" = "此设计师当前没有关注 Homestyler 专业人士索引中的专业人士。请稍后再来查看。";
+
+/* (No Comment) */
+"new_design_share_pinteret_title" = "新设计";
+
+/* New */
+"new_sort" = "新建";
+
+/* No comment provided by engineer. */
+"no_camera_allowed_error" = "Homestyler 尚未授权访问您的相机。请检查您的设备设置并更改相机权限。";
+
+/* (No Comment) */
+"no_camera_exists_error" = "您没有照相机。请从您的设计库选择一张照片，或者通过设计流重新设计图片。";
+
+/* No comment provided by engineer. */
+"no_contacts_in_address_copy" = "没有找到联系人，请尝试其他搜索选项来查找好友。 ";
+
+/* (No Comment) */
+"no_filter_gstream_data" = "对不起，当前没有适用于此搜索的条目。请通过其他类别浏览。";
+
+/* No comment provided by engineer. */
+"no_following" = "你还没有关注其他人哦";
+
+/* No comment provided by engineer. */
+"no_gps_location_enabled" = "若要使用您的位置，请在“设置”>“隐私”>“位置服务”中启用 Homestyler";
+
+/* No more */
+"no_more" = "没有啦 =_=*";
+
+/* Sorry no products found */
+"no_product" = "该设计没有产品";
+
+/* No comment provided by engineer. */
+"no_profs_for_selected_filter" = "对不起，当前没有适用于此搜索的条目。请通过其他类别浏览。";
+
+/* No comment provided by engineer. */
+"none_effect_title" = "无";
+
+/* No comment provided by engineer. */
+"not_sign_in" = "登录就能查看关注人的设计啦";
+
+/*Notifications*/
+"notify_title" = "消息中心";
+"notify_list_new_tag" = "新消息";
+"notify_list_no" = "暂时没有提醒";
+"notify_list_like" = "%@为你的设计<b>点赞</b> 了";
+"notify_list_like_group" = "%@和%@为你的设计<b>点赞</b>了";
+"notify_list_follow" = "%@ <b>开始关注</b> 你";
+"notify_list_feature" = "你的设计已经被我们<b>选中并展示</b>在社区页了！恭喜！";
+"notify_list_comment_replyMe" = "%@ %@ 你: <br> <b>%@</b>";
+
+/* %i hrs */
+"num_hours" = "%i小时前";
+
+/* %i min */
+"num_minutes" = "%i分钟前";
+
+/* (No Comment) */
+"page_title_about" = "关于";
+
+/* About */
+"page_title_about2" = "关于";
+
+/* (No Comment) */
+"page_title_terms" = "条款和条件";
+
+/* Terms and Conditions */
+"page_title_terms2" = "条款和条件";
+
+/* (No Comment) */
+"paint_button" = "涂料";
+
+/* No comment provided by engineer. */
+"paint_view_brightness_popup_title" = "亮度";
+
+/* No comment provided by engineer. */
+"paint_view_contrast_popup_title" = "混合";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape" = "请解除竖屏锁定，并使用横屏模式拍照。";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape_device" = "请选择一张横向布景图片。";
+
+/* No comment provided by engineer. */
+"please_accept_terms" = "请接受服务条款和隐私声明";
+
+/* Popularity */
+"popularity_sort" = "时下热门";
+
+/* No comment provided by engineer. */
+"post_description_field" = "从 %@ 中查看";
+
+/* (No Comment) */
+"post_description_field_article" = "在 Homestyler 中查看此作品";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format" = "您已经对 %@ 进行了评论";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format_iphone" = "您\n已经对 %@ 进行了评论";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format" = "您和 %@ 其他人赞了 %@";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format_iphone" = "您\n和 %@ 其他人赞了 %@";
+
+/* (No Comment) */
+"private_activity_design_liked_title_format" = "您赞了 %@";
+
+/* (No Comment) */
+"private_activity_design_published_title_format" = "您添加了新设计 %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format" = "您现在正在关注 %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format_iphone" = "您\n现在正在关注 %@";
+
+/* No comment provided by engineer. */
+"prod_action_brightness_btn_title" = "亮度";
+
+/* No comment provided by engineer. */
+"prod_action_dimension_btn_title" = "产品详细信息";
+
+/* No comment provided by engineer. */
+"prod_action_duplicate_btn_title" = "复制产品";
+
+/* No comment provided by engineer. */
+"prod_action_remove_btn_title" = "移除产品";
+
+/* No comment provided by engineer. */
+"prod_action_restore_btn_title" = "还原比例";
+
+/* (No Comment) */
+"prod_catalog_go_to" = "产品详细信息";
+
+/* (No Comment) */
+"prod_size_height" = "高度";
+
+/* (No Comment) */
+"prod_size_length" = "长度";
+
+/* (No Comment) */
+"prod_size_title" = "产品尺寸";
+
+/* (No Comment) */
+"prod_size_width" = "宽度";
+
+/* (No Comment) */
+"prod_tag_remove_action" = "移除";
+
+/* (No Comment) */
+"prod_tag_remove_copy" = "确定要移除此产品吗？";
+
+/* No comment provided by engineer. */
+"product_catalog_title" = "产品目录";
+
+/* No comment provided by engineer. */
+"production_information" = "生产信息";
+
+/* NEW! */
+"products_catalog_new" = "最新推出";
+
+/* No comment provided by engineer. */
+"prof_desc_collapse" = "隐藏...";
+
+/* No comment provided by engineer. */
+"prof_desc_more" = "更多...";
+
+/* No comment provided by engineer. */
+"prof_details_address_title" = "地址";
+
+/* Homestyler Professional Enquiry */
+"prof_email_subject" = "Homestyler 专业咨询";
+
+/* No comment provided by engineer. */
+"prof_filter_all_key" = "全部";
+
+/* No comment provided by engineer. */
+"prof_follow_error" = "您输入了心形图标，但处理时出错。请稍后再试。";
+
+/* (No Comment) */
+"prof_phone1_title" = "手机号码 1";
+
+/* (No Comment) */
+"prof_phone2_title" = "手机号码 2";
+
+/* Profession */
+"profession_filter_button_name" = "专业";
+
+/* View Protfolio */
+"professional_cell_view_protfolio" = "查看设计展示";
+
+/* (No Comment) */
+"professional_index_title" = "专业人士索引";
+
+/* There was a problem loading this protfolio.\nPlease try again */
+"proffesional_load_failed_msg" = "对不起，我们无法加载此专业人士设计展示。请稍后重试。";
+
+/* No followers yet */
+"profile_no_followers" = "还没有关注者";
+
+/* No following yet */
+"profile_no_following" = " 当前没有关注";
+
+/* No likes yet */
+"profile_no_likes" = "还没有获得赞";
+
+/* (No Comment) */
+"profile_tab_articles" = "喜欢的作品";
+
+/* Designs */
+"profile_tab_design" = "设计";
+
+/* Followers */
+"profile_tab_followers" = "关注者";
+
+/* Following */
+"profile_tab_following" = "当前关注";
+
+/* (No Comment) */
+"profile_tab_my_design" = "我的设计";
+
+/* (No Comment) */
+"profile_tab_professionals" = "关注的专业人士";
+
+/* Zzzzz... */
+"progress_Loading_timedout1" = "";
+
+/* Loading timed out. */
+"progress_Loading_timedout2" = "加载超时。";
+
+/* (No Comment) */
+"progress_erase_title" = "正在清除...";
+
+/* Please try again later */
+"progress_err_try_again" = "请稍后再尝试";
+
+/* Network Error */
+"progress_label_err_network" = "网络错误";
+
+/* No comment provided by engineer. */
+"qrcode_sharing_lable_msg" = "微信扫一扫就能打开这个作品";
+
+/* (No Comment) */
+"read_comments_button" = "阅读评论";
+
+/* No comment provided by engineer. */
+"realScale_button" = "实际比例";
+
+/* No comment provided by engineer. */
+"redesign_after_crash_alert" = "您上次离开%@时没有保存，是否要恢复自动保存的设计？";
+
+/* Please Redesign this design in order to make any changes */
+"redesign_inorder_for_changes" = "要进行更改，请重新设计并保存此设计";
+
+/* No comment provided by engineer. */
+"redesign_json_newer_alert" = "对不起，此设计使用了仅在我们新的更新中提供的功能。";
+
+/* redesign save button title */
+"redesign_save_button" = "保存";
+
+/* button title cancel
+   redesign cancel button title */
+"redesign_sign_in_cancel_button" = "取消";
+
+/* (No Comment) */
+"redesign_sign_in_required" = "需要登录";
+
+/* redesign sign in button title */
+"redesign_sign_in_sign_in_button" = "登录";
+
+/* User sign in required */
+"redesign_sign_in_to_save" = "请保存您的设计以进行分享";
+
+/* User sign in required */
+"redesign_sign_in_to_save_and_share_your_design." = "登录以保存和分享您的设计。";
+
+/* Could not register */
+"register_error" = "无法注册";
+
+/* Rather not say */
+"remove_gender_title" = "最好不透露";
+
+/* Resume */
+"resume_alert_button" = "恢复";
+
+/* (No Comment) */
+"room_type_copy" = "房间类型";
+
+/* No comment provided by engineer. */
+"room_type_filter" = "房间类型";
+
+/* No comment provided by engineer. */
+"save_design_action_title_save" = "保存";
+
+/* No comment provided by engineer. */
+"save_design_action_title_saveas" = "另存为";
+
+/* Sorry, we couldn't save your design . Please try again.
+   Sorry, we couldn't save your design. Please try again. */
+"save_design_error" = "对不起，我们无法保存您的设计。请稍后再尝试!";
+
+/* Hmm, looks like there are too many products for your device to save this design, sorry! Try removing a few products and then save again. */
+"save_design_error_low_memory" = "嗯，您的设备上用于保存该设计的产品似乎过多，很抱歉！请尝试删除一些产品，然后再保存。";
+
+/* Beautiful! Your design has been saved. */
+"save_design_ok" = "好极了！您的设计已保存。";
+
+/* No comment provided by engineer. */
+"save_design_override_action_back" = "后退";
+
+/* No comment provided by engineer. */
+"save_design_override_action_override" = "覆盖";
+
+/* No comment provided by engineer. */
+"save_design_override_explanation" = "是否要替换设计？如果不是，请更改设计标题。";
+
+/* (No Comment) */
+"save_design_reminder" = "别忘了保存您的设计！";
+
+/* No comment provided by engineer. */
+"save_design_title" = "保存设计";
+
+/* Image save failed. */
+"save_image_failed_msg" = "图片保存失败。";
+
+/* Image successfully saved. */
+"save_image_success_msg" = "图片保存成功。";
+
+/* No comment provided by engineer. */
+"save_profile_button_cancel" = "不保存";
+
+/* No comment provided by engineer. */
+"save_profile_button_save" = "保存";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn1" = "解锁";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn2" = "保持实际比例";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy" = "注意-如果已经解锁，产品将不会呈现其在场景中的实际尺寸";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy_title" = "是否解锁实际比例？";
+
+/* No comment provided by engineer. */
+"search_product" = "搜索产品";
+
+/* Searching for visible corners */
+"searching_vidible_corners" = "正在搜索可见角落";
+
+/* No comment provided by engineer. */
+"select_category_title" = "选择类别";
+
+/* No comment provided by engineer. */
+"select_wishlist_title" = "选择愿望列表";
+
+/* No comment provided by engineer. */
+"set_gender_title" = "是否选择性别？";
+
+/* No comment provided by engineer. */
+"setting_title_about" = "关于";
+
+/* No comment provided by engineer. */
+"setting_title_allow_like_fb" = "将赞过的设计与 Facebook Likes 同步";
+
+/* No comment provided by engineer. */
+"setting_title_allow_newsletter" = "接收 Homestyler 时事通讯和特惠信息";
+
+/* No comment provided by engineer. */
+"setting_title_allow_pn" = "接收有关评论、新的关注者等的通知。";
+
+/* No comment provided by engineer. */
+"setting_title_change_country" = "Country";
+
+/* No comment provided by engineer. */
+"setting_title_change_local" = "语言";
+
+/* No comment provided by engineer. */
+"setting_title_clear_cache" = "清除缓存";
+
+/* No comment provided by engineer. */
+"setting_title_clear_offline_package" = "清除离线软件包";
+
+/* No comment provided by engineer. */
+"setting_title_feedback" = "反馈";
+
+/* No comment provided by engineer. */
+"setting_title_privacy" = "保密协议";
+
+/* No comment provided by engineer. */
+"setting_title_terms" = "服务条款";
+
+/* No comment provided by engineer. */
+"setting_title_usage_data" = "允许收集使用数据";
+
+/* (No Comment) */
+"settings" = "设置";
+
+/* No comment provided by engineer. */
+"share_after_save_design_copy" = "查看我在 #%@ {{LINK}} 上的#室内设计 \"{{D_NAME}}\"";
+
+/* (No Comment) */
+"share_article_link_title" = "作品";
+
+/* No comment provided by engineer. */
+"share_description" = "和设计家DIY一起，用手机轻松实现室内设计";
+
+/* (No Comment) */
+"share_description_with_ar" = "看看我做的AR设计吧";
+
+/* No comment provided by engineer. */
+"share_design_show_before_and_after" = "显示之前和之后";
+
+/* No comment provided by engineer. */
+"share_design_show_my_name" = "显示我的姓名";
+
+/* (No Comment) */
+"share_email_body" = "从 %@ 中查看";
+
+/* (No Comment) */
+"share_email_body_article" = "查看该 {{ARTICLE}}";
+
+/* (No Comment) */
+"share_email_subject_article" = "查看该作品";
+
+/* (No Comment) */
+"share_link_title" = "链接";
+
+/* (No Comment) */
+"share_on_facebook" = "在 Facebook 上分享";
+
+/* No comment provided by engineer. */
+"share_option_email" = "邮件地址";
+
+/* (No Comment) */
+"share_option_facebook" = "Facebook";
+
+/* (No Comment) */
+"share_option_saveimage" = "保存图片";
+
+/* (No Comment) */
+"share_option_twitter" = "Twitter";
+
+/* button title skip */
+"share_your_design_skip_button_title" = "跳过";
+
+/* view title */
+"share_your_design_title" = "分享您的设计";
+
+/* by */
+"shopping_list_by" = "设计者";
+
+/* Close */
+"shopping_list_close" = "关闭";
+
+/* Sent from Autodesk Homestyler */
+"shopping_list_email_sent_homestyler" = "已通过 Autodesk Homestyler 发送";
+
+/* Check out these products from Homestyler. */
+"shopping_list_email_subject" = "在 Homestyler 中查看这些产品";
+
+/* Design Product List */
+"shopping_list_email_title1" = "设计产品清单";
+
+/* List of products used to in the above design: */
+"shopping_list_email_title2" = "以上设计所使用的产品清单:";
+
+/* View design on Homestyler */
+"shopping_list_email_view_design" = "在 Homestyler 上查看设计";
+
+/* Go to Website */
+"shopping_list_go_to_website" = "访问官网 ＞";
+
+/* Product List */
+"shopping_list_title" = "产品清单";
+
+/* (No Comment) */
+"showGrid_button" = "显示栅格";
+
+/* (No Comment) */
+"show_label" = "展示:";
+
+/* Add Your Brand */
+"side_menu_cell_add_your_brand" = "添加您的品牌";
+
+/* Sign In */
+"sign_in" = "登录";
+
+/* No comment provided by engineer. */
+"sign_out" = "退出";
+
+/* No comment provided by engineer. */
+"signin_title" = "登录或注册";
+
+/* Signing In */
+"signing_in" = "正在登录...";
+
+/* No comment provided by engineer. */
+"signout_confirm_alert" = "确定要退出登录吗?";
+
+/* No comment provided by engineer. */
+"signup_ok" = "欢迎加入 %@ 社区!";
+
+/* No comment provided by engineer. */
+"snapToGrid_button" = "捕捉到栅格";
+
+/* No comment provided by engineer. */
+"sorry_search_friend_failed" = "我们现在无法找到好友，请稍后再尝试";
+
+/* No comment provided by engineer. */
+"sort_type_copy" = "排序方式";
+
+/* No comment provided by engineer. */
+"start_design" = "开始设计";
+
+/* (No Comment) */
+"start_redesign" = "编辑设计";
+
+/* No comment provided by engineer. */
+"submit_button" = "提交";
+
+/* (No Comment) */
+"success_msg_facebook_share_success" = "感谢分享！";
+
+/* (No Comment) */
+"success_msg_name_updated" = "姓名已成功更新";
+
+/* Your password updated successfully */
+"success_msg_pass_updated" = "您已成功更新密码";
+
+/* (No Comment) */
+"sync" = "同步";
+
+/* (No Comment) */
+"sync_alert_msg" = "是否要将您离线创建的设计同步到您的 Homestyler 帐户？";
+
+/* (No Comment) */
+"sync_alert_title_msg" = "同步设计";
+
+/* (No Comment) */
+"sync_later" = "稍后";
+
+/* (No Comment) */
+"technical_difficultie_error" = "非常抱歉，我们遇到了技术难题。请稍后再试。";
+
+/* No comment provided by engineer. */
+"terms_of_service" = "了解更多";
+
+/* (No Comment) */
+"twitter_no_account_defined" = "没有已配置的 Twitter 帐户。您可以在“设置”中添加或创建 Twitter 帐户。";
+
+/* (No Comment) */
+"twitter_share_copy" = "查看此 %@ (从 %@): %@";
+
+/* unfollow */
+"unfollow" = "取消关注";
+
+/* No comment provided by engineer. */
+"unfollow_user" = "取消关注 %@?";
+
+/* No comment provided by engineer. */
+"update_location_title" = "更新位置";
+
+/* (No Comment) */
+"update_profile_image_success" = "头像已成功更新";
+
+/* No comment provided by engineer. */
+"update_version_available" = "有新版本啦！更新APP可以为您提供更好的设计体验";
+
+/* No comment provided by engineer. */
+"update_version_required" = "Homestyler 已有新版本!";
+
+/* Other... */
+"user_detail_other_input_field" = "其他...";
+
+"user_liked_0_times" = "%@ 还没有获得赞。";
+"user_liked_1_time" = "%@ 在Homestyler获得了1个赞!";
+"user_liked_times" = "%@ 在Homestyler获得了%d个赞!";
+
+/* No comment provided by engineer. */
+"user_profile_cell_Name_lbl" = "姓名";
+
+/* (No Comment) */
+"user_profile_cell_Name_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl" = "描述";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_empty" = "告诉我们一些您的个人情况";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_read" = "描述:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl" = "喜欢的风格";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl_read" = "喜欢的风格:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_gender_lbl" = "性别";
+
+/* (No Comment) */
+"user_profile_cell_gender_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl" = "兴趣爱好";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_empty" = "例如: 园艺、远足、绘画、工艺美术、折纸、阅读、旅游、烹饪、摄影、攀岩... ";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_read" = "兴趣爱好:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl" = "位置";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl_empty" = "输入您的位置";
+
+/* (No Comment) */
+"user_profile_cell_location_lbl_read" = "来自:";
+
+/* (No Comment) */
+"user_profile_cell_password_lbl" = "密码";
+
+/* No comment provided by engineer. */
+"user_profile_cell_profession_lbl" = "专业";
+
+/* (No Comment) */
+"user_profile_cell_profession_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_styles_lbl_empty" = "选择您的收藏:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl" = "我使用的其他设计工具";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_empty" = "选择您的工具:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_read" = "我使用的其他设计工具:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_user_types_lbl_empty" = "选择一项:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl" = "我是";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl_read" = "我是:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl" = "网站";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl_empty" = "输入您的网站";
+
+/* (No Comment) */
+"user_profile_cell_website_lbl_read" = "网站:";
+
+/* No comment provided by engineer. */
+"user_profile_done_button" = "完成";
+
+/* Sign Out */
+"user_profile_signout_lbl" = "退出登录";
+
+/* No comment provided by engineer. */
+"waitting_to_sync" = "离线设计";
+
+/* (No Comment) */
+"wall_button" = "墙";
+
+/* (No Comment) */
+"wallpaper_button" = "墙纸";
+
+/* No comment provided by engineer. */
+"wish_list" = "愿望列表";
+
+/* Wish List Failed to Create */
+"wishlist_create_failed_msg" = "糟糕! 请重新尝试创建您的愿望列表";
+
+/* Wish List Created */
+"wishlist_create_successfuly_msg" = "成功创建！";
+
+/* Missing Wishlist */
+"wishlist_no_wishlist_msg" = "缺失的愿望列表";
+
+/* Failed to Update Wishlist */
+"wishlist_update_failed_msg" = "似乎有错误，请重新尝试保存更改";
+
+/* Update Wishlist Succsessfully */
+"wishlist_update_successful_msg" = "您对愿望列表的更改已保存！";
+
+/* No comment provided by engineer. */
+"wishlists_page_title" = "愿望列表";
+
+/* Yesterday */
+"yesterday" = "昨天";
+
+"you_liked_0_times" = "你还没有收到点赞哦";
+"you_liked_1_time" = "你在Homestyler收到了1个赞!";
+"you_liked_times" = "你在Homestyler收到了 %d 个赞!";

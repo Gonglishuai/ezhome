@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>30-60</string>
+	<string>60-120</string>
+	<string>120-200</string>
+	<string>200-600</string>
+	<string>600-1000</string>
+</array>
+</plist>

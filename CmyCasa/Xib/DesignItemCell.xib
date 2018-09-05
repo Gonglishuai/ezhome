@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DesignItemCell" id="2" customClass="DesignItemView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2" id="sZt-TM-clQ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="iph_white_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                        <rect key="frame" x="8" y="8" width="304" height="220"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="220" id="qP4-O8-N0U"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5" userLabel="Image View - Design">
+                        <rect key="frame" x="8" y="8" width="304" height="220"/>
+                    </imageView>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="iph_label.png" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                        <rect key="frame" x="8" y="228" width="304" height="72"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6" userLabel="Button - Ribbon">
+                        <rect key="frame" x="4" y="16" width="39" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="39" id="Rv8-rq-BEm"/>
+                            <constraint firstAttribute="height" constant="45" id="buu-Vc-Mad"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" backgroundImage="edit_icon.png">
+                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="editPressed" destination="2" eventType="touchUpInside" id="8"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10" userLabel="Label - Title">
+                        <rect key="frame" x="8" y="244" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="9mK-VV-9dg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28894999623298645" green="0.28894135355949402" blue="0.28894621133804321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11" userLabel="Label - Status">
+                        <rect key="frame" x="8" y="283" width="304" height="16.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.44682067632675171" green="0.44680723547935486" blue="0.44681483507156372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5" firstAttribute="top" secondItem="3" secondAttribute="top" id="2aX-Wm-Isa"/>
+                    <constraint firstItem="11" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="18" id="3kU-Oj-kbL"/>
+                    <constraint firstItem="11" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="5ZM-hf-eVG"/>
+                    <constraint firstItem="4" firstAttribute="top" secondItem="3" secondAttribute="bottom" id="5v8-MR-54R"/>
+                    <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" id="9HF-70-NUP"/>
+                    <constraint firstAttribute="bottom" secondItem="11" secondAttribute="bottom" id="As3-8E-URg"/>
+                    <constraint firstItem="5" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="DbA-pE-lFI"/>
+                    <constraint firstItem="6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="-4" id="Ews-4q-cOB"/>
+                    <constraint firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="8" id="GT1-Y9-Pia"/>
+                    <constraint firstItem="3" firstAttribute="leading" secondItem="sZt-TM-clQ" secondAttribute="leading" constant="8" id="Hx8-M5-vW9"/>
+                    <constraint firstItem="3" firstAttribute="top" secondItem="sZt-TM-clQ" secondAttribute="top" constant="8" id="JTW-Gx-CSw"/>
+                    <constraint firstItem="10" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" id="LsR-2D-1PF"/>
+                    <constraint firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="8" id="RlJ-Jd-70n"/>
+                    <constraint firstItem="5" firstAttribute="width" secondItem="3" secondAttribute="width" id="ZGb-aG-jp0"/>
+                    <constraint firstItem="11" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" id="Ze2-fh-fBy"/>
+                    <constraint firstItem="6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="8" id="bdy-U4-9xm"/>
+                    <constraint firstItem="5" firstAttribute="height" secondItem="3" secondAttribute="height" id="kOd-uD-BZ1"/>
+                    <constraint firstItem="10" firstAttribute="leading" secondItem="4" secondAttribute="leading" id="mz9-Xm-85M"/>
+                    <constraint firstItem="4" firstAttribute="leading" secondItem="sZt-TM-clQ" secondAttribute="leading" constant="8" id="scd-Pi-vN3"/>
+                    <constraint firstItem="10" firstAttribute="top" secondItem="4" secondAttribute="top" constant="16" id="wQN-x8-xfR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="designImage" destination="5" id="9"/>
+                <outlet property="ribbonButton" destination="6" id="7"/>
+                <outlet property="statusLabel" destination="11" id="14"/>
+                <outlet property="titleLabel" destination="10" id="12"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edit_icon.png" width="77" height="89"/>
+        <image name="iph_label.png" width="603" height="101"/>
+        <image name="iph_white_bg.png" width="200" height="360"/>
+    </resources>
+</document>

@@ -1,0 +1,114 @@
+{
+    "limitList": [{
+                  "bank": "建设银行",
+                  "bankId":"0045",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "10万"
+                      }
+                  },
+                  {
+                  "bank": "光大银行",
+                  "bankId":"0151",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "10万"
+                      }
+                  },
+                  {
+                  "bank": "中国银行",
+                  "bankId":"0046",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "5万"
+                      }
+                  },
+                  {
+                  "bank": "浦发银行",
+                  "bankId":"0049",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "5万"
+                      }
+                  },
+                  {
+                  "bank": "兴业银行",
+                  "bankId":"0203",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "5万"
+                      }
+                  },
+
+                  {
+                  "bank": "工商银行",
+                  "bankId":"0044",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "5万",
+                      "dayLimit": "5万"
+                      }
+                  },
+                  {
+                  "bank": "交通银行",
+                  "bankId":"0081",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "2万",
+                      "dayLimit": "2万"
+                      }
+                  },
+                  {
+                  "bank": "上海银行",
+                  "bankId":"5015",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "0.5万",
+                      "dayLimit": "5万"
+                      }
+                  },
+                  {
+                  "bank": "中信银行",
+                  "bankId":"0131",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "0.5万",
+                      "dayLimit": "1万"
+                      }
+                  },
+                  {
+                  "bank": "平安银行",
+                  "bankId":"2008",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "0.5万",
+                      "dayLimit": "0.5万"
+                      }
+                  },
+                  {
+                  "bank": "邮储银行",
+                  "bankId":"0061",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "0.5万",
+                      "dayLimit": "0.5万"
+                      }
+                  },
+                  {
+                  "bank": "农业银行",
+                  "bankId":"0047",
+                  "sex": "借记卡",
+                  "dealLimit": {
+                      "aLimit": "0.2万",
+                      "dayLimit": "1万"
+                      }
+                  }
+
+                  ]
+}
+

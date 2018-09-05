@@ -1,0 +1,6 @@
+framework module JRFRAMEWORK {
+  umbrella header "JRFRAMEWORK.h"
+
+  export *
+  module * { export * }
+}

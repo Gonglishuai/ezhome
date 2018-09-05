@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="homestylermainicons.ttf">
+            <string>homestylermainicons</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TakePictureOverlay">
+            <connections>
+                <outlet property="closeOverlayButton" destination="WuX-04-2Fg" id="XJK-l5-VU1"/>
+                <outlet property="takePictureBtn" destination="Fu1-tI-LAt" id="8bl-5R-QFW"/>
+                <outlet property="view" destination="iN0-l3-epB" id="nd6-Wl-JRc"/>
+                <outlet property="warningLabel" destination="lLx-lh-u0f" id="ZIb-hp-jVu"/>
+                <outlet property="warningView" destination="4en-45-gLA" id="ZZB-t6-9Ll"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuX-04-2Fg">
+                    <rect key="frame" x="233" y="479.5" width="43" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="OeA-Xn-334"/>
+                        <constraint firstAttribute="width" constant="43" id="xGA-7X-yZE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="homestylermainicons" family="homestylermainicons" pointSize="15"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="PlainFontIcon"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="kAE-jH-coS"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="4en-45-gLA">
+                    <rect key="frame" x="15" y="180" width="291" height="228"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="291" id="NUu-Uq-Db3"/>
+                        <constraint firstAttribute="height" constant="228" id="t37-Io-GCc"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please unlock the portrait orientation mode and take the picture in landscape mode." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLx-lh-u0f">
+                    <rect key="frame" x="0.0" y="125" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0xg-Mv-d0j"/>
+                        <constraint firstAttribute="width" constant="320" id="5DV-wH-2FW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.77413058280944824" green="0.77410739660263062" blue="0.77412045001983643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fu1-tI-LAt">
+                    <rect key="frame" x="123" y="461" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.090071852189999996" green="0.49592267340000001" blue="0.44859146900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="4tA-q8-K7v"/>
+                        <constraint firstAttribute="height" constant="75" id="bv5-HG-L0y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="homestylermainicons" family="homestylermainicons" pointSize="35"/>
+                    <state key="normal" title="">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="TakePictureOverlay_CameraButton"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="takePhoto:" destination="-1" eventType="touchUpInside" id="JZ5-XV-Wdy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="lLx-lh-u0f" firstAttribute="top" secondItem="wPA-6k-C3j" secondAttribute="top" constant="105" id="168-OE-IBb"/>
+                <constraint firstItem="wPA-6k-C3j" firstAttribute="bottom" secondItem="Fu1-tI-LAt" secondAttribute="bottom" constant="32" id="Vqb-Fw-bTi"/>
+                <constraint firstAttribute="centerX" secondItem="Fu1-tI-LAt" secondAttribute="centerX" id="cSu-gn-CLJ"/>
+                <constraint firstItem="lLx-lh-u0f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fCn-Ee-LWL"/>
+                <constraint firstAttribute="trailing" secondItem="lLx-lh-u0f" secondAttribute="trailing" id="oMG-zh-Wf4"/>
+                <constraint firstItem="4en-45-gLA" firstAttribute="centerY" secondItem="wPA-6k-C3j" secondAttribute="centerY" id="qAG-5k-fCz"/>
+                <constraint firstAttribute="trailing" secondItem="WuX-04-2Fg" secondAttribute="trailing" constant="44" id="sed-Ky-0p8"/>
+                <constraint firstItem="WuX-04-2Fg" firstAttribute="centerY" secondItem="Fu1-tI-LAt" secondAttribute="centerY" id="wQV-0Y-k50"/>
+                <constraint firstItem="4en-45-gLA" firstAttribute="centerX" secondItem="wPA-6k-C3j" secondAttribute="centerX" id="zm1-bq-dQH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="wPA-6k-C3j"/>
+            <point key="canvasLocation" x="394" y="248"/>
+        </view>
+    </objects>
+</document>

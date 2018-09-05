@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>promiseUrl</key>
+	<string>promise</string>
+	<key>promise</key>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>service_advance</string>
+			<key>title</key>
+			<string>先行赔付
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_protection</string>
+			<key>title</key>
+			<string>绿色环保
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_noreson</string>
+			<key>title</key>
+			<string>一个月无理
+由退换货</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_return</string>
+			<key>title</key>
+			<string>统一收银
+统一退换货</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_pay</string>
+			<key>title</key>
+			<string>先行赔付
+零延迟</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_price</string>
+			<key>title</key>
+			<string>明码实价
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_onebrand</string>
+			<key>title</key>
+			<string>同一品牌
+同一价</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_other</string>
+			<key>title</key>
+			<string>家装零增项
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_redwood</string>
+			<key>title</key>
+			<string>红木全保真
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_import</string>
+			<key>title</key>
+			<string>进口家具
+100%纯进口</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_packets</string>
+			<key>title</key>
+			<string>3年三包服务
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_enterprise</string>
+			<key>title</key>
+			<string>施工服务
+</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>service_payonce</string>
+			<key>title</key>
+			<string>一次消费
+终身服务</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,180 @@
+/* Class = "UITextField"; text = "sdfs"; ObjectID = "1OO-uw-BSc"; */
+"1OO-uw-BSc.text" = "sdfs";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "1W4-SL-aOX"; */
+"1W4-SL-aOX.normalTitle" = "完成";
+
+/* Class = "UIButton"; normalTitle = "Find contact friends"; ObjectID = "1xm-nP-IgV"; */
+"1xm-nP-IgV.normalTitle" = "查找联系人好友";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "1zg-X3-cw5"; */
+"1zg-X3-cw5.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "2gk-tm-JXb"; */
+"2gk-tm-JXb.placeholder" = "当前密码";
+
+/* (No Comment) */
+"3J0-xS-5Um.text" = "0";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "3fp-Yh-lGT"; */
+"3fp-Yh-lGT.text" = "没有找到任何项";
+
+/* Class = "UIButton"; normalTitle = "Find your Facebook friends"; ObjectID = "6GH-Y4-Cp3"; */
+"6GH-Y4-Cp3.normalTitle" = "查找您的 Facebook 好友";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "6Xe-p1-KmB"; */
+"6Xe-p1-KmB.text" = "个人信息";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "7BX-h4-HeO"; */
+"7BX-h4-HeO.text" = "消息中心";
+
+/* Class = "UILabel"; text = "I am..."; ObjectID = "7d3-dh-rA2"; */
+"7d3-dh-rA2.text" = "我是...";
+
+/* (No Comment) */
+"8No-uw-YVu.text" = "0";
+
+/* Class = "UILabel"; text = "Followers"; ObjectID = "9aX-n3-MZV"; */
+"9aX-n3-MZV.text" = "关注者";
+
+/* (No Comment) */
+"11s-CG-CIn.text" = "";
+
+/* (No Comment) */
+"15S-91-5gR.text" = "0";
+
+/* (No Comment) */
+"29G-bv-iJS.normalTitle" = "查找好友";
+
+/* (No Comment) */
+"29G-bv-iJS.selectedTitle" = "  完成  ";
+
+/* Class = "UILabel"; text = "Label "; ObjectID = "69I-wz-ApW"; */
+"69I-wz-ApW.text" = "标签 ";
+
+/* (No Comment) */
+"92n-Ue-CvW.selectedTitle" = "  完成  ";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Ahj-CB-WHD"; */
+"Ahj-CB-WHD.normalTitle" = "保存";
+
+/* (No Comment) */
+"BZW-Zo-y6Y.text" = "查看";
+
+/* Class = "UILabel"; text = "has no Homestyler account yet"; ObjectID = "Dra-Jq-X23"; */
+"Dra-Jq-X23.text" = "还没有 Homestyler 帐号";
+
+/* Class = "UILabel"; text = "No items found"; ObjectID = "F8e-06-WK9"; */
+"F8e-06-WK9.text" = "没有找到任何项";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Fr1-wZ-zcw"; */
+"Fr1-wZ-zcw.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "Facebook Friends"; ObjectID = "H3Z-sk-jO9"; */
+"H3Z-sk-jO9.text" = "Facebook 好友";
+
+/* Class = "UIButton"; normalTitle = "Find by name or email"; ObjectID = "HuH-uF-XPc"; */
+"HuH-uF-XPc.normalTitle" = "按姓名或电子邮件查找";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Kfl-pY-WRx"; */
+"Kfl-pY-WRx.normalTitle" = "取消";
+
+/* (No Comment) */
+"I5B-wI-cQd.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "IZZ-EX-alz"; */
+"IZZ-EX-alz.placeholder" = "确认密码";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "Iix-Ff-LOl"; */
+"Iix-Ff-LOl.normalTitle" = "删除";
+
+/* (No Comment) */
+"NoW-6D-jpe.normalTitle" = "";
+
+/* (No Comment) */
+"OWC-MK-pSe.text" = "关注者";
+
+/* (No Comment) */
+"PjU-oD-SdO.text" = "当前关注";
+
+/* Class = "UILabel"; text = "Find Friends"; ObjectID = "Rgp-PY-rsW"; */
+"Rgp-PY-rsW.text" = "查找好友";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "S7w-K7-Iag"; */
+"S7w-K7-Iag.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Following"; ObjectID = "VGt-Q4-AYt"; */
+"VGt-Q4-AYt.text" = "当前关注";
+
+/* Class = "UITextView"; text = "design description"; ObjectID = "YDh-tU-uCE"; */
+"YDh-tU-uCE.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Likes"; ObjectID = "ax7-cK-xkx"; */
+"ax7-cK-xkx.text" = "赞";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "b2X-Pz-imo"; */
+"b2X-Pz-imo.normalTitle" = "完成";
+
+/* (No Comment) */
+"bpS-Sd-Ga1.disabledTitle" = "";
+
+/* (No Comment) */
+"bpS-Sd-Ga1.normalTitle" = "";
+
+/* (No Comment) */
+"br2-15-Tyk.text" = "0";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "btS-HK-fVr"; */
+"btS-HK-fVr.text" = "编辑";
+
+/* (No Comment) */
+"bx4-zH-XaJ.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "cyX-sm-ZtF"; */
+"cyX-sm-ZtF.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ecD-P4-bZB"; */
+"ecD-P4-bZB.text" = "标签";
+
+/* Class = "UIButton"; normalTitle = "Redesign"; ObjectID = "gxx-yb-kw0"; */
+"gxx-yb-kw0.normalTitle" = "编辑设计";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "hUw-HG-y7c"; */
+"hUw-HG-y7c.normalTitle" = "完成";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "kKz-uz-XEy"; */
+"kKz-uz-XEy.placeholder" = "新密码";
+
+/* Class = "UILabel"; text = "Edit Profile"; ObjectID = "kat-B8-vkj"; */
+"kat-B8-vkj.text" = "编辑个人信息";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "lnp-bN-CgZ"; */
+"lnp-bN-CgZ.normalTitle" = "取消";
+
+/* (No Comment) */
+"mEl-YV-TWv.text" = "查看更多";
+
+/* (No Comment) */
+"mfZ-bp-pbh.text" = "个人信息";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "o8f-yu-hq2"; */
+"o8f-yu-hq2.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "Duplicate"; ObjectID = "pWT-wo-8vL"; */
+"pWT-wo-8vL.normalTitle" = "复制";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "q4W-MI-Vaa"; */
+"q4W-MI-Vaa.normalTitle" = "取消";
+
+/* Class = "UITextField"; placeholder = "Design Title"; ObjectID = "qlR-fj-F5p"; */
+"qlR-fj-F5p.placeholder" = "设计标题";
+
+/* (No Comment) */
+"sdn-cx-FnG.normalTitle" = "编辑个人信息";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "uoX-hH-PpI"; */
+"uoX-hH-PpI.text" = "公开";
+
+/* (No Comment) */
+"ylQ-pc-pnm.text" = "标签";
+

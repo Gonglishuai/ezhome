@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U6b-Vx-4bR" customClass="ESFreeAppointSectionFooterCollectionReusableView" customModule="Consumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appoint_select_type" translatesAutoresizingMaskIntoConstraints="NO" id="KKf-a5-41o">
+                    <rect key="frame" x="8" y="23.5" width="304" height="12.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="304" id="WQl-lJ-GRn"/>
+                        <constraint firstAttribute="height" constant="12.5" id="eCV-co-zct"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="KKf-a5-41o" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="4jA-Vc-6kB"/>
+                <constraint firstAttribute="bottom" secondItem="KKf-a5-41o" secondAttribute="bottom" priority="250" constant="37.5" id="GY2-wE-09O"/>
+                <constraint firstItem="KKf-a5-41o" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="23.5" id="esu-Vd-QqX"/>
+            </constraints>
+            <connections>
+                <outlet property="sectionFooterImage" destination="KKf-a5-41o" id="iLT-08-1KE"/>
+            </connections>
+            <point key="canvasLocation" x="-37" y="52"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="appoint_select_type" width="304" height="12"/>
+    </resources>
+</document>

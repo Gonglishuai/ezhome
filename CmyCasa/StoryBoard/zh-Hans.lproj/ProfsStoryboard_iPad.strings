@@ -1,0 +1,123 @@
+/* (No Comment) */
+"0YI-qW-VnI.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"0YI-qW-VnI.normalTitle" = "";
+
+/* (No Comment) */
+"3Pj-1g-oOH.text" = "专业人士姓名";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "4hh-iK-i5P"; */
+"4hh-iK-i5P.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4hh-iK-i5P"; */
+"4hh-iK-i5P.normalTitle" = "";
+
+/* (No Comment) */
+"8Rj-uD-XAe.text" = "设计师\n建筑师\n木工";
+
+/* Class = "UILabel"; text = "Professional Portfolio"; ObjectID = "9sm-iH-DvF"; */
+"9sm-iH-DvF.text" = "专业人士设计展示";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "38R-r5-3rk"; */
+"38R-r5-3rk.text" = "标题";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_add_portfolio"; ObjectID = "Bc3-9N-L4w"; */
+"Bc3-9N-L4w.accessibilityLabel" = "btn_add_portfolio";
+
+/* Class = "UIButton"; normalTitle = "Add Your Portfolio"; ObjectID = "Bc3-9N-L4w"; */
+"Bc3-9N-L4w.normalTitle" = "添加您的设计展示";
+
+/* Class = "UILabel"; text = "Proffesionals name"; ObjectID = "Dri-uN-FGi"; */
+"Dri-uN-FGi.text" = "专业人士姓名";
+
+/* Class = "UILabel"; text = "Designer\nArchitect\nCarpenter"; ObjectID = "EWu-uq-ubE"; */
+"EWu-uq-ubE.text" = "设计师\n建筑师\n木工";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "JDH-sS-knV"; */
+"JDH-sS-knV.text" = "邮件地址:";
+
+/* Class = "UILabel"; text = "Website:"; ObjectID = "MNV-Ft-5Ju"; */
+"MNV-Ft-5Ju.text" = "网站:";
+
+/* (No Comment) */
+"NLe-cY-271.text" = "位置:";
+
+/* Class = "UILabel"; text = "Phone 2:"; ObjectID = "R2M-Dn-eDa"; */
+"R2M-Dn-eDa.text" = "手机号码 2:";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Rg0-i6-mUd"; */
+"Rg0-i6-mUd.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "SWb-rv-Zq8"; */
+"SWb-rv-Zq8.normalTitle" = "";
+
+/* Class = "UILabel"; text = "37K"; ObjectID = "Sh8-qe-fW0"; */
+"Sh8-qe-fW0.text" = "37K";
+
+/* (No Comment) */
+"WWM-pI-xg4.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Professional's Name"; ObjectID = "a2L-Wi-pvV"; */
+"a2L-Wi-pvV.text" = "专业人士姓名";
+
+/* Class = "UILabel"; text = ""; ObjectID = "fGA-o8-1Wg"; */
+"fGA-o8-1Wg.text" = "";
+
+/* Class = "UILabel"; text = "Sorry, there are currently no listings available for this search. Have fun browsing through the other categories."; ObjectID = "fXK-lO-i8c"; */
+"fXK-lO-i8c.text" = "对不起，当前没有可用于此搜索的列表。请通过其他类别浏览。";
+
+/* (No Comment) */
+"fZV-od-4t3.text" = "以色列";
+
+/* (No Comment) */
+"gGs-hy-PWa.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_areaservice"; ObjectID = "hBY-FI-HBp"; */
+"hBY-FI-HBp.accessibilityLabel" = "btn_areaservice";
+
+/* Class = "UIButton"; normalTitle = "Area of Service"; ObjectID = "hBY-FI-HBp"; */
+"hBY-FI-HBp.normalTitle" = "服务区域";
+
+/* Class = "UIButton"; normalTitle = "VIEW PORTFOLIO"; ObjectID = "ihE-s2-Gkf"; */
+"ihE-s2-Gkf.normalTitle" = "查看设计展示";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_profession"; ObjectID = "mT8-V7-pOX"; */
+"mT8-V7-pOX.accessibilityLabel" = "btn_profession";
+
+/* Class = "UIButton"; normalTitle = "Profession"; ObjectID = "mT8-V7-pOX"; */
+"mT8-V7-pOX.normalTitle" = "专业";
+
+/* Class = "UILabel"; text = ""; ObjectID = "oF2-wv-ESA"; */
+"oF2-wv-ESA.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "p8v-X0-Fgv"; */
+"p8v-X0-Fgv.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Israel"; ObjectID = "pkf-I6-cKx"; */
+"pkf-I6-cKx.text" = "以色列";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "sd0-qr-pgy"; */
+"sd0-qr-pgy.text" = "地址:";
+
+/* Class = "UILabel"; text = "PROJECTS"; ObjectID = "ss2-7B-KVe"; */
+"ss2-7B-KVe.text" = "项目";
+
+/* Class = "UILabel"; text = "Home Architect"; ObjectID = "tEQ-9K-rLK"; */
+"tEQ-9K-rLK.text" = "室内设计师";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "voX-nJ-4qH"; */
+"voX-nJ-4qH.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Project Name"; ObjectID = "vtL-Ha-fpH"; */
+"vtL-Ha-fpH.text" = "项目名称";
+
+/* Class = "UILabel"; text = "Go to site"; ObjectID = "yBi-v9-941"; */
+"yBi-v9-941.text" = "前往网站";
+
+/* Class = "UILabel"; text = "Phone 1:"; ObjectID = "ywT-N2-VKA"; */
+"ywT-N2-VKA.text" = "手机号码 1:";
+
+/* Class = "UILabel"; text = "Send email"; ObjectID = "zAv-MH-pWL"; */
+"zAv-MH-pWL.text" = "发送邮件";
+

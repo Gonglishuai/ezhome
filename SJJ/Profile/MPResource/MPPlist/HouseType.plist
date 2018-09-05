@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>住宅空间</string>
+	<string>餐饮空间</string>
+	<string>办公空间</string>
+	<string>酒店空间</string>
+	<string>商业展示</string>
+	<string>娱乐空间</string>
+	<string>休闲场所</string>
+	<string>文化空间</string>
+	<string>医疗机构</string>
+	<string>售楼中心</string>
+	<string>金融场所</string>
+	<string>运动场所</string>
+	<string>教育机构</string>
+	<string>其他</string>
+</array>
+</plist>

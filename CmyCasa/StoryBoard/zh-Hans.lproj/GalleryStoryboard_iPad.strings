@@ -1,0 +1,357 @@
+/* Class = "UIView"; accessibilityLabel = "view_home"; ObjectID = "0mC-DD-ACR"; */
+"0mC-DD-ACR.accessibilityLabel" = "view_home";
+
+/* (No Comment) */
+"1Ya-ZI-MKc.accessibilityLabel" = "lbl_design_title";
+
+/* (No Comment) */
+"1Ya-ZI-MKc.text" = "照明房间";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "2B9-VK-jIY"; */
+"2B9-VK-jIY.normalTitle" = "";
+
+/* (No Comment) */
+"3N5-Ys-6Ya.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "3g9-Ju-0Tw"; */
+"3g9-Ju-0Tw.text" = "访问官网  >>";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "4Bg-30-pJg"; */
+"4Bg-30-pJg.accessibilityLabel" = "btn_back";
+
+/* (No Comment) */
+"4Bg-30-pJg.normalTitle" = "";
+
+/* (No Comment) */
+"4U4-rd-cxX.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Design Detail"; ObjectID = "4f0-dz-Mo6"; */
+"4f0-dz-Mo6.text" = "作品详情";
+
+/* (No Comment) */
+"5NA-gz-j1d.accessibilityLabel" = "btn_scrolltop";
+
+/* (No Comment) */
+"5NA-gz-j1d.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_username"; ObjectID = "5WG-E7-JGH"; */
+"5WG-E7-JGH.accessibilityLabel" = "btn_username";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_create_new_design"; ObjectID = "6SC-Ea-DeL"; */
+"6SC-Ea-DeL.accessibilityLabel" = "btn_create_new_design";
+
+/* Class = "UIButton"; normalTitle = "CREATE NEW DESIGN"; ObjectID = "6SC-Ea-DeL"; */
+"6SC-Ea-DeL.normalTitle" = "创建新设计";
+
+/* (No Comment) */
+"6o4-lG-VKz.accessibilityLabel" = "lbl_readmore";
+
+/* (No Comment) */
+"6o4-lG-VKz.text" = "查看更多";
+
+/* (No Comment) */
+"7jV-2v-dTx.accessibilityLabel" = "lbl_prof_portfolio";
+
+/* (No Comment) */
+"7jV-2v-dTx.text" = "专业人士设计展示";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_product_list"; ObjectID = "8DO-OG-2RN"; */
+"8DO-OG-2RN.accessibilityLabel" = "lbl_product_list";
+
+/* Class = "UILabel"; text = "Product List"; ObjectID = "8DO-OG-2RN"; */
+"8DO-OG-2RN.text" = "产品清单";
+
+/* (No Comment) */
+"8L9-qj-pQG.accessibilityLabel" = "btn_like";
+
+/* (No Comment) */
+"8L9-qj-pQG.normalTitle" = "";
+
+/* (No Comment) */
+"8va-zM-60c.normalTitle" = "";
+
+/* (No Comment) */
+"9A2-WL-auR.accessibilityLabel" = "btn_shopping_list_bottom";
+
+/* (No Comment) */
+"9A2-WL-auR.normalTitle" = "";
+
+/* (No Comment) */
+"26O-N3-e33.accessibilityLabel" = "btn_comment";
+
+/* (No Comment) */
+"26O-N3-e33.normalTitle" = "";
+
+/* (No Comment) */
+"039-im-mT3.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"039-im-mT3.normalTitle" = "";
+
+/* (No Comment) */
+"41Y-ne-tgc.accessibilityLabel" = "lbl_username";
+
+/* (No Comment) */
+"41Y-ne-tgc.text" = "设计者:";
+
+/* Class = "UILabel"; text = "Design Title"; ObjectID = "AbG-ji-bS9"; */
+"AbG-ji-bS9.text" = "设计标题";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "B7W-9R-PzO"; */
+"B7W-9R-PzO.accessibilityLabel" = "btn_share";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "B7W-9R-PzO"; */
+"B7W-9R-PzO.normalTitle" = "";
+
+/* (No Comment) */
+"C16-gT-kJv.text" = "Lorem Ipsum Dolor. Lorem Ipsum Dolor.Lorem Ipsum Dolor.";
+
+/* (No Comment) */
+"CtU-ED-8nU.accessibilityLabel" = "btn_2d";
+
+/* (No Comment) */
+"CtU-ED-8nU.normalTitle" = "";
+
+/* (No Comment) */
+"Dez-rx-QIN.text" = "0";
+
+/* (No Comment) */
+"Djo-Un-A8S.accessibilityLabel" = "btn_3d_design_stream";
+
+/* (No Comment) */
+"Djo-Un-A8S.normalTitle" = "3D 设计流";
+
+/* (No Comment) */
+"FKI-ln-skJ.text" = "标题: 城市服装";
+
+/* (No Comment) */
+"G3Q-cr-HJQ.accessibilityLabel" = "btn_sortby";
+
+/* (No Comment) */
+"G3Q-cr-HJQ.normalTitle" = "排序方式: 时下热门";
+
+/* (No Comment) */
+"KeO-9c-iOK.accessibilityLabel" = "lbl_like_count";
+
+/* (No Comment) */
+"KeO-9c-iOK.text" = "999k";
+
+/* (No Comment) */
+"L7Q-fR-1PU.text" = "";
+
+/* (No Comment) */
+"LqX-fK-SgH.accessibilityLabel" = "btn_like";
+
+/* (No Comment) */
+"LqX-fK-SgH.normalTitle" = "";
+
+/* (No Comment) */
+"Mcr-8O-lU8.text" = "由 J.C Penny 发表";
+
+/* (No Comment) */
+"NWI-KL-CuS.accessibilityLabel" = "btn_help";
+
+/* (No Comment) */
+"NWI-KL-CuS.normalTitle" = "";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "NYA-3I-Ws9"; */
+"NYA-3I-Ws9.text" = "0%";
+
+/* (No Comment) */
+"OJS-jo-Uhz.accessibilityLabel" = "lbl_username";
+
+/* (No Comment) */
+"OJS-jo-Uhz.text" = "Libi Axelrod";
+
+/* (No Comment) */
+"OdX-6d-G3i.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"OdX-6d-G3i.normalTitle" = "";
+
+/* Class = "UIView"; accessibilityLabel = "view_productlist"; ObjectID = "OjA-dp-oKX"; */
+"OjA-dp-oKX.accessibilityLabel" = "view_productlist";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "OjO-xn-328"; */
+"OjO-xn-328.normalTitle" = "";
+
+/* (No Comment) */
+"P1s-Dk-6Fl.accessibilityLabel" = "lbl_Redesia";
+
+/* (No Comment) */
+"P1s-Dk-6Fl.text" = "";
+
+/* (No Comment) */
+"PLW-X9-er0.text" = "";
+
+/* (No Comment) */
+"PXi-34-ZMb.accessibilityLabel" = "btn_profile";
+
+/* (No Comment) */
+"QBm-OD-5Lf.accessibilityLabel" = "btn_share";
+
+/* (No Comment) */
+"QBm-OD-5Lf.normalTitle" = "";
+
+/* (No Comment) */
+"TIO-dJ-7uR.accessibilityLabel" = "img_profile";
+
+/* Class = "UILabel"; text = "Linden Street Themal Gormet"; ObjectID = "TRf-Uy-SgS"; */
+"TRf-Uy-SgS.text" = "Linden Street Themal Gormet";
+
+/* Class = "UILabel"; text = "Likes"; ObjectID = "V0f-iM-en0"; */
+"V0f-iM-en0.text" = "赞";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_contest"; ObjectID = "VZ6-Dk-J1o"; */
+"VZ6-Dk-J1o.accessibilityLabel" = "btn_contest";
+
+/* (No Comment) */
+"Vgt-CL-d0T.accessibilityLabel" = "lbl_comment_count";
+
+/* (No Comment) */
+"Vgt-CL-d0T.text" = "333k";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "YFO-86-ZVy"; */
+"YFO-86-ZVy.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "YFO-86-ZVy"; */
+"YFO-86-ZVy.normalTitle" = "";
+
+/* (No Comment) */
+"ZHo-p2-nGg.accessibilityLabel" = "btn_roomtype";
+
+/* (No Comment) */
+"ZHo-p2-nGg.normalTitle" = "过滤方式: 房间类型";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_close"; ObjectID = "Zea-4u-d0q"; */
+"Zea-4u-d0q.accessibilityLabel" = "btn_close";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "Zea-4u-d0q"; */
+"Zea-4u-d0q.normalTitle" = "关闭";
+
+/* (No Comment) */
+"bC3-P1-fCp.text" = "0";
+
+/* (No Comment) */
+"bRg-yD-Jhd.accessibilityLabel" = "btn_3d";
+
+/* (No Comment) */
+"bRg-yD-Jhd.normalTitle" = "";
+
+/* (No Comment) */
+"cAj-s6-KxB.text" = "评论";
+
+/* (No Comment) */
+"cRy-qD-NhC.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"cRy-qD-NhC.normalTitle" = "";
+
+/* (No Comment) */
+"csF-3s-6nx.text" = "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor";
+
+/* (No Comment) */
+"etu-NY-eIX.accessibilityLabel" = "btn_article";
+
+/* (No Comment) */
+"etu-NY-eIX.normalTitle" = "";
+
+/* (No Comment) */
+"fN6-8B-XCH.accessibilityLabel" = "btn_redesign";
+
+/* (No Comment) */
+"fg0-Ui-7Uq.accessibilityLabel" = "btn_prof_portfolio";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_community"; ObjectID = "gVG-cD-ULK"; */
+"gVG-cD-ULK.accessibilityLabel" = "btn_community";
+
+/* Class = "UIButton"; normalTitle = "COMMUNITY"; ObjectID = "gVG-cD-ULK"; */
+"gVG-cD-ULK.normalTitle" = "社区";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gbX-v5-rqj"; */
+"gbX-v5-rqj.text" = "标题";
+
+/* (No Comment) */
+"gsF-z4-Hxs.accessibilityLabel" = "btn_help";
+
+/* (No Comment) */
+"gsF-z4-Hxs.normalTitle" = "";
+
+/* (No Comment) */
+"nBX-lZ-ume.accessibilityLabel" = "btn_shoppinglist_top";
+
+/* (No Comment) */
+"nBX-lZ-ume.normalTitle" = "产品清单";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nUA-KC-AZR"; */
+"nUA-KC-AZR.text" = "标题";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "nWt-5h-kxx"; */
+"nWt-5h-kxx.normalTitle" = "";
+
+/* (No Comment) */
+"nnx-zn-B6q.accessibilityLabel" = "btn_share";
+
+/* (No Comment) */
+"nnx-zn-B6q.normalTitle" = "";
+
+/* (No Comment) */
+"p66-6u-4Qf.accessibilityLabel" = "lbl_Redesia";
+
+/* (No Comment) */
+"p66-6u-4Qf.text" = "开始设计";
+
+/* (No Comment) */
+"pGC-eZ-6vd.accessibilityLabel" = "lbl_profile_name";
+
+/* (No Comment) */
+"pGC-eZ-6vd.text" = "用户名";
+
+/* Class = "UILabel"; text = "Comments"; ObjectID = "sfe-ig-qLL"; */
+"sfe-ig-qLL.text" = "评论";
+
+/* Class = "UIButton"; normalTitle = "comment"; ObjectID = "tOV-Hi-iao"; */
+"tOV-Hi-iao.normalTitle" = "评论";
+
+/* (No Comment) */
+"uL9-2j-qK8.text" = "作品详情";
+
+/* (No Comment) */
+"ufN-qg-D4r.accessibilityLabel" = "btn_back";
+
+/* (No Comment) */
+"ufN-qg-D4r.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_catalog"; ObjectID = "uvV-DM-fd9"; */
+"uvV-DM-fd9.accessibilityLabel" = "btn_catalog";
+
+/* Class = "UIButton"; normalTitle = "CATALOG"; ObjectID = "uvV-DM-fd9"; */
+"uvV-DM-fd9.normalTitle" = "目录";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help"; ObjectID = "uzY-iz-nJc"; */
+"uzY-iz-nJc.accessibilityLabel" = "btn_help";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "uzY-iz-nJc"; */
+"uzY-iz-nJc.normalTitle" = "";
+
+/* (No Comment) */
+"w3H-j2-sCv.text" = "222k";
+
+/* (No Comment) */
+"wfR-pt-uFE.accessibilityLabel" = "lbl_show";
+
+/* (No Comment) */
+"wfR-pt-uFE.text" = "展示:";
+
+/* Class = "UILabel"; text = "Downloading Package:"; ObjectID = "x2q-Eh-8mv"; */
+"x2q-Eh-8mv.text" = "正在下载软件包:";
+
+/* (No Comment) */
+"xKk-pK-sDh.text" = "";
+
+/* (No Comment) */
+"y0c-jV-TsF.normalTitle" = "";
+
+/* (No Comment) */
+"zDK-QE-1Pm.normalTitle" = "";
+

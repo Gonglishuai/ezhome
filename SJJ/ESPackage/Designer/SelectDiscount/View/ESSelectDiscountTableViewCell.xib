@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="ESSelectDiscountTableViewCell" customModule="Consumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHZ-pq-lY6">
+                        <rect key="frame" x="22" y="15" width="92" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="contentEdgeInsets" minX="6" minY="3" maxX="8" maxY="3"/>
+                        <state key="normal" title="满3000减200">
+                            <color key="titleColor" red="0.85882352939999995" green="0.30980392159999998" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                <color key="value" red="0.85882352941176465" green="0.30980392156862746" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHe-Vh-cdV">
+                        <rect key="frame" x="22" y="46" width="89" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="89" id="XP6-Xz-qJT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="4" minY="-1" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="  使用说明" image="gathring_coupon_use">
+                            <color key="titleColor" red="0.47843137254901957" green="0.4823529411764706" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="checkDetail:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tcH-5V-X41"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OHe-Vh-cdV" firstAttribute="top" secondItem="mHZ-pq-lY6" secondAttribute="bottom" constant="10" id="2Ba-w4-lKb"/>
+                    <constraint firstItem="mHZ-pq-lY6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="6US-Te-jqw"/>
+                    <constraint firstItem="mHZ-pq-lY6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="eab-Gc-Hsa"/>
+                    <constraint firstItem="OHe-Vh-cdV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="k86-Tj-weW"/>
+                    <constraint firstAttribute="bottom" secondItem="OHe-Vh-cdV" secondAttribute="bottom" priority="250" constant="32.5" id="p7w-jP-kgJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomHeight" destination="p7w-jP-kgJ" id="ij1-cj-oLT"/>
+                <outlet property="checkButton" destination="OHe-Vh-cdV" id="iNK-0z-5vp"/>
+                <outlet property="discount" destination="mHZ-pq-lY6" id="EKV-bg-O2k"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="106"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gathring_coupon_use" width="14" height="14"/>
+    </resources>
+</document>

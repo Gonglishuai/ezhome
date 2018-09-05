@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LtU-n5-8Lx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat List View Controller-->
+        <scene sceneID="SUY-kU-wuD">
+            <objects>
+                <viewController storyboardIdentifier="CoChatRoomList" id="LtU-n5-8Lx" customClass="SHChatListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nrp-4N-ufF"/>
+                        <viewControllerLayoutGuide type="bottom" id="XEL-td-qWQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="weW-LA-MZH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-gW-VpM">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="LtU-n5-8Lx" id="O8m-Ne-dHJ"/>
+                                    <outlet property="delegate" destination="LtU-n5-8Lx" id="zwr-qu-8hi"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="jJc-3v-Lj3">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cq3-gW-VpM" secondAttribute="trailing" id="GFe-qJ-PGf"/>
+                            <constraint firstItem="jJc-3v-Lj3" firstAttribute="centerX" secondItem="weW-LA-MZH" secondAttribute="centerX" id="GZr-GH-83D"/>
+                            <constraint firstItem="cq3-gW-VpM" firstAttribute="leading" secondItem="weW-LA-MZH" secondAttribute="leading" id="Qeb-lP-jzC"/>
+                            <constraint firstItem="XEL-td-qWQ" firstAttribute="top" secondItem="cq3-gW-VpM" secondAttribute="bottom" id="W9Z-WL-tVd"/>
+                            <constraint firstItem="cq3-gW-VpM" firstAttribute="top" secondItem="weW-LA-MZH" secondAttribute="top" constant="64" id="X3a-eQ-Xrz"/>
+                            <constraint firstItem="jJc-3v-Lj3" firstAttribute="centerY" secondItem="weW-LA-MZH" secondAttribute="centerY" id="r3p-9N-vBA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="cq3-gW-VpM"/>
+                                <exclude reference="jJc-3v-Lj3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="GZr-GH-83D"/>
+                                <exclude reference="r3p-9N-vBA"/>
+                                <exclude reference="W9Z-WL-tVd"/>
+                                <exclude reference="GFe-qJ-PGf"/>
+                                <exclude reference="Qeb-lP-jzC"/>
+                                <exclude reference="X3a-eQ-Xrz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="cq3-gW-VpM"/>
+                                <include reference="jJc-3v-Lj3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="GZr-GH-83D"/>
+                                <include reference="r3p-9N-vBA"/>
+                                <include reference="W9Z-WL-tVd"/>
+                                <include reference="GFe-qJ-PGf"/>
+                                <include reference="Qeb-lP-jzC"/>
+                                <include reference="X3a-eQ-Xrz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                    <connections>
+                        <outlet property="_activityIndicator" destination="jJc-3v-Lj3" id="w4o-Lm-wxe"/>
+                        <outlet property="_tableView" destination="cq3-gW-VpM" id="8Zo-pC-e3w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9OW-L3-3en" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="223.5"/>
+        </scene>
+    </scenes>
+</document>

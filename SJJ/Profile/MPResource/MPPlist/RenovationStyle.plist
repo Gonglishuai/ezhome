@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>日式</string>
+	<string>韩式</string>
+	<string>混搭</string>
+	<string>欧式</string>
+	<string>中式</string>
+	<string>新古典</string>
+	<string>东南亚</string>
+	<string>美式</string>
+	<string>田园</string>
+	<string>现代</string>
+	<string>地中海</string>
+	<string>其他</string>
+</array>
+</plist>

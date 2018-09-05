@@ -1,0 +1,669 @@
+/* Class = "UIImageView"; accessibilityLabel = "img_loading"; ObjectID = "0Po-oI-9Zs"; */
+"0Po-oI-9Zs.accessibilityLabel" = "img_loading";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Done"; ObjectID = "0uf-gD-fKc"; */
+"0uf-gD-fKc.accessibilityLabel" = "btn_Done";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "0uf-gD-fKc"; */
+"0uf-gD-fKc.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_email_share_view"; ObjectID = "1S2-qG-Jyy"; */
+"1S2-qG-Jyy.accessibilityLabel" = "btn_email_share_view";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "1S2-qG-Jyy"; */
+"1S2-qG-Jyy.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_2d"; ObjectID = "1jj-8M-vGc"; */
+"1jj-8M-vGc.accessibilityLabel" = "btn_2d";
+
+/* Class = "UIButton"; normalTitle = "2D"; ObjectID = "1jj-8M-vGc"; */
+"1jj-8M-vGc.normalTitle" = "2D";
+
+/* Class = "UIView"; accessibilityLabel = "view_warrning_popup"; ObjectID = "2nv-3g-qg4"; */
+"2nv-3g-qg4.accessibilityLabel" = "view_warrning_popup";
+
+/* Class = "UILabel"; text = "Room Type"; ObjectID = "2u9-oE-9mF"; */
+"2u9-oE-9mF.text" = "房间类型";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_advanced"; ObjectID = "3Ij-fF-0Zr"; */
+"3Ij-fF-0Zr.accessibilityLabel" = "btn_advanced";
+
+/* Class = "UIButton"; normalTitle = "Advanced"; ObjectID = "3Ij-fF-0Zr"; */
+"3Ij-fF-0Zr.normalTitle" = "高级";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_delete_tool_menu"; ObjectID = "4Da-g7-eMD"; */
+"4Da-g7-eMD.accessibilityLabel" = "btn_delete_tool_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4Da-g7-eMD"; */
+"4Da-g7-eMD.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "04S-32-YAX"; */
+"04S-32-YAX.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "120 Cm"; ObjectID = "4Yy-m5-ARz"; */
+"4Yy-m5-ARz.normalTitle" = "120 厘米";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_TogglePaint"; ObjectID = "4gB-13-van"; */
+"4gB-13-van.accessibilityLabel" = "btn_TogglePaint";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4gB-13-van"; */
+"4gB-13-van.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Include Before & After"; ObjectID = "5qS-5r-oZC"; */
+"5qS-5r-oZC.text" = "包括之前和之后";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "6Rd-vy-iNt"; */
+"6Rd-vy-iNt.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Reset"; ObjectID = "6ic-KY-Cnp"; */
+"6ic-KY-Cnp.accessibilityLabel" = "btn_Reset";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_3d"; ObjectID = "6mS-gW-8nG"; */
+"6mS-gW-8nG.accessibilityLabel" = "btn_3d";
+
+/* Class = "UIButton"; normalTitle = "3D"; ObjectID = "6mS-gW-8nG"; */
+"6mS-gW-8nG.normalTitle" = "3D";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "6n9-0O-5iu"; */
+"6n9-0O-5iu.normalTitle" = "取消";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_size"; ObjectID = "6uK-J5-Sow"; */
+"6uK-J5-Sow.accessibilityLabel" = "btn_size";
+
+/* Class = "UIButton"; normalTitle = "Size"; ObjectID = "6uK-J5-Sow"; */
+"6uK-J5-Sow.normalTitle" = "大小";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "7Rp-au-08Y"; */
+"7Rp-au-08Y.normalTitle" = "取消";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_product_catalog"; ObjectID = "7qc-hB-Ecq"; */
+"7qc-hB-Ecq.accessibilityLabel" = "btn_back_product_catalog";
+
+/* (No Comment) */
+"7qc-hB-Ecq.normalTitle" = "";
+
+/* Class = "UIViewController"; title = "Single Palette"; ObjectID = "8WF-Uf-uOI"; */
+"8WF-Uf-uOI.title" = "单调色板";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "8d6-3c-6Ja"; */
+"8d6-3c-6Ja.text" = "102-40";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_subCategory"; ObjectID = "9G8-jr-hXW"; */
+"9G8-jr-hXW.accessibilityLabel" = "cell_subCategory";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_subcategoryName"; ObjectID = "9ML-Gj-bDm"; */
+"9ML-Gj-bDm.accessibilityLabel" = "lbl_subcategoryName";
+
+/* Class = "UILabel"; text = "Add Your Brand"; ObjectID = "9ML-Gj-bDm"; */
+"9ML-Gj-bDm.text" = "添加您的品牌";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "9dg-k9-BdZ"; */
+"9dg-k9-BdZ.text" = "102-40";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_category_back"; ObjectID = "9y4-jT-oaC"; */
+"9y4-jT-oaC.accessibilityLabel" = "btn_category_back";
+
+/* (No Comment) */
+"45p-jR-h2w.accessibilityLabel" = "btn_pintrest_share_view";
+
+/* (No Comment) */
+"45p-jR-h2w.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ATO-q4-xnk"; */
+"ATO-q4-xnk.normalTitle" = "按钮";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_adjust"; ObjectID = "BFH-Nj-qpj"; */
+"BFH-Nj-qpj.accessibilityLabel" = "btn_adjust";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "BFH-Nj-qpj"; */
+"BFH-Nj-qpj.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "BFp-Av-ZOS"; */
+"BFp-Av-ZOS.normalTitle" = "完成";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Remove"; ObjectID = "BJz-dN-JQK"; */
+"BJz-dN-JQK.accessibilityLabel" = "btn_Remove";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "BJz-dN-JQK"; */
+"BJz-dN-JQK.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "BTc-lX-fAm"; */
+"BTc-lX-fAm.normalTitle" = "完成";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_paint_view"; ObjectID = "Bex-AP-vFd"; */
+"Bex-AP-vFd.accessibilityLabel" = "btn_paint_view";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "Bex-AP-vFd"; */
+"Bex-AP-vFd.disabledTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Bex-AP-vFd"; */
+"Bex-AP-vFd.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_subcategoryName"; ObjectID = "CAw-Jp-buA"; */
+"CAw-Jp-buA.accessibilityLabel" = "lbl_subcategoryName";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CAw-Jp-buA"; */
+"CAw-Jp-buA.text" = "标签";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_apply"; ObjectID = "Cr7-4R-8ax"; */
+"Cr7-4R-8ax.accessibilityLabel" = "btn_apply";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "Cr7-4R-8ax"; */
+"Cr7-4R-8ax.normalTitle" = "应用";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DJu-6u-14a"; */
+"DJu-6u-14a.normalTitle" = "完成";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_twiter_share_view"; ObjectID = "DNO-rH-4a9"; */
+"DNO-rH-4a9.accessibilityLabel" = "btn_twiter_share_view";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "DNO-rH-4a9"; */
+"DNO-rH-4a9.normalTitle" = "";
+
+/* Class = "UISwitch"; accessibilityLabel = "switch_autur_name_image_effect"; ObjectID = "DPh-Jv-eiE"; */
+"DPh-Jv-eiE.accessibilityLabel" = "switch_autur_name_image_effect";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_share_view"; ObjectID = "DcS-9M-aeh"; */
+"DcS-9M-aeh.accessibilityLabel" = "btn_back_share_view";
+
+/* (No Comment) */
+"DcS-9M-aeh.normalTitle" = "";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_subCategory"; ObjectID = "E5i-O4-JTK"; */
+"E5i-O4-JTK.accessibilityLabel" = "cell_subCategory";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_reset_conceal_top_bar"; ObjectID = "EMJ-8U-Soq"; */
+"EMJ-8U-Soq.accessibilityLabel" = "btn_reset_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "EMJ-8U-Soq"; */
+"EMJ-8U-Soq.normalTitle" = "重设";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_default_cube"; ObjectID = "EhF-TP-Ao2"; */
+"EhF-TP-Ao2.accessibilityLabel" = "btn_default_cube";
+
+/* Class = "UIButton"; normalTitle = "Retake"; ObjectID = "EhF-TP-Ao2"; */
+"EhF-TP-Ao2.normalTitle" = "重新拍照";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_wallpaperClick"; ObjectID = "Eik-vX-EmM"; */
+"Eik-vX-EmM.accessibilityLabel" = "btn_wallpaperClick";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_skip_image_effect"; ObjectID = "FM1-L5-vuh"; */
+"FM1-L5-vuh.accessibilityLabel" = "btn_skip_image_effect";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "FM1-L5-vuh"; */
+"FM1-L5-vuh.normalTitle" = "跳过";
+
+/* Class = "UILabel"; text = ""; ObjectID = "Fh3-hX-dyE"; */
+"Fh3-hX-dyE.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Line"; ObjectID = "FoK-mT-3x9"; */
+"FoK-mT-3x9.normalTitle" = "线";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "FqA-Dk-0RF"; */
+"FqA-Dk-0RF.text" = "102-40";
+
+/* Class = "UILabel"; text = ""; ObjectID = "Ftg-h9-NMt"; */
+"Ftg-h9-NMt.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_facebook_share_view"; ObjectID = "Fvq-eU-Ifu"; */
+"Fvq-eU-Ifu.accessibilityLabel" = "btn_facebook_share_view";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Fvq-eU-Ifu"; */
+"Fvq-eU-Ifu.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "G5w-Q1-ux9"; */
+"G5w-Q1-ux9.normalTitle" = "完成";
+
+/* Class = "UILabel"; text = ""; ObjectID = "GHi-G7-HNz"; */
+"GHi-G7-HNz.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GKs-OS-Wr9"; */
+"GKs-OS-Wr9.text" = "标签";
+
+/* Class = "UILabel"; text = "Enter Wishlist Name:"; ObjectID = "Ib9-Ic-nQN"; */
+"Ib9-Ic-nQN.text" = "名字：";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "IlY-V3-GAo"; */
+"IlY-V3-GAo.text" = "公开";
+
+/* Class = "UILabel"; text = "Adjust scale here"; ObjectID = "IpW-Nq-dNg"; */
+"IpW-Nq-dNg.text" = "请在此调整比例";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel_cube"; ObjectID = "Iuw-d4-dQT"; */
+"Iuw-d4-dQT.accessibilityLabel" = "btn_cancel_cube";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Iuw-d4-dQT"; */
+"Iuw-d4-dQT.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_help_conceal_top_bar"; ObjectID = "J57-dw-A5d"; */
+"J57-dw-A5d.accessibilityLabel" = "btn_help_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "J57-dw-A5d"; */
+"J57-dw-A5d.normalTitle" = "帮助";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "JdY-No-des"; */
+"JdY-No-des.normalTitle" = "保存";
+
+/* Class = "UITextView"; text = "To be included in the Design Stream, tell us a little bit about your design.\n                                                Share your inspirations, the materials you used, the stores you visited, the people you admire, the mood you were in...whatever floats your boat! "; ObjectID = "JjS-PD-GB8"; */
+"JjS-PD-GB8.text" = "稍许告诉我们一些关于您设计的信息，即可加入设计流。\n                                                分享您的灵感、使用的材料、访问的商店、敬佩的人、您的心情等等，即任何您想分享的内容！ ";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_rootCell"; ObjectID = "KN8-SR-1fc"; */
+"KN8-SR-1fc.accessibilityLabel" = "cell_rootCell";
+
+/* Class = "UIView"; accessibilityLabel = "vw_RoomTypesView"; ObjectID = "Kkv-ka-9BF"; */
+"Kkv-ka-9BF.accessibilityLabel" = "vw_RoomTypesView";
+
+/* Class = "UIButton"; highlightedTitle = "Fill"; ObjectID = "LGf-mE-ZVs"; */
+"LGf-mE-ZVs.highlightedTitle" = "填充";
+
+/* Class = "UIButton"; normalTitle = "Fill"; ObjectID = "LGf-mE-ZVs"; */
+"LGf-mE-ZVs.normalTitle" = "填充";
+
+/* Class = "UIView"; accessibilityLabel = "vw_wallpaperPallet"; ObjectID = "LKW-IL-oOw"; */
+"LKW-IL-oOw.accessibilityLabel" = "vw_wallpaperPallet";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel_conceal_top_bar"; ObjectID = "LMj-Bo-z61"; */
+"LMj-Bo-z61.accessibilityLabel" = "btn_cancel_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "LMj-Bo-z61"; */
+"LMj-Bo-z61.normalTitle" = "取消";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share_view"; ObjectID = "LRD-rY-lLw"; */
+"LRD-rY-lLw.accessibilityLabel" = "btn_share_view";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "LRD-rY-lLw"; */
+"LRD-rY-lLw.normalTitle" = "分享";
+
+/* Class = "UILabel"; text = ""; ObjectID = "Lgm-Nk-kq4"; */
+"Lgm-Nk-kq4.text" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_selectCategory"; ObjectID = "MeM-rr-qLh"; */
+"MeM-rr-qLh.accessibilityLabel" = "lbl_selectCategory";
+
+/* Class = "UILabel"; text = "Select Category"; ObjectID = "MeM-rr-qLh"; */
+"MeM-rr-qLh.text" = "选择类别";
+
+/* Class = "UILabel"; text = ""; ObjectID = "NGQ-uF-ofl"; */
+"NGQ-uF-ofl.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_tool_main_button"; ObjectID = "NRK-N2-CYB"; */
+"NRK-N2-CYB.accessibilityLabel" = "btn_tool_main_button";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "NRK-N2-CYB"; */
+"NRK-N2-CYB.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_default_cube"; ObjectID = "OL4-IX-ZBJ"; */
+"OL4-IX-ZBJ.accessibilityLabel" = "btn_default_cube";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "OL4-IX-ZBJ"; */
+"OL4-IX-ZBJ.normalTitle" = "下一步";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_roomType"; ObjectID = "PCf-CI-ffp"; */
+"PCf-CI-ffp.accessibilityLabel" = "cell_roomType";
+
+/* Class = "UITextField"; placeholder = "Design title"; ObjectID = "PDp-Q0-Efp"; */
+"PDp-Q0-Efp.placeholder" = "设计标题";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PS4-kK-aQp"; */
+"PS4-kK-aQp.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "PXL-6V-VAp"; */
+"PXL-6V-VAp.text" = "作者姓名";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Psb-wH-Iez"; */
+"Psb-wH-Iez.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "R5Z-h1-jhP"; */
+"R5Z-h1-jhP.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Save Design"; ObjectID = "RUn-Yz-Fsa"; */
+"RUn-Yz-Fsa.text" = "保存设计";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_tool_menu"; ObjectID = "S5k-HZ-SBo"; */
+"S5k-HZ-SBo.accessibilityLabel" = "btn_back_tool_menu";
+
+/* (No Comment) */
+"S5k-HZ-SBo.normalTitle" = "";
+
+/* Class = "UIView"; accessibilityLabel = "vw_catalog_tableView"; ObjectID = "SjY-tk-sVO"; */
+"SjY-tk-sVO.accessibilityLabel" = "vw_catalog_tableView";
+
+/* Class = "UIButton"; normalTitle = "Paint"; ObjectID = "Smq-Mw-lVU"; */
+"Smq-Mw-lVU.normalTitle" = "涂料";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "ULa-bL-cUb"; */
+"ULa-bL-cUb.normalTitle" = "创建";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_undo"; ObjectID = "Ugo-0H-3ht"; */
+"Ugo-0H-3ht.accessibilityLabel" = "btn_undo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Ugo-0H-3ht"; */
+"Ugo-0H-3ht.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "Uon-2n-hDs"; */
+"Uon-2n-hDs.normalTitle" = "否";
+
+/* Class = "UISwitch"; accessibilityLabel = "switch_before_after_image_effect"; ObjectID = "UsA-7q-a8Z"; */
+"UsA-7q-a8Z.accessibilityLabel" = "switch_before_after_image_effect";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "VOw-Xb-n2r"; */
+"VOw-Xb-n2r.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_paint_tool_menu"; ObjectID = "VgO-gP-chv"; */
+"VgO-gP-chv.accessibilityLabel" = "btn_paint_tool_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "VgO-gP-chv"; */
+"VgO-gP-chv.normalTitle" = "";
+
+/* (No Comment) */
+"WCN-sw-3NE.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_redo"; ObjectID = "WUy-lQ-62y"; */
+"WUy-lQ-62y.accessibilityLabel" = "btn_redo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "WUy-lQ-62y"; */
+"WUy-lQ-62y.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_next_image_effect"; ObjectID = "WbO-6M-lEv"; */
+"WbO-6M-lEv.accessibilityLabel" = "btn_next_image_effect";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "WbO-6M-lEv"; */
+"WbO-6M-lEv.normalTitle" = "下一步";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_CategoryName"; ObjectID = "Wj0-cN-Q7o"; */
+"Wj0-cN-Q7o.accessibilityLabel" = "lbl_CategoryName";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wj0-cN-Q7o"; */
+"Wj0-cN-Q7o.text" = "标签";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_conceal"; ObjectID = "XwG-Wv-pKp"; */
+"XwG-Wv-pKp.accessibilityLabel" = "btn_back_conceal";
+
+/* (No Comment) */
+"XwG-Wv-pKp.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_toggle_effect"; ObjectID = "YTh-GT-eYJ"; */
+"YTh-GT-eYJ.accessibilityLabel" = "btn_toggle_effect";
+
+/* Class = "UIButton"; highlightedTitle = ""; ObjectID = "YTh-GT-eYJ"; */
+"YTh-GT-eYJ.highlightedTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "YTh-GT-eYJ"; */
+"YTh-GT-eYJ.normalTitle" = "";
+
+/* Class = "UIButton"; selectedTitle = ""; ObjectID = "YTh-GT-eYJ"; */
+"YTh-GT-eYJ.selectedTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_ruler_tool_menu"; ObjectID = "YXq-Bz-Mfj"; */
+"YXq-Bz-Mfj.accessibilityLabel" = "btn_ruler_tool_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "YXq-Bz-Mfj"; */
+"YXq-Bz-Mfj.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_ft_measure_bottom_bar"; ObjectID = "ZEO-vk-1Z9"; */
+"ZEO-vk-1Z9.accessibilityLabel" = "btn_ft_measure_bottom_bar";
+
+/* Class = "UIButton"; normalTitle = "Ft"; ObjectID = "ZEO-vk-1Z9"; */
+"ZEO-vk-1Z9.normalTitle" = "英尺";
+
+/* Class = "UILabel"; text = "Argument:"; ObjectID = "alH-BW-bbV"; */
+"alH-BW-bbV.text" = "参数:";
+
+/* Class = "UISwitch"; accessibilityLabel = "sw_conceal_bottom_bar"; ObjectID = "b2k-Br-EcJ"; */
+"b2k-Br-EcJ.accessibilityLabel" = "sw_conceal_bottom_bar";
+
+/* (No Comment) */
+"bSd-G6-BfH.accessibilityLabel" = "btn_cancel_cube";
+
+/* (No Comment) */
+"bSd-G6-BfH.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_product_catalog"; ObjectID = "cuo-sF-r5A"; */
+"cuo-sF-r5A.accessibilityLabel" = "btn_back_product_catalog";
+
+/* Class = "UIButton"; normalTitle = "Catalog"; ObjectID = "cuo-sF-r5A"; */
+"cuo-sF-r5A.normalTitle" = "目录";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_open_categories"; ObjectID = "dIa-AQ-5cm"; */
+"dIa-AQ-5cm.accessibilityLabel" = "btn_open_categories";
+
+/* (No Comment) */
+"dIa-AQ-5cm.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Add to Wishlist"; ObjectID = "dJT-nf-sFb"; */
+"dJT-nf-sFb.text" = "添加到愿望列表";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "dd5-zm-ZM3"; */
+"dd5-zm-ZM3.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "dtQ-3z-wei"; */
+"dtQ-3z-wei.normalTitle" = "拖拽墙";
+
+/* Class = "UILabel"; text = "Share Your Design"; ObjectID = "eHd-qz-3u9"; */
+"eHd-qz-3u9.text" = "分享您的设计";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_measure_bottom_bar"; ObjectID = "eMl-mU-w7Q"; */
+"eMl-mU-w7Q.accessibilityLabel" = "btn_back_measure_bottom_bar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "eMl-mU-w7Q"; */
+"eMl-mU-w7Q.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Drag Ceiling"; ObjectID = "ecG-55-IN3"; */
+"ecG-55-IN3.normalTitle" = "拖拽天花板";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "edS-Nj-txe"; */
+"edS-Nj-txe.normalTitle" = "是";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_Value"; ObjectID = "fdq-hT-cCX"; */
+"fdq-hT-cCX.accessibilityLabel" = "lbl_Value";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "fdq-hT-cCX"; */
+"fdq-hT-cCX.text" = "000";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_details_paint_view"; ObjectID = "fhf-vB-cY7"; */
+"fhf-vB-cY7.accessibilityLabel" = "btn_details_paint_view";
+
+/* Class = "UIButton"; normalTitle = "Details"; ObjectID = "fhf-vB-cY7"; */
+"fhf-vB-cY7.normalTitle" = "详细信息";
+
+/* Class = "UILabel"; text = "Wish List Created"; ObjectID = "fkL-44-rcw"; */
+"fkL-44-rcw.text" = "愿望列表已创建";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_chooseColor"; ObjectID = "gjP-9X-uMl"; */
+"gjP-9X-uMl.accessibilityLabel" = "btn_chooseColor";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_picker_done"; ObjectID = "h0r-6R-zw0"; */
+"h0r-6R-zw0.accessibilityLabel" = "btn_picker_done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "h0r-6R-zw0"; */
+"h0r-6R-zw0.normalTitle" = "完成";
+
+/* Class = "UIButton"; normalTitle = "Drag Floor"; ObjectID = "hGt-OJ-c90"; */
+"hGt-OJ-c90.normalTitle" = "拖拽地板";
+
+/* Class = "UILabel"; text = "Choose an Effect"; ObjectID = "j8N-qu-67p"; */
+"j8N-qu-67p.text" = "选择效果";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cm_measure_bottom_bar"; ObjectID = "jPL-YC-R5y"; */
+"jPL-YC-R5y.accessibilityLabel" = "btn_cm_measure_bottom_bar";
+
+/* Class = "UIButton"; normalTitle = "Cm"; ObjectID = "jPL-YC-R5y"; */
+"jPL-YC-R5y.normalTitle" = "厘米";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_undo_conceal_top_bar"; ObjectID = "jhP-G9-fzC"; */
+"jhP-G9-fzC.accessibilityLabel" = "btn_undo_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "jhP-G9-fzC"; */
+"jhP-G9-fzC.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_catalog_mainview"; ObjectID = "juS-Ol-iC5"; */
+"juS-Ol-iC5.accessibilityLabel" = "btn_catalog_mainview";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "juS-Ol-iC5"; */
+"juS-Ol-iC5.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_clear_room_tool_menu"; ObjectID = "kLT-69-kvY"; */
+"kLT-69-kvY.accessibilityLabel" = "btn_clear_room_tool_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "kLT-69-kvY"; */
+"kLT-69-kvY.normalTitle" = "";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "kgD-HD-K6T"; */
+"kgD-HD-K6T.text" = "102-40";
+
+/* (No Comment) */
+"kgW-bM-Ctg.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_default_cube"; ObjectID = "klD-VS-ZnL"; */
+"klD-VS-ZnL.accessibilityLabel" = "btn_default_cube";
+
+/* Class = "UIButton"; normalTitle = "Default"; ObjectID = "klD-VS-ZnL"; */
+"klD-VS-ZnL.normalTitle" = "默认";
+
+/* Class = "UILabel"; text = ""; ObjectID = "kn2-Yv-mO2"; */
+"kn2-Yv-mO2.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Brightness"; ObjectID = "kob-kN-V1q"; */
+"kob-kN-V1q.accessibilityLabel" = "btn_Brightness";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "kob-kN-V1q"; */
+"kob-kN-V1q.normalTitle" = "";
+
+/* Class = "UIView"; accessibilityLabel = "view_save_design"; ObjectID = "l9E-L9-2By"; */
+"l9E-L9-2By.accessibilityLabel" = "view_save_design";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_roomName"; ObjectID = "l81-BY-42c"; */
+"l81-BY-42c.accessibilityLabel" = "lbl_roomName";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "l81-BY-42c"; */
+"l81-BY-42c.text" = "标题";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_next_cube"; ObjectID = "lE2-Km-xaK"; */
+"lE2-Km-xaK.accessibilityLabel" = "btn_next_cube";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "lE2-Km-xaK"; */
+"lE2-Km-xaK.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lRD-ue-378"; */
+"lRD-ue-378.text" = "标签";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_save_tool_menu"; ObjectID = "ll4-A9-jvn"; */
+"ll4-A9-jvn.accessibilityLabel" = "btn_save_tool_menu";
+
+/* (No Comment) */
+"ll4-A9-jvn.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Cancel"; ObjectID = "meW-97-CrY"; */
+"meW-97-CrY.accessibilityLabel" = "btn_Cancel";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "meW-97-CrY"; */
+"meW-97-CrY.normalTitle" = "";
+
+/* Class = "UIButton"; highlightedTitle = " "; ObjectID = "nMF-k6-2qg"; */
+"nMF-k6-2qg.highlightedTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "50 Cm"; ObjectID = "nMF-k6-2qg"; */
+"nMF-k6-2qg.normalTitle" = "50 厘米";
+
+/* Class = "UILabel"; text = "Choose an effect"; ObjectID = "nNR-ta-geP"; */
+"nNR-ta-geP.text" = "选择效果";
+
+/* Class = "UIButton"; normalTitle = "Floor"; ObjectID = "nVT-Wu-RIQ"; */
+"nVT-Wu-RIQ.normalTitle" = "地板";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_new"; ObjectID = "ntY-nk-FkB"; */
+"ntY-nk-FkB.accessibilityLabel" = "lbl_new";
+
+/* Class = "UILabel"; text = "NEW!"; ObjectID = "ntY-nk-FkB"; */
+"ntY-nk-FkB.text" = "新！";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "oNb-7o-JS6"; */
+"oNb-7o-JS6.normalTitle" = "拖拽墙";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_done_measure_bottom_bar"; ObjectID = "pBG-PW-SSo"; */
+"pBG-PW-SSo.accessibilityLabel" = "btn_done_measure_bottom_bar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "pBG-PW-SSo"; */
+"pBG-PW-SSo.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Save design?"; ObjectID = "pdD-N4-Db8"; */
+"pdD-N4-Db8.text" = "是否要保存设计？";
+
+/* (No Comment) */
+"pfA-Bu-z5y.accessibilityLabel" = "btn_back_product_catalog";
+
+/* (No Comment) */
+"pfA-Bu-z5y.normalTitle" = "愿望列表";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_redo_conceal_top_bar"; ObjectID = "q4T-nx-y1c"; */
+"q4T-nx-y1c.accessibilityLabel" = "btn_redo_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "q4T-nx-y1c"; */
+"q4T-nx-y1c.normalTitle" = "";
+
+/* (No Comment) */
+"qGF-w8-net.text" = "应用";
+
+/* Class = "UIViewController"; title = "Single Palette"; ObjectID = "qNu-zN-vT5"; */
+"qNu-zN-vT5.title" = "单调色板";
+
+/* Class = "UILabel"; text = "Select room type"; ObjectID = "rJB-oa-oWw"; */
+"rJB-oa-oWw.text" = "请选择房间类型";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "smn-LI-Eap"; */
+"smn-LI-Eap.normalTitle" = "";
+
+/* Class = "UISlider"; accessibilityLabel = "sld_Slider"; ObjectID = "tPg-z7-ZPl"; */
+"tPg-z7-ZPl.accessibilityLabel" = "sld_Slider";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_hide_control_conceal_top_bar"; ObjectID = "u4n-qu-Ecw"; */
+"u4n-qu-Ecw.accessibilityLabel" = "btn_hide_control_conceal_top_bar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "u4n-qu-Ecw"; */
+"u4n-qu-Ecw.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_product_details"; ObjectID = "u6K-fc-ryr"; */
+"u6K-fc-ryr.accessibilityLabel" = "btn_product_details";
+
+/* Class = "UIButton"; normalTitle = "Details"; ObjectID = "u6K-fc-ryr"; */
+"u6K-fc-ryr.normalTitle" = "详细信息";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "uYk-1k-DRZ"; */
+"uYk-1k-DRZ.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_picker_cancel"; ObjectID = "uez-bC-XUI"; */
+"uez-bC-XUI.accessibilityLabel" = "btn_picker_cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "uez-bC-XUI"; */
+"uez-bC-XUI.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Brightness"; ObjectID = "vtf-8a-IfK"; */
+"vtf-8a-IfK.text" = "亮度";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_wallpaper_paint_view"; ObjectID = "yRa-pM-Xsa"; */
+"yRa-pM-Xsa.accessibilityLabel" = "btn_wallpaper_paint_view";
+
+/* Class = "UIButton"; normalTitle = "Wallpaper"; ObjectID = "yRa-pM-Xsa"; */
+"yRa-pM-Xsa.normalTitle" = "墙纸";
+
+/* Class = "UILabel"; text = "Auto Apply"; ObjectID = "yck-Ga-32N"; */
+"yck-Ga-32N.text" = "自动应用";
+
+/* Class = "UIButton"; normalTitle = "Freestyle"; ObjectID = "yv2-Nk-PC5"; */
+"yv2-Nk-PC5.normalTitle" = "自由风格";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share_tool_menu"; ObjectID = "z0x-L2-Wut"; */
+"z0x-L2-Wut.accessibilityLabel" = "btn_share_tool_menu";
+
+/* (No Comment) */
+"z0x-L2-Wut.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_add_to_design"; ObjectID = "zqs-Rd-OAU"; */
+"zqs-Rd-OAU.accessibilityLabel" = "btn_add_to_design";
+
+/* (No Comment) */
+"zqs-Rd-OAU.normalTitle" = "加入设计";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "zwa-M4-wYx"; */
+"zwa-M4-wYx.normalTitle" = "拖拽墙";
+

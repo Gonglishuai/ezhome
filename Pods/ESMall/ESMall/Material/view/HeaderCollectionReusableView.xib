@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCollectionReusableView" id="U6b-Vx-4bR" customClass="HeaderCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="496" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-EZ-37A">
+                    <rect key="frame" x="-1" y="44" width="498" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6F-Ph-y33">
+                    <rect key="frame" x="0.0" y="44" width="496" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="cvE-34-xqB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91K-P8-Y8D">
+                    <rect key="frame" x="0.0" y="88" width="496" height="0.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Qa4-1n-JVd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDr-gg-l3d">
+                    <rect key="frame" x="0.0" y="51" width="496" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="DXX-EZ-37A" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="0Rp-QD-TKj"/>
+                <constraint firstItem="FDr-gg-l3d" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="8v0-WF-9HI"/>
+                <constraint firstItem="C6F-Ph-y33" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="M4B-0v-9wf"/>
+                <constraint firstItem="C6F-Ph-y33" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="OnP-Rf-z3b"/>
+                <constraint firstItem="FDr-gg-l3d" firstAttribute="top" secondItem="C6F-Ph-y33" secondAttribute="bottom" constant="6" id="Psa-dV-nOJ"/>
+                <constraint firstItem="DXX-EZ-37A" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" constant="2" id="RBX-ri-tZ1"/>
+                <constraint firstAttribute="bottom" secondItem="91K-P8-Y8D" secondAttribute="bottom" id="aw4-5H-x86"/>
+                <constraint firstItem="C6F-Ph-y33" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="eDr-G5-5Fh"/>
+                <constraint firstItem="C6F-Ph-y33" firstAttribute="top" secondItem="DXX-EZ-37A" secondAttribute="bottom" id="h0p-mk-fIe"/>
+                <constraint firstItem="91K-P8-Y8D" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="piH-rH-MR6"/>
+                <constraint firstItem="FDr-gg-l3d" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="qO7-Om-eg8"/>
+                <constraint firstItem="91K-P8-Y8D" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="uSk-Lb-T1Y"/>
+            </constraints>
+            <connections>
+                <outlet property="lineLabel" destination="91K-P8-Y8D" id="OLl-wK-JpY"/>
+                <outlet property="subTitleLabel" destination="FDr-gg-l3d" id="h8F-ds-fxy"/>
+                <outlet property="titleLabel" destination="DXX-EZ-37A" id="anS-Lm-d3B"/>
+            </connections>
+            <point key="canvasLocation" x="-54" y="14.5"/>
+        </collectionReusableView>
+    </objects>
+</document>

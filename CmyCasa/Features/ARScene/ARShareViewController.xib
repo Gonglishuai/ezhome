@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARShareViewController">
+            <connections>
+                <outlet property="shareImageView" destination="jli-6R-gkD" id="dCm-S3-g7O"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jli-6R-gkD">
+                    <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgX-NW-sIa">
+                    <rect key="frame" x="611" y="319" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="99s-o3-Fgs"/>
+                        <constraint firstAttribute="width" constant="40" id="dvg-PW-Gu7"/>
+                    </constraints>
+                    <state key="normal" image="sharing"/>
+                    <connections>
+                        <action selector="shareBtn:" destination="-1" eventType="touchUpInside" id="aN2-rO-NgY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAh-A6-jjV">
+                    <rect key="frame" x="611" y="271" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Lbj-dl-oUI"/>
+                        <constraint firstAttribute="height" constant="40" id="cZW-LJ-PWy"/>
+                    </constraints>
+                    <state key="normal" image="cancel"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="oln-if-A7X"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IAh-A6-jjV" firstAttribute="trailing" secondItem="AgX-NW-sIa" secondAttribute="trailing" id="3Cy-MM-RyG"/>
+                <constraint firstAttribute="trailing" secondItem="jli-6R-gkD" secondAttribute="trailing" id="NAC-UT-3sL"/>
+                <constraint firstItem="jli-6R-gkD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OeR-BX-ur9"/>
+                <constraint firstItem="jli-6R-gkD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XEK-9A-uMC"/>
+                <constraint firstAttribute="bottom" secondItem="jli-6R-gkD" secondAttribute="bottom" id="cw9-df-Myl"/>
+                <constraint firstAttribute="bottom" secondItem="jli-6R-gkD" secondAttribute="bottom" id="fsl-PH-Vd7"/>
+                <constraint firstAttribute="trailing" secondItem="jli-6R-gkD" secondAttribute="trailing" id="j6c-8k-WHL"/>
+                <constraint firstItem="AgX-NW-sIa" firstAttribute="top" secondItem="IAh-A6-jjV" secondAttribute="top" constant="48" id="nA8-CO-G2L"/>
+                <constraint firstItem="jli-6R-gkD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nk8-Zs-XM2"/>
+                <constraint firstItem="jli-6R-gkD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qRC-Zv-Llb"/>
+                <constraint firstAttribute="bottom" secondItem="IAh-A6-jjV" secondAttribute="bottom" constant="64" id="xAK-sF-MrJ"/>
+                <constraint firstItem="LKD-tr-twC" firstAttribute="trailing" secondItem="AgX-NW-sIa" secondAttribute="trailing" constant="16" id="xXU-18-8ov"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="LKD-tr-twC"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancel" width="46" height="46"/>
+        <image name="sharing" width="44" height="44"/>
+    </resources>
+</document>

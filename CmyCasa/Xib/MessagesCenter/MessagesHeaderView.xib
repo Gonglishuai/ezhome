@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MessagesHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="53"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGZ-P6-Wzh" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="0.0" width="398" height="53"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New  🔔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0T-1c-DLI">
+                            <rect key="frame" x="20" y="16.5" width="70" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="Text_Body1_greyishBrown"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="q0T-1c-DLI" firstAttribute="centerY" secondItem="cGZ-P6-Wzh" secondAttribute="centerY" id="qCF-8Z-khz"/>
+                        <constraint firstItem="q0T-1c-DLI" firstAttribute="leading" secondItem="cGZ-P6-Wzh" secondAttribute="leading" constant="20" id="rqA-6L-eFg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cGZ-P6-Wzh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3WK-w4-ZdS"/>
+                <constraint firstItem="cGZ-P6-Wzh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="CCc-td-Of9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cGZ-P6-Wzh" secondAttribute="bottom" id="aZF-B3-mCI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cGZ-P6-Wzh" secondAttribute="trailing" id="pBu-e9-1Zl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="latestMessages" destination="q0T-1c-DLI" id="zWe-vF-l6z"/>
+                <outlet property="textLeftConstraint" destination="rqA-6L-eFg" id="p0m-Cg-v0N"/>
+            </connections>
+            <point key="canvasLocation" x="-225" y="-270.5"/>
+        </view>
+    </objects>
+</document>

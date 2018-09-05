@@ -1,0 +1,169 @@
+#!groovy
+//Envrionment variables inputs like below
+// MOBILE_PROVISION_FULL_PATH="/usr/local/provisioning_files/ezhomehomestyleriOS.mobileprovision"
+// BUILD_CONFIG=Release
+// WORK_USER=ezhome
+// SCHEME=EZHome
+// RECIPIENTS=weijiancai@juran.com.cn
+// TARGET_DIR=/usr/local/jenkins/hs-alpha
+// CODE_SIGN_IDENTITY=iPhone Developer
+// EXPORT_METHOD=development
+node('ios_build') {
+    currentBuild.result="SUCCESS"
+    
+    try{
+        stage('init') {
+            deleteDir()
+            sh "rm -rf ${env.TARGET_DIR}"
+            
+            WORKSPACE="Homestyler.xcworkspace"
+            PROJECT="Homestyler"
+            
+            source_code_path="${env.TARGET_DIR}/src"
+            scripts_path="${env.TARGET_DIR}/cicd"            
+            target_package_path="${source_code_path}/build/${env.SCHEME}.ipa"
+            archive_path="${source_code_path}/build/${env.SCHEME}.xcarchive"
+            commits_log_file="${env.WORKSPACE}/commits_message.txt"
+            compile_log_file="${env.WORKSPACE}/compile_log.txt"
+            provision_properties_file="${env.TARGET_DIR}/provision_properties.txt"
+            export_plist_file="${scripts_path}/scripts/ios/exportPlist.plist"
+            sh "rm -rf ${target_package_path} ${archive_path} ${commits_log_file} ${compile_log_file} ${provision_properties_file} ${export_plist_file}"        
+    
+            project_file="${source_code_path}/${PROJECT}.xcodeproj/project.pbxproj"
+            get_provision_properties_script="${scripts_path}/scripts/ios/get_provision_properties.sh"
+            update_ios_project_script="${scripts_path}/scripts/ios/update_ios_project.sh"
+            update_export_plist_script="${scripts_path}/scripts/ios/update_ios_export_plist.sh"
+            send_notification_script="${scripts_path}/scripts/send_notification.sh"
+               
+            // init message to empty string - it will be included in notification email
+            opt_message = 'SUCCESS' 
+        }
+        
+        stage('checkout source code'){
+            dir("${source_code_path}"){
+                checkout scm
+            }
+        }
+    
+        stage('checkout scripts') {
+            dir("${scripts_path}") {
+                git changelog: false, poll: false, branch: 'master', url: "git@gitlab-dev.shejijia.com:Foundation-Services/ld-configs.git"
+            }
+        }
+        
+        stage('checkout submodules') {
+            dir("${source_code_path}/Module") {
+                git branch: "master", url: "git@gitlab-dev.shejijia.com:iOS/ezhome-module-iOS.git"
+            }
+        }
+        
+        stage('install 3rd component') {
+            /*withLocalEnv() {
+                sh "cd ${source_code_path}/Module && npm install"
+            }*/
+            
+            withEnv(["PATH+LOCAL=/usr/local/bin"]) {
+                sh "cd ${source_code_path}/Module && npm install"
+            }
+        }
+       
+        stage('prepare ios build environment'){
+            // get provision properties
+            sh "bash ${get_provision_properties_script} ${mobile_provision_full_path} ${provision_properties_file}"
+            props = readProperties file: "${provision_properties_file}"
+            uuid = props["UUID"]
+            teamID = props["teamID"]
+            bundleID = props["bundleID"]
+            provisionName = props["provisionName"]
+             
+            // import the provisioning file   
+            sh "cp ${mobile_provision_full_path} \"/Users/$work_user/Library/MobileDevice/Provisioning Profiles/${uuid}.mobileprovision\""
+            // update the ios project file with provisioin properties obtained from the provisiong file
+            sh "cp '${project_file}' '${project_file}'.ori"
+            // sh "cd ${source_code_path} && bash '${update_ios_project_script}' '${project_file}' '${env.BUILD_CONFIG}' '${uuid}' '${teamID}' '${bundleID}' '${provisionName}' '${env.CODE_SIGN_IDENTITY}'"
+            // update the exportPlist file
+            sh "bash '${update_export_plist_script}' '${export_plist_file}' '${teamID}' '${env.EXPORT_METHOD}'"
+        }
+ 
+        stage('build') {
+            withEnv(["PATH+LOCAL=/usr/local/bin"]) {
+                sh "cd ${source_code_path} && xcodebuild -workspace ${WORKSPACE} -scheme ${env.SCHEME} clean >${compile_log_file} 2>&1 || echo xcodebuild clean failed"
+                sh "cd ${source_code_path} && xcodebuild -workspace ${WORKSPACE} -scheme ${env.SCHEME} -configuration ${env.BUILD_CONFIG} -sdk iphoneos -archivePath ${archive_path} archive >${compile_log_file} 2>&1 || echo xcodebuild archive failed"
+                compile_result=sh(returnStdout: true, script: "grep 'ARCHIVE FAILED' ${compile_log_file} || echo PASS").trim()
+                echo "compile result: ${compile_result}"
+                if (!compile_result.equals("PASS")) {
+                    compile_result=sh(returnStdout: true, script: "grep error: ${compile_log_file} || echo build error").trim()
+                    sh "exit 1"
+                }              
+  
+                sh "cd ${source_code_path} && xcodebuild -exportArchive -archivePath ${archive_path} -exportPath ${target_package_path} -exportOptionsPlist ${export_plist_file}"
+            }
+        }
+        
+        stage('archive app package') {
+           sh "cp ${target_package_path}/${env.SCHEME}.ipa ${env.WORKSPACE}/${env.SCHEME}.ipa"
+           archiveArtifacts artifacts: "${env.SCHEME}.ipa", onlyIfSuccessful: true
+        }
+        
+    }
+    catch(err) {
+        currentBuild.result = "FAILURE"
+        opt_message = "${err}"
+        throw err
+    }
+    finally{
+        stage('clean') {
+          sh "cp -rf '${project_file}' '${project_file}'.update"
+          sh "cp -rf '${project_file}'.ori '${project_file}'"
+        }
+ 
+        stage('get changes'){
+            sh "echo > ${commits_log_file}"
+            try{
+                def changelog_sets = currentBuild.changeSets
+                changes=changelog_sets.size()
+            
+                if (changes == 0){ 
+                    println "This is no change from last build!"
+                }
+                else {
+                    for (int i = 0; i < changes; i++) {
+                        def entries = changelog_sets[i].items
+                    
+                        for (int j = 0; j < entries.length; j++) {
+                            def entry = entries[j]
+                            println "${entry.commitId} by ${entry.author}\n ${entry.msg}"
+                        
+                            sh "cd ${source_code_path} && git show ${entry.commitId} --format=short --quiet >> ${commits_log_file} || cd ${source_code_path}/Module && git show ${entry.commitId} --format=short --quite >> ${commits_log_file}"
+                       }
+                    } 
+                }    
+            }
+            catch(err) {
+              println "Failed to get the code changes due to ${err}"
+            } 
+        }
+     
+        stage('archive commits file') {
+           archiveArtifacts artifacts: "commits_message.txt", onlyIfSuccessful: true
+        }
+   
+        stage('send notification') {
+            job_name="${env.JOB_NAME}"
+            job_path="${source_code_path}"
+            echo "${send_notification_script} ${opt_message} ${compile_result} ${commits_log_file} ${job_name} ${job_path} ${env.RECIPIENTS} ${BUILD_NUMBER}"
+            sh "bash ${send_notification_script} '${opt_message}' '${compile_result}' '${commits_log_file}' '${job_name}' '${job_path}' '${env.RECIPIENTS}' ${BUILD_NUMBER}" 
+        }
+        
+    }
+}
+void withLocalEnv(List envVars = [], def body) {
+    String local_folder="/usr/local/bin"
+    
+    List localEnv=["PATH+LOCAL=${local_folder}"]
+    localEnv.addAll(envVars)
+    
+    withEnv(localEnv) {
+        body.call()
+    }
+}

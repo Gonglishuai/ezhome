@@ -1,0 +1,1 @@
+../../../../ESFoundation/ESFoundation/ExtManager/Alipay/AlipaySDK.framework/Headers/APayAuthInfo.h

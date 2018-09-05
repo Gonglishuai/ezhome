@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GalleryStreamEmptyRoomCell">
+            <rect key="frame" x="0.0" y="0.0" width="560" height="315"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="560" height="315"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBu-wt-A7m" userLabel="ContentView">
+                        <rect key="frame" x="0.0" y="0.0" width="560" height="315"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lpx-FZ-WWY">
+                                <rect key="frame" x="0.0" y="0.0" width="560" height="315"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lpx-FZ-WWY" secondAttribute="bottom" id="4q1-vf-YX2"/>
+                            <constraint firstItem="lpx-FZ-WWY" firstAttribute="leading" secondItem="eBu-wt-A7m" secondAttribute="leading" id="B0b-ix-nQX"/>
+                            <constraint firstItem="lpx-FZ-WWY" firstAttribute="top" secondItem="eBu-wt-A7m" secondAttribute="top" id="Q2r-le-bcs"/>
+                            <constraint firstAttribute="trailing" secondItem="lpx-FZ-WWY" secondAttribute="trailing" id="vy7-Ix-NvL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="GalleryItemCard"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eBu-wt-A7m" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6ho-rt-n6v"/>
+                <constraint firstAttribute="bottom" secondItem="eBu-wt-A7m" secondAttribute="bottom" id="Ro3-XX-J95"/>
+                <constraint firstAttribute="trailing" secondItem="eBu-wt-A7m" secondAttribute="trailing" id="bga-EL-34I"/>
+                <constraint firstItem="eBu-wt-A7m" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="g8w-qZ-2Sv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="560" height="315"/>
+            <connections>
+                <outlet property="emptyRoomImg" destination="lpx-FZ-WWY" id="raf-HD-Gk1"/>
+            </connections>
+            <point key="canvasLocation" x="53" y="-25.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA7BA5B5-D7D9-473D-A4A5-E8EBB60617AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Homestyler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A18942B0F094D5E9531DFD57AFBE6168666270B</key>
+		<string>https://git.autodesk.com/Homestyler/HSM-iOS.git</string>
+		<key>4F91F60445B8E0A4799DF8C7F32AB0E1E1BAD776</key>
+		<string>https://bitbucket.org/tgalon/cmycasamobile-bitbucket.git</string>
+		<key>DC98FA3E-E674-49F4-A9CC-4911E4D41F7C</key>
+		<string>https://bitbucket.org/tgalon/cmycasamobile-bitbucket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homestyler.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A18942B0F094D5E9531DFD57AFBE6168666270B</key>
+		<string>..</string>
+		<key>4F91F60445B8E0A4799DF8C7F32AB0E1E1BAD776</key>
+		<string>../../Projects</string>
+		<key>DC98FA3E-E674-49F4-A9CC-4911E4D41F7C</key>
+		<string>../../GIT</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.autodesk.com/Homestyler/HSM-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A18942B0F094D5E9531DFD57AFBE6168666270B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC98FA3E-E674-49F4-A9CC-4911E4D41F7C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GIT</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A18942B0F094D5E9531DFD57AFBE6168666270B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Homestyler</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F91F60445B8E0A4799DF8C7F32AB0E1E1BAD776</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>客餐</string>
+		<key>subTitle</key>
+		<string>parlor &amp; restaurant</string>
+		<key>spaceImage</key>
+		<string>fitting_living</string>
+		<key>titleImage</key>
+		<string>fitting_living_icon</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>书卧</string>
+		<key>subTitle</key>
+		<string>study &amp; bedroom</string>
+		<key>spaceImage</key>
+		<string>fitting_room</string>
+		<key>titleImage</key>
+		<string>fitting_room_icon</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>厨卫</string>
+		<key>subTitle</key>
+		<string>kitchen &amp; bathroom</string>
+		<key>spaceImage</key>
+		<string>fitting_toilet</string>
+		<key>titleImage</key>
+		<string>fitting_toilet_icon</string>
+	</dict>
+</array>
+</plist>

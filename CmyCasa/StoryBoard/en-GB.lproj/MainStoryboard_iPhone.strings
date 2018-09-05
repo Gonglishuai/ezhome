@@ -1,0 +1,162 @@
+/* (No Comment) */
+"0Jm-wV-8wG.normalTitle" = "";
+
+/* (No Comment) */
+"2Yp-yw-oLT.accessibilityLabel" = "btn_menuDesignStream";
+
+/* (No Comment) */
+"2Yp-yw-oLT.normalTitle" = "3D Design Stream";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_loading"; ObjectID = "2wI-ih-3y8"; */
+"2wI-ih-3y8.accessibilityLabel" = "lbl_loading";
+
+/* Class = "UILabel"; text = "LOADING"; ObjectID = "2wI-ih-3y8"; */
+"2wI-ih-3y8.text" = "LOADING";
+
+/* (No Comment) */
+"2yr-Fn-nRP.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cameraRoll"; ObjectID = "3xK-Pd-TKQ"; */
+"3xK-Pd-TKQ.accessibilityLabel" = "btn_cameraRoll";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "3xK-Pd-TKQ"; */
+"3xK-Pd-TKQ.disabledTitle" = "";
+
+/* (No Comment) */
+"3xK-Pd-TKQ.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menuSettings"; ObjectID = "4wF-TC-BR3"; */
+"4wF-TC-BR3.accessibilityLabel" = "btn_menuSettings";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "4wF-TC-BR3"; */
+"4wF-TC-BR3.normalTitle" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "6C3-AO-4dC"; */
+"6C3-AO-4dC.normalTitle" = "Done";
+
+/* (No Comment) */
+"6lz-4l-k7w.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"6lz-4l-k7w.normalTitle" = "";
+
+/* (No Comment) */
+"30j-qx-yjb.text" = "QUICK TIPS WHILE YOU WAIT";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_takePicture"; ObjectID = "CTM-VN-dQ5"; */
+"CTM-VN-dQ5.accessibilityLabel" = "btn_takePicture";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "CTM-VN-dQ5"; */
+"CTM-VN-dQ5.disabledTitle" = "";
+
+/* (No Comment) */
+"CTM-VN-dQ5.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_userProfile"; ObjectID = "Cjg-KZ-cwn"; */
+"Cjg-KZ-cwn.accessibilityLabel" = "btn_userProfile";
+
+/* Class = "UILabel"; text = "AR"; ObjectID = "FgF-Zn-dYF"; */
+"FgF-Zn-dYF.text" = "Augmented Reality";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menuCatalog"; ObjectID = "HDl-tH-f81"; */
+"HDl-tH-f81.accessibilityLabel" = "btn_menuCatalog";
+
+/* Class = "UIButton"; normalTitle = "Catalog"; ObjectID = "HDl-tH-f81"; */
+"HDl-tH-f81.normalTitle" = "Catalog";
+
+/* (No Comment) */
+"HKV-Wp-Uas.accessibilityLabel" = "btn_help";
+
+/* (No Comment) */
+"HKV-Wp-Uas.normalTitle" = "Use images from other devices";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_takePicture"; ObjectID = "HP1-du-Rbn"; */
+"HP1-du-Rbn.accessibilityLabel" = "lbl_takePicture";
+
+/* Class = "UILabel"; text = "Take a Picture"; ObjectID = "HP1-du-Rbn"; */
+"HP1-du-Rbn.text" = "Take a Picture";
+
+/* (No Comment) */
+"IkP-mh-lNo.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Sign out"; ObjectID = "KIo-Yh-d5C"; */
+"KIo-Yh-d5C.normalTitle" = "Sign out";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_takePicture"; ObjectID = "PFl-OE-57r"; */
+"PFl-OE-57r.accessibilityLabel" = "lbl_takePicture";
+
+/* Class = "UILabel"; text = "Take a Picture"; ObjectID = "PFl-OE-57r"; */
+"PFl-OE-57r.text" = "Take a Picture";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PSQ-UR-P1h"; */
+"PSQ-UR-P1h.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_emptyRoom"; ObjectID = "SXm-Uj-iUA"; */
+"SXm-Uj-iUA.accessibilityLabel" = "lbl_emptyRoom";
+
+/* Class = "UILabel"; text = "Empty Rooms"; ObjectID = "SXm-Uj-iUA"; */
+"SXm-Uj-iUA.text" = "Empty Rooms";
+
+/* Class = "UIPickerView"; accessibilityLabel = "picker_"; ObjectID = "Ucg-IH-3PZ"; */
+"Ucg-IH-3PZ.accessibilityLabel" = "picker_";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_emptyRoom"; ObjectID = "Zc2-db-VYn"; */
+"Zc2-db-VYn.accessibilityLabel" = "lbl_emptyRoom";
+
+/* Class = "UILabel"; text = "Empty Rooms"; ObjectID = "Zc2-db-VYn"; */
+"Zc2-db-VYn.text" = "Empty Rooms";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "bEM-gb-UNV"; */
+"bEM-gb-UNV.text" = "Sign In";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_cameraRoll"; ObjectID = "cWS-yJ-aVj"; */
+"cWS-yJ-aVj.accessibilityLabel" = "lbl_cameraRoll";
+
+/* Class = "UILabel"; text = "Camera Roll"; ObjectID = "cWS-yJ-aVj"; */
+"cWS-yJ-aVj.text" = "Camera Roll";
+
+/* (No Comment) */
+"ejm-7a-DHb.normalTitle" = "Cancel";
+
+/* (No Comment) */
+"ejm-7a-DHb.selectedTitle" = "Cancel";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menuCreateDesign"; ObjectID = "gGM-1v-i8D"; */
+"gGM-1v-i8D.accessibilityLabel" = "btn_menuCreateDesign";
+
+/* Class = "UIButton"; normalTitle = "Create New Design"; ObjectID = "gGM-1v-i8D"; */
+"gGM-1v-i8D.normalTitle" = "Create New Design";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_cameraRoll"; ObjectID = "kx8-FL-V1V"; */
+"kx8-FL-V1V.accessibilityLabel" = "lbl_cameraRoll";
+
+/* Class = "UILabel"; text = "Camera Roll"; ObjectID = "kx8-FL-V1V"; */
+"kx8-FL-V1V.text" = "Camera Roll";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menuFeedback"; ObjectID = "q5w-j4-hJl"; */
+"q5w-j4-hJl.accessibilityLabel" = "btn_menuFeedback";
+
+/* Class = "UIButton"; normalTitle = "Send us Feedback"; ObjectID = "q5w-j4-hJl"; */
+"q5w-j4-hJl.normalTitle" = "Send us Feedback";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menuMyHomestyler"; ObjectID = "qbZ-CO-J82"; */
+"qbZ-CO-J82.accessibilityLabel" = "btn_menuMyHomestyler";
+
+/* Class = "UIButton"; normalTitle = "My Homestyler"; ObjectID = "qbZ-CO-J82"; */
+"qbZ-CO-J82.normalTitle" = "My Homestyler";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "qcL-xl-lJp"; */
+"qcL-xl-lJp.text" = "About";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "vqz-8Q-J6a"; */
+"vqz-8Q-J6a.text" = "Settings";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_emptyRooms"; ObjectID = "yAt-Pj-vbW"; */
+"yAt-Pj-vbW.accessibilityLabel" = "btn_emptyRooms";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "yAt-Pj-vbW"; */
+"yAt-Pj-vbW.disabledTitle" = "";
+
+/* (No Comment) */
+"yAt-Pj-vbW.normalTitle" = "";
+

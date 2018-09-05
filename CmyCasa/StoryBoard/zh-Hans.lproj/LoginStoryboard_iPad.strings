@@ -1,0 +1,57 @@
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "0wW-Rs-an8"; */
+"0wW-Rs-an8.normalTitle" = "后退";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "1Xs-76-FW8"; */
+"1Xs-76-FW8.placeholder" = "邮件地址";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "4vl-qv-tzv"; */
+"4vl-qv-tzv.normalTitle" = "提交";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "5ZF-fc-J7S"; */
+"5ZF-fc-J7S.normalTitle" = "后退";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9uB-cJ-2DZ"; */
+"9uB-cJ-2DZ.placeholder" = "密码";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "BFy-1T-XWZ"; */
+"BFy-1T-XWZ.text" = "表达您的创造力、发现灵感以及进行更智能更快的家装设计选择。";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choises, faster."; ObjectID = "CFz-CH-Skh"; */
+"CFz-CH-Skh.text" = "表达您的创造力、发现灵感以及进行更智能更快的家装设计选择。";
+
+/* (No Comment) */
+"FRk-9O-K9C.normalTitle" = "通过 Google+ 注册";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "LB3-mh-WhR"; */
+"LB3-mh-WhR.text" = "登录或注册";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "NXX-gf-Lki"; */
+"NXX-gf-Lki.text" = "通过您的邮件地址注册或登录";
+
+/* Class = "UIButton"; normalTitle = "Forgot Your Password?"; ObjectID = "P81-v8-FeB"; */
+"P81-v8-FeB.normalTitle" = "忘记密码？";
+
+/* Class = "UIButton"; normalTitle = "Register with your Email"; ObjectID = "PN5-bP-3Ql"; */
+"PN5-bP-3Ql.normalTitle" = "邮件地址";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "T7U-4G-W1G"; */
+"T7U-4G-W1G.normalTitle" = "提交";
+
+/* Class = "UIButton"; normalTitle = "Register with Facebook"; ObjectID = "Zzn-uu-7cs"; */
+"Zzn-uu-7cs.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "cZm-Rw-nf0"; */
+"cZm-Rw-nf0.normalTitle" = "后退";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "f5N-0J-wQ1"; */
+"f5N-0J-wQ1.placeholder" = "邮件地址";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "p3G-Bx-F4I"; */
+"p3G-Bx-F4I.text" = "表达您的创造力、发现灵感以及进行更智能更快的家装设计选择。";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "pw8-eN-sBJ"; */
+"pw8-eN-sBJ.text" = "登录或注册";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "yly-ch-K4N"; */
+"yly-ch-K4N.text" = "通过您的邮件地址注册或登录";
+

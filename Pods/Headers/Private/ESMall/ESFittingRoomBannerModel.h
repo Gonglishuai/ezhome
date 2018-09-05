@@ -1,0 +1,1 @@
+../../../ESMall/ESMall/Model/Case/ESFittingRoomBannerModel.h

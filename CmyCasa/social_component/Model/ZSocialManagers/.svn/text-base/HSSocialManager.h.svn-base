@@ -1,0 +1,48 @@
+//
+//  SocialManager.h
+//  Cheerz
+//
+//  Created by Amir baranes on 9/9/13.
+//  Copyright (c) 2013 Zemingo. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "HSSocialServices.h"
+#import "HSSharingConstants.h"
+
+/*@protocol SocialManagerSharingDataSource
+
+@required
+
+- (UIViewController *)presentingViewController;
+
+@end*/
+
+
+@protocol SocialManagerSharingDelegate <NSObject>
+
+@optional
+
+- (void)shareToSocialNetworkType:(HSSocialNetworkType)type didFailWithError:(NSString *)errorString;
+- (void)didFinishShareToSocialNetworkType:(HSSocialNetworkType)type;
+
+@end
+
+
+
+typedef void (^TwitterNativePostCompletionBlock)(void);
+typedef void (^TwitterFailBlock)(NSString *errorDescription);
+
+@interface HSSocialManager : NSObject
+{
+    
+}
+
++ (id)sharedSocialManager;
+
+- (BOOL)handleOpenURL:(NSURL *)url;
+
+- (void)loginWithFacebookWithComplition:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock;
+- (void)shareText:(NSString *)text image:(UIImage *)image andUrl:(NSURL *)url toSocialNetworkType:(HSSocialNetworkType)type fromViewController:(UIViewController *)viewController withDelegate:(id <SocialManagerSharingDelegate>)delegate;
+
+@end

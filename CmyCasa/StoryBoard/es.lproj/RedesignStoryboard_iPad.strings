@@ -1,0 +1,969 @@
+/* Class = "UILabel"; accessibilityLabel = "lbl_colorName1"; ObjectID = "0GV-18-9Hi"; */
+"0GV-18-9Hi.accessibilityLabel" = "lbl_colorName1";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "0GV-18-9Hi"; */
+"0GV-18-9Hi.text" = "102-40";
+
+/* Class = "UITextView"; accessibilityLabel = "txt_description"; ObjectID = "0PE-Dw-2F7"; */
+"0PE-Dw-2F7.accessibilityLabel" = "txt_description";
+
+/* Class = "UIView"; accessibilityLabel = "vw_flooringWidget"; ObjectID = "0TT-Wz-26v"; */
+"0TT-Wz-26v.accessibilityLabel" = "vw_flooringWidget";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_undo"; ObjectID = "0Yv-yd-Suz"; */
+"0Yv-yd-Suz.accessibilityLabel" = "btn_undo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "0Yv-yd-Suz"; */
+"0Yv-yd-Suz.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "0Yy-fJ-UpP"; */
+"0Yy-fJ-UpP.normalTitle" = "Terminar";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_style"; ObjectID = "1Co-fa-mbh"; */
+"1Co-fa-mbh.accessibilityLabel" = "lbl_style";
+
+/* Class = "UILabel"; text = "Edit Image"; ObjectID = "1Co-fa-mbh"; */
+"1Co-fa-mbh.text" = "Editar imagen";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_arrow_right"; ObjectID = "1cW-YY-wI9"; */
+"1cW-YY-wI9.accessibilityLabel" = "btn_arrow_right";
+
+/* Class = "UISlider"; accessibilityLabel = "sl_moveSides"; ObjectID = "1cw-Wp-b46"; */
+"1cw-Wp-b46.accessibilityLabel" = "sl_moveSides";
+
+/* Class = "UILabel"; text = "Stepper"; ObjectID = "2Sw-bg-Qyd"; */
+"2Sw-bg-Qyd.text" = "Paso";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_right_wall_move"; ObjectID = "2gu-FR-SPY"; */
+"2gu-FR-SPY.accessibilityLabel" = "btn_right_wall_move";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "2gu-FR-SPY"; */
+"2gu-FR-SPY.normalTitle" = "Arrastrar muro";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "2pZ-PV-Wd0"; */
+"2pZ-PV-Wd0.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "2pZ-PV-Wd0"; */
+"2pZ-PV-Wd0.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_note"; ObjectID = "2x8-0P-DCG"; */
+"2x8-0P-DCG.accessibilityLabel" = "lbl_note";
+
+/* Class = "UILabel"; text = "Please Note: Your comment on Twitter will cut to fit 140 characters"; ObjectID = "2x8-0P-DCG"; */
+"2x8-0P-DCG.text" = "Nota: el comentario en Twitter se recortará para adaptarse a la limitación de 140 caracteres.";
+
+/* Class = "UIView"; accessibilityLabel = "vw_measureView"; ObjectID = "3BB-KV-9gM"; */
+"3BB-KV-9gM.accessibilityLabel" = "vw_measureView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_ceiling_move"; ObjectID = "3FY-eO-2MQ"; */
+"3FY-eO-2MQ.accessibilityLabel" = "btn_ceiling_move";
+
+/* Class = "UIButton"; normalTitle = "Drag Ceiling"; ObjectID = "3FY-eO-2MQ"; */
+"3FY-eO-2MQ.normalTitle" = "Arrastrar techo";
+
+/* Class = "UIButton"; normalTitle = "Blend"; ObjectID = "3gA-zO-qqa"; */
+"3gA-zO-qqa.normalTitle" = "Mezclar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_no"; ObjectID = "3ms-Fh-k7j"; */
+"3ms-Fh-k7j.accessibilityLabel" = "btn_no";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "3ms-Fh-k7j"; */
+"3ms-Fh-k7j.normalTitle" = "No";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_redo"; ObjectID = "4Fu-YG-QMG"; */
+"4Fu-YG-QMG.accessibilityLabel" = "btn_redo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4Fu-YG-QMG"; */
+"4Fu-YG-QMG.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_email"; ObjectID = "4PH-LF-Sw7"; */
+"4PH-LF-Sw7.accessibilityLabel" = "btn_email";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "4PH-LF-Sw7"; */
+"4PH-LF-Sw7.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "4vw-ty-h6I"; */
+"4vw-ty-h6I.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "4vw-ty-h6I"; */
+"4vw-ty-h6I.normalTitle" = "Atrás";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_chooseColor"; ObjectID = "5BF-e3-FEz"; */
+"5BF-e3-FEz.accessibilityLabel" = "btn_chooseColor";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_authorName"; ObjectID = "5VM-o6-eaI"; */
+"5VM-o6-eaI.accessibilityLabel" = "lbl_authorName";
+
+/* Class = "UILabel"; text = "Author Name"; ObjectID = "5VM-o6-eaI"; */
+"5VM-o6-eaI.text" = "Nombre del autor";
+
+/* Class = "UIView"; accessibilityLabel = "vw_loadingView"; ObjectID = "5W5-Od-xzJ"; */
+"5W5-Od-xzJ.accessibilityLabel" = "vw_loadingView";
+
+/* Class = "UILabel"; text = "Auto Apply"; ObjectID = "5XJ-LY-6eg"; */
+"5XJ-LY-6eg.text" = "Aplicar automáticamente";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_paintImageHolder"; ObjectID = "5aU-SB-tFs"; */
+"5aU-SB-tFs.accessibilityLabel" = "img_paintImageHolder";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Floor"; ObjectID = "5qX-fm-Na7"; */
+"5qX-fm-Na7.accessibilityLabel" = "btn_Floor";
+
+/* Class = "UIButton"; normalTitle = "Floor"; ObjectID = "5qX-fm-Na7"; */
+"5qX-fm-Na7.normalTitle" = "Suelo";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_Value"; ObjectID = "6Az-1d-gQd"; */
+"6Az-1d-gQd.accessibilityLabel" = "lbl_Value";
+
+/* Class = "UILabel"; text = "000"; ObjectID = "6Az-1d-gQd"; */
+"6Az-1d-gQd.text" = "000";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Wallpaper"; ObjectID = "6Y0-2n-4Ad"; */
+"6Y0-2n-4Ad.accessibilityLabel" = "btn_Wallpaper";
+
+/* Class = "UIButton"; normalTitle = "Wallpaper"; ObjectID = "6Y0-2n-4Ad"; */
+"6Y0-2n-4Ad.normalTitle" = "Tapiz";
+
+/* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "6cx-to-xre"; */
+"6cx-to-xre.normalTitle" = "Copiar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cm"; ObjectID = "6ex-Qt-the"; */
+"6ex-Qt-the.accessibilityLabel" = "btn_cm";
+
+/* Class = "UIButton"; normalTitle = "Cm"; ObjectID = "6ex-Qt-the"; */
+"6ex-Qt-the.normalTitle" = "Cm";
+
+/* Class = "UISlider"; accessibilityLabel = "sld_Slider"; ObjectID = "6yR-bb-FVn"; */
+"6yR-bb-FVn.accessibilityLabel" = "sld_Slider";
+
+/* Class = "UILabel"; text = "Mode"; ObjectID = "7GB-0E-Rbq"; */
+"7GB-0E-Rbq.text" = "Modo";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_skip"; ObjectID = "7Mv-az-STo"; */
+"7Mv-az-STo.accessibilityLabel" = "btn_skip";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "7Mv-az-STo"; */
+"7Mv-az-STo.normalTitle" = "Omitir";
+
+/* Class = "UIViewController"; title = "Single Palette"; ObjectID = "7VX-5W-SMX"; */
+"7VX-5W-SMX.title" = "Paleta única";
+
+/* Class = "UIView"; accessibilityLabel = "vw_imageEffectsView"; ObjectID = "7X5-bb-Nss"; */
+"7X5-bb-Nss.accessibilityLabel" = "vw_imageEffectsView";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_Title"; ObjectID = "7dt-6d-xmF"; */
+"7dt-6d-xmF.accessibilityLabel" = "lbl_Title";
+
+/* Class = "UILabel"; text = "Blend"; ObjectID = "7dt-6d-xmF"; */
+"7dt-6d-xmF.text" = "Mezclar";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "7uH-kK-7aG"; */
+"7uH-kK-7aG.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "9Rp-d5-tIF"; */
+"9Rp-d5-tIF.accessibilityLabel" = "Compartir";
+
+/* (No Comment) */
+"9Rp-d5-tIF.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_saveDesign"; ObjectID = "9i9-Ad-Nt7"; */
+"9i9-Ad-Nt7.accessibilityLabel" = "lbl_saveDesign";
+
+/* Class = "UILabel"; text = "Save Design?"; ObjectID = "9i9-Ad-Nt7"; */
+"9i9-Ad-Nt7.text" = "¿Guardar diseño?";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_chooseAnEffect"; ObjectID = "9s8-Ya-zhy"; */
+"9s8-Ya-zhy.accessibilityLabel" = "lbl_chooseAnEffect";
+
+/* Class = "UILabel"; text = "Choose an effect"; ObjectID = "9s8-Ya-zhy"; */
+"9s8-Ya-zhy.text" = "Elegir un efecto";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "11d-tQ-owk"; */
+"11d-tQ-owk.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_wallpaperClick"; ObjectID = "58c-kZ-hrB"; */
+"58c-kZ-hrB.accessibilityLabel" = "btn_wallpaperClick";
+
+/* Class = "UIView"; accessibilityLabel = "vw_bottom_Bar"; ObjectID = "94o-YT-ycd"; */
+"94o-YT-ycd.accessibilityLabel" = "vw_bottom_Bar";
+
+/* (No Comment) */
+"APT-wf-ojA.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_redo"; ObjectID = "ARu-ep-XZm"; */
+"ARu-ep-XZm.accessibilityLabel" = "btn_redo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ARu-ep-XZm"; */
+"ARu-ep-XZm.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "BEi-Ct-i5T"; */
+"BEi-Ct-i5T.normalTitle" = "Terminar";
+
+/* Class = "UIView"; accessibilityLabel = "vw_3danaylsisView"; ObjectID = "Bhy-CE-XUR"; */
+"Bhy-CE-XUR.accessibilityLabel" = "vw_3danaylsisView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_delete"; ObjectID = "Bkg-Mi-sf4"; */
+"Bkg-Mi-sf4.accessibilityLabel" = "btn_delete";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Bkg-Mi-sf4"; */
+"Bkg-Mi-sf4.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_PaintCurve"; ObjectID = "BxO-4t-ZFm"; */
+"BxO-4t-ZFm.accessibilityLabel" = "btn_PaintCurve";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "BxO-4t-ZFm"; */
+"BxO-4t-ZFm.normalTitle" = "";
+
+/* Class = "UIButton"; disabledTitle = ""; ObjectID = "C1J-ry-UHD"; */
+"C1J-ry-UHD.disabledTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "C1J-ry-UHD"; */
+"C1J-ry-UHD.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_skip"; ObjectID = "C3M-Ru-Q5c"; */
+"C3M-Ru-Q5c.accessibilityLabel" = "btn_skip";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "C3M-Ru-Q5c"; */
+"C3M-Ru-Q5c.normalTitle" = "Omitir";
+
+/* Class = "UIView"; accessibilityLabel = "vw_catalogView"; ObjectID = "CDo-4D-Iib"; */
+"CDo-4D-Iib.accessibilityLabel" = "vw_catalogView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_saveDesign"; ObjectID = "CkA-Bb-vdn"; */
+"CkA-Bb-vdn.accessibilityLabel" = "btn_saveDesign";
+
+/* (No Comment) */
+"CkA-Bb-vdn.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Your wish list has been successfully created!"; ObjectID = "DKb-04-jI7"; */
+"DKb-04-jI7.text" = "La lista de deseos se ha creado correctamente.";
+
+/* Class = "UISlider"; accessibilityLabel = "sl_move_forward"; ObjectID = "E8L-Hk-gLc"; */
+"E8L-Hk-gLc.accessibilityLabel" = "sl_move_forward";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_colorName4"; ObjectID = "E63-9S-FrS"; */
+"E63-9S-FrS.accessibilityLabel" = "lbl_colorName4";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "E63-9S-FrS"; */
+"E63-9S-FrS.text" = "102-40";
+
+/* Class = "UIButton"; normalTitle = "Website >>"; ObjectID = "EGE-Bh-lNV"; */
+"EGE-Bh-lNV.normalTitle" = "Sitio web >>";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_floor_move"; ObjectID = "EmH-EH-Zuq"; */
+"EmH-EH-Zuq.accessibilityLabel" = "btn_floor_move";
+
+/* Class = "UIButton"; normalTitle = "Drag Floor"; ObjectID = "EmH-EH-Zuq"; */
+"EmH-EH-Zuq.normalTitle" = "Arrastrar suelo";
+
+/* Class = "UIView"; accessibilityLabel = "vw_RoomTypesView"; ObjectID = "Et1-PJ-5dW"; */
+"Et1-PJ-5dW.accessibilityLabel" = "vw_RoomTypesView";
+
+/* Class = "UIView"; accessibilityLabel = "vw_wallpaperPallet"; ObjectID = "Ewt-Gj-KQM"; */
+"Ewt-Gj-KQM.accessibilityLabel" = "vw_wallpaperPallet";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Walls"; ObjectID = "FGu-fa-oGF"; */
+"FGu-fa-oGF.accessibilityLabel" = "btn_Walls";
+
+/* Class = "UIButton"; normalTitle = "Real Scale"; ObjectID = "FGu-fa-oGF"; */
+"FGu-fa-oGF.normalTitle" = "Escala real";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Fpv-Ee-5no"; */
+"Fpv-Ee-5no.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_color1"; ObjectID = "G5h-8S-0x7"; */
+"G5h-8S-0x7.accessibilityLabel" = "btn_color1";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_roomName"; ObjectID = "GN7-8m-TuI"; */
+"GN7-8m-TuI.accessibilityLabel" = "lbl_roomName";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "GN7-8m-TuI"; */
+"GN7-8m-TuI.text" = "Título";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "GU7-Am-qoy"; */
+"GU7-Am-qoy.normalTitle" = "Restablecer";
+
+/* (No Comment) */
+"GsG-P8-M01.accessibilityLabel" = "btn_Walls";
+
+/* (No Comment) */
+"GsG-P8-M01.normalTitle" = "Muros";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_measure"; ObjectID = "Gxa-dF-tGg"; */
+"Gxa-dF-tGg.accessibilityLabel" = "btn_measure";
+
+/* Class = "UIButton"; normalTitle = "120 Cm"; ObjectID = "Gxa-dF-tGg"; */
+"Gxa-dF-tGg.normalTitle" = "120 cm";
+
+/* Class = "UIButton"; accessibilityLabel = "button_ft"; ObjectID = "Hgz-JQ-Oaf"; */
+"Hgz-JQ-Oaf.accessibilityLabel" = "button_ft";
+
+/* Class = "UIButton"; normalTitle = "Ft"; ObjectID = "Hgz-JQ-Oaf"; */
+"Hgz-JQ-Oaf.normalTitle" = "Pies";
+
+/* Class = "UIButton"; normalTitle = "Help"; ObjectID = "Hhc-hE-sA4"; */
+"Hhc-hE-sA4.normalTitle" = "Ayuda";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_company"; ObjectID = "Hnr-DU-BX6"; */
+"Hnr-DU-BX6.accessibilityLabel" = "cell_company";
+
+/* Class = "UIButton"; normalTitle = "2D"; ObjectID = "HzP-vH-QGR"; */
+"HzP-vH-QGR.normalTitle" = "2D";
+
+/* (No Comment) */
+"IMO-Fo-Wid.accessibilityLabel" = "btn_Floors";
+
+/* (No Comment) */
+"IMO-Fo-Wid.normalTitle" = "Mostrar rejilla";
+
+/* Class = "UISwitch"; accessibilityLabel = "switch_autorname"; ObjectID = "Il8-0t-whb"; */
+"Il8-0t-whb.accessibilityLabel" = "switch_autorname";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel"; ObjectID = "IsR-cx-gn0"; */
+"IsR-cx-gn0.accessibilityLabel" = "btn_cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "IsR-cx-gn0"; */
+"IsR-cx-gn0.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "JA5-Zj-P8J"; */
+"JA5-Zj-P8J.normalTitle" = "Terminar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_next"; ObjectID = "Jie-Mk-zVM"; */
+"Jie-Mk-zVM.accessibilityLabel" = "btn_next";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Jie-Mk-zVM"; */
+"Jie-Mk-zVM.normalTitle" = "Siguiente";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_paint"; ObjectID = "Jj0-jj-4rr"; */
+"Jj0-jj-4rr.accessibilityLabel" = "btn_paint";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Jj0-jj-4rr"; */
+"Jj0-jj-4rr.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_next"; ObjectID = "JoZ-9f-alp"; */
+"JoZ-9f-alp.accessibilityLabel" = "btn_next";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "JoZ-9f-alp"; */
+"JoZ-9f-alp.normalTitle" = "Siguiente";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_BeforeAfter"; ObjectID = "K7u-M1-KWx"; */
+"K7u-M1-KWx.accessibilityLabel" = "lbl_BeforeAfter";
+
+/* Class = "UILabel"; text = "Include Before & After"; ObjectID = "K7u-M1-KWx"; */
+"K7u-M1-KWx.text" = "Incluir antes y después";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_ProductDetails"; ObjectID = "LGf-Uc-YbX"; */
+"LGf-Uc-YbX.accessibilityLabel" = "btn_ProductDetails";
+
+/* Class = "UIButton"; normalTitle = "Details"; ObjectID = "LGf-Uc-YbX"; */
+"LGf-Uc-YbX.normalTitle" = "Detalles";
+
+/* Class = "UIView"; accessibilityLabel = "vw_paintPicker"; ObjectID = "LcY-jX-IzP"; */
+"LcY-jX-IzP.accessibilityLabel" = "vw_paintPicker";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_next"; ObjectID = "M0D-1S-sSf"; */
+"M0D-1S-sSf.accessibilityLabel" = "btn_next";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "M0D-1S-sSf"; */
+"M0D-1S-sSf.normalTitle" = "Siguiente";
+
+/* Class = "UIButton"; accessibilityLabel = "vw_viewBlocker"; ObjectID = "Mi5-VB-j7O"; */
+"Mi5-VB-j7O.accessibilityLabel" = "vw_viewBlocker";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_deleteItems"; ObjectID = "MvN-5W-K9R"; */
+"MvN-5W-K9R.accessibilityLabel" = "lbl_deleteItems";
+
+/* Class = "UILabel"; text = "Delete Items"; ObjectID = "MvN-5W-K9R"; */
+"MvN-5W-K9R.text" = "Suprimir elementos";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_public"; ObjectID = "N32-0Y-y5Q"; */
+"N32-0Y-y5Q.accessibilityLabel" = "lbl_public";
+
+/* Class = "UILabel"; text = "Public"; ObjectID = "N32-0Y-y5Q"; */
+"N32-0Y-y5Q.text" = "Público";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_realScale"; ObjectID = "NPi-ZR-fCM"; */
+"NPi-ZR-fCM.accessibilityLabel" = "btn_realScale";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "NPi-ZR-fCM"; */
+"NPi-ZR-fCM.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_adjustScaleHere"; ObjectID = "Nae-AJ-xKB"; */
+"Nae-AJ-xKB.accessibilityLabel" = "lbl_adjustScaleHere";
+
+/* Class = "UILabel"; text = "Adjust scale here"; ObjectID = "Nae-AJ-xKB"; */
+"Nae-AJ-xKB.text" = "Ajustar la escala aquí";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_new"; ObjectID = "O4H-t9-Pdb"; */
+"O4H-t9-Pdb.accessibilityLabel" = "lbl_new";
+
+/* Class = "UILabel"; text = "NEW!"; ObjectID = "O4H-t9-Pdb"; */
+"O4H-t9-Pdb.text" = "¡NUEVO!";
+
+/* Class = "UIView"; accessibilityLabel = "vw_imageEffectFinalView"; ObjectID = "OVN-qg-KTL"; */
+"OVN-qg-KTL.accessibilityLabel" = "vw_imageEffectFinalView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Contrast"; ObjectID = "OoJ-SO-1Qv"; */
+"OoJ-SO-1Qv.accessibilityLabel" = "btn_Contrast";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "OoJ-SO-1Qv"; */
+"OoJ-SO-1Qv.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Room Type"; ObjectID = "P6y-1z-kLq"; */
+"P6y-1z-kLq.text" = "Tipo de habitación";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_paint"; ObjectID = "P11-0A-YZa"; */
+"P11-0A-YZa.accessibilityLabel" = "btn_paint";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "P11-0A-YZa"; */
+"P11-0A-YZa.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Argument:"; ObjectID = "PRU-h1-Xyg"; */
+"PRU-h1-Xyg.text" = "Argumento:";
+
+/* Class = "UIView"; accessibilityLabel = "vw_controlsBottomBar"; ObjectID = "PRg-bq-dRu"; */
+"PRg-bq-dRu.accessibilityLabel" = "vw_controlsBottomBar";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_colorName3"; ObjectID = "PsE-Ix-cyk"; */
+"PsE-Ix-cyk.accessibilityLabel" = "lbl_colorName3";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "PsE-Ix-cyk"; */
+"PsE-Ix-cyk.text" = "102-40";
+
+/* Class = "UIButton"; normalTitle = "Size"; ObjectID = "Q1A-dI-Y57"; */
+"Q1A-dI-Y57.normalTitle" = "Tamaño";
+
+/* Class = "UIPickerView"; accessibilityLabel = "picker"; ObjectID = "Q3r-is-YEl"; */
+"Q3r-is-YEl.accessibilityLabel" = "selector";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_color4"; ObjectID = "QJQ-iG-s9U"; */
+"QJQ-iG-s9U.accessibilityLabel" = "btn_color4";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_twitter"; ObjectID = "QMa-SY-sWM"; */
+"QMa-SY-sWM.accessibilityLabel" = "btn_twitter";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "QMa-SY-sWM"; */
+"QMa-SY-sWM.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_selectCategory"; ObjectID = "Qz1-iA-6bf"; */
+"Qz1-iA-6bf.accessibilityLabel" = "lbl_selectCategory";
+
+/* Class = "UILabel"; text = "Select Category"; ObjectID = "Qz1-iA-6bf"; */
+"Qz1-iA-6bf.text" = "Seleccionar categoría";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_saveDesign"; ObjectID = "RFh-NX-OZF"; */
+"RFh-NX-OZF.accessibilityLabel" = "lbl_saveDesign";
+
+/* Class = "UILabel"; text = "Save Design"; ObjectID = "RFh-NX-OZF"; */
+"RFh-NX-OZF.text" = "Guardar diseño";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "ROK-is-e5A"; */
+"ROK-is-e5A.text" = "Compartir";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_adjust_cancel"; ObjectID = "Rc0-xj-Q9b"; */
+"Rc0-xj-Q9b.accessibilityLabel" = "btn_adjust_cancel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rc0-xj-Q9b"; */
+"Rc0-xj-Q9b.normalTitle" = "Botón";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_scale_value"; ObjectID = "Rdt-qo-7To"; */
+"Rdt-qo-7To.accessibilityLabel" = "btn_scale_value";
+
+/* Class = "UIButton"; highlightedTitle = " "; ObjectID = "Rdt-qo-7To"; */
+"Rdt-qo-7To.highlightedTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "50 Cm"; ObjectID = "Rdt-qo-7To"; */
+"Rdt-qo-7To.normalTitle" = "50 cm";
+
+/* Class = "UILabel"; text = ""; ObjectID = "Rnq-Zk-zHZ"; */
+"Rnq-Zk-zHZ.text" = "";
+
+/* Class = "UIView"; accessibilityLabel = "vw_catalog_tableView"; ObjectID = "Rqg-JK-euo"; */
+"Rqg-JK-euo.accessibilityLabel" = "vw_catalog_tableView";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_note"; ObjectID = "SJr-T2-44H"; */
+"SJr-T2-44H.accessibilityLabel" = "lbl_note";
+
+/* Class = "UILabel"; text = "You can change your name on your Profile Page by tapping \"Edit Profile\""; ObjectID = "SJr-T2-44H"; */
+"SJr-T2-44H.text" = "En su página de perfil, puede cambiar su nombre tocando \"Editar perfil\".";
+
+/* (No Comment) */
+"Six-O1-ScM.accessibilityLabel" = "btn_cancel";
+
+/* (No Comment) */
+"Six-O1-ScM.normalTitle" = "Atrás";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_done"; ObjectID = "T2A-BO-Rts"; */
+"T2A-BO-Rts.accessibilityLabel" = "btn_done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "T2A-BO-Rts"; */
+"T2A-BO-Rts.normalTitle" = "Terminar";
+
+/* (No Comment) */
+"Ta3-dx-04f.normalTitle" = "Listas de deseos";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Tx4-CE-Lw5"; */
+"Tx4-CE-Lw5.normalTitle" = "Cancelar";
+
+/* Class = "UISwitch"; accessibilityLabel = "switch_public"; ObjectID = "U5b-f9-03d"; */
+"U5b-f9-03d.accessibilityLabel" = "switch_public";
+
+/* Class = "UIViewController"; title = "Single Palette"; ObjectID = "UEc-JW-oVx"; */
+"UEc-JW-oVx.title" = "Paleta única";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_share"; ObjectID = "UHh-EL-Cc6"; */
+"UHh-EL-Cc6.accessibilityLabel" = "btn_share";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "UHh-EL-Cc6"; */
+"UHh-EL-Cc6.normalTitle" = "Compartir";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Brightness"; ObjectID = "Uaq-xT-Hxq"; */
+"Uaq-xT-Hxq.accessibilityLabel" = "btn_Brightness";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Uaq-xT-Hxq"; */
+"Uaq-xT-Hxq.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Uff-gr-Zaz"; */
+"Uff-gr-Zaz.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "V7A-yz-9Gk"; */
+"V7A-yz-9Gk.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel"; ObjectID = "Vnw-Q3-lXu"; */
+"Vnw-Q3-lXu.accessibilityLabel" = "btn_cancel";
+
+/* Class = "UIButton"; normalTitle = "Retake"; ObjectID = "Vnw-Q3-lXu"; */
+"Vnw-Q3-lXu.normalTitle" = "Volver a tomar";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_shareYourDesign"; ObjectID = "WHz-Mw-LMk"; */
+"WHz-Mw-LMk.accessibilityLabel" = "lbl_shareYourDesign";
+
+/* Class = "UILabel"; text = "Share Your Design"; ObjectID = "WHz-Mw-LMk"; */
+"WHz-Mw-LMk.text" = "Compartir su diseño";
+
+/* (No Comment) */
+"WOK-h8-eao.accessibilityLabel" = "btn_cancelStyleRoomSelection";
+
+/* (No Comment) */
+"WOK-h8-eao.normalTitle" = "Botón";
+
+/* Class = "UIButton"; normalTitle = "3D"; ObjectID = "WnL-Vh-9eX"; */
+"WnL-Vh-9eX.normalTitle" = "3D";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "XLf-ru-y9R"; */
+"XLf-ru-y9R.normalTitle" = "Aplicar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_3d_design_stream"; ObjectID = "XV9-o9-sNi"; */
+"XV9-o9-sNi.accessibilityLabel" = "btn_3d_design_stream";
+
+/* Class = "UIButton"; normalTitle = "CATALOG"; ObjectID = "XV9-o9-sNi"; */
+"XV9-o9-sNi.normalTitle" = "CATÁLOGO";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_front_wall_move"; ObjectID = "XVn-Zh-Sjg"; */
+"XVn-Zh-Sjg.accessibilityLabel" = "btn_front_wall_move";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "XVn-Zh-Sjg"; */
+"XVn-Zh-Sjg.normalTitle" = "Arrastrar muro";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_category_back"; ObjectID = "Xvt-TV-gnC"; */
+"Xvt-TV-gnC.accessibilityLabel" = "btn_category_back";
+
+/* Class = "UIButton"; normalTitle = "Brightness"; ObjectID = "YBL-PX-2Oa"; */
+"YBL-PX-2Oa.normalTitle" = "Brillo";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_shareYourDesign"; ObjectID = "YFm-ip-RVT"; */
+"YFm-ip-RVT.accessibilityLabel" = "lbl_shareYourDesign";
+
+/* Class = "UILabel"; text = "Share Your Design"; ObjectID = "YFm-ip-RVT"; */
+"YFm-ip-RVT.text" = "Compartir su diseño";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Paint"; ObjectID = "YQW-AP-mJq"; */
+"YQW-AP-mJq.accessibilityLabel" = "btn_Paint";
+
+/* Class = "UIButton"; normalTitle = "Paint"; ObjectID = "YQW-AP-mJq"; */
+"YQW-AP-mJq.normalTitle" = "Pintar";
+
+/* Class = "UISwitch"; accessibilityLabel = "switch_beforeAfter"; ObjectID = "YWQ-uo-ErL"; */
+"YWQ-uo-ErL.accessibilityLabel" = "switch_beforeAfter";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_color3"; ObjectID = "Yfh-ua-N8Z"; */
+"Yfh-ua-N8Z.accessibilityLabel" = "btn_color3";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_EffectClick"; ObjectID = "Ygp-Wm-Khc"; */
+"Ygp-Wm-Khc.accessibilityLabel" = "btn_EffectClick";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Ym7-qI-4g2"; */
+"Ym7-qI-4g2.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_left_wall_move"; ObjectID = "Ywu-UK-Nee"; */
+"Ywu-UK-Nee.accessibilityLabel" = "btn_left_wall_move";
+
+/* Class = "UIButton"; normalTitle = "Drag Wall"; ObjectID = "Ywu-UK-Nee"; */
+"Ywu-UK-Nee.normalTitle" = "Arrastrar muro";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Cancel"; ObjectID = "ZHW-Ah-bR0"; */
+"ZHW-Ah-bR0.accessibilityLabel" = "btn_Cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ZHW-Ah-bR0"; */
+"ZHW-Ah-bR0.normalTitle" = "Cancelar";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_BrandLogo"; ObjectID = "aT4-dK-tMm"; */
+"aT4-dK-tMm.accessibilityLabel" = "img_BrandLogo";
+
+/* Class = "UIView"; accessibilityLabel = "vw_colorPalletView"; ObjectID = "aYd-Hq-95q"; */
+"aYd-Hq-95q.accessibilityLabel" = "vw_colorPalletView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_undo"; ObjectID = "adH-74-3PV"; */
+"adH-74-3PV.accessibilityLabel" = "btn_undo";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "adH-74-3PV"; */
+"adH-74-3PV.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_roomName"; ObjectID = "awF-Qy-Gu7"; */
+"awF-Qy-Gu7.accessibilityLabel" = "lbl_roomName";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "awF-Qy-Gu7"; */
+"awF-Qy-Gu7.text" = "Título";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Facebook"; ObjectID = "bMM-FW-FbD"; */
+"bMM-FW-FbD.accessibilityLabel" = "btn_Facebook";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "bMM-FW-FbD"; */
+"bMM-FW-FbD.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "bOS-v3-a2b"; */
+"bOS-v3-a2b.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "bOS-v3-a2b"; */
+"bOS-v3-a2b.normalTitle" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "bQd-gE-v7f"; */
+"bQd-gE-v7f.text" = "";
+
+/* Class = "UIView"; accessibilityLabel = "vw_controlsBottomBar"; ObjectID = "bdF-CE-o9H"; */
+"bdF-CE-o9H.accessibilityLabel" = "vw_controlsBottomBar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_ProductClick"; ObjectID = "clp-Rj-7c9"; */
+"clp-Rj-7c9.accessibilityLabel" = "btn_ProductClick";
+
+/* Class = "UIButton"; normalTitle = "Advanced"; ObjectID = "cr3-nB-cO1"; */
+"cr3-nB-cO1.normalTitle" = "Avanzado";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_PaintLine"; ObjectID = "cwU-ss-pV9"; */
+"cwU-ss-pV9.accessibilityLabel" = "btn_PaintLine";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "cwU-ss-pV9"; */
+"cwU-ss-pV9.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "d3z-6c-XEk"; */
+"d3z-6c-XEk.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "dEp-Gq-lm0"; */
+"dEp-Gq-lm0.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_PaintFill"; ObjectID = "dOZ-z8-z01"; */
+"dOZ-z8-z01.accessibilityLabel" = "btn_PaintFill";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "dOZ-z8-z01"; */
+"dOZ-z8-z01.normalTitle" = "";
+
+/* Class = "UIButton"; selectedTitle = ""; ObjectID = "dOZ-z8-z01"; */
+"dOZ-z8-z01.selectedTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_rotate_Left"; ObjectID = "dXn-aW-7MH"; */
+"dXn-aW-7MH.accessibilityLabel" = "btn_rotate_Left";
+
+/* Class = "UIButton"; normalTitle = "Add your brand"; ObjectID = "eF1-Dh-eIU"; */
+"eF1-Dh-eIU.normalTitle" = "Agregue su marca";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_roomType"; ObjectID = "efu-D2-EgW"; */
+"efu-D2-EgW.accessibilityLabel" = "cell_roomType";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_roomType"; ObjectID = "ekc-MD-re0"; */
+"ekc-MD-re0.accessibilityLabel" = "cell_roomType";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_yes"; ObjectID = "fE4-rC-rVR"; */
+"fE4-rC-rVR.accessibilityLabel" = "btn_yes";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "fE4-rC-rVR"; */
+"fE4-rC-rVR.normalTitle" = "Sí";
+
+/* Class = "UILabel"; text = "Add to Wishlist"; ObjectID = "fI5-bD-wc8"; */
+"fI5-bD-wc8.text" = "Añadir de Wishlist";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Floors"; ObjectID = "fIH-pT-rBy"; */
+"fIH-pT-rBy.accessibilityLabel" = "btn_Floors";
+
+/* Class = "UIButton"; normalTitle = "Snap To Grid"; ObjectID = "fIH-pT-rBy"; */
+"fIH-pT-rBy.normalTitle" = "Forzar objetos a rejilla";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_ProductImage"; ObjectID = "fJB-fU-r7Z"; */
+"fJB-fU-r7Z.accessibilityLabel" = "img_ProductImage";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "fO4-uP-Xd8"; */
+"fO4-uP-Xd8.normalTitle" = "";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_CategoryName"; ObjectID = "fPV-i0-auH"; */
+"fPV-i0-auH.accessibilityLabel" = "lbl_CategoryName";
+
+/* (No Comment) */
+"fPV-i0-auH.text" = "Etiqueta";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_arrow_top"; ObjectID = "fU0-Lc-BYP"; */
+"fU0-Lc-BYP.accessibilityLabel" = "btn_arrow_top";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_ProductName"; ObjectID = "ff6-PP-Cg3"; */
+"ff6-PP-Cg3.accessibilityLabel" = "lbl_ProductName";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Done"; ObjectID = "fvd-lq-VHK"; */
+"fvd-lq-VHK.accessibilityLabel" = "btn_Done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "fvd-lq-VHK"; */
+"fvd-lq-VHK.normalTitle" = "Terminar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_rightTape"; ObjectID = "g3P-Q0-WZg"; */
+"g3P-Q0-WZg.accessibilityLabel" = "btn_rightTape";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_leftTape"; ObjectID = "g9h-h8-XRq"; */
+"g9h-h8-XRq.accessibilityLabel" = "btn_leftTape";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_color2"; ObjectID = "gBI-Y1-THd"; */
+"gBI-Y1-THd.accessibilityLabel" = "btn_color2";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_select_room"; ObjectID = "gJh-SH-ahH"; */
+"gJh-SH-ahH.accessibilityLabel" = "btn_select_room";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "gJh-SH-ahH"; */
+"gJh-SH-ahH.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_arrow_bottom"; ObjectID = "ga0-7W-yyT"; */
+"ga0-7W-yyT.accessibilityLabel" = "btn_arrow_bottom";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_style"; ObjectID = "gcO-b4-jap"; */
+"gcO-b4-jap.accessibilityLabel" = "lbl_style";
+
+/* Class = "UILabel"; text = "Style"; ObjectID = "gcO-b4-jap"; */
+"gcO-b4-jap.text" = "Estilo";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_EffectName"; ObjectID = "gnv-Yd-zFv"; */
+"gnv-Yd-zFv.accessibilityLabel" = "lbl_EffectName";
+
+/* Class = "UILabel"; text = "Name Your Wish List"; ObjectID = "gpE-hi-bAu"; */
+"gpE-hi-bAu.text" = "Dar nombre a la lista de deseos";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_SaveDesign"; ObjectID = "h34-g0-tDN"; */
+"h34-g0-tDN.accessibilityLabel" = "lbl_SaveDesign";
+
+/* Class = "UILabel"; text = "Save Design"; ObjectID = "h34-g0-tDN"; */
+"h34-g0-tDN.text" = "Guardar diseño";
+
+/* Class = "UIView"; accessibilityLabel = "vw_RoomTypesView"; ObjectID = "hkp-cM-53O"; */
+"hkp-cM-53O.accessibilityLabel" = "vw_RoomTypesView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel"; ObjectID = "hr6-Rw-zLI"; */
+"hr6-Rw-zLI.accessibilityLabel" = "btn_cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hr6-Rw-zLI"; */
+"hr6-Rw-zLI.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel"; ObjectID = "huy-OX-KdV"; */
+"huy-OX-KdV.accessibilityLabel" = "btn_cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "huy-OX-KdV"; */
+"huy-OX-KdV.normalTitle" = "Cancelar";
+
+/* (No Comment) */
+"hzT-7l-wgW.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_arrow_left"; ObjectID = "i1D-o2-ZFX"; */
+"i1D-o2-ZFX.accessibilityLabel" = "btn_arrow_left";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancelStyleRoomSelection"; ObjectID = "i7V-01-OIT"; */
+"i7V-01-OIT.accessibilityLabel" = "btn_cancelStyleRoomSelection";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i7V-01-OIT"; */
+"i7V-01-OIT.normalTitle" = "Botón";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Remove"; ObjectID = "iBB-NY-hda"; */
+"iBB-NY-hda.accessibilityLabel" = "btn_Remove";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "iBB-NY-hda"; */
+"iBB-NY-hda.normalTitle" = "Eliminar";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_centerTape"; ObjectID = "if0-1h-MzG"; */
+"if0-1h-MzG.accessibilityLabel" = "btn_centerTape";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_save"; ObjectID = "jUt-3G-YKv"; */
+"jUt-3G-YKv.accessibilityLabel" = "btn_save";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "jUt-3G-YKv"; */
+"jUt-3G-YKv.normalTitle" = "Guardar";
+
+/* Class = "UIButton"; normalTitle = "Catalog"; ObjectID = "jr7-qD-9fR"; */
+"jr7-qD-9fR.normalTitle" = "Catálogo";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_ProductCatalog"; ObjectID = "kNz-30-QMg"; */
+"kNz-30-QMg.accessibilityLabel" = "lbl_ProductCatalog";
+
+/* Class = "UILabel"; text = "Product Catalog"; ObjectID = "kNz-30-QMg"; */
+"kNz-30-QMg.text" = "Catálogo de productos";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_container"; ObjectID = "laG-Nr-eFg"; */
+"laG-Nr-eFg.accessibilityLabel" = "img_container";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_default"; ObjectID = "mCM-dm-F45"; */
+"mCM-dm-F45.accessibilityLabel" = "btn_default";
+
+/* Class = "UIButton"; normalTitle = "Default"; ObjectID = "mCM-dm-F45"; */
+"mCM-dm-F45.normalTitle" = "Predeterminado";
+
+/* (No Comment) */
+"mEE-tf-JrV.accessibilityLabel" = "btn_Floors";
+
+/* (No Comment) */
+"mEE-tf-JrV.normalTitle" = "Suelos";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_errorMessage"; ObjectID = "mvY-ZO-ilC"; */
+"mvY-ZO-ilC.accessibilityLabel" = "lbl_errorMessage";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_viewBlocker"; ObjectID = "nAl-AN-7on"; */
+"nAl-AN-7on.accessibilityLabel" = "btn_viewBlocker";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_loadingBlocker"; ObjectID = "nMW-54-d17"; */
+"nMW-54-d17.accessibilityLabel" = "btn_loadingBlocker";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back"; ObjectID = "oCR-qq-ihf"; */
+"oCR-qq-ihf.accessibilityLabel" = "btn_back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "oCR-qq-ihf"; */
+"oCR-qq-ihf.normalTitle" = "Atrás";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_subCategory"; ObjectID = "oEg-mi-EOt"; */
+"oEg-mi-EOt.accessibilityLabel" = "cell_subCategory";
+
+/* Class = "UIView"; accessibilityLabel = "vw_singleProduct"; ObjectID = "p2V-hA-rIR"; */
+"p2V-hA-rIR.accessibilityLabel" = "vw_singleProduct";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_CompanyLogo"; ObjectID = "pF4-Dv-ofq"; */
+"pF4-Dv-ofq.accessibilityLabel" = "img_CompanyLogo";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Paint"; ObjectID = "pLP-cA-iX0"; */
+"pLP-cA-iX0.accessibilityLabel" = "btn_Paint";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "pLP-cA-iX0"; */
+"pLP-cA-iX0.normalTitle" = "APLICAR";
+
+/* Class = "UIView"; accessibilityLabel = "vw_warningHolder"; ObjectID = "pLq-o2-pBK"; */
+"pLq-o2-pBK.accessibilityLabel" = "vw_warningHolder";
+
+/* Class = "UILabel"; text = ""; ObjectID = "pes-VN-YH4"; */
+"pes-VN-YH4.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_rotate_right"; ObjectID = "qlk-He-Igf"; */
+"qlk-He-Igf.accessibilityLabel" = "btn_rotate_right";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "rU0-ET-Nz9"; */
+"rU0-ET-Nz9.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Walls"; ObjectID = "rdI-Tc-1S3"; */
+"rdI-Tc-1S3.accessibilityLabel" = "btn_Walls";
+
+/* Class = "UIButton"; normalTitle = "Concealer"; ObjectID = "rdI-Tc-1S3"; */
+"rdI-Tc-1S3.normalTitle" = "Cobertor";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "cell_rootCell"; ObjectID = "rez-WM-np4"; */
+"rez-WM-np4.accessibilityLabel" = "cell_rootCell";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_realScale"; ObjectID = "rgb-Iy-RpI"; */
+"rgb-Iy-RpI.accessibilityLabel" = "lbl_realScale";
+
+/* Class = "UILabel"; text = "Grid"; ObjectID = "rgb-Iy-RpI"; */
+"rgb-Iy-RpI.text" = "Rejilla";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rlt-SJ-L90"; */
+"rlt-SJ-L90.text" = "Etiqueta";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_loading"; ObjectID = "ryd-UB-DUx"; */
+"ryd-UB-DUx.accessibilityLabel" = "img_loading";
+
+/* Class = "UITextView"; accessibilityLabel = "txt_shareMessage"; ObjectID = "sNU-HP-NhI"; */
+"sNU-HP-NhI.accessibilityLabel" = "txt_shareMessage";
+
+/* Class = "UIButton"; normalTitle = "Texture"; ObjectID = "sRw-ff-itg"; */
+"sRw-ff-itg.normalTitle" = "Textura";
+
+/* Class = "UILabel"; text = ""; ObjectID = "srD-gN-MaE"; */
+"srD-gN-MaE.text" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Reset"; ObjectID = "swD-bj-Obg"; */
+"swD-bj-Obg.accessibilityLabel" = "btn_Reset";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "swD-bj-Obg"; */
+"swD-bj-Obg.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_Floors"; ObjectID = "tCs-oW-ojP"; */
+"tCs-oW-ojP.accessibilityLabel" = "btn_Floors";
+
+/* Class = "UIButton"; normalTitle = "Brightness"; ObjectID = "tCs-oW-ojP"; */
+"tCs-oW-ojP.normalTitle" = "Brillo";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_finalEffectImage"; ObjectID = "tHo-Xz-Zyc"; */
+"tHo-Xz-Zyc.accessibilityLabel" = "img_finalEffectImage";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_colorName2"; ObjectID = "tXM-hu-qAf"; */
+"tXM-hu-qAf.accessibilityLabel" = "lbl_colorName2";
+
+/* Class = "UILabel"; text = "102-40"; ObjectID = "tXM-hu-qAf"; */
+"tXM-hu-qAf.text" = "102-40";
+
+/* Class = "UISlider"; accessibilityLabel = "sl_rotate"; ObjectID = "tXP-Zv-SQC"; */
+"tXP-Zv-SQC.accessibilityLabel" = "sl_rotate";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cancelStyleRoomSelection"; ObjectID = "uE3-Lb-hTw"; */
+"uE3-Lb-hTw.accessibilityLabel" = "btn_cancelStyleRoomSelection";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uE3-Lb-hTw"; */
+"uE3-Lb-hTw.normalTitle" = "Botón";
+
+/* (No Comment) */
+"vME-3Q-gdA.accessibilityLabel" = "btn_menu";
+
+/* (No Comment) */
+"vME-3Q-gdA.normalTitle" = "";
+
+/* Class = "UITextField"; accessibilityLabel = "txt_title"; ObjectID = "vNL-XQ-2v3"; */
+"vNL-XQ-2v3.accessibilityLabel" = "txt_title";
+
+/* Class = "UITextField"; placeholder = "Design title"; ObjectID = "vNL-XQ-2v3"; */
+"vNL-XQ-2v3.placeholder" = "Título del diseño";
+
+/* Class = "UIView"; accessibilityLabel = "vw_bottomBar"; ObjectID = "w0e-vf-BOq"; */
+"w0e-vf-BOq.accessibilityLabel" = "vw_bottomBar";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_subcategoryName"; ObjectID = "wzD-nH-2Nx"; */
+"wzD-nH-2Nx.accessibilityLabel" = "lbl_subcategoryName";
+
+/* (No Comment) */
+"wzD-nH-2Nx.text" = "Etiqueta";
+
+/* Class = "UIButton"; normalTitle = "Create New Wishlist"; ObjectID = "xDq-q1-hUX"; */
+"xDq-q1-hUX.normalTitle" = "Crear nueva lista de deseos";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xsP-CW-6VQ"; */
+"xsP-CW-6VQ.text" = "Etiqueta";
+
+/* Class = "UIView"; accessibilityLabel = "vw_saveDeisgnView"; ObjectID = "yHq-NM-0AV"; */
+"yHq-NM-0AV.accessibilityLabel" = "vw_saveDeisgnView";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_adjust"; ObjectID = "z3o-fe-A8u"; */
+"z3o-fe-A8u.accessibilityLabel" = "btn_adjust";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "z3o-fe-A8u"; */
+"z3o-fe-A8u.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "zUJ-Dd-eG0"; */
+"zUJ-Dd-eG0.normalTitle" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "zyg-SL-JKl"; */
+"zyg-SL-JKl.text" = "";
+

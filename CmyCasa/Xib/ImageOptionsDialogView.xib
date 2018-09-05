@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ImageOptionsDialogView">
+            <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.30000001192092896" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xxg-D1-TME" userLabel="bg">
+                    <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mON-gx-17r" userLabel="btnClose">
+                    <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="closeImageOptionsDialogView:" destination="iN0-l3-epB" eventType="touchUpInside" id="aYQ-Un-o2q"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Opv-ec-qbf" userLabel="ImageOptionsDialog">
+                    <rect key="frame" x="296" y="141.66666666666666" width="220" height="92"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwX-T5-bmU" customClass="HSNUIIconLabelButton">
+                            <rect key="frame" x="0.0" y="0.0" width="220" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration" label="btn_paint_main_view"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="60" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Concealer">
+                                <color key="titleColor" red="0.45496061444282532" green="0.45520555973052979" blue="0.44684135913848877" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" backgroundImage="iph_wall_paint_popup_paint_btn_pressed.png"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsButtonSelectionBackground:General_DialogsClickableTextColor:Redesign_Paint_option_text"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="iconDefaultHexValue" value=""/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="iconNuiClass" value="General_DialogsIcon:Redesign_Paint_option"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="concealerClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="zKM-G2-dfO"/>
+                            </connections>
+                        </button>
+                        <view alpha="0.10000000149011612" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TCD-JC-RVv" userLabel="View - Seperator">
+                            <rect key="frame" x="0.0" y="46" width="220" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="HorizontalSeperator"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmo-wY-6YE" customClass="HSNUIIconLabelButton">
+                            <rect key="frame" x="0.0" y="47" width="220" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                            <accessibility key="accessibilityConfiguration" label="btn_wallpaper_main_view"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="60" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Brightness">
+                                <color key="titleColor" red="0.45496061444282532" green="0.45520555973052979" blue="0.44684135913848877" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" backgroundImage="iph_wall_paint_popup_wall_btn_pressed.png"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsButtonSelectionBackground:General_DialogsClickableTextColor:Redesign_Paint_option_text"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="iconDefaultHexValue" value=""/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="iconNuiClass" value="General_DialogsIcon:Redesign_Paint_option"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="brightnessClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="cdq-dw-bVg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="Du6-dY-LGO"/>
+                        <constraint firstAttribute="width" constant="220" id="P1i-YP-XTk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsBackgroundColor"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Opv-ec-qbf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CBS-Jh-1HG"/>
+                <constraint firstItem="Opv-ec-qbf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IJJ-7T-Xkm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="_brightnessBtn" destination="wmo-wY-6YE" id="aV2-5v-wUT"/>
+                <outlet property="_concealerBtn" destination="NwX-T5-bmU" id="7Tv-bI-jV8"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="iph_wall_paint_popup_paint_btn_pressed.png" width="340" height="92"/>
+        <image name="iph_wall_paint_popup_wall_btn_pressed.png" width="340" height="92"/>
+    </resources>
+</document>

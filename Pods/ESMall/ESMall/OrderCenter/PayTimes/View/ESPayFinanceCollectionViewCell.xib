@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ESPayFinanceCollectionViewCell" id="gTV-IL-0wX" customClass="ESPayFinanceCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="456" height="62"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1M-kv-ask">
+                        <rect key="frame" x="207" y="10" width="42" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8sY-gh-gDP">
+                        <rect key="frame" x="5" y="31" width="445" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8sY-gh-gDP" firstAttribute="top" secondItem="o1M-kv-ask" secondAttribute="bottom" constant="5" id="0YO-Mt-YKz"/>
+                <constraint firstItem="8sY-gh-gDP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Cpk-He-id6"/>
+                <constraint firstItem="8sY-gh-gDP" firstAttribute="height" secondItem="o1M-kv-ask" secondAttribute="height" id="JIL-Lw-aYQ"/>
+                <constraint firstAttribute="trailing" secondItem="8sY-gh-gDP" secondAttribute="trailing" constant="6" id="MCx-ae-WEq"/>
+                <constraint firstItem="8sY-gh-gDP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="aZI-ER-xNs"/>
+                <constraint firstItem="o1M-kv-ask" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="byg-rF-R1U"/>
+                <constraint firstItem="o1M-kv-ask" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="mlG-ig-ijY"/>
+                <constraint firstAttribute="bottom" secondItem="8sY-gh-gDP" secondAttribute="bottom" constant="15" id="yXK-g0-Jli"/>
+            </constraints>
+            <size key="customSize" width="456" height="62"/>
+            <connections>
+                <outlet property="paySubTitleLabel" destination="8sY-gh-gDP" id="Men-7z-E7B"/>
+                <outlet property="payTitleLabel" destination="o1M-kv-ask" id="65b-O1-gBv"/>
+            </connections>
+            <point key="canvasLocation" x="-182" y="-105"/>
+        </collectionViewCell>
+    </objects>
+</document>

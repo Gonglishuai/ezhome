@@ -1,0 +1,90 @@
+/* Class = "UIButton"; accessibilityLabel = "btn_cancel_picker_prof_index"; ObjectID = "5cX-JE-MCU"; */
+"5cX-JE-MCU.accessibilityLabel" = "btn_cancel_picker_prof_index";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "5cX-JE-MCU"; */
+"5cX-JE-MCU.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_back_protolio"; ObjectID = "8zq-fG-0Ia"; */
+"8zq-fG-0Ia.accessibilityLabel" = "btn_back_protolio";
+
+/* (No Comment) */
+"8zq-fG-0Ia.normalTitle" = "";
+
+/* (No Comment) */
+"Dw4-hi-Ula.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_open_menu_prof_index"; ObjectID = "E9o-b3-AIB"; */
+"E9o-b3-AIB.accessibilityLabel" = "btn_open_menu_prof_index";
+
+/* Class = "UIButton"; highlightedTitle = ""; ObjectID = "E9o-b3-AIB"; */
+"E9o-b3-AIB.highlightedTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "E9o-b3-AIB"; */
+"E9o-b3-AIB.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_done_picker_prof_index"; ObjectID = "HXc-Zf-Gk3"; */
+"HXc-Zf-Gk3.accessibilityLabel" = "btn_done_picker_prof_index";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "HXc-Zf-Gk3"; */
+"HXc-Zf-Gk3.normalTitle" = "Done";
+
+/* (No Comment) */
+"KIa-BN-Xh6.text" = "Phone:";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Krs-pc-R7x"; */
+"Krs-pc-R7x.text" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_more_protolio"; ObjectID = "NHN-u9-Xst"; */
+"NHN-u9-Xst.accessibilityLabel" = "btn_more_protolio";
+
+/* Class = "UIButton"; normalTitle = "More..."; ObjectID = "NHN-u9-Xst"; */
+"NHN-u9-Xst.normalTitle" = "More...";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "O7J-fg-6PL"; */
+"O7J-fg-6PL.text" = "0";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_contact_protolio"; ObjectID = "PZA-wV-zUY"; */
+"PZA-wV-zUY.accessibilityLabel" = "btn_contact_protolio";
+
+/* Class = "UIButton"; normalTitle = "Contact Details"; ObjectID = "PZA-wV-zUY"; */
+"PZA-wV-zUY.normalTitle" = "Contact Details";
+
+/* Class = "UIButton"; normalTitle = "Website"; ObjectID = "QYZ-9b-REX"; */
+"QYZ-9b-REX.normalTitle" = "Website";
+
+/* Class = "UILabel"; text = "Professional Portfolio"; ObjectID = "TpQ-IZ-dpN"; */
+"TpQ-IZ-dpN.text" = "Professional Portfolio";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_profession_prof_index"; ObjectID = "VN9-6g-PJ8"; */
+"VN9-6g-PJ8.accessibilityLabel" = "btn_profession_prof_index";
+
+/* Class = "UIButton"; normalTitle = "Profession"; ObjectID = "VN9-6g-PJ8"; */
+"VN9-6g-PJ8.normalTitle" = "Profession";
+
+/* Class = "UILabel"; text = "Portfolio"; ObjectID = "YXE-Ov-zBg"; */
+"YXE-Ov-zBg.text" = "Portfolio";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "eD0-gR-bvt"; */
+"eD0-gR-bvt.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Email"; ObjectID = "iD1-bd-S2H"; */
+"iD1-bd-S2H.normalTitle" = "Email";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "kBh-xI-UcG"; */
+"kBh-xI-UcG.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_location_prof_index"; ObjectID = "mv5-Yg-A5i"; */
+"mv5-Yg-A5i.accessibilityLabel" = "btn_location_prof_index";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "mv5-Yg-A5i"; */
+"mv5-Yg-A5i.normalTitle" = "Location";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_add_to_protfolio_prof_index"; ObjectID = "qhi-cZ-7SY"; */
+"qhi-cZ-7SY.accessibilityLabel" = "btn_add_to_protfolio_prof_index";
+
+/* Class = "UIButton"; normalTitle = "Add Your Portfolio"; ObjectID = "qhi-cZ-7SY"; */
+"qhi-cZ-7SY.normalTitle" = "Add Your Portfolio";
+
+/* (No Comment) */
+"uvf-Hh-IZF.text" = "Phone:";
+

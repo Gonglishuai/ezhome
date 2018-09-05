@@ -1,0 +1,57 @@
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "0wW-Rs-an8"; */
+"0wW-Rs-an8.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "1Xs-76-FW8"; */
+"1Xs-76-FW8.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "4vl-qv-tzv"; */
+"4vl-qv-tzv.normalTitle" = "SUBMIT";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "5ZF-fc-J7S"; */
+"5ZF-fc-J7S.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9uB-cJ-2DZ"; */
+"9uB-cJ-2DZ.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "BFy-1T-XWZ"; */
+"BFy-1T-XWZ.text" = "Express your creativity, find inspiration                    and make smarter home design choices, faster.";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choises, faster."; ObjectID = "CFz-CH-Skh"; */
+"CFz-CH-Skh.text" = "Express your creativity, find inspiration                    and make smarter home design choises, faster.";
+
+/* (No Comment) */
+"FRk-9O-K9C.normalTitle" = "Register with Google+";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "LB3-mh-WhR"; */
+"LB3-mh-WhR.text" = "Register or Log In";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "NXX-gf-Lki"; */
+"NXX-gf-Lki.text" = "Register or log in via your email address";
+
+/* Class = "UIButton"; normalTitle = "Forgot Your Password?"; ObjectID = "P81-v8-FeB"; */
+"P81-v8-FeB.normalTitle" = "Forgot Your Password?";
+
+/* Class = "UIButton"; normalTitle = "Register with your Email"; ObjectID = "PN5-bP-3Ql"; */
+"PN5-bP-3Ql.normalTitle" = "Email";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "T7U-4G-W1G"; */
+"T7U-4G-W1G.normalTitle" = "SUBMIT";
+
+/* Class = "UIButton"; normalTitle = "Register with Facebook"; ObjectID = "Zzn-uu-7cs"; */
+"Zzn-uu-7cs.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "cZm-Rw-nf0"; */
+"cZm-Rw-nf0.normalTitle" = "Back";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "f5N-0J-wQ1"; */
+"f5N-0J-wQ1.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Express your creativity, find inspiration                    and make smarter home design choices, faster."; ObjectID = "p3G-Bx-F4I"; */
+"p3G-Bx-F4I.text" = "Express your creativity, find inspiration                    and make smarter home design choices, faster.";
+
+/* Class = "UILabel"; text = "Register or Log In"; ObjectID = "pw8-eN-sBJ"; */
+"pw8-eN-sBJ.text" = "Register or Log In";
+
+/* Class = "UILabel"; text = "Register or Log in with your Email"; ObjectID = "yly-ch-K4N"; */
+"yly-ch-K4N.text" = "Register or log in via your email address";
+

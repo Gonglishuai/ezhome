@@ -1,0 +1,203 @@
+//
+// Prefix header for all source files of the 'CmyCasa' target in the 'CmyCasa' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#define IS_RETINA() ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] == YES && [[UIScreen mainScreen] scale] == 2.00)
+
+#define IS_PHONEPOD5() ([[UIScreen mainScreen] bounds].size.height == 568.0f || [[UIScreen mainScreen] bounds].size.width == 568.0f) 
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad)
+#define IS_IOS8_OR_GREATER ([[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending)
+
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#define MEMORY_BLOCKER_FOR_POOR_ONCES  4000
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "HSViewController.h"
+    #import "UIImagePickerController+hideStatusBar.h"
+    #import "UserSettingsPreferences.h"
+//    #import "GAITrackedViewController.h"
+    #import "UINavigationController+Contains.h"
+    #import "HSEnumsDefs.h"
+    #import "NSString+EmailValidation.h"
+    #import "NotificationAdditions.h"
+    #import "LocalErrorCodes.h"
+    #import "UIImage+SafeFileLoading.h"
+    #import "NSString+HexColor.h"
+    #import "NSString+JSONHelpers.h"
+    #import "NSString+ImageResizer.h"
+    #import "UIMenuManager.h"
+    #import "HCFacebookManager.h"
+    #import "HelpManager.h"
+    #import "ConfigManager.h"
+    #import "FlurryDefs.h"
+    #import "HSErrorsManager.h"
+    #import "ErrorDO.h"
+    #import "AppCore.h"
+    #import "ColorsManager.h"
+//    #import "HSFlurry.h"
+    #import "HSMacros.h"
+    #import "UserManager.h"
+    #import "UIScreen+Bounds.h"
+    #import "UIView+ReloadUI.h"
+    #import <HockeySDK/BITHockeyManagerDelegate.h>
+#import "CoStringManager.h"
+
+
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+/// 屏幕适配的百分比, 以iPhone6为标准
+#define SCREEN_SCALE (SCREEN_WIDTH / 375.0f)
+#define TABBAR_HEIGHT 49
+#define STATUSBAR_HEIGHT ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define NAVBAR_HEIGHT (STATUSBAR_HEIGHT+44)
+#define DECORATION_SEGMENT_HEIGHT 40
+#define SIZEWIDTH(W) (W * SCREEN_SCALE)//按width比例计算尺寸
+#define IOS11            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 11.0)
+
+
+#import "MPImages.h"
+#import "AppDelegate.h"
+#import "AFNetworking.h"
+#import "SHAppGlobal.h"
+#import "UIColor+Stec.h"
+#import "UIFont+Stec.h"
+#import "JRNetEnvConfig.h"
+#import <ESNetworking/SHAlertView.h>
+#import <ESFoundation/DefaultSetting.h>
+#import <MGJRouter.h>
+#import <ESFoundation/ESLoginManager.h>
+#import <ESNetworking/JRKeychain.h>
+#import <ESNetworking/JRNetEnvConfig.h>
+//#import <tingyunApp/NBSAppAgent.h>
+#import "SHAppGlobal.h"
+
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "ESMBProgressToast.h"
+
+#import "ESAPPNameNotification.h"
+
+#if DEBUG
+#define SHEJIJIA_HOST                       @"aly-uat-api.homestyler.com"
+#define SHEJIJIA_WEB_HOST                   @"uat-www.homestyler.com/cn"
+#define M_SHEJIJIA_HOST                     @"uat-m.homestyler.com/cn"
+#define BBS_HOME_URL                        @"uat-bbs.homestyler.com/cn"
+#define DIARY_URL                           @"uat-bbs.homestyler.com/cn/post/3"
+#define DESIGN_URL                          @"uat-bbs.homestyler.com/cn/post/2"
+#define PAY_THE_CONTRACT_HTML               @"uat-m.homestyler.com/cn/construction"
+///图片host
+#define SHEJIJIA_IMG_HOST                    @"shejijia-uat.oss-cn-beijing.aliyuncs.com"
+
+//#define SHEJIJIA_HOST                       @"aly-alpha-api.homestyler.com"
+//#define SHEJIJIA_WEB_HOST                   @"alpha-www.homestyler.com/cn"
+//#define M_SHEJIJIA_HOST                     @"alpha-m.homestyler.com/cn"
+//#define BBS_HOME_URL                        @"alpha-bbs.homestyler.com/cn"
+//#define DIARY_URL                           @"alpha-bbs.homestyler.com/cn/post/3"
+//#define DESIGN_URL                          @"alpha-bbs.homestyler.com/cn/post/2"
+//#define PAY_THE_CONTRACT_HTML               @"alpha-m.homestyler.com/cn/construction"
+/////图片host
+//#define SHEJIJIA_IMG_HOST                    @"shejijia-alpha.oss-cn-beijing.aliyuncs.com"
+
+// 环境标识
+#define ENV_FLAG                  @"uat"
+#else
+#define SHEJIJIA_HOST                        @"api.homestyler.com"
+#define SHEJIJIA_WEB_HOST                    @"www.homestyler.com/cn"
+#define M_SHEJIJIA_HOST                      @"m.homestyler.com/cn"
+#define BBS_HOME_URL                         @"bbs.homestyler.com/cn"
+#define DIARY_URL                            @"bbs.homestyler.com/cn/post/3"
+#define DESIGN_URL                           @"bbs.homestyler.com/cn/post/2"
+#define PAY_THE_CONTRACT_HTML                @"m.homestyler.com/cn/construction"
+/////图片host
+#define SHEJIJIA_IMG_HOST                    @"img.homestyler.com"
+/// 环境标识
+#define ENV_FLAG                  @""
+
+#endif
+
+#define APP_TYPE                  @"Shejijia"
+
+
+
+
+///Json
+//论坛
+#define BBS_URL                   @"download.homestyler.com/shejijia-consumer-app/discuz-alpha/bbs_url.json"
+//App配置文件
+#define APP_CONFIG_URL            @"app-config.homestyler.com/alp/consumer_app_config.json"
+
+//===================== 第三方 =====================//
+/// 高德
+#define AMAP_KEY                   @"2a9b49d56f42ce615f142232037e5973"
+/// 微博
+#define WEIBO_KEY                  @"3945678701"
+#define WEIBO_REDIRECT_URI         @"www.sina.com"
+/// 银联
+#define UPAPAY_SCHEME              @"upapay82c5a1b3c7a6eedd"
+/// 微信
+#define WX_APP_KEY                 @"wx600dd680c128eff4"
+/// 友盟
+#define UMENG_APP_KEY              @"5a73dd798f4a9d0c46000083"
+#define UMEMNG_CHANNEL_ID          @"A_dev_environment"
+
+
+
+
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+
+#define APP_CONFIG_ENV_PRODUCTION  3
+#define APP_CONFIG_ENV_SERVER_RENDER_PROD 4
+
+#if APP_CONFIG_ENV == APP_CONFIG_ENV_SERVER_RENDER_PROD
+    #define SERVER_RENDERING
+#endif
+
+// Macro wrapper for NSLog only if debug mode has been enabled
+#if APP_CONFIG_ENV == APP_CONFIG_ENV_PRODUCTION
+    #define HSMDebugLog(...)
+#else
+    #define HSMDebugLog(fmt,...) NSLog(@"%@",[NSString stringWithFormat:(fmt), ##__VA_ARGS__]);
+
+// If debug mode hasn't been enabled, don't do anything when the macro is called
+
+#endif
+
+// Log using the same parameters above but include the function name and source code line number in the log statement
+#if APP_CONFIG_ENV == APP_CONFIG_ENV_PRODUCTION
+    #define HSMDebugLogDetailed(...)
+#else
+    #define HSMDebugLogDetailed(fmt, ...) NSLog((@"Func: %s, Line: %d, " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#endif
+
+// This macro will create a detailed log message and run even during a production build
+#define HSMDetailedLog(fmt, ...) NSLog((@"Func: %s, Line: %d, " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#endif
+
+#define  MAX_RETRY 3
+
+
+

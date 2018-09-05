@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Medium</string>
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESProductDetailBrandCell" rowHeight="192" id="KGk-i7-Jjw" customClass="ESProductDetailBrandCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="191.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="品牌介绍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PsY-Ag-4rL">
+                        <rect key="frame" x="20" y="28" width="210" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="16y-Hh-YnZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="16"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lWh-c1-90z">
+                        <rect key="frame" x="20" y="79" width="38" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="0tE-Aw-2Aq"/>
+                            <constraint firstAttribute="width" constant="38" id="DDw-fL-q08"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtz-RR-611">
+                        <rect key="frame" x="68" y="87.5" width="232" height="0.0"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                        <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fib-HI-7tA">
+                        <rect key="frame" x="20" y="132" width="280" height="36.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="xek-TO-dEf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                        <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeN-Jq-WJ4">
+                        <rect key="frame" x="230" y="28" width="72" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="72" id="Jq3-t2-2pd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="10" minY="-1" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="咨询" image="brand_chat">
+                            <color key="titleColor" red="0.21568627450980393" green="0.63137254901960782" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="chatButtonDidTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AFj-j7-c0F"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWi-PN-ScY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="10"/>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="XA2-SH-hTg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gtz-RR-611" firstAttribute="top" secondItem="PsY-Ag-4rL" secondAttribute="bottom" constant="36.5" id="8C6-C0-X85"/>
+                    <constraint firstAttribute="trailing" secondItem="Gtz-RR-611" secondAttribute="trailing" constant="20" id="DmI-E8-ili"/>
+                    <constraint firstItem="PsY-Ag-4rL" firstAttribute="top" secondItem="cWi-PN-ScY" secondAttribute="bottom" constant="18" id="LCY-JM-iQX"/>
+                    <constraint firstItem="fib-HI-7tA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="NEi-iT-gGQ"/>
+                    <constraint firstAttribute="bottom" secondItem="fib-HI-7tA" secondAttribute="bottom" constant="23" id="P8i-LF-1j3"/>
+                    <constraint firstItem="Gtz-RR-611" firstAttribute="leading" secondItem="lWh-c1-90z" secondAttribute="trailing" constant="10" id="Uu2-un-Gya"/>
+                    <constraint firstAttribute="trailing" secondItem="zeN-Jq-WJ4" secondAttribute="trailing" constant="18" id="Vux-27-aPQ"/>
+                    <constraint firstAttribute="trailing" secondItem="cWi-PN-ScY" secondAttribute="trailing" id="Wun-Eh-hgf"/>
+                    <constraint firstItem="cWi-PN-ScY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="au6-Hz-ciZ"/>
+                    <constraint firstItem="lWh-c1-90z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="dAg-0o-bWo"/>
+                    <constraint firstItem="PsY-Ag-4rL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="eVZ-ba-gY7"/>
+                    <constraint firstItem="zeN-Jq-WJ4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="28" id="heE-EI-Dnr"/>
+                    <constraint firstItem="fib-HI-7tA" firstAttribute="top" secondItem="lWh-c1-90z" secondAttribute="bottom" constant="15" id="noS-pY-A7M"/>
+                    <constraint firstAttribute="trailing" secondItem="fib-HI-7tA" secondAttribute="trailing" constant="20" id="p5I-bX-kAm"/>
+                    <constraint firstItem="lWh-c1-90z" firstAttribute="top" secondItem="PsY-Ag-4rL" secondAttribute="bottom" constant="28" id="vk6-NR-U5k"/>
+                    <constraint firstItem="zeN-Jq-WJ4" firstAttribute="leading" secondItem="PsY-Ag-4rL" secondAttribute="trailing" id="xVf-pK-cyQ"/>
+                    <constraint firstItem="cWi-PN-ScY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xgs-EW-PzD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="fib-HI-7tA" id="Z2f-LQ-j5d"/>
+                <outlet property="iconImageView" destination="lWh-c1-90z" id="qtS-9k-woK"/>
+                <outlet property="nameLabel" destination="Gtz-RR-611" id="i1M-ar-rZT"/>
+            </connections>
+            <point key="canvasLocation" x="-55" y="36"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="brand_chat" width="22" height="22"/>
+    </resources>
+</document>

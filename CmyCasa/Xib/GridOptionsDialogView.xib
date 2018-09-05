@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="homestylermainicons.ttf">
+            <string>homestylermainicons</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GridOptionsDialogView">
+            <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RW2-pA-Han" userLabel="btnClose">
+                    <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="returnPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="OME-nI-puq"/>
+                    </connections>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E8g-mf-xyl" userLabel="ImageOptionsDialog">
+                    <rect key="frame" x="154" y="90" width="320" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YhF-Lb-Rlt" userLabel="snapToGrid - View">
+                            <rect key="frame" x="0.0" y="55" width="320" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mjj-gQ-3ic" customClass="HSNUIIconLabelButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="245" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <accessibility key="accessibilityConfiguration" label="btn_wallpaper_main_view"/>
+                                    <fontDescription key="fontDescription" name="homestylermainicons" family="homestylermainicons" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="55" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Snap To Grid">
+                                        <color key="titleColor" red="0.54662710428237915" green="0.54661077260971069" blue="0.54662001132965088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" title="Brightness" backgroundImage="iph_wall_paint_popup_wall_btn_pressed.png"/>
+                                    <state key="highlighted" title="Brightness">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsButtonSelectionBackground:General_DialogsClickableTextColor:Redesign_Paint_option_text"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="iconDefaultHexValue" value=""/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="iconNuiClass" value="General_DialogsIcon:Redesign_Paint_option"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="axY-tP-xvE">
+                                    <rect key="frame" x="247" y="7" width="51" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="onTintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="snapToGridSwitchPressed:" destination="iN0-l3-epB" eventType="valueChanged" id="fdv-OF-TuJ"/>
+                                    </connections>
+                                </switch>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GL2-Gl-QJz" userLabel="realCale - View">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view alpha="0.10000000149011612" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svL-dr-C2e" userLabel="View - Seperator">
+                                    <rect key="frame" x="0.0" y="47" width="320" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="HorizontalSeperator"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hsl-EX-1UA" customClass="HSNUIIconLabelButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="260" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <accessibility key="accessibilityConfiguration" label="btn_paint_main_view"/>
+                                    <fontDescription key="fontDescription" name="homestylermainicons" family="homestylermainicons" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="55" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Real Scale">
+                                        <color key="titleColor" red="0.54662710428237915" green="0.54661077260971069" blue="0.54662001132965088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" title="Real Scale" backgroundImage="iph_wall_paint_popup_paint_btn_pressed.png">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="highlighted" title="Real Scale">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsButtonSelectionBackground:General_DialogsClickableTextColor:Redesign_Paint_option_text"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="iconDefaultHexValue" value=""/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="iconNuiClass" value="General_DialogsIcon:Redesign_Paint_option"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="realScalePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="u1Z-Dm-iFu"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="General_DialogsBackgroundColor"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RW2-pA-Han" secondAttribute="bottom" id="CZr-tJ-YOC"/>
+                <constraint firstItem="RW2-pA-Han" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xtu-FX-32d"/>
+                <constraint firstItem="RW2-pA-Han" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="axo-gs-koX"/>
+                <constraint firstAttribute="trailing" secondItem="RW2-pA-Han" secondAttribute="trailing" id="k4a-Fg-DIv"/>
+            </constraints>
+            <connections>
+                <outlet property="optionsContainerView" destination="E8g-mf-xyl" id="xOS-6Z-Ucr"/>
+                <outlet property="realScaleButton" destination="Hsl-EX-1UA" id="edg-0T-WGb"/>
+                <outlet property="realScaleCellView" destination="GL2-Gl-QJz" id="guF-1M-6cg"/>
+                <outlet property="returnButton" destination="RW2-pA-Han" id="kTJ-xL-y1t"/>
+                <outlet property="snapToGridButton" destination="Mjj-gQ-3ic" id="mff-Fo-ucs"/>
+                <outlet property="snapToGridCellView" destination="YhF-Lb-Rlt" id="QtW-uL-EHF"/>
+                <outlet property="snapToGridSwitch" destination="axY-tP-xvE" id="dpH-ac-Hr1"/>
+            </connections>
+            <point key="canvasLocation" x="466" y="337"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iph_wall_paint_popup_paint_btn_pressed.png" width="340" height="92"/>
+        <image name="iph_wall_paint_popup_wall_btn_pressed.png" width="340" height="92"/>
+    </resources>
+</document>

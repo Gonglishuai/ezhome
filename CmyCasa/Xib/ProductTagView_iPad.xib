@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
+	<data>
+		<int key="IBDocument.SystemTarget">1536</int>
+		<string key="IBDocument.SystemVersion">13E28</string>
+		<string key="IBDocument.InterfaceBuilderVersion">5056</string>
+		<string key="IBDocument.AppKitVersion">1265.21</string>
+		<string key="IBDocument.HIToolboxVersion">698.00</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+			<string key="NS.object.0">3733</string>
+		</object>
+		<array key="IBDocument.IntegratedClassDependencies">
+			<string>IBProxyObject</string>
+			<string>IBUIButton</string>
+			<string>IBUIImageView</string>
+			<string>IBUILabel</string>
+			<string>IBUIScrollView</string>
+			<string>IBUISlider</string>
+			<string>IBUIView</string>
+		</array>
+		<array key="IBDocument.PluginDependencies">
+			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+		</array>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
+		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
+			<object class="IBProxyObject" id="841351856">
+				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
+				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+			</object>
+			<object class="IBProxyObject" id="606714003">
+				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
+				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+			</object>
+			<object class="IBUIView" id="766721923">
+				<nil key="NSNextResponder"/>
+				<int key="NSvFlags">292</int>
+				<array class="NSMutableArray" key="NSSubviews">
+					<object class="IBUIButton" id="366601860">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{294, 8}, {29, 29}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="1007062810"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC41NzY0NzA1ODgyIDAuNTc2NDcwNTg4MiAwLjU3NjQ3MDU4ODIAA</bytes>
+						</object>
+						<string key="IBUINormalTitle"></string>
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="948284660">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MCAwAA</bytes>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<int key="type">1</int>
+							<double key="pointSize">16</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue</string>
+							<double key="NSSize">16</double>
+							<int key="NSfFlags">16</int>
+						</object>
+					</object>
+					<object class="IBUIButton" id="157711954">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 401}, {332, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="836684596"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="913368761">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="647428290">
+							<int key="type">1</int>
+							<double key="pointSize">18</double>
+						</object>
+						<object class="NSFont" key="IBUIFont" id="582897586">
+							<string key="NSName">HelveticaNeue</string>
+							<double key="NSSize">18</double>
+							<int key="NSfFlags">16</int>
+						</object>
+					</object>
+					<object class="IBUIButton" id="513230819">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 459}, {332, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="364814248"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUINormalTitleShadowColor" ref="913368761"/>
+						<reference key="IBUIFontDescription" ref="647428290"/>
+						<reference key="IBUIFont" ref="582897586"/>
+					</object>
+					<object class="IBUIButton" id="505744095">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 517}, {332, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="878623599"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUINormalTitleShadowColor" ref="913368761"/>
+						<reference key="IBUIFontDescription" ref="647428290"/>
+						<reference key="IBUIFont" ref="582897586"/>
+					</object>
+					<object class="IBUIButton" id="995834909">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 665}, {332, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUINormalTitleShadowColor" ref="913368761"/>
+						<reference key="IBUIFontDescription" ref="647428290"/>
+						<reference key="IBUIFont" ref="582897586"/>
+					</object>
+					<object class="IBUIView" id="703136122">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 400}, {332, 1}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="157711954"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<object class="NSColor" key="IBUIBackgroundColor" id="897746829">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
+						</object>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUIView" id="836684596">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 458}, {332, 1}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="513230819"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="897746829"/>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUIView" id="364814248">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 516}, {332, 1}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="505744095"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="897746829"/>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUIView" id="878623599">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 576}, {332, 1}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="32244334"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="897746829"/>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUIView" id="216848337">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 663}, {332, 1}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="995834909"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="897746829"/>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUILabel" id="548605475">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{98, 25}, {213, 23}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="366601860"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<string key="IBUIText">Brand Name</string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">2</int>
+							<bytes key="NSRGB">MC40MzEzNzI1NDkgMC43NzI1NDkwMTk2IDAuODExNzY0NzA1OQA</bytes>
+						</object>
+						<nil key="IBUIHighlightedColor"/>
+						<string key="IBUIShadowOffset">{0, 0}</string>
+						<int key="IBUIBaselineAdjustment">0</int>
+						<int key="IBUINumberOfLines">0</int>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">HelveticaNeue</string>
+							<string key="family">Helvetica Neue</string>
+							<int key="traits">0</int>
+							<double key="pointSize">15</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue</string>
+							<double key="NSSize">15</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
+						<double key="preferredMaxLayoutWidth">213</double>
+					</object>
+					<object class="IBUILabel" id="1007062810">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{98, 53}, {213, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="890119842"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<string key="IBUIText">Product name</string>
+						<object class="NSColor" key="IBUITextColor">
+							<int key="NSColorSpace">2</int>
+							<bytes key="NSRGB">MC40OTgwMzkyMTU3IDAuNDk4MDM5MjE1NyAwLjQ5ODAzOTIxNTcAA</bytes>
+						</object>
+						<nil key="IBUIHighlightedColor"/>
+						<string key="IBUIShadowOffset">{0, 0}</string>
+						<int key="IBUIBaselineAdjustment">0</int>
+						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUILineBreakMode">0</int>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">HelveticaNeue</string>
+							<string key="family">Helvetica Neue</string>
+							<int key="traits">0</int>
+							<double key="pointSize">14</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue</string>
+							<double key="NSSize">14</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
+						<double key="preferredMaxLayoutWidth">213</double>
+					</object>
+					<object class="IBUIButton" id="42258458">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{33, 25}, {50, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="548605475"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<object class="NSColor" key="IBUIHighlightedTitleColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MQA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="913368761"/>
+						<object class="NSImage" key="IBUINormalBackgroundImage">
+							<int key="NSImageFlags">12582912</int>
+							<array class="NSMutableArray" key="NSReps">
+								<array>
+									<integer value="0"/>
+									<object class="NSBitmapImageRep">
+										<object class="NSData" key="NSTIFFRepresentation">
+											<bytes key="NS.bytes">TU0AKgAAYYwAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
+AAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAACBEREQ8PDw8RDg4OEg0NDRMNDQ0U
+DQ0NFAwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwV
+DAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwV
+DAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwV
+DAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwVDAwMFQwMDBUMDAwV
+DQ0NFA0NDRQAAAAMAAAABQAAAAQAAAACAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAHp6envy8vLz
+8vLy8/Ly8vPy8vLz8vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL0
+8vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL0
+8vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL0
+8vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL08vLy9PLy8vTy8vL0
+8vLy9PLy8vTy8vL08vLy9PLy8vTy8vL0e3t7gQAAAAEAAAAJAAAABgAAAAQAAAACAAAAAQAAAAAAAAAA
+AAAAAgAAAACIiIiL////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////4eHh5UAAAAAAAAAEQAAAAsAAAAH
+AAAAAwAAAAIAAAAAAAAAAQAAAAIAAAAAgICAhf//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////+AgICV
+AAAAAAAAABsAAAASAAAACwAAAAYAAAACAAAAAQAAAAEAAAADAAAAAICAgIj/////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////gICAngAAABEAAAAnAAAAGwAAABEAAAAJAAAAAwAAAAEAAAABAAAABQAAAACAgICL
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////4CAgKgAAAAmAAAAMwAAACMAAAAWAAAADAAAAAUAAAAB
+AAAAAQAAAAYAAAAAgICAjP//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////+AgICvAAAANgAAAD0AAAAq
+AAAAGgAAAA8AAAAGAAAAAQAAAAEAAAAHAAAAAICAgI7/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+gICAtQAAAEIAAABFAAAALwAAAB4AAAARAAAABwAAAAEAAAABAAAABwAAAACAgICP////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////4CAgLkAAABLAAAASgAAADMAAAAgAAAAEgAAAAcAAAABAAAAAQAAAAgAAAAA
+gICAkP//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////+AgIC8AAAAUAAAAE0AAAA1AAAAIQAAABIAAAAI
+AAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////gICAvAAAAFEAAABO
+AAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAI
+AAAAAICAgJD/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAAT
+AAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////4CAgLwAAABR
+AAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAAB
+AAAACAAAAACAgICQ////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAi
+AAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
++f3/////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////+AgIC8
+AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////5ja/P9xo83/rsba/+30+P//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////8bf7v90xe//brnj/1ih0v9hnsr/gbHR/9Pt+///////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAAB
+AAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////+u1Ov/WaHT/6vz//+Mz/L/
+Qnyr/2S04P9yvur/2+Lr////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1
+AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+ksHe/0OFt/+Jy+7/our//5rg+f95vN//WpO7//Dy9///////h7lj/73Vqf//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////4K11v9Ojr3/Z6PM/5LW8v92tNT/Nm+b/2KQuP//////s9Z4/xZtAP8+jwD/
+ksdb//T66v//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAA
+gICAkP//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////H4+v9qps3/V5bD/1KLtP91tNv/fr3k/2at1v+03f//
++/3y/ziFAP9DjQD/Y6wG/0mlAP9qvRj/yeil//7//v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAI
+AAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////W7ff/UJXC/2Key/94uNr/
+ebna/3Sy1v93wPn/rM77/73Ugf9/pWD/aawz/0ulAP9svQT/ZL0A/0WvAP/I56b/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////gICAvAAAAFEAAABO
+AAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+udns/1KYyP9+v+H/tP7//5rf/P9HfJ3/Tn7X/3Smgv9hnwD/iLZF/7nXj/+bz3T/X7kL/1W2AP9nuwP/
+6v/f////////8Pr/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////+/6PN5v99zPD/tP7//4XH5/+Hyev/cKru/ytXZf9tpQn/cqYj/3K0G/99wBv/
+t+F0/8bon/9qwDT/pvl3///+///TW6X/vTOD//Tf7///////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAI
+AAAAAICAgJD/////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////G+P//ecbs/4HC5f+Bwuf/R3uj/1KE1f+StoD/
+cKYF/2WoEf+FwTL/i8oz/4XOFf+W3TH/qPSC//LR7//PR5f/pxBp/5sHZv+1K3z//Of1////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAAT
+AAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////pOL4/2Ws1f9YkLj/
+bqrP/z5yuv9Rem3/t9Ro/67Gj/+ayF3/dr4T/4zPI/+W5Tn/RrkA/5d0Y//lJrf/nQVj/6s2df+wMn//
+nwhl/7Q1gf/96vb/////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////4CAgLwAAABR
+AAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/P///43R8/9wtd3/b6zM/ylXiv9Fcab/lr1T/4SwMP+cx1//x+Gc/9Dtm/+T7UD/Ua0I/5A6X/+3BIT/
+uit//70qkP+lHnT/tzt8/7Evf/+SAln/sjSE//TU6///////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////+v///+P3P7/VpC8/1iPtv82a7H/cZtk/5/HQv+Ru1n/n8xZ/6rdVP+x/3T/
+o8CD/6coef+lAnP/pSNw/5YjbP+0L3v/uCGI/6Ild/+xMXP/ohhr/4oAT//irdH/////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAAB
+AAAACAAAAACAgICQ////////////////////////////////////////////////////////////////
+//////////////////////////////////////////+mz+T/e8zz/5ja9f9hoOP/a5S0/5/DRv98rDH/
+nshb/7PoaP+c+Vj/dX5B/44HXP++F43/lB1v/44gW/+iInT/jx9k/8I6if+rIoX/kQ1h/5UIVv/apsn/
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAi
+AAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////
+////////////////////////////////////////////////////////////////mMjk/16l0v+Y3v//
+V5HR/5qtef/G1Jb/ss2G/6jsWv+J3Un/hV1U/6IBef+PCmj/dhpL/7Epe/+dHXL/nypm/6wmef+aH2X/
+oAxq/30BZ//Yt+D///////zv2f/537//////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////+AgIC8
+AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////3i02f9Sjbj/V5bm/4qwq/+0ymP/ssqK/93/wP+s2oz/gThS/5cAa/+QG2P/iyZm/4gZYP+AHE//
+qCV2/4AFW/90AEr/bQBU/3o5av/cwMn////d//vSjf/ysFH/861H//713v//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////+z2+v9WkLj/Pni4/1aDq/+0yXj/ts+B/7z/k/+Srmj/nhVx/40Aaf97I1b/
+iB9h/5QjZ/+MEmH/UgA7/00BOv97L3D/jnJ9/9i5nv/025L//9Zr//CiPf/pjSr/8Jw3//a1Rv/2yn3/
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAAB
+AAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////////////////////
+///////////////////////////////////////////h9fv/WZnI/yVcmv+GnGv/x+aC/6Xwhv+biHD/
+hwBb/4oHWP+kJHT/cgpS/2IAQv9gAk//aShf/5htgf+2o4j/8tSL///siP//x1z/9Jk1/+WBJv/ojzT/
+7Zo7//KvSv/wqkP/7Jop//vlw///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1
+AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////
+////////////////////////////////////////////////////////////////w+Du/xteov9pgpX/
+z/aN/5/aeP+dWXL/dwBT/5AMYf9XAEP/YABE/34ibv+HY3T/tpV+/+y/hf//03b//8Jc//ijO//phSf/
+65A4//CbQv/xpkb/9rZR//O0T//uqUb/8KpJ//ywPf/7vVb/+/To////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////3ulyv8XS37/2fzK/8fRs/9+H1j/bwBD/1UAR/9XGFP/kVZ4/6WCcP/nq3T/+7to//2oSf/ykzL/
+85s///m8Xf/3tVX/8J5C//GnRv/xrUr/8KtI/+2gP//zpkX//7xQ//q3Rv/UiBv/uHIZ/+raxP//////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAA
+gICAkP//////////////////////////////////////////////////////////////////////////
+//////////////////////////9Mir7/hrOi/7akif9cAEL/aABM/3JPXP++gnv/3qBu//mpVv//nTv/
+7H4Z/+h3Gf/wkTH/+ahG//y0TP/3q0H/9qY8//emOv/0nC//8pgr//WdL//6ozH/9aIv/9iNJf+/fjL/
+x6F9/+/n4///////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAI
+AAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////////////////////
+///////////////////////////////////////////X6fX/e62+/72Jjf93EkT/klFY/8eVcv/mpXD/
+5ZRJ/9VzJ//HZR//xG4q/8l6OP/VjET/2phL/9OTRv/JhDz/yH85/8uEPv/Pjkf/zpBJ/8+RTP/MkU3/
+xY5N/59wPf+mh3D/3t3i//X////v9fv/4+Pk////////////////////////////////////////////
+////////////////////////////////////////////////////////////////gICAvAAAAFEAAABO
+AAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////
+////////////////////////////////////////////////////////////////veDv/3B7hf97U2L/
+l5aS/7W3pf+il4b/k4N7/5GHhv+cm5v/m56f/5ubn/+pqrD/oKOo/5maoP+oqK7/oaGn/5+gpv+coKb/
+nKCo/4qPmf+cpbP/hpCg/5unuv+Ypbf/p7LC/7a9x/+eoaj/i42T/4SGjP/X19n//v7+////////////
+////////////////////////////////////////////////////////////////////////////////
+/////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////
+////////////////////////////////////////////////////////////////////////////////
+/////8y+yf9bWFv/ER8Y/4iTmv+Ei5b/h5GZ/5ijqf+jr7T/nqiw/7C6xf+3wcz/qLC7/7a9x//DyNH/
+sLG3/7i4uf/Ix8f/qaio/7Sxsf+ys7b/lZif/7zCy/+2u8P/uLvC/8/T2P+srrT/vMDJ/6aqs/+xtr//
+vr/C//r5+P///////v7+//7+/v//////////////////////////////////////////////////////
+//////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAI
+AAAAAICAgJD/////////////////////////////////////////////////////////////////////
+//////////////////////////+fkZ//iIeS/6+zuv+zt7//lZea/6CgoP/AwMH/wsPE/5ucn//U193/
+1tng/8TFzP/R09j/6Ojq/767uv/Fwb7/4dzY/8bCvv/Hw8H/xsXI/6Worv/Dx8//zM/X/9bZ4P/S1t3/
+vL/H/8HFzv+0ucT/qay0/769wP/x8fD///////39/f/9/f3//v7+//7+/v/+/v7//v7+//7+/v//////
+////////////////////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAAT
+AAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////////////////////
+////////////////////////////////////////////////4+rr/4iPnP+aoK3/lJif/6Woqv+qrK3/
+r7Gz/7q8vv+7vcP/xMfP/8jL0v/Q1Nv/zs/V/9HQ0v/X09L/0cvI/8jDv//JxcL/w8DA/7OzuP+0uMD/
+trrD/8TI0P/LztX/yMzT/8XJ0/+0ucT/qq+7/6mss/+xsLX/3dzd///////6+vr//Pz8//39/f/9/f3/
+/v7+//7+/v/+/v7//v7+/////////////////////////////////////////////////4CAgLwAAABR
+AAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////
+/////////////////////////////////////////////////////////////////////+Hh4v+Mkp//
+ipCd/5WZoP+eoKP/o6Wn/6eoqv+xs7f/wMXM/8LGz//Cxs7/xsrQ/8/R1f/KyMr/08/N/8/LyP/Hw8D/
+xcG//7m4uv+3usD/sbW//8HEzv/Cxs//x8vU/8bK0/+8wcr/p625/6Wqtv+nqK//pKSq/9TU2P/6+vr/
++vr6//r6+v/8/Pz//Pz8//39/f/9/f3//v7+//7+/v/+/v7/////////////////////////////////
+//////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////
+///////////////////////////////////////////////////////////////////////////+/v7/
+/v7+///////X19n/goeV/4yQm/+Xmp//nZ6h/5ucnf+qrK7/t7rA/7O2vv/Dx9H/x8vT/8HEzP/LzdH/
+zMrJ/8fCwf/HwsH/wb26/7aysf+6ur3/oKOr/7a7xv+oq7T/zdHa/7e6wf/M0Nr/rrK8/6Wrt/+VmKL/
+jYyS/359gv+nqK//9fX1//39/f/5+fn/+vr6//z8/P/9/f3//f39//7+/v/+/v7//v7+////////////
+////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAAB
+AAAACAAAAACAgICQ////////////////////////////////////////////////////////////////
+//////7+/v/+/v7//v7+//39/f//////2drb/36Dj/+FiZP/h4mM/46Qkv+jpKf/mpyg/56hqP/Cx9H/
+p6qx/7O2vv/M0Nj/paWn/9/c2/+4tLL/sqyq/8bAvv+opKT/t7e9/5aYov+kqbT/l5uj/6GkrP+WmKD/
+lJae/4WHj/+KjZX/lJSZ/5+dn/+np6n/ysrM//v7+//5+fn/+fn5//r6+v/8/Pz//f39//39/f/+/v7/
+/v7+//7+/v///////////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAi
+AAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////
+/////////////////v7+//7+/v/+/v7//f39//z8/P/6+vr//////9bX2f9zeYj/gIWO/3Z3ev94eHr/
+qq2x/46Qlf+Ul6D/ytDc/6irtf+ipK3/vL/H/6alqP+xrKz/ko2L/4yIhv+Sjo3/h4WG/3p6ff94eX7/
+b3B0/3h6fP90dHb/dnZ4/3d3d/+Hh4b/n5+e/76+vP/Z2dj/9fX0//38/P/09PT/+fn5//v7+//8/Pz/
+/Pz8//7+/v/+/v7//v7+//7+/v////////////////////////////////////////////////+AgIC8
+AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////
+///////////////////////////+/v7//v7+//7+/v/9/f3//f39//v7+//6+vr/+Pj4///////f3+H/
+YWZ0/1JUW/9iY2b/bW5x/3R1eP9zdXv/g4aO/4KEi/96fIL/b3B0/25ucf9wb3D/ZGNj/15eXf9fX1//
+Xl5e/2NjY/9paWj/bGxr/3Rzcv97e3r/h4eG/5SUk/+goJ//rays/7m5uf/IyMj/1tbW/+Pj4//u7u7/
+9/f3//z8/P/8/Pz//f39//7+/v/+/v7//v7+////////////////////////////////////////////
+////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ
+///////////////////////////////////////////+/v7//v7+//7+/v/9/f3//Pz8//v7+//6+vr/
++fn5//j4+P/39/f/+/v7/8HDxP+TlJX/nJyc/5aXmP+Fhob/dnZ2/2pqav9kY2P/YGBf/2NiYf9paWj/
+cnJy/319ff+JiYn/kJGR/5iYmP+ioqL/rKys/7i4uP/Dw8P/zc3N/9fX1//i4uL/6+vr//Pz8//4+Pj/
+/Pz8//39/f/9/f3//f39//39/f/+/v7//v7+//7+/v/+/v7/////////////////////////////////
+/////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAAB
+AAAAAQAAAAgAAAAAgICAkP/////////////////////////////////////+/v7//v7+//7+/v/+/v7/
+/f39//z8/P/7+/v/+vr6//n5+f/4+Pj/9PT0//X19f///////////+fn5//Pz87/vr6+/7S0tP+xsbD/
+s7Oz/7q6uv/ExMT/zs7O/9fX1//g4OD/6enp//Hx8f/39/f/+/v7////////////////////////////
+///////////////////////////+/v7//v7+//7+/v/+/v7//v7+////////////////////////////
+//////////////////////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1
+AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////
+/v7+//7+/v/+/v7//v7+//39/f/9/f3//Pz8//v7+//6+vr/+fn5//j4+P/39/f/9fX1//Ly8v/x8fH/
+8vLy//b29v/6+vr//v7+//////////////////////////////////7+/v/8/Pz/+/v7//r6+v/7+/v/
++vr6//r6+v/6+vr/+/v7//z8/P/9/f3//f39//7+/v/+/v7//v7+//7+/v//////////////////////
+////////////////////////////////////////////////////////////////////////////////
+gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////
+///////////////////////////+/v7//v7+//7+/v/+/v7//v7+//39/f/8/Pz//f39//z8/P/7+/v/
++vr6//r6+v/7+/v//Pz8//39/f/9/f3/+/v7//r6+v/6+vr/+fn5//n5+f/5+fn/+fn5//r6+v/6+vr/
++vr6//v7+//8/Pz//Pz8//39/f/9/f3//f39//7+/v/+/v7//v7+////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAA
+gICAkP///////////////////////////////////////////////////////////v7+//7+/v/+/v7/
+/v7+//7+/v/+/v7//f39//39/f/9/f3//f39//39/f/9/f3//Pz8//z8/P/8/Pz//f39//39/f/9/f3/
+/f39//39/f/+/v7//v7+//7+/v/+/v7///////7+/v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAI
+AAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////////////////////////////////////
+/////////////////////////////////v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/
+/v7+//7+/v/+/v7/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////gICAvAAAAFEAAABO
+AAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAI
+AAAAAICAgJD/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAAT
+AAAACAAAAAEAAAABAAAACAAAAACAgICQ////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////4CAgLwAAABR
+AAAATgAAADUAAAAiAAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////+AgIC8AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAAB
+AAAACAAAAACAgICQ////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAi
+AAAAEwAAAAgAAAABAAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////+AgIC8
+AAAAUQAAAE4AAAA1AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAICAgJD/////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////gICAvAAAAFEAAABOAAAANQAAACIAAAATAAAACAAAAAEAAAABAAAACAAAAACAgICQ
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////4CAgLwAAABRAAAATgAAADUAAAAiAAAAEwAAAAgAAAAB
+AAAAAQAAAAgAAAAAgICAkP//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////+AgIC8AAAAUQAAAE4AAAA1
+AAAAIgAAABMAAAAIAAAAAQAAAAEAAAAIAAAAAImJiZf/////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+iIiIwQAAAE4AAABNAAAANQAAACEAAAASAAAACAAAAAEAAAABAAAABwAAAAF6enqK8/Pz9fLy8vfy8vL4
+8vLy+fLy8vry8vL68vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL7
+8vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL7
+8vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL7
+8vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL78vLy+/Ly8vvy8vL7
+8vLy+/Ly8vvy8vL68vLy+nt7e7cAAABMAAAASgAAADMAAAAgAAAAEgAAAAcAAAABAAAAAQAAAAcAAAAQ
+BwcHIw0NDTkNDQ1PDQ0NYw0NDXQODg6ADQ0NigwMDI8MDAyQDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyP
+DAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyP
+DAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyP
+DAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyPDAwMjwwMDI8MDAyP
+DAwMjwwMDI8MDAyPDAwMjwwMDJAMDAyPDQ0Nig4ODoAHBwdwAAAAWQAAAEUAAAAvAAAAHgAAABEAAAAH
+AAAAAQAAAAEAAAAGAAAAEAAAABMAAAAdAAAAMgAAAEcAAABWAAAAZAAAAG0AAAByAAAAcwAAAHMAAABz
+AAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABz
+AAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABz
+AAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABz
+AAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcwAAAHMAAABzAAAAcgAAAG0AAABkAAAAWwAAAFIAAAA9
+AAAAKgAAABoAAAAPAAAABgAAAAEAAAABAAAABQAAAAwAAAAWAAAAIwAAADMAAABEAAAAUAAAAFsAAABh
+AAAAZgAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABn
+AAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABn
+AAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABn
+AAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGYAAABh
+AAAAWwAAAFAAAABEAAAAMwAAACMAAAAWAAAADAAAAAUAAAABAAAAAQAAAAMAAAAJAAAAEQAAABsAAAAn
+AAAAMwAAAD0AAABFAAAASgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABO
+AAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABO
+AAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABO
+AAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABOAAAATgAAAE4AAABO
+AAAATgAAAE4AAABOAAAASgAAAEUAAAA9AAAAMwAAACcAAAAbAAAAEQAAAAkAAAADAAAAAQAAAAEAAAAC
+AAAABgAAAAsAAAASAAAAGwAAACMAAAAqAAAALwAAADMAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1
+AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1
+AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1
+AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1
+AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADMAAAAvAAAAKgAAACMAAAAbAAAAEgAAAAsAAAAG
+AAAAAgAAAAEAAAAAAAAAAgAAAAMAAAAHAAAACwAAABEAAAAWAAAAGgAAAB0AAAAgAAAAIQAAACIAAAAi
+AAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAi
+AAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAi
+AAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAi
+AAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACEAAAAgAAAAHQAAABoAAAAW
+AAAAEQAAAAsAAAAHAAAAAwAAAAIAAAAAAAAAAAAAAAEAAAACAAAABAAAAAYAAAAJAAAADAAAAA8AAAAR
+AAAAEQAAABIAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAAT
+AAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAAT
+AAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAAT
+AAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAAS
+AAAAEQAAABEAAAAPAAAADAAAAAkAAAAGAAAABAAAAAIAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAC
+AAAABAAAAAUAAAAGAAAABwAAAAcAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAI
+AAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAI
+AAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAI
+AAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAI
+AAAACAAAAAgAAAAIAAAACAAAAAcAAAAHAAAABgAAAAUAAAAEAAAAAgAAAAEAAAABAAAAAQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAA
+AAAAAAAAAAAAAAAAAA4BAAADAAAAAQBPAAABAQADAAAAAQBPAAABAgADAAAABAAAYjoBAwADAAAAAQAB
+AAABBgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQBP
+AAABFwAEAAAAAQAAYYQBHAADAAAAAQABAAABUgADAAAAAQACAAABUwADAAAABAAAYkKHcwAHAAAMSAAA
+YkoAAAAAAAgACAAIAAgAAQABAAEAAQAADEhMaW5vAhAAAG1udHJSR0IgWFlaIAfOAAIACQAGADEAAGFj
+c3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAAAAAD21gABAAAAANMtSFAgIAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAAM2Rlc2MAAAGEAAAAbHd0
+cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoAAAIYAAAAFGdYWVoAAAIsAAAAFGJYWVoAAAJAAAAAFGRt
+bmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAAJGx1bWkAAAP4AAAAFG1l
+YXMAAAQMAAAAJHRlY2gAAAQwAAAADHJUUkMAAAQ8AAAIDGdUUkMAAAQ8AAAIDGJUUkMAAAQ8AAAIDHRl
+eHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBDb21wYW55AABkZXNjAAAAAAAA
+ABJzUkdCIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAA81EAAQAAAAEWzFhZ
+WiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZ
+WiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAA
+AAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNl
+IC0gc1JHQgAAAAAAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0g
+c1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNjAAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25k
+aXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZpZXdpbmcgQ29uZGl0aW9u
+IGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmlldwAAAAAAE6T+ABRfLgAQ
+zxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAy
+ADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDG
+AMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8
+AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6
+AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPH
+A9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVn
+BXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdh
+B3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6
+Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1
+DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+W
+D7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMj
+E0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcd
+F0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuK
+G7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBs
+IJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXH
+JfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSud
+K9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHy
+MioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjI
+OQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAj
+QGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgF
+SEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1Bx
+ULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllp
+WbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLw
+Y0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20I
+bWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3Vnez
+eBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0
+g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7O
+jzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtC
+m6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhS
+qMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYB
+tnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRR
+xM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE
+08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb
+42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ
+86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//w</bytes>
+										</object>
+									</object>
+								</array>
+							</array>
+							<reference key="NSColor" ref="948284660"/>
+						</object>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<int key="type">2</int>
+							<double key="pointSize">15</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">HelveticaNeue-Bold</string>
+							<double key="NSSize">15</double>
+							<int key="NSfFlags">16</int>
+						</object>
+					</object>
+					<object class="IBUIView" id="32244334">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<array class="NSMutableArray" key="NSSubviews">
+							<object class="IBUISlider" id="89885198">
+								<reference key="NSNextResponder" ref="32244334"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{68, 42}, {202, 31}}</string>
+								<reference key="NSSuperview" ref="32244334"/>
+								<reference key="NSNextKeyView" ref="732555038"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<float key="IBUIValue">0.5</float>
+							</object>
+							<object class="IBUIButton" id="35693303">
+								<reference key="NSNextResponder" ref="32244334"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{0, 2}, {332, 44}}</string>
+								<reference key="NSSuperview" ref="32244334"/>
+								<reference key="NSNextKeyView" ref="89885198"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUINormalTitleColor" ref="948284660"/>
+								<reference key="IBUINormalTitleShadowColor" ref="913368761"/>
+								<reference key="IBUIFontDescription" ref="647428290"/>
+								<reference key="IBUIFont" ref="582897586"/>
+							</object>
+							<object class="IBUIButton" id="732555038">
+								<reference key="NSNextResponder" ref="32244334"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{276, 35}, {51, 43}}</string>
+								<reference key="NSSuperview" ref="32244334"/>
+								<reference key="NSNextKeyView" ref="216848337"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xNjQyMjUxNzYzIDAuNTEwMDQ4NjExNCAwLjgyOTUyNjE1NDkAA</bytes>
+								</object>
+								<string key="IBUINormalTitle"></string>
+								<reference key="IBUINormalTitleShadowColor" ref="948284660"/>
+								<reference key="IBUIFontDescription" ref="647428290"/>
+								<reference key="IBUIFont" ref="582897586"/>
+							</object>
+						</array>
+						<string key="NSFrame">{{0, 576}, {332, 88}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="35693303"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="948284660"/>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+					<object class="IBUIImageView" id="89093708">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{33, 25}, {50, 50}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="42258458"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSImage" key="IBUIImage">
+							<int key="NSImageFlags">12582912</int>
+							<array class="NSMutableArray" key="NSReps">
+								<array>
+									<integer value="0"/>
+									<object class="NSBitmapImageRep">
+										<object class="NSData" key="NSTIFFRepresentation">
+											<bytes key="NS.bytes">TU0AKgAAMQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHd3dw90dHSW
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0lnd3dw8AAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4
+AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAA
+dXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+c3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4
+c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OH
+dXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OH
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4
+AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAA
+dXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+c3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4
+c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OH
+dXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OH
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4
+AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAA
+dXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+c3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4
+c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OH
+dXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OH
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzc4d1dXV4
+AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAAdXV1eHNzc4cAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB1dXV4c3NzhwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAHNzc4d1dXV4AAAAAHV1dXhzc3OHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc3Nzh3V1dXgAAAAA
+dXV1eHNzc4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzc3OHdXV1eAAAAAB3d3cPdHR0lnR0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/dHR0/3R0dP90dHT/
+dHR0/3R0dP90dHT/dHR0/3R0dJZ3d3cPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAA4BAAADAAAAAQA4AAABAQADAAAAAQA4AAABAgADAAAABAAAMbYBAwADAAAAAQAB
+AAABBgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQA4
+AAABFwAEAAAAAQAAMQABHAADAAAAAQABAAABUgADAAAAAQACAAABUwADAAAABAAAMb6HcwAHAAAMSAAA
+McYAAAAAAAgACAAIAAgAAQABAAEAAQAADEhMaW5vAhAAAG1udHJSR0IgWFlaIAfOAAIACQAGADEAAGFj
+c3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAAAAAD21gABAAAAANMtSFAgIAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAAM2Rlc2MAAAGEAAAAbHd0
+cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoAAAIYAAAAFGdYWVoAAAIsAAAAFGJYWVoAAAJAAAAAFGRt
+bmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAAJGx1bWkAAAP4AAAAFG1l
+YXMAAAQMAAAAJHRlY2gAAAQwAAAADHJUUkMAAAQ8AAAIDGdUUkMAAAQ8AAAIDGJUUkMAAAQ8AAAIDHRl
+eHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBDb21wYW55AABkZXNjAAAAAAAA
+ABJzUkdCIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAA81EAAQAAAAEWzFhZ
+WiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZ
+WiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAA
+AAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNl
+IC0gc1JHQgAAAAAAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0g
+c1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNjAAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25k
+aXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZpZXdpbmcgQ29uZGl0aW9u
+IGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmlldwAAAAAAE6T+ABRfLgAQ
+zxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAy
+ADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDG
+AMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8
+AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6
+AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPH
+A9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVn
+BXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdh
+B3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6
+Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1
+DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+W
+D7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMj
+E0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcd
+F0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuK
+G7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBs
+IJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXH
+JfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSud
+K9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHy
+MioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjI
+OQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAj
+QGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgF
+SEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1Bx
+ULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllp
+WbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLw
+Y0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20I
+bWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3Vnez
+eBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0
+g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7O
+jzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtC
+m6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhS
+qMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYB
+tnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRR
+xM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE
+08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb
+42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ
+86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//w</bytes>
+										</object>
+									</object>
+								</array>
+							</array>
+							<reference key="NSColor" ref="948284660"/>
+						</object>
+					</object>
+					<object class="IBUIView" id="890119842">
+						<reference key="NSNextResponder" ref="766721923"/>
+						<int key="NSvFlags">300</int>
+						<array class="NSMutableArray" key="NSSubviews">
+							<object class="IBUIScrollView" id="805701727">
+								<reference key="NSNextResponder" ref="890119842"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{26, 0}, {264, 264}}</string>
+								<reference key="NSSuperview" ref="890119842"/>
+								<reference key="NSNextKeyView" ref="703136122"/>
+								<string key="NSReuseIdentifierKey">_NS:9</string>
+								<reference key="IBUIBackgroundColor" ref="948284660"/>
+								<bool key="IBUIMultipleTouchEnabled">YES</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<bool key="IBUIAlwaysBounceHorizontal">YES</bool>
+								<bool key="IBUIPagingEnabled">YES</bool>
+								<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
+								<bool key="IBUIShowsVerticalScrollIndicator">NO</bool>
+							</object>
+						</array>
+						<string key="NSFrame">{{8, 122}, {316, 264}}</string>
+						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSNextKeyView" ref="805701727"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<reference key="IBUIBackgroundColor" ref="948284660"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+					</object>
+				</array>
+				<string key="NSFrameSize">{332, 717}</string>
+				<reference key="NSNextKeyView" ref="89093708"/>
+				<reference key="IBUIBackgroundColor" ref="948284660"/>
+				<bool key="IBUIClipsSubviews">YES</bool>
+				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
+					<int key="IBUIInterfaceOrientation">3</int>
+					<int key="interfaceOrientation">3</int>
+				</object>
+				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
+					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
+					<string key="IBUIDisplayName">Freeform</string>
+				</object>
+				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+			</object>
+		</array>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<bool key="usesAutoincrementingIDs">NO</bool>
+			<array class="NSMutableArray" key="connectionRecords">
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">retailerLogo</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="89093708"/>
+					</object>
+					<string key="id">62</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">productName</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="1007062810"/>
+					</object>
+					<string key="id">yIA-iK-gEa</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">brandName</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="548605475"/>
+					</object>
+					<string key="id">tx3-hS-y2C</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imagesScroll</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="805701727"/>
+					</object>
+					<string key="id">88</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">productDimensionsButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="157711954"/>
+					</object>
+					<string key="id">Ob6-i5-Ze4</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">duplicateButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="513230819"/>
+					</object>
+					<string key="id">QkU-xx-uC4</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">restoreButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="505744095"/>
+					</object>
+					<string key="id">Caf-ZE-unP</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">removeItemButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="995834909"/>
+					</object>
+					<string key="id">MYo-A5-TAf</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">productBrightnessSlider</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="89885198"/>
+					</object>
+					<string key="id">Aek-Ys-b5E</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">brightnessScrollerView</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="32244334"/>
+					</object>
+					<string key="id">a9l-SY-cKW</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">brightnessTitleButton</string>
+						<reference key="source" ref="766721923"/>
+						<reference key="destination" ref="35693303"/>
+					</object>
+					<string key="id">XS4-xh-pCg</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">openBrandHomePage:</string>
+						<reference key="source" ref="42258458"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">73</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">productSite:</string>
+						<reference key="source" ref="157711954"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">5ub-js-fCX</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">duplicateProduct:</string>
+						<reference key="source" ref="513230819"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">MvT-TC-07F</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">closeProductInfoView:</string>
+						<reference key="source" ref="366601860"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">bLS-zt-ej3</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">productBrightnessSliderChanged:</string>
+						<reference key="source" ref="89885198"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">13</int>
+					</object>
+					<string key="id">sLa-h9-Ywz</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">resetBrightness:</string>
+						<reference key="source" ref="732555038"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">Nj5-7e-wyu</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">removeProduct:</string>
+						<reference key="source" ref="995834909"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">gMQ-p6-qy3</string>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">restoreProductScale:</string>
+						<reference key="source" ref="505744095"/>
+						<reference key="destination" ref="766721923"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<string key="id">s3x-9o-9z4</string>
+				</object>
+			</array>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<array key="orderedObjects">
+					<object class="IBObjectRecord">
+						<string key="id">0</string>
+						<array key="object" id="0"/>
+						<reference key="children" ref="1000"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">-1</string>
+						<reference key="object" ref="841351856"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">File's Owner</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">-2</string>
+						<reference key="object" ref="606714003"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">2</string>
+						<reference key="object" ref="766721923"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="42258458"/>
+							<reference ref="548605475"/>
+							<reference ref="89093708"/>
+							<reference ref="890119842"/>
+							<reference ref="366601860"/>
+							<reference ref="157711954"/>
+							<reference ref="513230819"/>
+							<reference ref="505744095"/>
+							<reference ref="995834909"/>
+							<reference ref="216848337"/>
+							<reference ref="364814248"/>
+							<reference ref="836684596"/>
+							<reference ref="703136122"/>
+							<reference ref="878623599"/>
+							<reference ref="32244334"/>
+							<reference ref="1007062810"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">FvP-fk-2fo</string>
+						<reference key="object" ref="1007062810"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">43</string>
+						<reference key="object" ref="548605475"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">LP0-k6-LnC</string>
+						<reference key="object" ref="890119842"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="805701727"/>
+						</array>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">87</string>
+						<reference key="object" ref="805701727"/>
+						<reference key="parent" ref="890119842"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">31</string>
+						<reference key="object" ref="89093708"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">72</string>
+						<reference key="object" ref="42258458"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">JoI-sa-CGP</string>
+						<reference key="object" ref="366601860"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">4Rf-kM-6hv</string>
+						<reference key="object" ref="157711954"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">Hav-T7-qNU</string>
+						<reference key="object" ref="513230819"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">wmc-bc-5as</string>
+						<reference key="object" ref="505744095"/>
+						<reference key="parent" ref="766721923"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">gry-I9-BcR</string>
+						<reference key="object" ref="995834909"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Button - Remove product</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">c2e-o9-X3w</string>
+						<reference key="object" ref="703136122"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Horizontal Seperator</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">jVW-Ev-W4A</string>
+						<reference key="object" ref="836684596"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Horizontal Seperator</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">bdT-vR-23F</string>
+						<reference key="object" ref="364814248"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Horizontal Seperator</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">hCR-4C-UBm</string>
+						<reference key="object" ref="216848337"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Horizontal Seperator</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">NTj-Kf-J43</string>
+						<reference key="object" ref="878623599"/>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Horizontal Seperator</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">Dab-h4-U5u</string>
+						<reference key="object" ref="32244334"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="35693303"/>
+							<reference ref="732555038"/>
+							<reference ref="89885198"/>
+						</array>
+						<reference key="parent" ref="766721923"/>
+						<string key="objectName">Brightness Scroller</string>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">Qbd-kD-dwf</string>
+						<reference key="object" ref="89885198"/>
+						<reference key="parent" ref="32244334"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">LZL-82-Rc3</string>
+						<reference key="object" ref="35693303"/>
+						<reference key="parent" ref="32244334"/>
+					</object>
+					<object class="IBObjectRecord">
+						<string key="id">gRi-5k-o2J</string>
+						<reference key="object" ref="732555038"/>
+						<reference key="parent" ref="32244334"/>
+					</object>
+				</array>
+			</object>
+			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.CustomClassName">ProductTagBaseView</string>
+				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="-2.CustomClassName">UIResponder</string>
+				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="2.CustomClassName">ProductTagBaseView</string>
+				<object class="NSMutableDictionary" key="2.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="766721923"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">ProductTagView</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="4Rf-kM-6hv.CustomClassName">HSNUIIconLabelButton</string>
+				<object class="NSMutableDictionary" key="4Rf-kM-6hv.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="157711954"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconDefaultHexValue</string>
+								<string key="value"></string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconNuiClass</string>
+								<string key="value">RedesignTool_TagViewIcon</string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">RedesignTool_TagViewLabel</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="4Rf-kM-6hv.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="72.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<string key="87.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="Dab-h4-U5u.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="FvP-fk-2fo.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="Hav-T7-qNU.CustomClassName">HSNUIIconLabelButton</string>
+				<object class="NSMutableDictionary" key="Hav-T7-qNU.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="513230819"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconDefaultHexValue</string>
+								<string key="value"></string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconNuiClass</string>
+								<string key="value">RedesignTool_TagViewIcon</string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">RedesignTool_TagViewLabel</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="Hav-T7-qNU.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="JoI-sa-CGP.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="366601860"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">PlainFontIcon</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="JoI-sa-CGP.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="JoI-sa-CGP.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<string key="LP0-k6-LnC.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="LZL-82-Rc3.CustomClassName">HSNUIIconLabelButton</string>
+				<object class="NSMutableDictionary" key="LZL-82-Rc3.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="35693303"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconDefaultHexValue</string>
+								<string key="value"></string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconNuiClass</string>
+								<string key="value">RedesignTool_TagViewIcon</string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">RedesignTool_TagViewLabel</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="LZL-82-Rc3.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="0.0" key="LZL-82-Rc3.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<object class="NSMutableDictionary" key="NTj-Kf-J43.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="878623599"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">Separator</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="NTj-Kf-J43.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="Qbd-kD-dwf.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="bdT-vR-23F.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="364814248"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">Separator</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="bdT-vR-23F.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="c2e-o9-X3w.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="703136122"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">Separator</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="c2e-o9-X3w.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="gRi-5k-o2J.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="732555038"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">PaintSlider_RightIcon</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="gRi-5k-o2J.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="gry-I9-BcR.CustomClassName">HSNUIIconLabelButton</string>
+				<object class="NSMutableDictionary" key="gry-I9-BcR.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="995834909"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconDefaultHexValue</string>
+								<string key="value"></string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconNuiClass</string>
+								<string key="value">RedesignTool_TagViewIcon</string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">RedesignTool_TagViewLabel</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="gry-I9-BcR.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="hCR-4C-UBm.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="216848337"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">Separator</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="hCR-4C-UBm.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<object class="NSMutableDictionary" key="jVW-Ev-W4A.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="836684596"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">Separator</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="jVW-Ev-W4A.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="wmc-bc-5as.CustomClassName">HSNUIIconLabelButton</string>
+				<object class="NSMutableDictionary" key="wmc-bc-5as.IBAttributePlaceholdersKey">
+					<string key="NS.key.0">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+					<object class="IBUIUserDefinedRuntimeAttributesPlaceholder" key="NS.object.0">
+						<string key="name">IBUserDefinedRuntimeAttributesPlaceholderName</string>
+						<reference key="object" ref="505744095"/>
+						<array key="userDefinedRuntimeAttributes">
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconDefaultHexValue</string>
+								<string key="value"></string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">iconNuiClass</string>
+								<string key="value">RedesignTool_TagViewIcon</string>
+							</object>
+							<object class="IBUserDefinedRuntimeAttribute">
+								<string key="typeIdentifier">com.apple.InterfaceBuilder.userDefinedRuntimeAttributeType.string</string>
+								<string key="keyPath">nuiClass</string>
+								<string key="value">RedesignTool_TagViewLabel</string>
+							</object>
+						</array>
+					</object>
+				</object>
+				<string key="wmc-bc-5as.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+			</dictionary>
+			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
+			<nil key="activeLocalization"/>
+			<dictionary class="NSMutableDictionary" key="localizations"/>
+			<nil key="sourceID"/>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
+		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">YES</bool>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
+			<real value="1536" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
+			<integer value="4600" key="NS.object.0"/>
+		</object>
+		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+		<string key="IBCocoaTouchPluginVersion">3733</string>
+	</data>
+</archive>

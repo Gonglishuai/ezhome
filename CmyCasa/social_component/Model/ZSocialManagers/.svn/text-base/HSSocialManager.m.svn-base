@@ -1,0 +1,463 @@
+//
+//  SocialManager.m
+//  Cheerz
+//
+//  Created by Amir baranes on 9/9/13.
+//  Copyright (c) 2013 Zemingo. All rights reserved.
+//
+
+#import "HSSocialManager.h"
+
+#import "Facebook.h"
+#import "Twitter/TWTweetComposeViewController.h"
+#import <Pinterest/Pinterest.h>
+
+// Post dialog
+#define kFacebookPostParamLink                              @"link"
+#define kFacebookPostParamPictureUrl                        @"picture"
+#define kFacebookPostParamName                              @"name"
+#define kFacebookPostParamCaption                           @"caption"
+#define kFacebookPostParamDescription                       @"description"
+#define kFacebookPostParamMessage                           @"message"
+
+@interface HSSocialManager()
+
+@property (nonatomic ,strong) HSSocialServices *socialServices;
+
+@property (nonatomic, weak) id <SocialManagerSharingDelegate> pinDelegate;
+
+@end
+
+@implementation HSSocialManager
+@synthesize socialServices = _socialServices;
+
++ (id)sharedSocialManager
+{
+    static dispatch_once_t onceToken;
+    static HSSocialManager *sharedSocialManager = nil;
+    
+    dispatch_once(&onceToken, ^
+                  {
+                      sharedSocialManager = [[HSSocialManager alloc] init];
+                  });
+    
+    return sharedSocialManager;
+}
+
+- (id) init
+{
+    self = [super init];
+    if (self)
+    {
+        self.socialServices = [[HSSocialServices alloc] init];
+    }
+    return self;
+}
+
+- (BOOL)handleOpenURL:(NSURL *)url
+{
+    if (([url scheme].length > 1) && ([[[[url scheme] substringToIndex:2] lowercaseString] isEqualToString:@"fb"])) //Facebook
+    {
+        return [FBSession.activeSession handleOpenURL:url];
+    }
+    else if (([url scheme].length > 2) && ([[[[url scheme] substringToIndex:3] lowercaseString] isEqualToString:@"pin"])) //Pinterest
+    {
+        NSArray *arrArgs = [[url query] componentsSeparatedByString:@"&"];
+        
+        for (NSString *pair in arrArgs)
+        {
+            NSArray *elements = [pair componentsSeparatedByString:@"="];
+            NSString *key = [[elements objectAtIndex:0] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            NSString *val = [[elements objectAtIndex:1] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            
+            if ([[key lowercaseString] isEqualToString:@"pin_success"])
+            {
+                if ([val isEqualToString:@"1"])
+                {
+                    if ((self.pinDelegate != nil) && ([self.pinDelegate respondsToSelector:@selector(didFinishShareToSocialNetworkType:)]))
+                    {
+                        [self.pinDelegate didFinishShareToSocialNetworkType:HSSocialNetworkTypePinterest];
+                    }
+                }
+                else
+                {
+                    if ((self.pinDelegate != nil) && ([self.pinDelegate respondsToSelector:@selector(shareToSocialNetworkType:didFailWithError:)]))
+                    {
+                        [self.pinDelegate shareToSocialNetworkType:HSSocialNetworkTypePinterest didFailWithError:NSLocalizedString(@"Pinterest SDK failed to pin", nil)];
+                    }
+                }
+            }
+        }
+        
+        return YES;
+    }
+    
+    return NO;
+}
+
+
+- (void)shareText:(NSString *)text image:(UIImage *)image andUrl:(NSURL *)url toSocialNetworkType:(HSSocialNetworkType)type fromViewController:(UIViewController *)viewController withDelegate:(id <SocialManagerSharingDelegate>)delegate;
+{
+    SocialPostCompletionBlock (^successBlockWithType) (HSSocialNetworkType type) = ^(HSSocialNetworkType type)
+    {
+        SocialPostCompletionBlock successBlock = ^
+        {
+            if ((delegate != nil) && ([delegate respondsToSelector:@selector(didFinishShareToSocialNetworkType:)]))
+            {
+                [delegate didFinishShareToSocialNetworkType:type];
+            }
+        };
+        
+        return successBlock;
+    };
+    
+    SocialPostFailBlock (^failureBlockWithType) (HSSocialNetworkType type) = ^(HSSocialNetworkType type)
+    {
+        SocialPostFailBlock failureBlock = ^ (NSString *errorDescription)
+        {
+            if ((delegate != nil) && ([delegate respondsToSelector:@selector(shareToSocialNetworkType:didFailWithError:)]))
+            {
+                [delegate shareToSocialNetworkType:type didFailWithError:errorDescription];
+            }
+        };
+        
+        return failureBlock;
+    };
+    
+    
+    
+    if (type == HSSocialNetworkTypeFacebook)
+    {
+        if ([self isLoggedInToFacebook])
+        {
+            [self postToFacebookWithLink:nil andPictureURL:url.absoluteString andName:nil andCaption:nil andDescription:nil andMessage:text onCompletion:successBlockWithType(HSSocialNetworkTypeFacebook) onFailure:failureBlockWithType(HSSocialNetworkTypeFacebook)];
+        }
+        else
+        {
+            [self loginWithFacebookWithComplition:^(int state, NSString *token, NSString *firstName, NSString *lastName, NSString *username, NSString *fbUid)
+             {
+                 [self postToFacebookWithLink:nil andPictureURL:url.absoluteString andName:nil andCaption:nil andDescription:nil andMessage:text onCompletion:successBlockWithType(HSSocialNetworkTypeFacebook) onFailure:failureBlockWithType(HSSocialNetworkTypeFacebook)];
+             }
+                                        onFailure:^(NSString *errorDescription)
+             {
+                 failureBlockWithType(HSSocialNetworkTypeFacebook)(errorDescription);
+             }];
+        }
+    }
+    else if (type == HSSocialNetworkTypeTwitter)
+    {
+        [self tweetWithNativeShareDialogFromViewController:viewController withInitialText:text image:image andURL:nil/*url*/ onCompletion:successBlockWithType(HSSocialNetworkTypeTwitter) onFailure:failureBlockWithType(HSSocialNetworkTypeTwitter)];
+    }
+    else if (type == HSSocialNetworkTypePinterest)
+    {
+        Pinterest *pin = [[Pinterest alloc] initWithClientId:@"1433574"];
+        
+        if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"pinterest://"]])
+        {
+            if ([pin canPinWithSDK])
+            {
+                self.pinDelegate = delegate;
+                [pin createPinWithImageURL:url sourceURL:url description:text];
+            }
+            else
+            {
+                if ((delegate != nil) && ([delegate respondsToSelector:@selector(shareToSocialNetworkType:didFailWithError:)]))
+                {
+                    [delegate shareToSocialNetworkType:HSSocialNetworkTypePinterest didFailWithError:NSLocalizedString(@"Pinterest SDK is not able to pin", nil)];
+                }
+            }
+        }
+        else
+        {
+            if ((delegate != nil) && ([delegate respondsToSelector:@selector(shareToSocialNetworkType:didFailWithError:)]))
+            {
+                [delegate shareToSocialNetworkType:HSSocialNetworkTypePinterest didFailWithError:NSLocalizedString(@"In order to pin from Homestyler you need to have the Pinterest app installed", nil)];
+            }
+        }
+    }
+}
+
+#pragma mark - Facebook
+
+- (BOOL)isLoggedInToFacebook
+{
+    FBSession *activeSession = [FBSession activeSession];
+    FBSessionState state = activeSession.state;
+    BOOL isLoggedIn = activeSession && [self isSessionStateEffectivelyLoggedIn:state];
+    
+    return isLoggedIn;
+}
+
+- (BOOL)isSessionStateEffectivelyLoggedIn:(FBSessionState)state
+{
+    BOOL effectivelyLoggedIn;
+    
+    switch (state)
+    {
+        case FBSessionStateOpen:
+            effectivelyLoggedIn = YES;
+            break;
+        case FBSessionStateCreatedTokenLoaded:
+            effectivelyLoggedIn = YES;
+            break;
+        case FBSessionStateOpenTokenExtended:
+            effectivelyLoggedIn = YES;
+            break;
+        default:
+            effectivelyLoggedIn = NO;
+            break;
+    }
+    
+    return effectivelyLoggedIn;
+}
+
+- (void)loginWithFacebookWithComplition:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock
+{
+    [self.socialServices requestReadPermissionsWithPermissions:@[kFacebookPermissionsEmail] AndCompletion:^(int state, NSString *token, NSString *firstName, NSString *lastName, NSString *username, NSString *fbUid)
+     {
+         successBlock(state ,token , firstName ,lastName ,username ,fbUid);
+     }
+                                                     onFailure:^(NSString *errorDescription)
+     {
+         failBlock(errorDescription);
+     }];
+}
+
+- (void)postToFacebookWithLink:(NSString *)link andPictureURL:(NSString *)picUrl andName:(NSString *)name andCaption:(NSString *)caption andDescription:(NSString *)description andMessage:(NSString *)message onCompletion:(SocialPostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock
+{
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    if (link.length)
+    {
+        [params setObject:link forKey:kFacebookPostParamLink];
+    }
+    
+    if (picUrl.length)
+    {
+        [params setObject:picUrl forKey:kFacebookPostParamPictureUrl];
+    }
+    
+    if (name.length)
+    {
+        [params setObject:name forKey:kFacebookPostParamName];
+    }
+    
+    if (caption.length)
+    {
+        [params setObject:caption forKey:kFacebookPostParamCaption];
+    }
+    
+    if (description.length)
+    {
+        [params setObject:description forKey:kFacebookPostParamDescription];
+    }
+    
+    if (message.length)
+    {
+        [params setObject:message forKey:kFacebookPostParamMessage];
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^
+    {
+        
+        //  This is to prevent inactive access tokens from being used while publishing
+        //        @try
+        //        {
+        //            [FBSession openActiveSessionWithAllowLoginUI:NO];
+        //        }
+        //        @catch (NSException *exception)
+        //        {
+        //
+        //        }
+        
+        switch (FBSession.activeSession.state)
+        {
+            case FBSessionStateOpen:
+                break;
+            case FBSessionStateCreated:
+                break;
+            case FBSessionStateCreatedOpening:
+                break;
+            case FBSessionStateCreatedTokenLoaded:
+                break;
+            case FBSessionStateOpenTokenExtended:
+                // I think this is the state that is calling
+                break;
+            case FBSessionStateClosed:
+                break;
+            case FBSessionStateClosedLoginFailed:
+                break;
+            default:
+                break;
+        }
+        
+        if (FBSession.activeSession.isOpen == NO)
+        {
+            //[FBSession.activeSession closeAndClearTokenInformation];
+            [FBSession openActiveSessionWithReadPermissions:nil allowLoginUI:NO completionHandler:^(FBSession *session, FBSessionState state, NSError *error)
+             {
+                 if (error)
+                 {
+                 }
+                 else if (session.isOpen)
+                 {
+                     //run your user info request here
+                     if ([FBSession.activeSession.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound)
+                     {
+                         @try
+                         {
+                             [FBSession.activeSession requestNewPublishPermissions:@[kFacebookPermissionsPublishAction] defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+                              {
+                                  if (!error)
+                                  {
+                                      [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                                  }
+                                  else
+                                  {
+                                      failBlock([[error userInfo] description]);
+                                  }
+                              }];
+                         }
+                         @catch (NSException *exception)
+                         {
+                             @try
+                             {
+                                 [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                             }
+                             @catch (NSException *exception)
+                             {
+                             }
+                         }
+                     }
+                     else
+                     {
+                         @try
+                         {
+                             [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                         }
+                         @catch (NSException *exception)
+                         {
+                         }
+                     }
+                 }
+             }];
+        }
+        else
+        {
+            if ([FBSession.activeSession.permissions indexOfObject:kFacebookPermissionsPublishAction] == NSNotFound)
+            {
+                @try
+                {
+                    [FBSession.activeSession requestNewPublishPermissions:@[kFacebookPermissionsPublishAction] defaultAudience:FBSessionDefaultAudienceFriends completionHandler:^(FBSession *session, NSError *error)
+                     {
+                         if (!error)
+                         {
+                             [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                         }
+                         else
+                         {
+                             failBlock([[error userInfo] description]);
+                         }
+                     }];
+                }
+                @catch (NSException *exception)
+                {
+                    @try
+                    {
+                        [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                    }
+                    @catch (NSException *exception)
+                    {
+                    }
+                }
+            }
+            else
+            {
+                @try
+                {
+                    [self publishToFeedWithParams:params withCompletionBlock:completionBlock andFailBlock:failBlock];
+                }
+                @catch (NSException *exception)
+                {
+                }
+            }
+        }
+        
+    });
+}
+
+- (void)publishToFeedWithParams:(NSDictionary *)params withCompletionBlock:(SocialPostCompletionBlock)completionBlock andFailBlock:(SocialPostFailBlock)failBlock
+{
+    [FBRequestConnection startWithGraphPath:@"me/feed" parameters:params HTTPMethod:@"POST" completionHandler:^(FBRequestConnection *connection, id result, NSError *error)
+    {
+         if (error.code)
+         {
+             failBlock([[error userInfo] description]);
+         }
+         else
+         {
+             completionBlock();
+         }
+     }];
+}
+
+#pragma mark - Twitter
+
+-(void)tweetWithNativeShareDialogFromViewController:(UIViewController *)sender withInitialText:(NSString *)initialText image:(UIImage *)image andURL:(NSURL *)url onCompletion:(TwitterNativePostCompletionBlock)completionBlock onFailure:(TwitterFailBlock)failBlock
+{
+    
+    TWTweetComposeViewController * tweetSheet = [[TWTweetComposeViewController alloc] init];
+    
+    [tweetSheet setInitialText:initialText];
+    
+    if (url != nil)
+    {
+        [tweetSheet addURL:url];
+    }
+    if (image != nil)
+    {
+        [tweetSheet addImage:image];
+    }
+    
+    tweetSheet.completionHandler = ^(TWTweetComposeViewControllerResult result)
+    {
+        [sender dismissViewControllerAnimated:YES completion:^
+         {
+             switch (result)
+             {
+                 case TWTweetComposeViewControllerResultCancelled:
+                     
+                 {
+                     if (failBlock)
+                     {
+                         failBlock(NSLocalizedString(@"User cancelled", nil));
+                     }
+                     else
+                     {
+                     }
+                 }
+                     break;
+                     
+                 case TWTweetComposeViewControllerResultDone:
+                     
+                 {
+                     if (completionBlock)
+                     {
+                         completionBlock();
+                     }
+                     else
+                     {
+                     }
+                 }
+                     break;
+                     
+                 default:
+                     break;
+             }
+         }];
+    };
+    
+    [sender presentViewController:tweetSheet animated:YES completion:nil];
+}
+
+
+@end

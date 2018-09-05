@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="ESCreatBrandListThirdCell" customModule="Consumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加品牌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGh-Y0-A6s">
+                        <rect key="frame" x="15" y="15" width="53.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brand_add" translatesAutoresizingMaskIntoConstraints="NO" id="G4T-rO-LUa">
+                        <rect key="frame" x="15" y="46" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="qVm-z7-Nhr"/>
+                            <constraint firstAttribute="width" constant="60" id="xGx-7x-8aJ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aGh-Y0-A6s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="6BN-0O-58I"/>
+                    <constraint firstAttribute="bottom" secondItem="G4T-rO-LUa" secondAttribute="bottom" priority="250" constant="15" id="A7p-uY-MZ3"/>
+                    <constraint firstItem="G4T-rO-LUa" firstAttribute="top" secondItem="aGh-Y0-A6s" secondAttribute="bottom" constant="15" id="Yr5-Jz-TM3"/>
+                    <constraint firstItem="G4T-rO-LUa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ZIn-eI-bUD"/>
+                    <constraint firstItem="aGh-Y0-A6s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="pce-VV-8sS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addBrandImageView" destination="G4T-rO-LUa" id="GOY-A8-O1m"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="95"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="brand_add" width="60" height="60"/>
+    </resources>
+</document>

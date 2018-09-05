@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Homestyler Tests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" SCHEME_NAME="Homestyler Tests" PROJECT_NAME="Homestyler" TARGET_NAME="Homestyler Tests" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+    <envs />
+    <RunnerSettings RunnerId="AppRunner" />
+    <ConfigurationWrapper RunnerId="AppRunner" />
+    <method />
+  </configuration>
+</component>

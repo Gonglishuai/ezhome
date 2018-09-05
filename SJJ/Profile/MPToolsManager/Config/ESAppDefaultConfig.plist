@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>return_goods_description</key>
+	<string>实际退款金额以商家可退款金额为准，退款金额为用户实际支付金额；装修基金支付，未过期部分将返还至您的账户中。</string>
+	<key>pay_the_contract_html</key>
+	<string>http://m-alpha.homestyler.com/construction</string>
+	<key>design_url</key>
+	<string>http://bbs.homestyler.com/forum.php?mod=forumdisplay&amp;fid=46</string>
+	<key>diary_url</key>
+	<string>http://bbs.homestyler.com/forum.php?mod=forumdisplay&amp;fid=49</string>
+</dict>
+</plist>

@@ -1,0 +1,1740 @@
+/* 1 hr */
+"1_hour" = "1 ora";
+
+/* 1 min */
+"1_minute" = "1 min";
+
+/* No comment provided by engineer. */
+"3d_design_stream" = "SEQUENZA DI PROGETTI 3D";
+
+/* No comment provided by engineer. */
+"AR Check Begining" = "Scannerizza il pavimento per avviare la modalità AR";
+
+/* (No Comment) */
+"Activity_title" = "Sequenza di novità";
+
+/* No comment provided by engineer. */
+"Add_Products_ForAR" = "Aggiungi prodotti";
+
+/* No comment provided by engineer. */
+"Apply_btn" = "Applica";
+
+/* (No Comment) */
+"Basement" = "Seminterrato";
+
+/* (No Comment) */
+"Bathroom" = "Bagno";
+
+/* (No Comment) */
+"Bedroom" = "Camera da letto";
+
+/* Cancel */
+"Cancel_edit_profile_button_title" = "Annulla";
+
+/* Change Password */
+"Change_Password_btn_title" = "Cambia password";
+
+/* Change Profile Image */
+"Change_Profile_Image_btn_title" = "Cambia immagine del profilo";
+
+/* (No Comment) */
+"Commercial/Public Exterior" = "Commerciale / Esterno pubblico";
+
+/* (No Comment) */
+"Commercial/Public Interior" = "Interni commerciali / pubblici";
+
+/* No comment provided by engineer. */
+"Contact_Us" = "\n\n\n\n------------------------------------\n%@ Versione:V%@%@\nDispositivo:%@\nVersione:iOS%@\nRete:%@\nID utente:%@.\n\n\n%@\n";
+
+/* (No Comment) */
+"Den" = "tana";
+
+/* (No Comment) */
+"Dining Room" = "Sala da pranzo";
+
+/* (No Comment) */
+"Dismiss" = "Ignora";
+
+/* Done */
+"Done_edit_profile_button_title" = "Fine";
+
+/* Edit Info */
+"edit_info" = "Modificare le informazioni";
+
+/* No comment provided by engineer. */
+"Empty_Rooms" = "Stanza Vuota";
+
+/* (No Comment) */
+"Entrance & Hallway" = "Entrata e corridoio";
+
+/* Error */
+"Error" = "Errore";
+
+/* Female */
+"Female_segment_option" = "Femmina";
+
+/* First Name */
+"First_Name_text_placeholder" = "Nome";
+
+/* (No Comment) */
+"Floor-Plan" = "Piano terra";
+
+/* No comment provided by engineer. */
+"Follow us" = "Seguici";
+
+/* No comment provided by engineer. */
+"Guide_to_Record" = "Tieni premuto per registrare un video";
+
+/* (No Comment) */
+"Home Cinema" = "Home cinema";
+
+/* (No Comment) */
+"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!" = "Vuoi esprimere un giudizio su %@? Ci vorrà solo un minuto. Grazie per il supporto.";
+
+/* Invalide website link format */
+"Invalide_website_link_format" = "Il collegamento non funziona. Ridigitarlo.";
+
+/* (No Comment) */
+"Kids Room" = "Stanza dei bambini";
+
+/* (No Comment) */
+"Kitchen" = "Cucina";
+
+/* Last Name */
+"Last_Name_text_placeholder" = "Cognome";
+
+/* (No Comment) */
+"Library" = "Biblioteca";
+
+/* (No Comment) */
+"Living Room" = "Soggiorno";
+
+/* No comment provided by engineer. */
+"MESSAGE_COMMENT" = "%@ ha commentato il progetto '%@'";
+
+/* (No Comment) */
+"MESSAGE_COMMENT_UPDATE" = "%@ ha aggiornato il commento al progetto '%@'";
+
+/* No comment provided by engineer. */
+"MESSAGE_FEATURED" = "Il progetto '%@' è stato pubblicato nella sequenza progetti!";
+
+/* No comment provided by engineer. */
+"MESSAGE_FOLLOW" = "%@ ora è un tuo follower!";
+
+/* (No Comment) */
+"MESSAGE_GENERAL_NOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"MESSAGE_LIKED_ASSET" = "Il progetto '%@' ha ricevuto un cuore da %@";
+
+/* (No Comment) */
+"MESSAGE_PRIVATE" = "Hai ricevuto un messaggio privato da %@";
+
+/* No comment provided by engineer. */
+"MESSAGE_PUBLISHED_ASSET" = "%@ ha pubblicato un nuovo progetto '%@'";
+
+/* Male */
+"Male_segment_option" = "Maschio";
+
+/* No comment provided by engineer. */
+"Nevermind" = "Fa niente";
+
+/* No comment provided by engineer. */
+"No designs yet" = "Nessun disegno ancora";
+
+"No empty rooms yet" = "Non ci sono ancora stanze vuote";
+
+/* (No Comment) */
+"No, Thanks" = "No, grazie";
+
+/* No link provided */
+"No_link_provided" = "Immettere un collegamento al sito Web";
+
+/* (No Comment) */
+"Office" = "Ufficio";
+
+/* (No Comment) */
+"Oops" = "Oops";
+
+/* (No Comment) */
+"Other Room" = "L'altra stanza";
+
+/* (No Comment) */
+"Outdoors" = "All'aperto";
+
+/* (No Comment) */
+"Porch & Balcony" = "Veranda e balcone";
+
+/* (No Comment) */
+"PrivateNoComment" = "Non puoi commentare i disegni privati";
+
+/* (No Comment) */
+"Product Showcase" = "Vetrina del prodotto";
+
+/* (No Comment) */
+"Rate %@" = "Giudizio %@";
+
+/* No comment provided by engineer. */
+"Ready to design" = "Pronto per il design";
+
+/* (No Comment) */
+"Remind me later" = "Avvisa più tardi";
+
+/* (No Comment) */
+"Residential Exterior" = "Esterno Residenziale";
+
+/* No comment provided by engineer. */
+"Sample_Rooms" = "COMUNITÀ";
+
+/* Share */
+"Share" = "Condividi";
+
+/* (No Comment) */
+"Sketch" = "Schizzo";
+
+/* (No Comment) */
+"Studio" = "Studio";
+
+/* (No Comment) */
+"The application cannot send a tweet at the moment. This is because it cannot reach Twitter or you don't have a Twitter account associated with this device." = "Impossibile inviare tweet. L'applicazione non è in grado di connettersi a Twitter o nessun account è stato associato a questo dispositivo.";
+
+/* Update */
+"Update Now" = "Aggiorna";
+
+/* No comment provided by engineer. */
+"User agreement" = "l'accordo di licenza per l'utente finale";
+
+/* Validate */
+"Validate_web_link_button" = "Visualizza";
+
+/* No comment provided by engineer. */
+"about_me" = "Informazioni personali:";
+
+/* No comment provided by engineer. */
+"activity_comment_button_title" = "Commento";
+
+/* (No Comment) */
+"activity_design_add_a_commented" = "Commento";
+
+/* (No Comment) */
+"activity_design_commented_title_format" = "%@ ha inserito un commento su %@";
+
+/* (No Comment) */
+"activity_design_commented_title_format_iphone" = "%@\nha inserito un commento su %@";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format" = "%@ ha commentato il tuo progetto";
+
+/* (No Comment) */
+"activity_design_commented_title_private_format_iphone" = "%@\nha commentato il tuo progetto";
+
+/* (No Comment) */
+"activity_design_featured_title_format" = "Il progetto di %@ è stato presentato nella sequenza di progetti";
+
+/* (No Comment) */
+"activity_design_featured_title_format_private" = "Il tuo progetto %@ è stato presentato nella sequenza di progetti";
+
+/* (No Comment) */
+"activity_design_featured_title_private_format" = "Il tuo progetto %@ è stato presentato nella sequenza di progetti";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format" = "%@ e %@ hanno contrassegnato con cuore %@";
+
+/* (No Comment) */
+"activity_design_liked_aggregated_title_format_iphone" = "%@\ne altri %@ hanno contrassegnato con cuore %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format" = "%@ ha assegnato un cuore a %@";
+
+/* (No Comment) */
+"activity_design_liked_title_format_iphone" = "%@\nha contrassegnato con cuore %@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format" = "%@ ha assegnato un cuore al tuo progetto %@";
+
+/* (No Comment) */
+"activity_design_liked_title_private_format_iphone" = "%@\nha contrassegnato con cuore il tuo progetto %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format" = "%@ ha pubblicato una nuova foto %@";
+
+/* (No Comment) */
+"activity_design_published_professional_title_format_private" = "Hai pubblicato una nuova foto";
+
+/* (No Comment) */
+"activity_design_published_title_format" = "%@ ha aggiunto un nuovo progetto %@";
+
+/* (No Comment) */
+"activity_design_published_title_format_private" = "Hai aggiunto un nuovo progetto";
+
+/* No comment provided by engineer. */
+"activity_follow_button" = "Segui";
+
+/* (No Comment) */
+"activity_new_article_author_format" = "Da %@";
+
+/* (No Comment) */
+"activity_new_article_title_format" = "Guarda il nuovo articolo %@";
+
+/* No comment provided by engineer. */
+"activity_no_data_message_data" = "Nessun dato trovato";
+
+/* (No Comment) */
+"activity_no_data_message_designs" = "Nessun progetto trovato";
+
+/* (No Comment) */
+"activity_private_follower_title_format" = "%@ ora è un tuo follower!";
+
+/* (No Comment) */
+"activity_private_follower_title_format_iphone" = "%@\nora è un tuo follower!";
+
+/* (No Comment) */
+"activity_public_follower_title_format" = "%@ ora è un follower di %@";
+
+/* (No Comment) */
+"activity_public_follower_title_format_iphone" = "%@\nora è un follower di %@";
+
+/* (No Comment) */
+"activity_public_follower_title_self_action_format" = "Ora sei un follower di %@";
+
+/* 1 hour ago */
+"activity_stream_1_hour_ago" = "1 ora fa";
+
+/* 1 minute ago */
+"activity_stream_1_min_ago" = "1 minuto fa";
+
+/* %d hours ago */
+"activity_stream_ts_hours_ago" = "%d ore fa";
+
+/* Just now */
+"activity_stream_ts_just_now" = "Adesso";
+
+/* %d mins ago */
+"activity_stream_ts_mins_ago" = "%d minuti fa";
+
+/* Some time ago */
+"activity_stream_ts_some_time_ago" = "Un po' di tempo fa";
+
+/* Yesterday */
+"activity_stream_ts_yesterday" = "Ieri";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_key" = "articoli preferiti";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_articles_message" = "Leggi e assegna cuori agli articoli preferiti";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_key" = "professionisti preferiti";
+
+/* No comment provided by engineer. */
+"activity_welcome_favorite_proffesionals_message" = "Cerca e scova i tuoi professionisti preferiti";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message" = "Trova e segui nuovi amici attraverso Homestyler";
+
+/* No comment provided by engineer. */
+"activity_welcome_find_and_follow_message_wl" = "Trova e segui nuovi amici con %@";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling" = "Buona esperienza Homestyler";
+
+/* No comment provided by engineer. */
+"activity_welcome_happy_homestyling_wl" = "Buona progettazione!";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message" = "Assegna un cuore e commenta i progetti di altri homestyler";
+
+/* No comment provided by engineer. */
+"activity_welcome_heart_and_comment_message_wl" = "Assegna un cuore e commenta i progetti di altri utenti %@";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_article_key" = "articolo della guida";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_key" = "Guida";
+
+/* No comment provided by engineer. */
+"activity_welcome_help_message" = "E se rimani bloccato, consulta la Guida o fai riferimento all'articolo della guida";
+
+/* No comment provided by engineer. */
+"activity_welcome_subtitle" = "Crea subito la tua sequenza di novità. Ecco come fare:";
+
+/* No comment provided by engineer. */
+"activity_welcome_title" = "Benvenuto su Homestyler!";
+
+/* No comment provided by engineer. */
+"activity_welcome_title_wl" = "Benvenuto su Progettista stanze!";
+
+/* No comment provided by engineer. */
+"add_brand" = "Aggiungi marca";
+
+/* No comment provided by engineer. */
+"add_portfolio" = "Aggiungi portfolio";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied" = "Per aggiungere altri amici, apri le impostazioni, tocca Privacy, Contatti e accedi a %@";
+
+/* No comment provided by engineer. */
+"addressbook_access_denied_title" = "Grant Contact Access?";
+
+/* OK */
+"alert_action_ok" = "OK";
+
+/* (No Comment) */
+"alert_message_no_button" = "No";
+
+/* Cancel */
+"alert_msg_button_cancel" = "Annulla";
+
+/* Retry */
+"alert_msg_button_retry" = "Riprova";
+
+/* Yes */
+"alert_msg_button_yes" = "Sì";
+
+/* Close */
+"alert_view_close_btn" = "Chiudi";
+
+/* No, Thanks */
+"alert_view_dont_remind" = "No, grazie";
+
+/* All */
+"all_filter" = "Tutti";
+
+/* (No Comment) */
+"alternate_2d_3d" = "Alternare tra prospettiva 2D e 3D";
+
+/* In order to improve this app, we recieve non-personal, aggregated product usage data. You can turn this off in app settings. */
+"analytics_msg" = "Per migliorare questa app, Autodesk riceve dati aggregati sull'utilizzo del prodotto ma non dati personali. È possibile disattivare questa funzione nelle impostazioni dell'app.";
+
+/* (No Comment) */
+"analytics_title" = "Dati analitici";
+
+/* (No Comment) */
+"app_build_copy" = "crea";
+
+/* (No Comment) */
+"app_name" = "Homestyler";
+
+/* (No Comment) */
+"app_start_loading_copy" = "Attendere...";
+
+/* No comment provided by engineer. */
+"ask_contact_access_allow" = "Consenti";
+
+/* No comment provided by engineer. */
+"ask_contact_access_body" = "Per cercare gli amici, è necessario inviare le informazioni di contatto ai server Homestyler attraverso una connessione sicura.";
+
+/* No comment provided by engineer. */
+"ask_contact_access_title" = "Cercare contatti per gli amici di Homestyler?";
+
+/* Are you sure you want to delete your design? */
+"ask_delete_design" = "Eliminare il progetto?";
+
+/* No comment provided by engineer. */
+"ask_quit_design" = "Vuoi uscire dalla modalità AR?";
+
+/* No comment provided by engineer. */
+"ask_save_user_details" = "Salvare le modifiche?";
+
+/* Please Redesign and Save this design in order to make any changes */
+"ask_to_redesign_auto_Save_from_mydesigns" = "Riprogettare e salvare il progetto per poterlo modificare";
+
+/* author_title */
+"author_title" = "Da %@";
+
+/* No comment provided by engineer. */
+"auto_saved_design_title" = "Salvataggio automatico";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement" = "Con l'iscrizione, l'utente accetta l'accordo di licenza per l'utente finale Easyhome Homestyler";
+
+/* No comment provided by engineer. */
+"autodesk_privacy_statement_and_terms_of_service" = "AVVISO IMPORTANTE: Gli utenti che hanno registrato prima del maggio 2017 non potranno accedere ai tuoi account originali e ai dati di progettazione dopo questo trasferimento da Autodesk a Easyhome, ti invitiamo a firmare un nuovo account per sperimentare le nostre nuove funzionalità   %@";
+
+/* No comment provided by engineer. */
+"available_variations" = "Varianti disponibili:";
+
+/* No comment provided by engineer. */
+"brightness_button" = "Luminosità";
+
+/* No comment provided by engineer. */
+"by_prefix" = "Da";
+
+/* Private design can't be commented */
+"cannot_comment_private_design" = "I design privati non possono essere commentati";
+
+/* No comment provided by engineer. */
+"catalog" = "CATALOGO";
+
+/* (No Comment) */
+"catalog_open_categories_title" = "Seleziona categoria";
+
+/* choose an effect popup title
+   Choose an effect popup title */
+"choose_an_effect_title" = "Scegli un effetto";
+
+/* (No Comment) */
+"choose_area_replicate" = "Scegliere l'area da replicare";
+
+/* Choose Variation (%d): */
+"choose_variation" = "Variazioni disponibili (%d):";
+
+/* No comment provided by engineer. */
+"clean_tool_2d" = "2D";
+
+/* No comment provided by engineer. */
+"clean_tool_3d" = "3D";
+
+/* No comment provided by engineer. */
+"clean_tool_advanced" = "Avanzate";
+
+/* No comment provided by engineer. */
+"clean_tool_apply" = "Applica";
+
+/* No comment provided by engineer. */
+"clean_tool_autoapply" = "Applica automaticamente";
+
+/* No comment provided by engineer. */
+"clean_tool_blend" = "Miscelazione";
+
+/* No comment provided by engineer. */
+"clean_tool_blend_mode" = "Modalità";
+
+/* No comment provided by engineer. */
+"clean_tool_copy" = "Copia";
+
+/* (No Comment) */
+"clean_tool_mode" = "Modalità";
+
+/* (No Comment) */
+"clean_tool_quickmode" = "Modalità rapida";
+
+/* (No Comment) */
+"clean_tool_redo" = "Ripeti";
+
+/* No comment provided by engineer. */
+"clean_tool_reset" = "Reimposta";
+
+/* No comment provided by engineer. */
+"clean_tool_size" = "Dimensioni";
+
+/* No comment provided by engineer. */
+"clean_tool_stepper" = "Stepper";
+
+/* No comment provided by engineer. */
+"clean_tool_texture" = "Composizione";
+
+/* (No Comment) */
+"clean_tool_undo" = "Annulla";
+
+/* No comment provided by engineer. */
+"clear_cache_success" = "La cache è stata svuotata correttamente";
+
+/* (No Comment) */
+"clear_room" = "Svuota stanza";
+
+/* (No Comment) */
+"clear_room_tool_title" = "Svuota stanza";
+
+/* (No Comment) */
+"close_comments_button" = "Chiudi commenti";
+
+/* No comments yet */
+"commentString" = "Ancora nessun commento";
+
+/* No comment provided by engineer. */
+"commentTip" = "Aggiungi un commento";
+
+/* No comment provided by engineer. */
+"concealer_button" = "Correttore";
+
+/* Sorry, Your design is unable to load at this time. Please choose another design. */
+"corrupted_load_design" = "Non è possibile caricare il progetto in questo momento. Scegliere un altro progetto.";
+
+/* No comment provided by engineer. */
+"create_new_design" = "CREA NUOVO PROGETTO";
+
+/* No comment provided by engineer. */
+"default_sort" = "Predefinito";
+
+/* default_text_for_save_design */
+"default_text_for_save_design" = "Per essere incluso nella sequenza di progetti, raccontaci qualcosa sul tuo progetto.\n\nCondividi le tue ispirazioni, i materiali utilizzati, i negozi visitati, le persone che apprezzi, l'umore al momento dell'ispirazione...qualsiasi cosa.";
+
+/* Sorry, we couldn't delete your design . Please try again. */
+"delete_design_error" = "Non è stato possibile eliminare il progetto. Riprovare in un secondo momento.";
+
+/* (No Comment) */
+"design_layers" = "Layers";
+
+/* Private design */
+"design_private" = "Privato";
+
+/* No comment provided by engineer. */
+"design_public" = "Pubblico";
+
+/* No comment provided by engineer. */
+"design_published" = "In primo piano";
+
+/* No comment provided by engineer. */
+"design_stream_Close" = "Vicino";
+
+/* No comment provided by engineer. */
+"design_stream_filter" = "Filtra";
+
+/* (No Comment) */
+"design_title_for_others" = "Progetti";
+
+/* No comment provided by engineer. */
+"dynamic_menu_homestyler_magazine" = "Rivista Homestyler";
+
+/* No comment provided by engineer. */
+"dynamic_menu_photo_gallery" = "Raccolta foto";
+
+/* No comment provided by engineer. */
+"dynamic_menu_prof_index" = "Indice professionisti";
+
+/* (No Comment) */
+"dynamic_menu_wl_magazine" = "Rivista";
+
+/* Edit */
+"edit_button" = "Modifica";
+
+/* Edit Profile */
+"edit_profile" = "Modifica profilo";
+
+/* Editor's Choice */
+"editor_choice_sort" = "Selezione dell'editore";
+
+/* Sorry no email account defined on this device */
+"email_missing_default_msg" = "Nessun account e-mail definito per questo dispositivo";
+
+/* Sorry this professional doesn't have email configured */
+"email_missing_prof_page" = "Il professionista non ha fornito un indirizzo e-mail";
+
+/* (No Comment) */
+"erh_register_email_exists_msg" = "E-mail già utilizzata!";
+
+/* No comment provided by engineer. */
+"erh_unknown_error_msg" = "Si è verificato un errore. Riprovare.";
+
+/* Please enter you first/last name */
+"err_msg_enter_new_full_name" = "Immettere nome e cognome";
+
+/* Please enter new password */
+"err_msg_enter_new_pass" = "Immettere una nuova password";
+
+/* (No Comment) */
+"err_msg_facebook_share_failed" = "Condivisione non riuscita";
+
+/* No comment provided by engineer. */
+"err_msg_failed_image_upload" = "Condivisione non riuscita";
+
+/* No comment provided by engineer. */
+"err_msg_failed_retrive_wish_list" = "Per creare una wish-list, tocca l'icona a forma di cuore dei prodotti preferiti.";
+
+/* No comment provided by engineer. */
+"err_msg_login_before_email_status" = "È necessario effettuare l'accesso prima di modificare le impostazioni.";
+
+/* (No Comment) */
+"err_msg_login_before_name_reset" = "Occorre effettuare l'accesso per modificare il nome profilo";
+
+/* You must login before changing your current password */
+"err_msg_login_before_pass_reset" = "Per modificare la password corrente, è necessario eseguire l'accesso";
+
+/* Password change failed */
+"err_msg_pass_change_failed" = "Modifica password non riuscita";
+
+/* New password and confirm password don't match */
+"err_msg_pass_confirm_mismatch" = "La nuova password e quella inserita nel campo di conferma non corrispondono";
+
+/* Your current password is incorrect */
+"err_msg_pass_incorrect" = "Password corrente non corretta";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading" = "Non è possibile accedere al tuo profilo in questo momento. Riprova più tardi.";
+
+/* An error occured while trying to load the profile */
+"err_msg_profile_loading_other" = "In questo momento non è possibile accedere a questo profilo. Riprova più tardi.";
+
+/* (No Comment) */
+"err_msg_update_full_name" = "Aggiornamento del nome completo non riuscito";
+
+/* Failed to update user info */
+"err_msg_update_user_info" = "Aggiornamento delle informazioni utente non riuscito";
+
+/* Failed to upload profile image */
+"err_msg_upload_profile_image" = "Caricamento dell'immagine del profilo non riuscito";
+
+/* No comment provided by engineer. */
+"error_missing_result" = "Nessun risultato trovato.\nRiprova utilizzando un termine di ricerca diverso.";
+
+/* No comment provided by engineer. */
+"error_missing_result_ipad" = "Nessun risultato trovato. Riprova utilizzando un termine di ricerca diverso.";
+
+/* (No Comment) */
+"exception_message" = "Si è verificato un problema generico. Riprova in un secondo momento.";
+
+/* No comment provided by engineer. */
+"facebook_friends_empty_copy" = "Non è stato trovato alcun amico su Facebook";
+
+/* (No Comment) */
+"facebook_login_failed_msg" = "Devi eseguire l'accesso a Facebook per accedere ai tuoi amici";
+
+/* Sign in failed, please check your Facebook account details and try again. */
+"facebook_login_general_error" = "Accesso non riuscito, verificare le informazioni di accesso all'account Facebook e riprovare.";
+
+/* We lost you! Check your network connection. */
+"failed_action_no_network_found" = "Ti abbiamo perso! Controlla la connessione di rete.";
+
+/* You seem to be offline. Please check your internet connection and retry. */
+"failed_action_no_network_found_start" = "Sembri essere offline. Verifica la connessione internet e riprova.";
+
+/* Sorry, this product is currently unavailable. */
+"failed_load_catalog_item" = "Il prodotto non è al momento disponibile.";
+
+/* Please select another product. */
+"failed_load_catalog_item_p2" = "Selezionare un altro prodotto.";
+
+/* We couldn't load the design */
+"failed_load_models" = "Non è stato possibile caricare il progetto.";
+
+/* (No Comment) */
+"failed_load_models_p2" = "Riprovare in un secondo momento.";
+
+/* Sorry! The internet connection is a bit slow at the moment. Thank you for your patience. */
+"failed_slow_connection" = "Al momento la connessione Internet è piuttosto lenta. Grazie per la pazienza.";
+
+/* (No Comment) */
+"fb_find_friend_invite" = "Raggiungimi su Autodesk Homestyler, dove puoi scoprire nuove idee di progettazione e creare i tuoi ambienti ideali!";
+
+/* No comment provided by engineer. */
+"feedback_email_body" = "Le seguenti informazioni vengono utilizzate esclusivamente dal nostro team tecnico per risolvere in modo efficiente i problemi riscontrati. Grazie per la collaborazione!";
+
+/* Share with Homestyler Team */
+"feedback_email_subject" = "Invia i tuoi suggerimenti per migliorare il nostro prodotto.";
+
+/* (No Comment) */
+"finalized_scene" = "Scena completata";
+
+/* No comment provided by engineer. */
+"find_by_name_or_email" = "Trova per nome o indirizzo e-mail";
+
+/* No comment provided by engineer. */
+"find_contact_friends" = "Trova gli amici dei contatti";
+
+/* No comment provided by engineer. */
+"find_facebook_friends" = "Trova i tuoi amici su Facebook";
+
+/* No comment provided by engineer. */
+"find_friends" = "Trova amici";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_copy" = "Questo utente non dispone ancora di un account %@. Inserisci il suo indirizzo e-mail per invitarlo su %@";
+
+/* No comment provided by engineer. */
+"find_friends_no_results_filter_copy" = "Nessun risultato corrisponde alla ricerca.";
+
+/* (No Comment) */
+"find_friends_result_title_follow" = "Segui";
+
+/* No comment provided by engineer. */
+"find_friends_result_title_following" = "Siguiendo";
+
+/* (No Comment) */
+"find_friends_result_title_invite" = "Invita";
+
+/* (No Comment) */
+"find_friends_result_title_invited" = "Invitato";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_addrbook" = "Amici dell'elenco contatti";
+
+/* No comment provided by engineer. */
+"find_friends_results_title_facebook" = "Amici su Facebook";
+
+/* (No Comment) */
+"floor_button" = "Pavimento";
+
+/* follow
+   Follow */
+"follow" = "Segui";
+
+/* Enter the email you used to sign up. */
+"forgot_password_error" = "Immetti l'e-mail utilizzata per la registrazione.";
+
+/* A new password has been sent to your email. */
+"forgot_password_ok" = "Una nuova password è stata inviata al tuo indirizzo e-mail.";
+
+/* No comment provided by engineer. */
+"friend_action_btn_follow" = "Segui";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invite" = "Invita";
+
+/* No comment provided by engineer. */
+"friend_action_btn_invited" = "Invitato";
+
+/* No comment provided by engineer. */
+"friend_action_btn_unfollow" = "Siguiendo";
+
+/* No comment provided by engineer. */
+"friend_cell_no_account_yet" = "no %@ account yet";
+
+/* No comment provided by engineer. */
+"get_location_hide_title" = "Nascondi";
+
+/* No comment provided by engineer. */
+"get_location_title" = "Utilizza la mia posizione";
+
+/* No comment provided by engineer. */
+"gps_failed_to_retrieve_location" = "Impossibile trovare la posizione";
+
+/* (No Comment) */
+"help_3danalysis_label1" = "Ottimizza i risultati allineando le pareti agli angoli della stanza.";
+
+/* (No Comment) */
+"help_camera_label1" = "Per risultati ottimali, provare a includere il pavimento e due pareti nella foto.";
+
+/* (No Comment) */
+"help_note_label1" = "Nota: le dimensioni, le forme, i colori e altre caratteristiche delle immagini disponibili in EasyhomeÂ® HomestylerÂ® potrebbero differire da quelle di oggetti e spazi reali.";
+
+/* (No Comment) */
+"help_note_label2" = "Ruota";
+
+/* (No Comment) */
+"help_note_label3" = "Scala";
+
+/* (No Comment) */
+"help_note_label4" = "Solleva con due dita";
+
+/* (No Comment) */
+"help_paint_line_label1" = "Avvicina le dita e fai scivolare la linea nell'area desiderata.";
+
+/* (No Comment) */
+"help_reomve_tip_label1" = "Troppa vernice? Correggi qui.";
+
+/* (No Comment) */
+"help_scale_label1" = "Tutti i prodotti saranno ridimensionati in base a queste misure. Per risultati accurati, regolare il righello sulle dimensioni reali. ";
+
+/* (No Comment) */
+"help_take_pic_label1" = "Scatta una foto e ricevila per e-mail.";
+
+/* (No Comment) */
+"help_take_pic_label2" = "Salva in Immagini";
+
+/* (No Comment) */
+"help_take_pic_label3" = "Crea un nuovo progetto con l'immagine";
+
+/* No comment provided by engineer. */
+"i_am_title" = "Sono un...";
+
+/* Please enter a valid email, like stylerlover@yourmail.com */
+"illigal_email" = "Immettere un indirizzo e-mail valido, ad es. amolostile@tuaemail.com";
+
+/* Almost there! Your password should be at least 1 character long. */
+"illigal_password" = "Ci siamo quasi! La password deve contenere almeno 1 caratteri.";
+
+/* Please choose Room Type. */
+"illigal_room_type" = "Scegliere il tipo di stanza.";
+
+/* (No Comment) */
+"illigal_save_desc" = "Condividi la storia del processo del tuo progetto.";
+
+/* Give your design a title. */
+"illigal_save_title" = "Assegna un titolo al tuo progetto";
+
+/* (No Comment) */
+"illigal_signin_password" = "Immettere una password";
+
+/* No comment provided by engineer. */
+"input_limit_reached" = "Il numero limite di caratteri per questa opzione è stato superato.";
+
+/* No comment provided by engineer. */
+"invite_email_friend_no_email" = "L'indirizzo e-mail di questo contatto non sembra valido";
+
+/* No comment provided by engineer. */
+"invite_fb_friend_success" = "Il tuo amico su Facebook è stato invitato in Homestyler";
+
+/* check out this design... */
+"invite_friend_email_body" = "Ciao,<br/> raggiungimi su Autodesk %@, dove puoi scoprire nuove idee di progettazione e creare i tuoi ambienti ideali!<br/> Scarica l'app per dispositivi mobili su <a href=\"{{url}}\">{{title_url}}</a> ";
+
+/* No comment provided by engineer. */
+"invite_friend_email_subject" = "Raggiungimi su Autodesk %@!";
+
+/* (No Comment) */
+"iphone_share_action_email" = "E-mail";
+
+/* (No Comment) */
+"iphone_share_action_facebook" = "Facebook";
+
+/* (No Comment) */
+"iphone_share_action_save_image" = "Salva immagine";
+
+/* Just now */
+"just_now" = "Adesso";
+
+/* No comment provided by engineer. */
+"lang_action_take_affect" = "La lingua scelta sarà attivata al prossimo avvio dell'app.";
+
+/* Likes */
+"likes" = "Mi piace";
+
+/* (No Comment) */
+"likes_count_ipad" = "In totale piace a %d persone";
+
+/* (No Comment) */
+"likes_count_iphone" = "Piace a %d persone";
+
+/* Loading */
+"loading_popup_title_iPad" = "Caricamento...";
+
+/* Loading */
+"loading_popup_title_iPhone" = "CARICAMENTO";
+
+/* No comment provided by engineer. */
+"loading_tips_loading_title" = "Caricamento";
+
+/* (No Comment) */
+"loading_tips_title" = "SUGGERIMENTI RAPIDI DURANTE L'ATTESA";
+
+/* (No Comment) */
+"local_notification_monthly_copy" = "È da un po' che non ti fai vedere! Scopri tutte le fantastiche novità che abbiamo aggiunto dall'ultima volta.";
+
+/* (No Comment) */
+"local_notification_once_copy" = "Benvenuto su Homestyler! Scopri subito i nostri nuovi prodotti, progetti e ispirazioni.";
+
+/* (No Comment) */
+"location_field_placeholder" = "Immettere la posizione";
+
+/* Area of Service */
+"location_filter_button_name" = "Area del servizio";
+
+/* (No Comment) */
+"login_error" = "Oops, non riusciamo a trovarti. Controlla e-mail e password.";
+
+/* This email is already part of the Homestyler community. Check your password and try again. */
+"login_error_after_signup" = "La password che hai inserito non e' corretta. Per favore, riprova.";
+
+/* (No Comment) */
+"login_success_after_signup" = "L'indirizzo e-mail specificato è già utilizzato per la community Homestyler. Accesso riuscito.";
+
+/* (No Comment) */
+"low_memory_user_notification" = "Questo progetto dispone di troppi prodotti per il tuo dispositivo. Puoi continuare a progettare senza prodotti mentre cerchiamo una soluzione al problema.";
+
+/* (No Comment) */
+"measure_unit_cm" = "cm";
+
+/* (No Comment) */
+"measure_unit_ft" = "ft";
+
+/* (No Comment) */
+"measure_unit_in" = "in";
+
+/* (No Comment) */
+"measure_unit_m" = "m";
+
+/* Missing SKU for Product */
+"missing_sku_product" = "SKU del prodotto assente";
+
+/* (No Comment) */
+"move_adjust_area" = "Spostare e regolare l'area da svuotare";
+
+/* No comment provided by engineer. */
+"multi_share_all_success" = "Fantastico. Il tuo progetto è stato condiviso.";
+
+/* (No Comment) */
+"multi_share_cancel_btn" = "Annulla";
+
+/* (No Comment) */
+"multi_share_charlimit_msg" = "Errore. Tweet troppo lungo. Per condividerlo, è necessario modificarlo e farlo rientrare nei 140 caratteri.";
+
+/* (No Comment) */
+"multi_share_configure_email_msg" = "Andare sulle impostazioni del dispositivo e configurare l'account e-mail";
+
+/* (No Comment) */
+"multi_share_email_subject" = "Guardalo su %@";
+
+/* (No Comment) */
+"multi_share_fail_email_msg" = "Impossibile condividere questa e-mail";
+
+/* (No Comment) */
+"multi_share_fail_msg_first_part" = "Impossibile condividere l'elemento";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_fb" = "Facebook";
+
+/* (No Comment) */
+"multi_share_fail_msg_part_2_none" = "Nessuno";
+
+/* No comment provided by engineer. */
+"multi_share_fail_msg_part_2_twitter" = "Twitter";
+
+/* (No Comment) */
+"multi_share_nophoto_msg" = "Impossibile trovare l'immagine. Riprovare.";
+
+/* No comment provided by engineer. */
+"multi_share_part_no_success" = "Impossibile condividere il progetto su %@.\n Riprovare.";
+
+/* No comment provided by engineer. */
+"multi_share_part_success" = "La condivisione sembra essere riuscita solo su:\n%@";
+
+/* No comment provided by engineer. */
+"multi_share_part_success_part2" = "Riprovare a condividere su %@";
+
+/* (No Comment) */
+"multi_share_share_btn" = "Condividi";
+
+/* (No Comment) */
+"multi_share_share_title" = "Condividi progetto";
+
+/* (No Comment) */
+"multi_share_twitter_login_msg" = "Andare sulle impostazioni del dispositivo e accedere a Twitter con il proprio account";
+
+/* Could not load the selected design */
+"my_design_could_not_load" = "Impossibile caricare il progetto selezionato.";
+
+/* No comment provided by engineer. */
+"my_homestyler_menu_wl" = "Il mio profilo";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_activites_copy_other" = "";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy" = "Nessun articolo preferito? Basta assegnare un \"cuore\" a un articolo per aggiungerlo in questa sezione.";
+
+/* No comment provided by engineer. */
+"myhome_no_articles_copy_other" = "Questo progettista non ha assegnato alcun cuore agli articoli della rivista Homestyler. Controlla in un secondo momento.";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy" = "Nessun progetto? Libera la creatività e creane uno nuovo oppure riprogetta un'immagine esistente della galleria.";
+
+/* No comment provided by engineer. */
+"myhome_no_designs_copy_other" = "Questo progettista non ha progetti pubblici. Controlla in un secondo momento.";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy" = "No worries, start interacting with other users and your followers are sure to come...";
+
+/* No comment provided by engineer. */
+"myhome_no_followers_copy_other" = "Questo progettista al momento non ha alcun follower. Puoi essere tu il primo!";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy" = "Cosa aspetti? Guarda gli altri profili %@ e \"seguili\" per rimanere in contatto. ";
+
+/* No comment provided by engineer. */
+"myhome_no_following_copy_other" = "Questo progettista non segue altri profili %@. Controlla in un secondo momento. ";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy" = "Crea una rubrica dei tuoi professionisti preferiti. Basta \"seguire\" un professionista per aggiungerlo in questa sezione.";
+
+/* No comment provided by engineer. */
+"myhome_no_profs_copy_other" = "Questo progettista non segue alcun professionista dell'indice professionisti Homestyler. Controlla in un secondo momento.";
+
+/* (No Comment) */
+"new_design_share_pinteret_title" = "Nuovo progetto";
+
+/* New */
+"new_sort" = "Nuovo";
+
+/* No comment provided by engineer. */
+"no_camera_allowed_error" = "Homestyler non dispone dell'autorizzazione per utilizzare la fotocamera. Controlla le impostazioni del dispositivo e modifica le autorizzazioni della fotocamera.";
+
+/* (No Comment) */
+"no_camera_exists_error" = "Oops, la fotocamera non è disponibile. Scegli una foto dalla tua galleria oppure riprogetta un'immagine dalla sequenza progetti.";
+
+/* No comment provided by engineer. */
+"no_contacts_in_address_copy" = "Nessun contatto trovato. Provare un'opzione di ricerca diversa per trovare gli amici. ";
+
+/* (No Comment) */
+"no_filter_gstream_data" = "Impossibile trovare elenchi disponibili per questa ricerca. Sfogliare altre categorie.";
+
+/* No comment provided by engineer. */
+"no_following" = "Non hai ancora seguito nessuno";
+
+/* No comment provided by engineer. */
+"no_gps_location_enabled" = "Per utilizzare la posizione, attivare Homestyler su Impostazioni > Privacy > Servizi di localizzazione";
+
+/* No more */
+"no_more" = "Non ci sono più design =_=*";
+
+/* Sorry no products found */
+"no_product" = "Spiacente, nessun prodotto trovato";
+
+/* No comment provided by engineer. */
+"no_profs_for_selected_filter" = "Impossibile trovare elenchi disponibili per questa ricerca. Sfogliare altre categorie.";
+
+/* No comment provided by engineer. */
+"none_effect_title" = "Nessuno";
+
+/* No comment provided by engineer. */
+"not_sign_in" = "Accedi per vedere i nuovi design delle persone che segui";
+
+/*Notifications*/
+"notify_title" = "Notifiche";
+"notify_list_new_tag" = "Nuovo";
+"notify_list_no" = "Non ci sono ancora notifiche";
+"notify_list_like" = "%@ ha messo <b>Mi piace</b> al tuo design";
+"notify_list_like_group" = "%@ e %@ altri hanno messo <b>Mi piace</b> al tuo design";
+"notify_list_follow" = "%@ ha cominciato a <b>seguirti</b>";
+"notify_list_feature" = "Il tuo design è stato <b>condiviso</b> nella nostra Comunità! Congratulazioni!";
+"notify_list_comment_replyMe" = "%@ %@ Tu: <br> <b>%@</b>";
+
+/* %i hrs */
+"num_hours" = "%i ore";
+
+/* %i min */
+"num_minutes" = "%i min";
+
+/* (No Comment) */
+"page_title_about" = "Informazioni su";
+
+/* About */
+"page_title_about2" = "Informazioni su";
+
+/* (No Comment) */
+"page_title_terms" = "Termini e condizioni";
+
+/* Terms and Conditions */
+"page_title_terms2" = "Termini e condizioni";
+
+/* (No Comment) */
+"paint_button" = "Vernice";
+
+/* No comment provided by engineer. */
+"paint_view_brightness_popup_title" = "Luminosità";
+
+/* No comment provided by engineer. */
+"paint_view_contrast_popup_title" = "Miscelazione";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape" = "Si prega di sbloccare la modalità di orientamento verticale e scattare la foto in modalità orizzontale.";
+
+/* No comment provided by engineer. */
+"photo_not_in_landscape_device" = "Scegliere un'immagine orizzontale.";
+
+/* No comment provided by engineer. */
+"please_accept_terms" = "Accettare i Termini del servizio e la Normativa sulla privacy";
+
+/* Popularity */
+"popularity_sort" = "Popolare";
+
+/* No comment provided by engineer. */
+"post_description_field" = "Guardalo su %@";
+
+/* (No Comment) */
+"post_description_field_article" = "Guarda questo articolo su Homestyler";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format" = "Hai commentato %@";
+
+/* (No Comment) */
+"private_activity_design_commented_title_format_iphone" = "Hai\ncommentato %@";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format" = "Tu e altri %@ avete contrassegnato con cuore %@";
+
+/* (No Comment) */
+"private_activity_design_liked_aggregated_title_format_iphone" = "Tu\n e altri %@ hanno contrassegnato con cuore %@";
+
+/* (No Comment) */
+"private_activity_design_liked_title_format" = "%@ contrassegnato con cuore";
+
+/* (No Comment) */
+"private_activity_design_published_title_format" = "Hai aggiunto un nuovo progetto %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format" = "Ora sei un follower di %@";
+
+/* (No Comment) */
+"private_activity_public_follower_title_format_iphone" = "Ora\nsei un follower di %@";
+
+/* No comment provided by engineer. */
+"prod_action_brightness_btn_title" = "Luminosità";
+
+/* No comment provided by engineer. */
+"prod_action_dimension_btn_title" = "Dettagli prodotto";
+
+/* No comment provided by engineer. */
+"prod_action_duplicate_btn_title" = "Duplica prodotto";
+
+/* No comment provided by engineer. */
+"prod_action_remove_btn_title" = "Rimuovi prodotto";
+
+/* No comment provided by engineer. */
+"prod_action_restore_btn_title" = "Ripristina dimensioni";
+
+/* (No Comment) */
+"prod_catalog_go_to" = "Dettagli prodotto";
+
+/* (No Comment) */
+"prod_size_height" = "Altezza";
+
+/* (No Comment) */
+"prod_size_length" = "Lunghezza";
+
+/* (No Comment) */
+"prod_size_title" = "Dimensioni del prodotto";
+
+/* (No Comment) */
+"prod_size_width" = "Larghezza";
+
+/* (No Comment) */
+"prod_tag_remove_action" = "Rimuovi";
+
+/* (No Comment) */
+"prod_tag_remove_copy" = "Rimuovere il prodotto?";
+
+/* No comment provided by engineer. */
+"product_catalog_title" = "Catalogo prodotti";
+
+/* No comment provided by engineer. */
+"production_information" = "Informazioni sulla produzione";
+
+/* NEW! */
+"products_catalog_new" = "Nuovo";
+
+/* No comment provided by engineer. */
+"prof_desc_collapse" = "Meno informazioni...";
+
+/* No comment provided by engineer. */
+"prof_desc_more" = "Altro...";
+
+/* No comment provided by engineer. */
+"prof_details_address_title" = "Indirizzo";
+
+/* Homestyler Professional Enquiry */
+"prof_email_subject" = "Ricerca professionisti Homestyler";
+
+/* No comment provided by engineer. */
+"prof_filter_all_key" = "Tutti";
+
+/* No comment provided by engineer. */
+"prof_follow_error" = "Hai toccato l'icona a forma di cuore ma si è verificato un errore nell'elaborazione dell'assegnazione del cuore. Riprova in un secondo momento.";
+
+/* (No Comment) */
+"prof_phone1_title" = "Tel 1";
+
+/* (No Comment) */
+"prof_phone2_title" = "Tel 2";
+
+/* Profession */
+"profession_filter_button_name" = "Professione";
+
+/* View Protfolio */
+"professional_cell_view_protfolio" = "VISUALIZZA PORTFOLIO";
+
+/* (No Comment) */
+"professional_index_title" = "INDICE PROFESSIONISTI";
+
+/* There was a problem loading this protfolio.\nPlease try again */
+"proffesional_load_failed_msg" = "Impossibile caricare il Portfolio professionisti. Riprovare in un secondo momento.";
+
+/* No followers yet */
+"profile_no_followers" = "Nessun follower ancora";
+
+/* No following yet */
+"profile_no_following" = "Non ancora seguendo";
+
+/* No likes yet */
+"profile_no_likes" = "Ancora nessun Mi piace";
+
+/* (No Comment) */
+"profile_tab_articles" = "Articoli preferiti";
+
+/* Designs */
+"profile_tab_design" = "Progetti";
+
+/* Followers */
+"profile_tab_followers" = "Seguaci";
+
+/* Following */
+"profile_tab_following" = "Segui già";
+
+/* (No Comment) */
+"profile_tab_my_design" = "Progetti personali";
+
+/* (No Comment) */
+"profile_tab_professionals" = "Professionisti seguiti";
+
+/* Zzzzz... */
+"progress_Loading_timedout1" = "";
+
+/* Loading timed out. */
+"progress_Loading_timedout2" = "Timeout caricamento.";
+
+/* (No Comment) */
+"progress_erase_title" = "Cancellazione...";
+
+/* Please try again later */
+"progress_err_try_again" = "Riprovare in un secondo momento";
+
+/* Network Error */
+"progress_label_err_network" = "Errore di rete";
+
+/* (No Comment) */
+"read_comments_button" = "Leggi commenti";
+
+/* No comment provided by engineer. */
+"realScale_button" = "Dimensioni reali";
+
+/* No comment provided by engineer. */
+"redesign_after_crash_alert" = "%@ si è chiuso in modo imprevisto. Riprendere il progetto salvato automaticamente?";
+
+/* Please Redesign this design in order to make any changes */
+"redesign_inorder_for_changes" = "Riprogettare e salvare il progetto per poterlo modificare";
+
+/* No comment provided by engineer. */
+"redesign_json_newer_alert" = "Questo progetto utilizza funzionalità disponibili solo con il nuovo aggiornamento.";
+
+/* redesign save button title */
+"redesign_save_button" = "Salva";
+
+/* button title cancel
+   redesign cancel button title */
+"redesign_sign_in_cancel_button" = "Annulla";
+
+/* (No Comment) */
+"redesign_sign_in_required" = "Accesso obbligatorio";
+
+/* redesign sign in button title */
+"redesign_sign_in_sign_in_button" = "Accedi";
+
+/* User sign in required */
+"redesign_sign_in_to_save" = "Salvare il progetto per condividerlo";
+
+/* User sign in required */
+"redesign_sign_in_to_save_and_share_your_design." = "Accedere per salvare e condividere il progetto.";
+
+/* Could not register */
+"register_error" = "Non è stato possibile eseguire la registrazione";
+
+/* Rather not say */
+"remove_gender_title" = "Preferisco non dirlo";
+
+/* Resume */
+"resume_alert_button" = "Riprendi";
+
+/* (No Comment) */
+"room_type_copy" = "Tipo di stanza";
+
+/* No comment provided by engineer. */
+"room_type_filter" = "Tipo di stanza";
+
+/* No comment provided by engineer. */
+"save_design_action_title_save" = "Salva";
+
+/* No comment provided by engineer. */
+"save_design_action_title_saveas" = "Salva con nome";
+
+/* Sorry, we couldn't save your design . Please try again.
+   Sorry, we couldn't save your design. Please try again. */
+"save_design_error" = "Non è stato possibile salvare il progetto. Riprovare.";
+
+/* Hmm, looks like there are too many products for your device to save this design, sorry! Try removing a few products and then save again. */
+"save_design_error_low_memory" = "Impossibile salvare questo progetto perché ci sono troppi prodotti per il tuo dispositivo. Prova a rimuovere alcuni prodotti e a salvare di nuovo.";
+
+/* Beautiful! Your design has been saved. */
+"save_design_ok" = "Grande! Il tuo progetto è stato salvato.";
+
+/* No comment provided by engineer. */
+"save_design_override_action_back" = "Indietro";
+
+/* No comment provided by engineer. */
+"save_design_override_action_override" = "Sovrascrivi";
+
+/* No comment provided by engineer. */
+"save_design_override_explanation" = "Sostituire il progetto? Per non sostituirlo, modificarne il titolo.";
+
+/* (No Comment) */
+"save_design_reminder" = "Non dimenticare di salvare il progetto!";
+
+/* No comment provided by engineer. */
+"save_design_title" = "Salva progetto";
+
+/* Image save failed. */
+"save_image_failed_msg" = "Salvataggio immagine non riuscito.";
+
+/* Image successfully saved. */
+"save_image_success_msg" = "Immagine salvata correttamente.";
+
+/* No comment provided by engineer. */
+"save_profile_button_cancel" = "Non salvare";
+
+/* No comment provided by engineer. */
+"save_profile_button_save" = "Salva";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn1" = "Sblocca";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_btn2" = "Mantieni la scala esistente";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy" = "Nota: se sbloccati, i prodotti non rappresenteranno le loro dimensioni reali nella scena.";
+
+/* No comment provided by engineer. */
+"scale_lock_alert_copy_title" = "Sbloccare la scala reale?";
+
+/* No comment provided by engineer. */
+"search_product" = "Cerca prodotti";
+
+/* Searching for visible corners */
+"searching_vidible_corners" = "Ricerca angoli visibili";
+
+/* No comment provided by engineer. */
+"select_category_title" = "Seleziona categoria";
+
+/* No comment provided by engineer. */
+"select_wishlist_title" = "Seleziona wish-list";
+
+/* No comment provided by engineer. */
+"set_gender_title" = "Scegliere il sesso";
+
+/* No comment provided by engineer. */
+"setting_title_about" = "Informazioni su";
+
+/* No comment provided by engineer. */
+"setting_title_allow_like_fb" = "Sincronizza progetti contrassegnati con cuore con le persone a cui piaci su Facebook";
+
+/* No comment provided by engineer. */
+"setting_title_allow_newsletter" = "Ricevi promozioni speciali e newsletter di Homestyler";
+
+/* No comment provided by engineer. */
+"setting_title_allow_pn" = "Ricevi notifiche su commenti, nuovi follower, ecc.";
+
+/* No comment provided by engineer. */
+"setting_title_change_country" = "Country";
+
+/* No comment provided by engineer. */
+"setting_title_change_local" = "Lingua";
+
+/* No comment provided by engineer. */
+"setting_title_clear_cache" = "Svuota cache";
+
+/* No comment provided by engineer. */
+"setting_title_clear_offline_package" = "Svuota pacchetto offline";
+
+/* No comment provided by engineer. */
+"setting_title_feedback" = "Risposta";
+
+/* No comment provided by engineer. */
+"setting_title_privacy" = "Informativa sulla privacy";
+
+/* No comment provided by engineer. */
+"setting_title_terms" = "Termini del servizio";
+
+/* No comment provided by engineer. */
+"setting_title_usage_data" = "Approva raccolta di dati sull'utilizzo";
+
+/* (No Comment) */
+"settings" = "Impostazioni";
+
+/* No comment provided by engineer. */
+"share_after_save_design_copy" = "Guarda il mio #designdiinterni \"{{D_NAME}}\" su #%@ {{LINK}}";
+
+/* (No Comment) */
+"share_article_link_title" = "Articolo";
+
+/* No comment provided by engineer. */
+"share_description" = "Design your dream home on Homestyler";
+
+/* (No Comment) */
+"share_description_with_ar" = "Controlla il mio design AR realizzato con Homestyler";
+
+/* No comment provided by engineer. */
+"share_design_show_before_and_after" = "Mostra prima e dopo";
+
+/* No comment provided by engineer. */
+"share_design_show_my_name" = "Mostra il mio nome";
+
+/* (No Comment) */
+"share_email_body" = "Guardalo su %@";
+
+/* (No Comment) */
+"share_email_body_article" = "Guarda questo articolo: {{ARTICLE}}";
+
+/* (No Comment) */
+"share_email_subject_article" = "Guarda questo articolo";
+
+/* (No Comment) */
+"share_link_title" = "collegamento";
+
+/* (No Comment) */
+"share_on_facebook" = "Condividi su Facebook";
+
+/* No comment provided by engineer. */
+"share_option_email" = "E-mail";
+
+/* (No Comment) */
+"share_option_facebook" = "Facebook";
+
+/* (No Comment) */
+"share_option_saveimage" = "Salva immagine";
+
+/* (No Comment) */
+"share_option_twitter" = "Twitter";
+
+/* button title skip */
+"share_your_design_skip_button_title" = "Ignora";
+
+/* view title */
+"share_your_design_title" = "Condividi progetto";
+
+/* by */
+"shopping_list_by" = "da";
+
+/* Close */
+"shopping_list_close" = "Chiudi";
+
+/* Sent from Autodesk Homestyler */
+"shopping_list_email_sent_homestyler" = "Inviato da Autodesk Homestyler";
+
+/* Check out these products from Homestyler. */
+"shopping_list_email_subject" = "Estrai i prodotti da Homestyler";
+
+/* Design Product List */
+"shopping_list_email_title1" = "Elenco dei prodotti del progetto";
+
+/* List of products used to in the above design: */
+"shopping_list_email_title2" = "Elenco dei prodotti utilizzati nel progetto indicato:";
+
+/* View design on Homestyler */
+"shopping_list_email_view_design" = "Visualizza progetto su Homestyler";
+
+/* Go to Website */
+"shopping_list_go_to_website" = "Visita il sito web ＞";
+
+/* Product List */
+"shopping_list_title" = "Elenco dei prodotti";
+
+/* (No Comment) */
+"showGrid_button" = "Mostra griglia";
+
+/* (No Comment) */
+"show_label" = "Mostra:";
+
+/* Add Your Brand */
+"side_menu_cell_add_your_brand" = "Aggiungi marca";
+
+/* Sign In */
+"sign_in" = "Accedi";
+
+/* No comment provided by engineer. */
+"sign_out" = "Esci";
+
+/* No comment provided by engineer. */
+"signin_title" = "Accedi o registrati";
+
+/* Signing In */
+"signing_in" = "Accesso in corso...";
+
+/* No comment provided by engineer. */
+"signout_confirm_alert" = "Vuoi uscire?";
+
+/* No comment provided by engineer. */
+"signup_ok" = "Woohoo! Grazie per essere entrato a far parte della community %@.";
+
+/* No comment provided by engineer. */
+"snapToGrid_button" = "Snap alla griglia";
+
+/* No comment provided by engineer. */
+"sorry_search_friend_failed" = "Non è possibile cercare gli amici in questo momento. Riprova più tardi";
+
+/* No comment provided by engineer. */
+"sort_type_copy" = "Ordina per";
+
+/* No comment provided by engineer. */
+"start_design" = "Design";
+
+/* (No Comment) */
+"start_redesign" = "Modifica";
+
+/* No comment provided by engineer. */
+"submit_button" = "INVIA";
+
+/* (No Comment) */
+"success_msg_facebook_share_success" = "Grazie per la condivisione.";
+
+/* (No Comment) */
+"success_msg_name_updated" = "Il nome profilo è stato aggiornato correttamente";
+
+/* Your password updated successfully */
+"success_msg_pass_updated" = "Password aggiornata correttamente";
+
+/* (No Comment) */
+"sync" = "Sincronizza";
+
+/* (No Comment) */
+"sync_alert_msg" = "Sincronizzare i progetti creati offline con l'account Homestyler?";
+
+/* (No Comment) */
+"sync_alert_title_msg" = "Sincronizza progetti";
+
+/* (No Comment) */
+"sync_later" = "Più tardi";
+
+/* (No Comment) */
+"technical_difficultie_error" = "Siamo spiacenti, stiamo riscontrando problemi tecnici. Riprovare in un secondo momento.";
+
+/* No comment provided by engineer. */
+"terms_of_service" = "Per saperne di più";
+
+/* (No Comment) */
+"twitter_no_account_defined" = "Nessun account Twitter configurato. È possibile aggiungere o creare un account Twitter in Impostazioni.";
+
+/* (No Comment) */
+"twitter_share_copy" = "Guarda %@ da %@: %@";
+
+/* unfollow */
+"unfollow" = "Non seguire";
+"unfollow_user" = "Non seguire %@?";
+
+/* No comment provided by engineer. */
+"update_location_title" = "Aggiorna posizione";
+
+/* (No Comment) */
+"update_profile_image_success" = "La foto del profilo è stata aggiornata correttamente";
+
+/* No comment provided by engineer. */
+"update_version_available" = "C'è una nuova versione! L'aggiornamento di APP può fornirti un'esperienza di progettazione migliore";
+
+/* No comment provided by engineer. */
+"update_version_required" = "È pronta la nuova versione di Homestyler!";
+
+/* Other... */
+"user_detail_other_input_field" = "Altro...";
+
+"user_liked_0_times" = "%@ non ha ancora ricevuto Mi piace.";
+"user_liked_1_time" = "%@ ha ricevuto 1 Mi piace su Homestyler!";
+"user_liked_times" = "%@ ha ricevuto %d Mi piace su Homestyler!";
+
+/* No comment provided by engineer. */
+"user_profile_cell_Name_lbl" = "Nome";
+
+/* (No Comment) */
+"user_profile_cell_Name_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl" = "Descrizione";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_empty" = "Informazioni personali";
+
+/* No comment provided by engineer. */
+"user_profile_cell_description_lbl_read" = "Descrizione:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl" = "Stili preferiti";
+
+/* No comment provided by engineer. */
+"user_profile_cell_favstyles_lbl_read" = "Stili preferiti:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_gender_lbl" = "Sesso";
+
+/* (No Comment) */
+"user_profile_cell_gender_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl" = "Interessi";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_empty" = "Ad esempio: giardinaggio, escursionismo, pittura, artigianato, origami, lettura, viaggi, cucina, fotografia, arrampicata, ecc. ";
+
+/* No comment provided by engineer. */
+"user_profile_cell_interests_lbl_read" = "Interessi:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl" = "Posizione";
+
+/* No comment provided by engineer. */
+"user_profile_cell_location_lbl_empty" = "Immettere la posizione";
+
+/* (No Comment) */
+"user_profile_cell_location_lbl_read" = "Da:";
+
+/* (No Comment) */
+"user_profile_cell_password_lbl" = "Password";
+
+/* No comment provided by engineer. */
+"user_profile_cell_profession_lbl" = "Professione";
+
+/* (No Comment) */
+"user_profile_cell_profession_lbl_read" = "";
+
+/* No comment provided by engineer. */
+"user_profile_cell_styles_lbl_empty" = "Scegliere i preferiti:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl" = "Altri strumenti di progettazione in uso";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_empty" = "Scegliere gli strumenti:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_tools_lbl_read" = "Altri strumenti di progettazione in uso:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_user_types_lbl_empty" = "Scegliere uno tra:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl" = "Sono";
+
+/* No comment provided by engineer. */
+"user_profile_cell_usertype_lbl_read" = "Sono:";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl" = "Sito Web";
+
+/* No comment provided by engineer. */
+"user_profile_cell_website_lbl_empty" = "Immettere il sito Web";
+
+/* (No Comment) */
+"user_profile_cell_website_lbl_read" = "Sito Web:";
+
+/* No comment provided by engineer. */
+"user_profile_done_button" = "Fine";
+
+/* Sign Out */
+"user_profile_signout_lbl" = "Disconnetti";
+
+/* No comment provided by engineer. */
+"waitting_to_sync" = "Progetto offline";
+
+/* (No Comment) */
+"wall_button" = "Parete";
+
+/* (No Comment) */
+"wallpaper_button" = "Carta da parati";
+
+/* No comment provided by engineer. */
+"wish_list" = "Wish-list";
+
+/* Wish List Failed to Create */
+"wishlist_create_failed_msg" = "Errore. Prova a creare di nuovo la wish-list";
+
+/* Wish List Created */
+"wishlist_create_successfuly_msg" = "creata correttamente.";
+
+/* Missing Wishlist */
+"wishlist_no_wishlist_msg" = "Wish-list assente";
+
+/* Failed to Update Wishlist */
+"wishlist_update_failed_msg" = "Si è verificato un errore. Prova a salvare di nuovo le modifiche";
+
+/* Update Wishlist Succsessfully */
+"wishlist_update_successful_msg" = "Le modifiche alla wish-list sono state salvate.";
+
+/* No comment provided by engineer. */
+"wishlists_page_title" = "Wish-list";
+
+/* Yesterday */
+"yesterday" = "Ieri";
+
+"you_liked_0_times" = "NOn hai ancora ricevuto dei Mi piace.";
+"you_liked_1_time" = "Hai ricevuto un Mi piace su Homestyler!";
+"you_liked_times" = "Hai ricevuto %d Mi piace su Homestyler!";

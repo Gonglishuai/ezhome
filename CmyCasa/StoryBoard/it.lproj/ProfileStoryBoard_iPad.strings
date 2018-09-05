@@ -1,0 +1,120 @@
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "5Yy-ou-Qp8"; */
+"5Yy-ou-Qp8.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "71p-Sp-HBf"; */
+"71p-Sp-HBf.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Edit your profile"; ObjectID = "A1u-m4-Ah2"; */
+"A1u-m4-Ah2.text" = "Edit your profile";
+
+/* Class = "UILabel"; text = "..........................................................................111"; ObjectID = "BDh-Qh-KXa"; */
+"BDh-Qh-KXa.text" = "..........................................................................111";
+
+/* (No Comment) */
+"Boi-TS-u8b.text" = "Location:";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "EE1-bN-Hgl"; */
+"EE1-bN-Hgl.normalTitle" = "Cancel";
+
+/* (No Comment) */
+"I5u-xv-OAD.text" = "Designer\nArchitect\nCarpenter";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "I25-qJ-wqk"; */
+"I25-qJ-wqk.normalTitle" = "Change Password";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "IUi-u4-nb7"; */
+"IUi-u4-nb7.placeholder" = "First Name";
+
+/* Class = "UILabel"; text = "by Author"; ObjectID = "LGM-y1-aG1"; */
+"LGM-y1-aG1.text" = "by Author";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Lbu-PX-FQ6"; */
+"Lbu-PX-FQ6.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Favorite Articles"; ObjectID = "Lvc-ca-F2G"; */
+"Lvc-ca-F2G.text" = "Favorite Articles";
+
+/* (No Comment) */
+"NY8-Q7-Yr2.text" = "Israel";
+
+/* Class = "UIButton"; normalTitle = "Edit profile"; ObjectID = "O0N-c1-EbB"; */
+"O0N-c1-EbB.normalTitle" = "Modifica profilo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Obn-eK-PO5"; */
+"Obn-eK-PO5.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Tell us how to get better!"; ObjectID = "Szz-90-i7I"; */
+"Szz-90-i7I.normalTitle" = "Tell us how to get better!";
+
+/* (No Comment) */
+"TMz-9h-zoE.text" = "Professional's Name";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "V5g-ME-47X"; */
+"V5g-ME-47X.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "WRy-Xv-rc5"; */
+"WRy-Xv-rc5.normalTitle" = "Done";
+
+/* (No Comment) */
+"WyR-0w-VGp.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Article Title"; ObjectID = "Z0S-Ze-V9Z"; */
+"Z0S-Ze-V9Z.text" = "Article Title";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "Ziz-gV-cyi"; */
+"Ziz-gV-cyi.placeholder" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Edit"; ObjectID = "cMc-Y3-ucd"; */
+"cMc-Y3-ucd.text" = "Edit";
+
+/* Class = "UIButton"; normalTitle = "    Delete Design"; ObjectID = "fMB-z4-aoz"; */
+"fMB-z4-aoz.normalTitle" = "    Delete Design";
+
+/* Class = "UILabel"; text = "Professionals"; ObjectID = "faF-gs-JfP"; */
+"faF-gs-JfP.text" = "Professionals";
+
+/* Class = "UILabel"; text = "28 Aug, 2012"; ObjectID = "fqv-sB-b8D"; */
+"fqv-sB-b8D.text" = "28 Aug, 2012";
+
+/* Class = "UIButton"; normalTitle = "Sign Out"; ObjectID = "hGi-Cz-DbA"; */
+"hGi-Cz-DbA.normalTitle" = "Sign Out";
+
+/* Class = "UIButton"; normalTitle = "Change Image"; ObjectID = "hWX-fO-0bu"; */
+"hWX-fO-0bu.normalTitle" = "Change Image";
+
+/* Class = "UILabel"; text = "Label "; ObjectID = "kYj-60-KcX"; */
+"kYj-60-KcX.text" = "Label ";
+
+/* Class = "UITextField"; placeholder = "Current Password"; ObjectID = "lso-8s-1HT"; */
+"lso-8s-1HT.placeholder" = "Current Password";
+
+/* Class = "UIButton"; normalTitle = "     Duplicate Design"; ObjectID = "mfi-T5-AyC"; */
+"mfi-T5-AyC.normalTitle" = "     Duplicate Design";
+
+/* Class = "UIButton"; normalTitle = "     Edit Design"; ObjectID = "od9-0f-czn"; */
+"od9-0f-czn.normalTitle" = "     Edit Design";
+
+/* Class = "UILabel"; text = "My Designs"; ObjectID = "qEY-gu-wsu"; */
+"qEY-gu-wsu.text" = "I miei disegni";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "ve3-Ug-Rmn"; */
+"ve3-Ug-Rmn.normalTitle" = "Done";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "xUn-Ck-DZZ"; */
+"xUn-Ck-DZZ.placeholder" = "Last Name";
+
+/* Class = "UITextField"; placeholder = "Design Title"; ObjectID = "zGj-N3-eld"; */
+"zGj-N3-eld.placeholder" = "Titolo del progetto";
+
+/* Class = "UIButton"; highlightedTitle = "Public"; ObjectID = "zU1-ih-0Cs"; */
+"zU1-ih-0Cs.highlightedTitle" = "Public";
+
+/* Class = "UIButton"; normalTitle = "Publish"; ObjectID = "zU1-ih-0Cs"; */
+"zU1-ih-0Cs.normalTitle" = "Publish";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "zbz-bW-LtR"; */
+"zbz-bW-LtR.placeholder" = "New Password";
+
+/* Class = "UILabel"; text = "Design Title"; ObjectID = "zdR-Pw-40p"; */
+"zdR-Pw-40p.text" = "Titolo del progetto";
+

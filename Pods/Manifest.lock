@@ -1,0 +1,483 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ESBasic (0.0.4)
+  - ESFoundation (0.0.21):
+    - ESBasic
+    - ESFoundation/Alipay (= 0.0.21)
+    - ESFoundation/Categories (= 0.0.21)
+    - ESFoundation/Common (= 0.0.21)
+    - ESFoundation/Config (= 0.0.21)
+    - ESFoundation/ESFile (= 0.0.21)
+    - ESFoundation/ExtManager (= 0.0.21)
+    - ESFoundation/Finance (= 0.0.21)
+    - ESFoundation/libWeiboSDK (= 0.0.21)
+    - ESFoundation/MPBase (= 0.0.21)
+    - ESFoundation/UMeng (= 0.0.21)
+    - ESFoundation/UPA (= 0.0.21)
+    - ESFoundation/View (= 0.0.21)
+    - ESFoundation/Wx (= 0.0.21)
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Alipay (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Categories (0.0.21):
+    - ESBasic
+    - ESFoundation/Categories/MJRefresh (= 0.0.21)
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Categories/MJRefresh (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Common (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Config (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/ESFile (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/ExtManager (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Finance (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/libWeiboSDK (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/MPBase (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/UMeng (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/UPA (0.0.21):
+    - ESBasic
+    - ESFoundation/UPA/inc (= 0.0.21)
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/UPA/inc (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/View (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESFoundation/Wx (0.0.21):
+    - ESBasic
+    - ESNetworking
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter (~> 0.9.0)
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - Toast
+    - TZImagePickerController
+  - ESMall (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESMall/Case (= 0.0.5)
+    - ESMall/LiWuMarket (= 0.0.5)
+    - ESMall/Material (= 0.0.5)
+    - ESMall/Model (= 0.0.5)
+    - ESMall/OrderCenter (= 0.0.5)
+    - ESMall/ProductDetail (= 0.0.5)
+    - ESMall/ShippingAddress (= 0.0.5)
+    - ESMall/ShoppingCart (= 0.0.5)
+    - ESMall/Tools (= 0.0.5)
+    - ESNetworking
+  - ESMall/Case (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/LiWuMarket (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/Material (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/Model (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/OrderCenter (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/ProductDetail (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/ShippingAddress (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/ShoppingCart (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESMall/Tools (0.0.5):
+    - ESBasic
+    - ESFoundation
+    - ESNetworking
+  - ESNetworking (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - ESNetworking/API (= 0.0.24)
+    - ESNetworking/Config (= 0.0.24)
+    - ESNetworking/Response (= 0.0.24)
+    - ESNetworking/Tools (= 0.0.24)
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - ESNetworking/API (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - ESNetworking/Config (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - ESNetworking/Response (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - ESNetworking/Tools (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - ESNetworking/Tools/framework (= 0.0.24)
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - ESNetworking/Tools/framework (0.0.24):
+    - AFNetworking
+    - ESBasic
+    - FMDB
+    - MGJRouter (~> 0.9.0)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (6.0.4)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - JCore (1.2.0)
+  - JPush (3.0.9):
+    - JCore (~> 1.2.0)
+  - M80AttributedLabel (1.6.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MGJRouter (0.9.3)
+  - MJRefresh (3.1.15.3)
+  - NIMKit (2.2.1):
+    - NIMKit/Lite (= 2.2.1)
+  - NIMKit/Core (2.2.1):
+    - M80AttributedLabel (~> 1.6.3)
+    - SDWebImage (~> 4.0.0)
+    - Toast (~> 3.0)
+    - TZImagePickerController (~> 1.9.0)
+  - NIMKit/Lite (2.2.1):
+    - NIMKit/Core
+    - NIMSDK_LITE (~> 4.5.0)
+  - NIMSDK_LITE (4.5.0)
+  - NUI (0.5.4.1):
+    - NUIParse
+  - NUIParse (1.3)
+  - OpenCV (2.4.9)
+  - Reachability (3.2)
+  - RestKit (0.27.2):
+    - RestKit/Core (= 0.27.2)
+  - RestKit/Core (0.27.2):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.2):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.2):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.2):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.2):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - RQShineLabel (0.1.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SOCKit (1.1)
+  - Toast (3.1.0)
+  - TransitionKit (2.2.1)
+  - TZImagePickerController (1.9.8)
+  - ZCAnimatedLabel (0.0.4)
+
+DEPENDENCIES:
+  - ESBasic (from `https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESBasic.git`, branch `develop`)
+  - ESFoundation (from `https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESFoundation.git`, branch `release/2018_04_25`)
+  - ESMall (from `https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-iOS-ESMall.git`, branch `release/2018_03_08`)
+  - ESNetworking (from `https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESNetworking.git`, branch `release/2018_04_25`)
+  - FLAnimatedImage
+  - IQKeyboardManager
+  - JPush
+  - MJRefresh
+  - NIMKit (= 2.2.1)
+  - NUI (from `https://github.com/avihayassouline/NUI.git`)
+  - OpenCV (= 2.4.9)
+  - RestKit (= 0.27.2)
+  - RQShineLabel
+  - SOCKit (= 1.1)
+  - ZCAnimatedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FLAnimatedImage
+    - FMDB
+    - IQKeyboardManager
+    - ISO8601DateFormatterValueTransformer
+    - JCore
+    - JPush
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MGJRouter
+    - MJRefresh
+    - NIMKit
+    - NIMSDK_LITE
+    - NUIParse
+    - OpenCV
+    - Reachability
+    - RestKit
+    - RKValueTransformers
+    - RQShineLabel
+    - SDWebImage
+    - SOCKit
+    - Toast
+    - TransitionKit
+    - TZImagePickerController
+    - ZCAnimatedLabel
+
+EXTERNAL SOURCES:
+  ESBasic:
+    :branch: develop
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESBasic.git
+  ESFoundation:
+    :branch: release/2018_04_25
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESFoundation.git
+  ESMall:
+    :branch: release/2018_03_08
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-iOS-ESMall.git
+  ESNetworking:
+    :branch: release/2018_04_25
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESNetworking.git
+  NUI:
+    :git: https://github.com/avihayassouline/NUI.git
+
+CHECKOUT OPTIONS:
+  ESBasic:
+    :commit: 6271df457efee3a5a11aafc048597cffacd6fc0f
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESBasic.git
+  ESFoundation:
+    :commit: 10070e565810e7652805f02d70f3b6c84bdb4acd
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESFoundation.git
+  ESMall:
+    :commit: 835b663596aaa71629a987cf7df446d125938ac9
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-iOS-ESMall.git
+  ESNetworking:
+    :commit: 585579ae21172e586da9669e17dacbaecfe9e6e6
+    :git: https://gitlab-dev.shejijia.com/mobile-sjj-plt/component-ESNetworking.git
+  NUI:
+    :commit: f4515292a031d0da968d606bfa4b917b4bdfa93a
+    :git: https://github.com/avihayassouline/NUI.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ESBasic: 9d5943c9981b90e38f183cef03e69153bdd6ec0a
+  ESFoundation: 5452af7f3ce292edf5bb9bf08716604ecdb9df5e
+  ESMall: bb4cfd39bdc254a5c3fa2f71b28d40d514cae0ed
+  ESNetworking: 940b072469588a80302eb0a46e1000ef1284d98e
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  JCore: b52e3dd73625eec70afd1244bb9c41038aa06087
+  JPush: 48041e8c5ad2ef9b48709eb0888af9640b36e9b0
+  M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NIMKit: 71807982be57f4605320bbaf065bf6d4ef465902
+  NIMSDK_LITE: 2e66bd3dc53fbe68d92ccb8632ffa78f118ed1ac
+  NUI: b09a7639f8b74e9575ff5b2cd2bd4c87550ab62b
+  NUIParse: 2e3885ba7807477266396292626bd387d34c2338
+  OpenCV: bb17904e55fc19b1f0f6c3e29bc04a7dd31eddb9
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RestKit: 556c913b0640c5bc5a9cb972361504e3ed628a1d
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  RQShineLabel: ae66343d6c779a8efdf61241734ddcec5d79d351
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  TZImagePickerController: 3b9413ae5d049b1fdc5b0c720ad283f35b679a50
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
+
+PODFILE CHECKSUM: 38dea81297589dd17f4e376166a91a04b7286de6
+
+COCOAPODS: 1.5.3

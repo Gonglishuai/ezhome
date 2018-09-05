@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ESCaseProductCollectionViewCell" id="gTV-IL-0wX" customClass="ESCaseProductCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="206"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="206"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CII-3N-coc">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CII-3N-coc" secondAttribute="height" id="5KD-6D-OlC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ke-bK-RLE">
+                        <rect key="frame" x="0.0" y="164" width="164" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="mcJ-Mf-P6v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="9Ke-bK-RLE" firstAttribute="top" secondItem="CII-3N-coc" secondAttribute="bottom" id="Eun-mr-Ll8"/>
+                <constraint firstItem="CII-3N-coc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Mm7-sN-WBE"/>
+                <constraint firstItem="9Ke-bK-RLE" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="U8c-zr-Psc"/>
+                <constraint firstItem="9Ke-bK-RLE" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="dVd-4b-rgh"/>
+                <constraint firstItem="CII-3N-coc" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="fb3-wK-WW9"/>
+                <constraint firstItem="CII-3N-coc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="h5M-I0-qOg"/>
+            </constraints>
+            <size key="customSize" width="164" height="206"/>
+            <connections>
+                <outlet property="nameLabel" destination="9Ke-bK-RLE" id="844-u3-rrW"/>
+                <outlet property="productImgView" destination="CII-3N-coc" id="Lf8-SD-LvS"/>
+            </connections>
+            <point key="canvasLocation" x="-227" y="21"/>
+        </collectionViewCell>
+    </objects>
+</document>

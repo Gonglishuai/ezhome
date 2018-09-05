@@ -1,0 +1,4 @@
+
+NSCameraUsageDescription = "Esto te ayudará a tomar fotos y ver productos en tu habitación";
+NSLocationWhenInUseUsageDescription = "Esto permitirá que \"Homestyler\" determine tu ubicación";
+NSPhotoLibraryUsageDescription = "Esto te permitirá elegir fotos para la decoración del hogar";

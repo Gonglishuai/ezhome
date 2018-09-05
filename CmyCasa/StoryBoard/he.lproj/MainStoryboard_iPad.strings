@@ -1,0 +1,219 @@
+/* Class = "UIButton"; accessibilityLabel = "btn_takepicture"; ObjectID = "0Pn-DA-0co"; */
+"0Pn-DA-0co.accessibilityLabel" = "btn_takepicture";
+
+/* (No Comment) */
+"0Pn-DA-0co.normalTitle" = "";
+
+/* (No Comment) */
+"2Jl-uW-UhJ.text" = "טיפים מהירים בעת ההמתנה";
+
+/* Class = "UILabel"; text = "Terms And Conditions"; ObjectID = "2Nf-60-OvP"; */
+"2Nf-60-OvP.text" = "תנאים והגבלות";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_emptyroom"; ObjectID = "2yc-cO-xyD"; */
+"2yc-cO-xyD.accessibilityLabel" = "btn_emptyroom";
+
+/* (No Comment) */
+"2yc-cO-xyD.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Version Number"; ObjectID = "4bt-xk-Qoe"; */
+"4bt-xk-Qoe.text" = "מספר גרסא";
+
+/* (No Comment) */
+"5q4-c5-zP1.accessibilityLabel" = "btn_clearcache";
+
+/* (No Comment) */
+"5q4-c5-zP1.normalTitle" = "נקה את חבילת האופליין";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "6dM-33-F89"; */
+"6dM-33-F89.text" = "טוען...";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_close"; ObjectID = "7UU-fc-jOh"; */
+"7UU-fc-jOh.accessibilityLabel" = "btn_close";
+
+/* Class = "UIButton"; normalTitle = "Sign out"; ObjectID = "7UU-fc-jOh"; */
+"7UU-fc-jOh.normalTitle" = "התנתק";
+
+/* (No Comment) */
+"9Mk-9b-O9t.accessibilityLabel" = "btn_terms";
+
+/* (No Comment) */
+"9Mk-9b-O9t.normalTitle" = "תנאי שירות";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_menu"; ObjectID = "93j-gI-86K"; */
+"93j-gI-86K.accessibilityLabel" = "btn_menu";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "93j-gI-86K"; */
+"93j-gI-86K.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_cammerarol"; ObjectID = "AMz-wv-poL"; */
+"AMz-wv-poL.accessibilityLabel" = "btn_cammerarol";
+
+/* (No Comment) */
+"AMz-wv-poL.normalTitle" = "";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_my_homestyler"; ObjectID = "EiF-rl-ccn"; */
+"EiF-rl-ccn.accessibilityLabel" = "btn_my_homestyler";
+
+/* Class = "UIButton"; normalTitle = "My Homestyler"; ObjectID = "EiF-rl-ccn"; */
+"EiF-rl-ccn.normalTitle" = "הומסטיילר שלי";
+
+/* (No Comment) */
+"FE5-MS-EEn.text" = "טוען...";
+
+/* Class = "UILabel"; text = "Please try again later"; ObjectID = "FmF-vW-vYH"; */
+"FmF-vW-vYH.text" = "אנא נסה שנית מאוחר יותר";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_takepicture"; ObjectID = "Hjf-gx-w9X"; */
+"Hjf-gx-w9X.accessibilityLabel" = "lbl_takepicture";
+
+/* Class = "UILabel"; text = "Take A Picture"; ObjectID = "Hjf-gx-w9X"; */
+"Hjf-gx-w9X.text" = "צלם תמונה";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_settings"; ObjectID = "J6X-6v-3pc"; */
+"J6X-6v-3pc.accessibilityLabel" = "lbl_settings";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "J6X-6v-3pc"; */
+"J6X-6v-3pc.text" = "הגדרות";
+
+/* (No Comment) */
+"Nnl-GP-IAs.text" = "";
+
+/* (No Comment) */
+"OzV-JR-oAE.normalTitle" = "סגירה";
+
+/* (No Comment) */
+"OzV-JR-oAE.selectedTitle" = "ביטול";
+
+/* Class = "UIView"; accessibilityLabel = "view_settings"; ObjectID = "Pfz-Uh-CnQ"; */
+"Pfz-Uh-CnQ.accessibilityLabel" = "view_settings";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_close"; ObjectID = "Pqm-SB-wyn"; */
+"Pqm-SB-wyn.accessibilityLabel" = "btn_close";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "Pqm-SB-wyn"; */
+"Pqm-SB-wyn.normalTitle" = "סגירה";
+
+/* (No Comment) */
+"QwT-oV-Uk0.accessibilityLabel" = "btn_clearcache";
+
+/* (No Comment) */
+"QwT-oV-Uk0.normalTitle" = "נקה זיכרון מטמון";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_feedback"; ObjectID = "R5C-5D-DXl"; */
+"R5C-5D-DXl.accessibilityLabel" = "btn_feedback";
+
+/* Class = "UIButton"; normalTitle = "Send Us Feedback"; ObjectID = "R5C-5D-DXl"; */
+"R5C-5D-DXl.normalTitle" = "שלח לנו פידבק";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_create_new_design"; ObjectID = "RDP-hH-ng1"; */
+"RDP-hH-ng1.accessibilityLabel" = "btn_create_new_design";
+
+/* Class = "UIButton"; normalTitle = "Create New Design"; ObjectID = "RDP-hH-ng1"; */
+"RDP-hH-ng1.normalTitle" = "צור עיצוב חדש";
+
+/* (No Comment) */
+"S1Y-dg-ScS.text" = "";
+
+/* (No Comment) */
+"SpT-VA-weD.accessibilityLabel" = "btn_design_stream";
+
+/* (No Comment) */
+"SpT-VA-weD.normalTitle" = "3Dגלריית התמונות ב-";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_signin"; ObjectID = "T5V-i6-xQX"; */
+"T5V-i6-xQX.accessibilityLabel" = "lbl_signin";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "T5V-i6-xQX"; */
+"T5V-i6-xQX.text" = "התחבר";
+
+/* (No Comment) */
+"WkC-ix-MLj.accessibilityLabel" = "btn_privacy";
+
+/* (No Comment) */
+"WkC-ix-MLj.normalTitle" = "מדיניות פרטיות";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_emptyroom"; ObjectID = "Wrh-du-cqK"; */
+"Wrh-du-cqK.accessibilityLabel" = "lbl_emptyroom";
+
+/* Class = "UILabel"; text = "Empty Rooms"; ObjectID = "Wrh-du-cqK"; */
+"Wrh-du-cqK.text" = "חדרים ריקים";
+
+/* Class = "UIView"; accessibilityLabel = "view_about"; ObjectID = "XZM-v6-2gl"; */
+"XZM-v6-2gl.accessibilityLabel" = "view_about";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_signin"; ObjectID = "YG2-zu-nmj"; */
+"YG2-zu-nmj.accessibilityLabel" = "btn_signin";
+
+/* (No Comment) */
+"ZIg-Ls-sd2.accessibilityLabel" = "btn_about";
+
+/* (No Comment) */
+"ZIg-Ls-sd2.normalTitle" = "אודות";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_catalog"; ObjectID = "ZVA-es-tAd"; */
+"ZVA-es-tAd.accessibilityLabel" = "btn_catalog";
+
+/* Class = "UIButton"; normalTitle = "Catalog"; ObjectID = "ZVA-es-tAd"; */
+"ZVA-es-tAd.normalTitle" = "קטלוג";
+
+/* Class = "UIView"; accessibilityLabel = "view_webpage"; ObjectID = "Zmm-xU-fjs"; */
+"Zmm-xU-fjs.accessibilityLabel" = "view_webpage";
+
+/* Class = "UIImageView"; accessibilityLabel = "img_profile_image"; ObjectID = "cmD-cj-6A4"; */
+"cmD-cj-6A4.accessibilityLabel" = "img_profile_image";
+
+/* (No Comment) */
+"dU3-xP-vSy.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* (No Comment) */
+"eFc-hU-A3O.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_close"; ObjectID = "fRx-b3-0H0"; */
+"fRx-b3-0H0.accessibilityLabel" = "btn_close";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "fRx-b3-0H0"; */
+"fRx-b3-0H0.normalTitle" = "סגירה";
+
+/* Class = "UIButton"; accessibilityLabel = "btn_settings"; ObjectID = "ftb-Hv-1vR"; */
+"ftb-Hv-1vR.accessibilityLabel" = "btn_settings";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "ftb-Hv-1vR"; */
+"ftb-Hv-1vR.normalTitle" = "הגדרות";
+
+/* Class = "UIButton"; accessibilityLabel = "lbl_showhelp"; ObjectID = "jYE-DF-Afg"; */
+"jYE-DF-Afg.accessibilityLabel" = "lbl_showhelp";
+
+/* Class = "UIButton"; normalTitle = "Show me how to use images from other devices."; ObjectID = "jYE-DF-Afg"; */
+"jYE-DF-Afg.normalTitle" = "הראה לי כיצד להשתמש בתמונות ממכשירים אחרים.";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_about"; ObjectID = "pnG-wT-usm"; */
+"pnG-wT-usm.accessibilityLabel" = "lbl_about";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "pnG-wT-usm"; */
+"pnG-wT-usm.text" = "אודות";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "pnL-wa-i00"; */
+"pnL-wa-i00.text" = "כותרת";
+
+/* Class = "UILabel"; accessibilityLabel = "lbl_cameraroll"; ObjectID = "s5R-df-T7L"; */
+"s5R-df-T7L.accessibilityLabel" = "lbl_cameraroll";
+
+/* Class = "UILabel"; text = "Camera Roll"; ObjectID = "s5R-df-T7L"; */
+"s5R-df-T7L.text" = "רול התמונות";
+
+/* Class = "UIView"; accessibilityLabel = "view_menu"; ObjectID = "suy-eH-njb"; */
+"suy-eH-njb.accessibilityLabel" = "view_menu";
+
+/* (No Comment) */
+"tpN-55-T9k.accessibilityLabel" = "btn_about";
+
+/* (No Comment) */
+"tpN-55-T9k.normalTitle" = "שפה";
+
+/* Class = "UILabel"; text = "AR"; ObjectID = "xKz-Ie-Z4E"; */
+"xKz-Ie-Z4E.text" = "מציאות רבודה";
+
+/* Class = "UIView"; accessibilityLabel = "view_newdesign"; ObjectID = "zcB-Ht-hmF"; */
+"zcB-Ht-hmF.accessibilityLabel" = "view_newdesign";
+

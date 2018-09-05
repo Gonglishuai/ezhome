@@ -1,0 +1,64 @@
+//
+//  SocialManager.h
+//
+//  Created by Stav Ashuri on 12/2/12.
+//  Copyright (c) 2012 Stav Ashuri. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+//#import "FBFriend.h"
+
+#define kSocialManagerBackgroundQueueName "com.HSSharing.backgroundQueue"
+
+#define kFacebookFeedDialogDefaultCaption       NSLocalizedString(@"Home Styler", nil)
+#define kFacebookFeedDialogDefaultDescription   @""
+
+
+//Permissions
+#define kInitialPermissions nil
+#define kFacebookPermissionsEmail           @"email"
+#define kFacebookPermissionsUserAboutMe     @"user_about_me"
+#define kFacebookPermissionsUserInterests   @"user_interests"
+#define kFacebookPermissionsUserLikes       @"user_likes"
+#define kFacebookPermissionsPublishAction   @"publish_actions" //Never ask for this together with read permissions
+
+typedef void (^FacebookLoginSuccessBlock)(int state, NSString *token, NSString *firstName, NSString *lastName, NSString *username, NSString *fbUid);
+typedef void (^FacebookInviteCompletionBlock)(void);
+typedef void (^FacebookFriendsSuccessBlock)(NSArray *arrayOfFriends);
+typedef void (^FacebookVerifyFriendshipSuccessBlock)(BOOL isFriend);
+typedef void (^SocialPostCompletionBlock)(void);
+typedef void (^FacebookFeedDialogPostCompletionBlock)(NSString *postId);
+typedef void (^FacebookNativePostCompletionBlock)(NSString *postId);
+typedef void (^FacebookProfileImageUrlCompletionBlock) (NSURL *imageUrl);
+typedef void (^FacebookPostToFriendCompletionBlock)(NSString *postId);
+typedef void (^FacebookPublishPermissionsCompletionBlock)(NSString *newToken);
+
+typedef void (^SocialPostFailBlock)(NSString *errorDescription);
+typedef void (^FacebookLoginFailBlock)(NSString *errorDescription);
+
+
+
+
+
+#pragma mark - Notifications
+extern NSString *const FBSessionStateChangedNotification;
+
+@class FBGraphUser;
+
+#pragma mark - Interface
+@interface HSSocialServices : NSObject
+
+
+//Facebook
+- (void)requestReadPermissionsWithPermissions:(NSArray*)permissions AndCompletion:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock;
+- (void)cleanCache;
+- (void)facebookLoginWithCompletion:(FacebookLoginSuccessBlock)successBlock onFailure:(FacebookLoginFailBlock)failBlock;
+- (void)sendFbInviteTo:(NSArray*)fbUserIDs withTitle:(NSString *)title andMessage:(NSString*)message onCompletion:(FacebookInviteCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock;
+- (void)requestPublishPermissionsWithPermissions:(NSArray*)permissions withCompletion:(FacebookLoginSuccessBlock)completionBlock failBlock:(FacebookLoginFailBlock)failBlock;
+- (void)getFacebookProfileImageURLWithCompletion:(FacebookProfileImageUrlCompletionBlock)successBlock onFailure:(SocialPostFailBlock)failBlock;
+- (void)postToFacebookWithLink:(NSString *)link andPictureURL:(NSString *)picUrl andName:(NSString *)name andCaption:(NSString *)caption andDescription:(NSString *)description andMessage:(NSString *)message onCompletion:(SocialPostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock;
+- (void)postToFacebookFromViewController:(UIViewController *)sender withInitialText:(NSString *)initialText withImageUrl:(NSString *)imageUrl andUrl:(NSString *)url onCompletion:(FacebookNativePostCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock;
+- (void)postToFriendTimelineWithMessage:(NSString *)message andCaption:(NSString *)caption andDescription:(NSString *)description andLink:(NSString *)link andPictureUrl:(NSString *)pictureUrl andFriendFacebookId:(NSString *)fbId onCompletion:(FacebookPostToFriendCompletionBlock)completionBlock onFailure:(SocialPostFailBlock)failBlock;
+
+
+@end

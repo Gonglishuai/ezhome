@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESSaleAgreementCell" id="KGk-i7-Jjw" customClass="ESSaleAgreementCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="买卖协议" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3v5-Wd-Fl4">
+                        <rect key="frame" x="23" y="12.5" width="53" height="18.5"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                        <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已同意" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFW-Xf-aKP">
+                        <rect key="frame" x="246" y="12.5" width="39.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                        <color key="textColor" red="0.70196078431372544" green="0.86274509803921573" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="MAk-yw-9qu">
+                        <rect key="frame" x="297.5" y="16" width="7.5" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="2pG-lx-LFP"/>
+                            <constraint firstAttribute="width" constant="7.5" id="YMS-g6-xk4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fy-Qf-ccz">
+                        <rect key="frame" x="78" y="14.5" width="7.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.24313725490196078" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Fy-Qf-ccz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="3" id="46a-Ss-Vha"/>
+                    <constraint firstItem="5Fy-Qf-ccz" firstAttribute="leading" secondItem="3v5-Wd-Fl4" secondAttribute="trailing" constant="2" id="CXX-oq-7TN"/>
+                    <constraint firstItem="nFW-Xf-aKP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Mwj-iO-tSp"/>
+                    <constraint firstAttribute="trailing" secondItem="MAk-yw-9qu" secondAttribute="trailing" constant="15" id="eri-Pj-L10"/>
+                    <constraint firstItem="MAk-yw-9qu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nXf-Ly-r7s"/>
+                    <constraint firstItem="MAk-yw-9qu" firstAttribute="leading" secondItem="nFW-Xf-aKP" secondAttribute="trailing" constant="12" id="o27-af-jZ7"/>
+                    <constraint firstItem="3v5-Wd-Fl4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="vwx-zF-ukd"/>
+                    <constraint firstItem="3v5-Wd-Fl4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xKX-Qg-FEd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="approvedLabel" destination="nFW-Xf-aKP" id="y20-Yw-tGj"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_right" width="5" height="10"/>
+    </resources>
+</document>

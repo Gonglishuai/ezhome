@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="KUDfieldComposite2Texts" rowHeight="108" id="fB5-12-8v7" customClass="TblRecord2TextsFieldsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fB5-12-8v7" id="fTs-k9-6jg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1T2-Mo-eMY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="123"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="D5A-ug-2cv">
+                                <rect key="frame" x="32" y="8" width="256" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="6Ph-lP-dYF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_TitleLabel"/>
+                                </userDefinedRuntimeAttributes>
+                                <metadata/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qQg-96-McT">
+                                <rect key="frame" x="32" y="41" width="256" height="28"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="cSO-eF-tP4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_TextFieldBackgroundImage"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3xd-Du-SpG">
+                                <rect key="frame" x="32" y="81" width="256" height="28"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="AGe-Uj-szV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_TextFieldBackgroundImage"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aHe-r6-R5l">
+                                <rect key="frame" x="40" y="41" width="256" height="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_InputTextField"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="fB5-12-8v7" id="g2k-FA-ETo"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aOF-TY-pDm">
+                                <rect key="frame" x="40" y="81" width="256" height="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="EditProfile_InputTextField"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="fB5-12-8v7" id="f9b-Rz-cUA"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iph_edit_separation.png" translatesAutoresizingMaskIntoConstraints="NO" id="cAt-nY-el9">
+                                <rect key="frame" x="0.0" y="121" width="320" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="4NX-uT-s9b"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qQg-96-McT" firstAttribute="leading" secondItem="1T2-Mo-eMY" secondAttribute="leading" constant="32" id="07u-ZL-Ivf"/>
+                            <constraint firstItem="aOF-TY-pDm" firstAttribute="top" secondItem="3xd-Du-SpG" secondAttribute="top" id="1RL-IF-Pva"/>
+                            <constraint firstItem="D5A-ug-2cv" firstAttribute="leading" secondItem="1T2-Mo-eMY" secondAttribute="leading" constant="32" id="30Z-oU-ZiS"/>
+                            <constraint firstItem="aHe-r6-R5l" firstAttribute="height" secondItem="qQg-96-McT" secondAttribute="height" id="4Ye-XQ-LvM"/>
+                            <constraint firstItem="cAt-nY-el9" firstAttribute="leading" secondItem="1T2-Mo-eMY" secondAttribute="leading" id="6pQ-ud-pYd"/>
+                            <constraint firstAttribute="bottom" secondItem="cAt-nY-el9" secondAttribute="bottom" id="Cwy-ed-VmO"/>
+                            <constraint firstAttribute="trailing" secondItem="qQg-96-McT" secondAttribute="trailing" constant="32" id="FPn-ex-Ofk"/>
+                            <constraint firstItem="aOF-TY-pDm" firstAttribute="height" secondItem="3xd-Du-SpG" secondAttribute="height" id="Hcz-FK-ZwJ"/>
+                            <constraint firstItem="aOF-TY-pDm" firstAttribute="leading" secondItem="3xd-Du-SpG" secondAttribute="leading" constant="8" id="IOh-ll-Q4h"/>
+                            <constraint firstItem="3xd-Du-SpG" firstAttribute="leading" secondItem="1T2-Mo-eMY" secondAttribute="leading" constant="32" id="J9s-oo-wwH"/>
+                            <constraint firstItem="D5A-ug-2cv" firstAttribute="top" secondItem="1T2-Mo-eMY" secondAttribute="top" constant="8" id="L5o-Ma-lDi"/>
+                            <constraint firstItem="aHe-r6-R5l" firstAttribute="leading" secondItem="qQg-96-McT" secondAttribute="leading" constant="8" id="Mgx-h9-eYb"/>
+                            <constraint firstItem="aHe-r6-R5l" firstAttribute="width" secondItem="qQg-96-McT" secondAttribute="width" id="NZX-UY-HFE"/>
+                            <constraint firstItem="aHe-r6-R5l" firstAttribute="top" secondItem="qQg-96-McT" secondAttribute="top" id="Qgr-Xv-bpD"/>
+                            <constraint firstItem="qQg-96-McT" firstAttribute="top" secondItem="D5A-ug-2cv" secondAttribute="bottom" constant="8" id="RrB-V4-psT"/>
+                            <constraint firstItem="aOF-TY-pDm" firstAttribute="width" secondItem="3xd-Du-SpG" secondAttribute="width" id="Zs0-yT-qIB"/>
+                            <constraint firstAttribute="trailing" secondItem="cAt-nY-el9" secondAttribute="trailing" id="bwR-NB-L7l"/>
+                            <constraint firstItem="3xd-Du-SpG" firstAttribute="top" secondItem="qQg-96-McT" secondAttribute="bottom" constant="12" id="hT9-RT-FUL"/>
+                            <constraint firstAttribute="trailing" secondItem="D5A-ug-2cv" secondAttribute="trailing" constant="32" id="jKu-V9-KXh"/>
+                            <constraint firstAttribute="trailing" secondItem="3xd-Du-SpG" secondAttribute="trailing" constant="32" id="mWO-2M-dd2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1T2-Mo-eMY" firstAttribute="leading" secondItem="fTs-k9-6jg" secondAttribute="leading" id="NMc-yu-r4b"/>
+                    <constraint firstAttribute="bottom" secondItem="1T2-Mo-eMY" secondAttribute="bottom" id="OuO-wX-6xO"/>
+                    <constraint firstItem="1T2-Mo-eMY" firstAttribute="top" secondItem="fTs-k9-6jg" secondAttribute="top" id="lA1-i1-2Zf"/>
+                    <constraint firstAttribute="trailing" secondItem="1T2-Mo-eMY" secondAttribute="trailing" id="pYa-29-Thi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="recordTitle" destination="D5A-ug-2cv" id="2Pf-gI-LGe"/>
+                <outlet property="txtFieldOne" destination="aHe-r6-R5l" id="HvP-gP-A2J"/>
+                <outlet property="txtFieldTwo" destination="aOF-TY-pDm" id="egL-oB-inP"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="iph_edit_separation.png" width="306" height="2"/>
+    </resources>
+</document>

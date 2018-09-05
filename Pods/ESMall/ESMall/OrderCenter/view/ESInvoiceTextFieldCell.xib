@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESInvoiceTextFieldCell" id="KGk-i7-Jjw" customClass="ESInvoiceTextFieldCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纳税人识别号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ay-ya-fHW">
+                        <rect key="frame" x="15" y="14" width="94" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="94" id="z4l-Rk-H8g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VW7-4m-eDR">
+                        <rect key="frame" x="112" y="2" width="193" height="40"/>
+                        <color key="backgroundColor" red="0.93735743689999995" green="0.93735743689999995" blue="0.93735743689999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="T0c-nu-uQI"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VW7-4m-eDR" firstAttribute="leading" secondItem="8ay-ya-fHW" secondAttribute="trailing" constant="3" id="3Pk-lc-F74"/>
+                    <constraint firstItem="8ay-ya-fHW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="egE-Ls-4Z0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="VW7-4m-eDR" secondAttribute="trailing" constant="7" id="ooh-bn-C4C"/>
+                    <constraint firstItem="VW7-4m-eDR" firstAttribute="centerY" secondItem="8ay-ya-fHW" secondAttribute="centerY" id="qn3-R3-Nd4"/>
+                    <constraint firstItem="8ay-ya-fHW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rgr-dW-XoA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="inputTextField" destination="VW7-4m-eDR" id="rYl-t2-fV5"/>
+                <outlet property="titleLabel" destination="8ay-ya-fHW" id="jQe-9G-sdQ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

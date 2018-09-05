@@ -1,0 +1,5 @@
+<table width="700"   align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="{IMAGES_BASE_URL}line2-new.jpg" width="700" height="38" style="display:block"></td>
+  </tr>
+</table>

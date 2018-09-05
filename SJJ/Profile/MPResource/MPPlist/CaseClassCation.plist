@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>风格</key>
+		<array>
+			<string>不限</string>
+			<string>日式</string>
+			<string>韩式</string>
+			<string>混搭</string>
+			<string>欧式</string>
+			<string>中式</string>
+			<string>新古典</string>
+			<string>东南亚</string>
+			<string>美式</string>
+			<string>地中海</string>
+			<string>田园</string>
+			<string>现代</string>
+			<string>其他</string>
+		</array>
+		<key>户型</key>
+		<array>
+			<string>不限</string>
+			<string>一室</string>
+			<string>两室</string>
+			<string>三室</string>
+			<string>四室</string>
+			<string>五室</string>
+			<string>其他</string>
+		</array>
+		<key>面积</key>
+		<array>
+			<string>不限</string>
+			<string>60㎡以下</string>
+			<string>60-80㎡</string>
+			<string>80-120㎡</string>
+			<string>120㎡以上</string>
+		</array>
+	</dict>
+</dict>
+</plist>
