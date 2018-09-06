@@ -14586,7 +14586,7 @@
 						ProvisioningStyle = Automatic;
 					};
 					73F6B0FB1E83A537009F40EE = {
-						DevelopmentTeam = 2UDNR4WTGT;
+						DevelopmentTeam = 87R5Q24E5R;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -19103,8 +19103,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$SRCROOT/RMPaint/RMPaint/**",
-					"$SRCROOT/jsoncpp/include",
-					"$SRCROOT/Simon/",
+					$SRCROOT/jsoncpp/include,
+					$SRCROOT/Simon/,
 					"$SRCROOT/Pods/**",
 					"$(inherited)",
 					../zipzap,
@@ -19170,8 +19170,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$SRCROOT/RMPaint/RMPaint/**",
-					"$SRCROOT/jsoncpp/include",
-					"$SRCROOT/Simon/",
+					$SRCROOT/jsoncpp/include,
+					$SRCROOT/Simon/,
 					"$SRCROOT/Pods/**",
 					"$(inherited)",
 					../zipzap,
@@ -19222,7 +19222,7 @@
 				COMPRESS_PNG_FILES = YES;
 				CURRENT_PROJECT_VERSION = 470;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2UDNR4WTGT;
+				DEVELOPMENT_TEAM = 87R5Q24E5R;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -19246,8 +19246,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$SRCROOT/RMPaint/RMPaint/**",
-					"$SRCROOT/jsoncpp/include",
-					"$SRCROOT/Simon/",
+					$SRCROOT/jsoncpp/include,
+					$SRCROOT/Simon/,
 					"$SRCROOT/Pods/**",
 					"$(inherited)",
 					../zipzap,
@@ -19267,7 +19267,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.consumer;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.juran.juranHomeDesignerAppstore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -19302,7 +19302,7 @@
 				COMPRESS_PNG_FILES = YES;
 				CURRENT_PROJECT_VERSION = 470;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2UDNR4WTGT;
+				DEVELOPMENT_TEAM = 87R5Q24E5R;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -19321,8 +19321,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$SRCROOT/RMPaint/RMPaint/**",
-					"$SRCROOT/jsoncpp/include",
-					"$SRCROOT/Simon/",
+					$SRCROOT/jsoncpp/include,
+					$SRCROOT/Simon/,
 					"$SRCROOT/Pods/**",
 					"$(inherited)",
 					../zipzap,
@@ -19342,7 +19342,7 @@
 					"-all_load",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.home.consumer;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.juran.juranHomeDesignerAppstore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
